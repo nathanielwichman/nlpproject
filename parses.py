@@ -1,4 +1,5 @@
 import json
+import spacy
 from allennlp.predictors.predictor import Predictor
 from allennlp.models.archival import load_archive
 from allennlp.common.util import get_spacy_model
@@ -31,7 +32,13 @@ def name_rec(data):
     predictor = Predictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/ner-model-2018.12.18.tar.gz")
     for d in data:
         d.ner_parse = predictor.predict(sentence=d.sentence)
-       
+
+# Given a list of structs, applies spacy pos
+def POStags(sentences):
+    nlp = spacy.load('en_core_web_sm')
+    for s in sentences:
+        s.pos = nlp(s.sentence)
+    
 
 
 def split_sentence(s, c = None):

@@ -1,7 +1,8 @@
+
 import csv
 import random
 
-from parses import name_rec
+from parses import name_rec, POStags
 from process import Check_Wino
 
 ROC_FILE = "ROCwi17.csv"  # file with rocstories
@@ -34,6 +35,7 @@ class nerstruct:
    replaced = False  # if ambiguity had been added, will be true and the below fields will be filled
    pronounindex = None  # switched pronoun
    answer = None  # ground truth
+   pos = None  # Part Of Speech tags, for helping to turn name->correct pronoun
 
    # format in a printable form for debugging
    def string(self):
@@ -213,13 +215,19 @@ def prune(data):
 # Removes names and replaces with generic same gendered pronouns.
 # Returns true if usable, false otherwise (data will still be edited)
 def removegender(sentence):
+   # problem pronouns:
+   # her -> him vs his
+   #   e.g. "it was her food" vs "i went looking for her"
+   #
+   #   e.g "asked Bob" vs "Bob asked"
+   # she vs her
    malenames = ["Bob", "Fred", "George", "Larry"]
    femalenames = ["Sarah", "Emily", "Liz", "Oprah"]
 
    # dict for translating pronouns
    mfdict = {
        "him":"her",
-       "his":"hers",
+       "his":"her",
        "His":"Her",
        "he":"she",
        "He":"She",
@@ -259,74 +267,96 @@ def removegender(sentence):
 
    # replace last name with pronoun, if no name first, remove
    found = False
+   # making multple results now
+   results = list()
+
    for name in sentence.names[0]:
+
+
        # has at least two names referenced
        if len(sentence.names[1][name]) > 1:
-           # confirm both names occur before chosen name
-           other = sentence.names[0][0] # get other name
-           if other == name:
-               other = sentence.names[0][1]
+           for nameindex in sentence.names[1][name][1:]:
+               # confirm both names occur before chosen name
+               other = sentence.names[0][0] # get other name
+               if other == name:
+                   other = sentence.names[0][1]
 
-           otherindex = sentence.names[1][other][-1]
-           # if other index is after last name (which will be replaced), continue
-           if otherindex > sentence.names[1][name][-1]:
-               continue
+               otherindex = sentence.names[1][other][0]
+               # if other index is after last name (which will be replaced), continue
+               #if otherindex > sentence.names[1][name][-1]:
+               #print(sentence.sentence)
+               #print(name)
+               #print(otherindex)
+               #print(nameindex)
 
+               if otherindex > nameindex:
+                   #print("skipping")
+                   #print("")
+                   continue
+               #print("")
 
+               # result struct
+               rs = nerstruct()
+               rs.sentence = sentence.sentence
+               rs.parse = list(sentence.parse)
+               rs.pronouns = sentence.pronouns # assumes this is never hanged
+               rs.names = (list(sentence.names[0]), dict(sentence.names[1]))
+               rs.pos = sentence.pos
 
-           # replace last name with pronoun
-           if gender == "M":
-               # generalize if pronoun is possesive
-               sentence.parse[sentence.names[1][name][-1]] = "he"
-               if sentence.names[1][name][-1] > 0 and \
-                       sentence.parse[sentence.names[1][name][-1] - 1] == ".":
-                   sentence.parse[sentence.names[1][name][-1]] = "He"
-               if sentence.names[1][name][-1] < len(sentence.parse) and \
-                                    sentence.parse[sentence.names[1][name][-1] + 1] == "'s":
-                   sentence.parse[sentence.names[1][name][-1]] = "his"
-                   sentence.parse.remove(sentence.parse[sentence.names[1][name][-1] + 1])
+               temp = sentence
+               sentence = rs
+
+               # replace last name with pronoun
+               if gender == "M":
+                   # generalize if pronoun is possesive
+                   rs.parse[nameindex] = "he"
                    if sentence.names[1][name][-1] > 0 and \
-                           sentence.parse[sentence.names[1][name][-1] - 1] == ".":
-                       sentence.parse[sentence.names[1][name][-1]] = "His"
+                           sentence.parse[nameindex - 1] == ".":
+                       sentence.parse[nameindex] = "He"
+                   if nameindex < len(sentence.parse) - 1 and sentence.parse[nameindex + 1] == "'s":
+                       sentence.parse[nameindex] = "his"
+                       del sentence.parse[nameindex + 1]
+                       if nameindex > 0 and \
+                               sentence.parse[nameindex - 1] == ".":
+                           sentence.parse[nameindex] = "His"
 
 
-           else:
-               sentence.parse[sentence.names[1][name][-1]] = "she"
-               if sentence.names[1][name][-1] > 0 and \
-                       sentence.parse[sentence.names[1][name][-1] - 1] == ".":
-                   sentence.parse[sentence.names[1][name][-1]] = "She"
-               if sentence.names[1][name][-1] < len(sentence.parse) and \
-                       sentence.parse[sentence.names[1][name][-1] + 1] == "'s":
-                   sentence.parse[sentence.names[1][name][-1]] = "her"
-                   sentence.parse.remove(sentence.parse[sentence.names[1][name][-1] + 1])
-                   if sentence.names[1][name][-1] > 0 and \
-                           sentence.parse[sentence.names[1][name][-1] - 1] == ".":
-                       sentence.parse[sentence.names[1][name][-1]] = "Her"
-           sentence.replaced = True
-           sentence.pronounindex = sentence.names[1][name][-1]
-           if sentence.names[0].index(name) == 0:
-               sentence.answer = "A"
-           else:
-               sentence.answer = "B"
-           found = True
-           break
+               else:
+                   sentence.parse[nameindex] = "she"
+                   if nameindex > 0 and \
+                           sentence.parse[nameindex - 1] == ".":
+                       sentence.parse[nameindex] = "She"
+                   if nameindex < len(sentence.parse) -1 and \
+                           sentence.parse[nameindex + 1] == "'s":
+                       sentence.parse[nameindex] = "her"
+                       del sentence.parse[nameindex + 1]
+                       if nameindex > 0 and \
+                               sentence.parse[nameindex - 1] == ".":
+                           sentence.parse[nameindex] = "Her"
+               sentence.replaced = True
+               sentence.pronounindex = nameindex
 
-   if not found:
-       return False
+               if sentence.names[0].index(name) == 0:
+                   sentence.answer = "A"
+               else:
+                   sentence.answer = "B"
 
-   # replace pronoun
-   for pronoun in sentence.pronouns[0]:
-       if pronoun in prodict:  # loop through each instance of each gendered pronoun
-           for index in sentence.pronouns[1][pronoun]:
-               sentence.parse[index] = prodict[pronoun]  # replace with new gendered form
-   sentence.sentence = " ".join(sentence.parse)
+               # replace pronoun
+               for pronoun in sentence.pronouns[0]:
+                   if pronoun in prodict:  # loop through each instance of each gendered pronoun
+                       for index in sentence.pronouns[1][pronoun]:
+                           sentence.parse[index] = prodict[pronoun]  # replace with new gendered form
+               sentence.sentence = " ".join(sentence.parse)
 
-   # update struct with new names
-   sentence.names[1][namea] = sentence.names[1][sentence.names[0][0]]
-   sentence.names[1][nameb] = sentence.names[1][sentence.names[0][1]]
-   sentence.names[0][0] = namea
-   sentence.names[0][1] = nameb
-   return True
+               # update struct with new names
+               sentence.names[1][namea] = sentence.names[1][sentence.names[0][0]]
+               sentence.names[1][nameb] = sentence.names[1][sentence.names[0][1]]
+               sentence.names[0][0] = namea
+               sentence.names[0][1] = nameb
+
+               results.append(sentence)
+               sentence = temp
+   return results
 
 
 
@@ -336,8 +366,11 @@ def removegender(sentence):
 def addambiguity(data):
    returndata = list()
    for d in data:
-       if removegender(d):
-           returndata.append(d)
+       callresult = removegender(d)
+       #for c in callresult:
+       #    print(c.sentence, end='')
+       #print("")
+       returndata += callresult
        #print (d.parse)
    return returndata
 
@@ -397,25 +430,39 @@ def write(n):
    tagged = nertag(data)
    save(PARSE_FILE_WRITE, tagged)
 
-"""
-data = load(PARSE_FILE_READ, 1000)
-pruneddata = prune(data)
-replaced = addambiguity(pruneddata)
-readylist = prepare(replaced)
-"""
-"""
-for i in range(20):
-   print(readylist[i].sentence)
-   print(readylist[i].pronoun)
-   print(readylist[i].a)
-   print(readylist[i].b)
-   print("")
-"""
+def test():
+    data = load(PARSE_FILE_READ, 500)
+    pruneddata = prune(data)
+    POStags(pruneddata)
 
-#Check_Wino(readylist)
+    replaced = addambiguity(pruneddata)
 
-data = getROC(ROC_FILE, 50)
-parseddata = nertag(data)
-#save(PARSE_FILE_WRITE, parseddata)
+    for i in range(min(len(replaced), 50)):
+        print(replaced[i].sentence)
+        for token in replaced[i].pos:
+            print(token.text + "(" + token.pos_ + "/" + token.tag_ + ") ", end="")
 
+        print("")
+        print("")
+    exit()
 
+    readylist = prepare(replaced)
+
+    """
+    for i in range(20):
+       print(readylist[i].sentence)
+       print(readylist[i].pronoun)
+       print(readylist[i].a)
+       print(readylist[i].b)
+       print("")
+    """
+
+    Check_Wino(readylist)
+
+    """
+    data = getROC(ROC_FILE, 50)
+    parseddata = nertag(data)
+    #save(PARSE_FILE_WRITE, parseddata)
+    """
+
+test()
