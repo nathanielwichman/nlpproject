@@ -243,7 +243,7 @@ def Switch_Words():
 
 
 # Checks list of stucts with allennlp coref and outputs answer and stats
-def Check_Wino(inputdata = getwino()):
+def Check_Wino(inputdata):
     #Switch_Words()
     #parse(sentenceData)
     sentenceData = corefresolution(inputdata)
@@ -442,4 +442,4 @@ def Check_Wino(inputdata = getwino()):
     print("A count: " + str(A_count) + ", B count: " + str(B_count))
 
 # By default, run on the wino set
-#Check_Wino()
+#Check_Wino(get_wino())

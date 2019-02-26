@@ -38,7 +38,7 @@ def POStags(sentences):
     nlp = spacy.load('en_core_web_sm')
     for s in sentences:
         s.pos = nlp(s.sentence)
-    
+
 
 
 def split_sentence(s, c = None):
