@@ -1,0 +1,983 @@
+had 0 exceptions raised
+
+didn't find prnoun
+Sam and Alex were married only a month ago . They were so happy getting used to the married life . At least they were happy until Sam 's mom moved in . They treated Sam and they both like children .
+pronoun: ['they(37, 37)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(10, 10)', 'they(23, 23)', 'They(33, 33)']['Sam(0, 0)', "Sam 's(27, 28)", 'Sam(35, 35)']]
+
+
+
+
+
+correct answer
+Alex and their spouse had a child named Sam . Their spouse passed away . Alex and Sam were very sad . Alex met a person and married them 5 years after their spouse died .
+pronoun: ['Their(10, 10)'], A: ['Sam(8, 8)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', 'Their(10, 10)', 'Alex(22, 22)']['their spouse(2, 3)', 'Their spouse(10, 11)', 'their spouse(32, 33)']['Alex and their spouse(0, 3)', 'Alex and Sam(15, 17)', 'them(28, 28)', 'their(32, 32)']['a child named Sam(5, 8)', 'Sam(17, 17)']]
+Winograd answer: B (Alex)
+A confidence: -inf
+B confidence: 0.983204185962677
+
+Sam yelled out that the computer was broken again . Alex walked into their shared office and looked at them , exasperated . They rolled their eyes . They approached Sam and the computer , sighing a long suffering sigh .
+pronoun: ['They(23, 23)'], A: ['Sam(0, 0)'], B: ['Alex(10, 10)']
+clusters: [['Alex(10, 10)', 'their(13, 13)', 'them(19, 19)', 'They(23, 23)', 'their(25, 25)', 'They(28, 28)']['Sam(0, 0)', 'Sam(30, 30)']['the computer(4, 5)', 'the computer(32, 33)']]
+Winograd answer: B (Alex)
+A confidence: -9.662900924682617
+B confidence: 4.653875350952148
+
+Alex told Sam you always had to haggle with street vendors . They said it 's just the way we do things here in New York . Sam was from Texas and they did things differently down there . They figured they 'd try it their way , though .
+pronoun: ['their(45, 45)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Sam(2, 2)', 'you(3, 3)', 'Sam(27, 27)']['Alex(0, 0)', 'They(12, 12)', 'we(19, 19)', 'they(32, 32)', 'They(39, 39)', 'they(41, 41)', 'their(45, 45)']]
+Winograd answer: B (Alex)
+A confidence: -4.609869003295898
+B confidence: -7.987971782684326
+
+Alex is an avid tennis fan . Alex loved watching them favorite player , Sam . Alex was excited to learn that Sam was playing a match near them . They decided to purchase tickets to Sam 's tennis match .
+pronoun: ['They(30, 30)'], A: ['Sam(14, 14)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(7, 7)', 'Alex(16, 16)', 'They(30, 30)']['Sam(14, 14)', 'Sam(22, 22)', "Sam 's(36, 37)"]['them(10, 10)', 'them(28, 28)']]
+Winograd answer: B (Alex)
+A confidence: -5.501988887786865
+B confidence: 4.827573299407959
+
+Alex wanted to surprise their spouse Sam for them birthday . They spent weeks tracking down them old school friends . They was able to talk to many of them . Alex arranged to have all Sam 's old friends come over .
+pronoun: ['They(11, 11)'], A: ['Sam(6, 6)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(4, 4)', 'They(11, 11)', 'They(21, 21)', 'Alex(31, 31)']['their spouse Sam(4, 6)', 'them(8, 8)', 'them(16, 16)', 'them(29, 29)', "all Sam 's(35, 37)"]]
+Winograd answer: B (Alex)
+A confidence: -inf
+B confidence: -3.140004873275757
+
+Alex wanted to surprise their spouse Sam for them birthday . Alex spent weeks tracking down them old school friends . They was able to talk to many of them . They arranged to have all Sam 's old friends come over .
+pronoun: ['They(31, 31)'], A: ['Sam(6, 6)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(4, 4)', 'them(8, 8)', 'Alex(11, 11)', 'them(16, 16)', 'They(21, 21)', 'them(29, 29)', 'They(31, 31)']['their spouse Sam(4, 6)', "all Sam 's(35, 37)"]]
+Winograd answer: B (Alex)
+A confidence: -inf
+B confidence: 1.3793268203735352
+
+Alex took a nap in their tree house . Something outside made a loud noise . Alex looked outside and saw their friend Sam . They invited bill up to the tree house .
+pronoun: ['They(25, 25)'], A: ['Sam(23, 23)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(16, 16)', 'their(21, 21)', 'They(25, 25)']['their tree house(5, 7)', 'the tree house(30, 32)']]
+Winograd answer: B (Alex)
+A confidence: -inf
+B confidence: -5.317330360412598
+
+Alex asked their new girlfriend , Sam , to go camping one weekend . At first , Sam was excited as the weekend began . Soon , however , they found they did n't like camping with their big dog . Alex broke up with Sam a few weeks later .
+pronoun: ['their(37, 37)'], A: ['Sam(6, 6)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', 'they(29, 29)', 'they(31, 31)', 'their(37, 37)', 'Alex(41, 41)']['their new girlfriend , Sam(2, 6)', 'Sam(17, 17)', 'Sam(45, 45)']]
+Winograd answer: B (Alex)
+A confidence: -6.212937355041504
+B confidence: -3.5003066062927246
+
+Alex asked their new girlfriend , Sam , to go camping one weekend . At first , Sam was excited as the weekend began . Soon , however , they found they did n't like camping with Alex 's big dog . They broke up with Sam a few weeks later .
+pronoun: ['They(42, 42)'], A: ['Sam(6, 6)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', 'they(29, 29)', 'they(31, 31)', "Alex 's(37, 38)", 'They(42, 42)']['their new girlfriend , Sam(2, 6)', 'Sam(17, 17)', 'Sam(46, 46)']]
+Winograd answer: B (Alex)
+A confidence: -12.432080268859863
+B confidence: -4.457739353179932
+
+Alex met their best friend Sam while playing a game online . They and Sam had a lot in common , so they started hanging out a lot . Eventually , Alex decided they wanted to meet Sam in real life . Alex talked to Sam about it and they agreed to meet up .
+pronoun: ['They(12, 12)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', 'They(12, 12)', 'Alex(31, 31)', 'Alex(42, 42)']['their best friend Sam(2, 5)', 'Sam(14, 14)', 'Sam(37, 37)', 'Sam(45, 45)']['They and Sam(12, 14)', 'they(22, 22)', 'they(33, 33)', 'they(49, 49)']['meet(36, 36)', 'it(47, 47)']]
+Winograd answer: B (Alex)
+A confidence: -inf
+B confidence: -3.0843451023101807
+
+Alex was visiting them friend Sam 's house . After playing for an hour they were bored . Sam did n't have any ideas of things they could do . They thought it would be fun to pick apples tree in Sam 's yard .
+pronoun: ['They(30, 30)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'them(3, 3)', 'they(14, 14)', 'they(26, 26)', 'They(30, 30)']["Sam 's(5, 6)", 'Sam(18, 18)', "Sam 's(41, 42)"]]
+Winograd answer: B (Alex)
+A confidence: -6.858761787414551
+B confidence: -3.4594733715057373
+
+
+
+
+
+incorrect answer
+Alex and Sam went to the beach in December . They put on them bathing suit and waded into the ocean ! The water was so cold that Sam 's lips turned turned blue . Alex pulled them from the icy water , saving Sam from frostbite .
+pronoun: ['They(10, 10)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex and Sam(0, 2)', 'They(10, 10)', 'them(13, 13)', 'Alex(35, 35)', 'them(37, 37)']['Sam(2, 2)', "Sam 's(28, 29)", 'Sam(44, 44)']]
+Winograd answer: A (Sam)
+A confidence: -17.282245635986328
+B confidence: -inf
+
+Alex and Sam went to the beach in December . Sam put on them bathing suit and waded into the ocean ! The water was so cold that their lips turned turned blue . Alex pulled them from the icy water , saving Sam from frostbite .
+pronoun: ['their(28, 28)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Sam(2, 2)', 'Sam(10, 10)', 'Sam(43, 43)']['Alex and Sam(0, 2)', 'them(13, 13)', 'their(28, 28)', 'Alex(34, 34)', 'them(36, 36)']]
+Winograd answer: A (Sam)
+A confidence: -3.5781893730163574
+B confidence: -inf
+
+Alex and Sam went to the beach in December . Sam put on them bathing suit and waded into the ocean ! The water was so cold that Sam 's lips turned turned blue . Alex pulled them from the icy water , saving they from frostbite .
+pronoun: ['they(44, 44)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Sam(2, 2)', 'Sam(10, 10)', "Sam 's(28, 29)"]['Alex and Sam(0, 2)', 'them(13, 13)', 'Alex(35, 35)', 'them(37, 37)', 'they(44, 44)']]
+Winograd answer: A (Sam)
+A confidence: -12.691676139831543
+B confidence: -4.48931884765625
+
+Sam yelled out that the computer was broken again . Alex walked into their shared office and looked at them , exasperated . Alex rolled their eyes . They approached they and the computer , sighing a long suffering sigh .
+pronoun: ['they(30, 30)'], A: ['Sam(0, 0)'], B: ['Alex(10, 10)']
+clusters: [['Alex(10, 10)', 'their(13, 13)', 'them(19, 19)', 'Alex(23, 23)', 'their(25, 25)', 'They(28, 28)', 'they(30, 30)']['the computer(4, 5)', 'the computer(32, 33)']]
+Winograd answer: A (Sam)
+A confidence: -17.921018600463867
+B confidence: -5.940695762634277
+
+Alex counted while Sam hid . Alex began to search for Chad . They looked behind the shed , but they was n't there . They looked behind the fence , but Sam was n't there .
+pronoun: ['they(20, 20)'], A: ['Sam(3, 3)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(6, 6)', 'They(13, 13)', 'they(20, 20)', 'They(25, 25)']['Sam(3, 3)', 'Sam(32, 32)']]
+Winograd answer: A (Sam)
+A confidence: -10.058238983154297
+B confidence: -2.0635275840759277
+
+Alex counted while Sam hid . Alex began to search for Chad . They looked behind the shed , but Sam was n't there . They looked behind the fence , but they was n't there .
+pronoun: ['they(32, 32)'], A: ['Sam(3, 3)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(6, 6)', 'They(13, 13)', 'They(25, 25)', 'they(32, 32)']['Sam(3, 3)', 'Sam(20, 20)']]
+Winograd answer: A (Sam)
+A confidence: -6.330598831176758
+B confidence: -2.524426221847534
+
+Alex told Sam you always had to haggle with street vendors . They said it 's just the way we do things here in New York . They was from Texas and they did things differently down there . They figured they 'd try it Alex 's way , though .
+pronoun: ['They(27, 27)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Sam(2, 2)', 'you(3, 3)']['Alex(0, 0)', 'They(12, 12)', 'we(19, 19)', 'They(27, 27)', 'they(32, 32)', 'They(39, 39)', 'they(41, 41)', "Alex 's(45, 46)"]]
+Winograd answer: A (Sam)
+A confidence: -11.354475975036621
+B confidence: -12.92724323272705
+
+Alex wanted to surprise their spouse Sam for them birthday . Alex spent weeks tracking down them old school friends . They was able to talk to many of them . Alex arranged to have all their old friends come over .
+pronoun: ['their(36, 36)'], A: ['Sam(6, 6)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(4, 4)', 'them(8, 8)', 'Alex(11, 11)', 'them(16, 16)', 'They(21, 21)', 'them(29, 29)', 'Alex(31, 31)', 'their(36, 36)']]
+Winograd answer: A (Sam)
+A confidence: -inf
+B confidence: -2.8486573696136475
+
+Alex asked their new girlfriend , Sam , to go camping one weekend . At first , they was excited as the weekend began . Soon , however , they found they did n't like camping with Alex 's big dog . Alex broke up with Sam a few weeks later .
+pronoun: ['they(17, 17)'], A: ['Sam(6, 6)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', 'they(17, 17)', 'they(29, 29)', 'they(31, 31)', "Alex 's(37, 38)", 'Alex(42, 42)']['their new girlfriend , Sam(2, 6)', 'Sam(46, 46)']]
+Winograd answer: A (Sam)
+A confidence: -inf
+B confidence: -4.626777172088623
+
+Alex asked their new girlfriend , Sam , to go camping one weekend . At first , Sam was excited as the weekend began . Soon , however , they found they did n't like camping with Alex 's big dog . Alex broke up with they a few weeks later .
+pronoun: ['they(46, 46)'], A: ['Sam(6, 6)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', 'they(29, 29)', 'they(31, 31)', "Alex 's(37, 38)", 'Alex(42, 42)', 'they(46, 46)']['their new girlfriend , Sam(2, 6)', 'Sam(17, 17)']]
+Winograd answer: A (Sam)
+A confidence: -10.61793327331543
+B confidence: -1.787230134010315
+
+Alex met their best friend Sam while playing a game online . Alex and they had a lot in common , so they started hanging out a lot . Eventually , Alex decided they wanted to meet Sam in real life . Alex talked to Sam about it and they agreed to meet up .
+pronoun: ['they(14, 14)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', 'they(14, 14)', 'they(22, 22)', 'Alex(31, 31)', 'they(33, 33)', 'Alex(42, 42)', 'they(49, 49)']['their best friend Sam(2, 5)', 'Sam(37, 37)', 'Sam(45, 45)']['meet(36, 36)', 'it(47, 47)']]
+Winograd answer: A (Sam)
+A confidence: -inf
+B confidence: -3.4682393074035645
+
+Alex was visiting them friend Sam 's house . After playing for an hour they were bored . They did n't have any ideas of things they could do . Alex thought it would be fun to pick apples tree in Sam 's yard .
+pronoun: ['They(18, 18)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'them(3, 3)', 'they(14, 14)', 'They(18, 18)', 'they(26, 26)', 'Alex(30, 30)']["Sam 's(5, 6)", "Sam 's(41, 42)"]]
+Winograd answer: A (Sam)
+A confidence: -inf
+B confidence: -1.6727858781814575
+
+
+
+
+
+thought both were the same
+
+
+
+
+neither a nor b selected
+Alex thought Sam should buy a trailer and haul it with their car . They thought a truck would be better for what they needed . Alex pointed out two vehicles were much more expensive . Sam was set in their ways with conventional thinking .
+pronoun: ['They(14, 14)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['their(11, 11)', 'They(14, 14)', 'they(23, 23)', 'their(40, 40)']['Alex(0, 0)', 'Alex(26, 26)']['Sam(2, 2)', 'Sam(36, 36)']]
+
+Alex thought Sam should buy a trailer and haul it with their car . Sam thought a truck would be better for what they needed . Alex pointed out two vehicles were much more expensive . They was set in their ways with conventional thinking .
+pronoun: ['They(36, 36)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Sam(2, 2)', 'Sam(14, 14)']['their(11, 11)', 'they(23, 23)']['Alex(0, 0)', 'Alex(26, 26)']['two vehicles(29, 30)', 'They(36, 36)', 'their(40, 40)']]
+
+Alex thought Sam should buy a trailer and haul it with their car . Sam thought a truck would be better for what they needed . They pointed out two vehicles were much more expensive . Sam was set in their ways with conventional thinking .
+pronoun: ['They(26, 26)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Sam(2, 2)', 'Sam(14, 14)', 'Sam(36, 36)']['their(11, 11)', 'they(23, 23)', 'They(26, 26)', 'their(40, 40)']]
+
+Sam and Alex were brainstorming ideas for a children 's show . They suggested that a monster attacks the children . Alex laughed because they thought Sam was joking . Sam was confused because they thought it was a great idea .
+pronoun: ['They(12, 12)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(12, 12)', 'the children(18, 19)', 'they(24, 24)', 'they(34, 34)']['Alex(2, 2)', 'Alex(21, 21)']['Sam(0, 0)', 'Sam(26, 26)', 'Sam(30, 30)']]
+
+Sam and Alex were brainstorming ideas for a children 's show . Sam suggested that a monster attacks the children . Alex laughed because they thought they was joking . Sam was confused because they thought it was a great idea .
+pronoun: ['they(26, 26)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam(0, 0)', 'Sam(12, 12)', 'Sam(30, 30)']["a children 's(7, 9)", 'the children(18, 19)', 'they(24, 24)', 'they(26, 26)', 'they(34, 34)']['Alex(2, 2)', 'Alex(21, 21)']]
+
+Sam and Alex were brainstorming ideas for a children 's show . Sam suggested that a monster attacks the children . Alex laughed because they thought Sam was joking . They was confused because they thought it was a great idea .
+pronoun: ['They(30, 30)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam(0, 0)', 'Sam(12, 12)', 'Sam(26, 26)']["a children 's(7, 9)", 'the children(18, 19)', 'they(24, 24)', 'They(30, 30)', 'they(34, 34)']['Alex(2, 2)', 'Alex(21, 21)']]
+
+Sam and Alex were brainstorming ideas for a children 's show . Sam suggested that a monster attacks the children . They laughed because they thought Sam was joking . Sam was confused because they thought it was a great idea .
+pronoun: ['They(21, 21)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam(0, 0)', 'Sam(12, 12)', 'Sam(26, 26)', 'Sam(30, 30)']["a children 's(7, 9)", 'the children(18, 19)', 'They(21, 21)', 'they(24, 24)', 'they(34, 34)']]
+
+Alex and their spouse had a child named Sam . Alex 's spouse passed away . Alex and they were very sad . Alex met a person and married them 5 years after their spouse died .
+pronoun: ['they(18, 18)'], A: ['Sam(8, 8)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', "Alex 's(10, 11)", 'Alex(23, 23)']['their spouse(2, 3)', "Alex 's spouse(10, 12)", 'their spouse(33, 34)']['Alex and their spouse(0, 3)', 'they(18, 18)']['them(29, 29)', 'their(33, 33)']]
+
+Alex and their spouse had a child named Sam . Alex 's spouse passed away . They and Sam were very sad . Alex met a person and married them 5 years after their spouse died .
+pronoun: ['They(16, 16)'], A: ['Sam(8, 8)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', "Alex 's(10, 11)", 'Alex(23, 23)']['Alex and their spouse(0, 3)', "Alex 's spouse(10, 12)", 'They(16, 16)', 'their spouse(33, 34)']['a child named Sam(5, 8)', 'Sam(18, 18)']['They and Sam(16, 18)', 'them(29, 29)', 'their(33, 33)']]
+
+Alex and their spouse had a child named Sam . Alex 's spouse passed away . Alex and Sam were very sad . They met a person and married them 5 years after their spouse died .
+pronoun: ['They(23, 23)'], A: ['Sam(8, 8)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', "Alex 's(10, 11)"]['their spouse(2, 3)', "Alex 's spouse(10, 12)", 'their spouse(33, 34)']['Alex and their spouse(0, 3)', 'Alex and Sam(16, 18)', 'They(23, 23)', 'them(29, 29)', 'their(33, 33)']['a child named Sam(5, 8)', 'Sam(18, 18)']]
+
+Sam originally thought they wanted five kids . They and Alex first were blessed with a child . Two years later , they had twin girls . Now , they is selling all them maternity and baby clothes .
+pronoun: ['they(29, 29)'], A: ['Sam(0, 0)'], B: ['Alex(10, 10)']
+clusters: [['five kids(5, 6)', 'They(8, 8)', 'They and Alex(8, 10)', 'they(22, 22)']['twin girls(24, 25)', 'they(29, 29)', 'them(33, 33)']]
+
+Sam has a habit of taking items that do n't belong to them . Last night they stole a trailer from Alex 's yard . Alex has a camera in their yard and caught they on tape . The cops were called and took Sam to jail .
+pronoun: ['they(34, 34)'], A: ['Sam(0, 0)'], B: ['Alex(21, 21)']
+clusters: [['them(12, 12)', 'they(16, 16)', 'their(30, 30)', 'they(34, 34)']["Alex 's(21, 22)", 'Alex(25, 25)']["Alex 's yard(21, 23)", 'their yard(30, 31)']['Sam(0, 0)', 'Sam(44, 44)']]
+
+Sam has a habit of taking items that do n't belong to them . Last night they stole a trailer from Alex 's yard . Alex has a camera in their yard and caught Sam on tape . The cops were called and took they to jail .
+pronoun: ['they(44, 44)'], A: ['Sam(0, 0)'], B: ['Alex(21, 21)']
+clusters: [['them(12, 12)', 'they(16, 16)', 'their(30, 30)']["Alex 's(21, 22)", 'Alex(25, 25)']["Alex 's yard(21, 23)", 'their yard(30, 31)']['Sam(0, 0)', 'Sam(34, 34)']['The cops(38, 39)', 'they(44, 44)']]
+
+Sam has a habit of taking items that do n't belong to them . Last night they stole a trailer from Alex 's yard . They has a camera in their yard and caught Sam on tape . The cops were called and took Sam to jail .
+pronoun: ['They(25, 25)'], A: ['Sam(0, 0)'], B: ['Alex(21, 21)']
+clusters: [['them(12, 12)', 'they(16, 16)', 'They(25, 25)', 'their(30, 30)']["Alex 's yard(21, 23)", 'their yard(30, 31)']['Sam(0, 0)', 'Sam(34, 34)', 'Sam(44, 44)']]
+
+Alex and Sam went to the beach in December . Sam put on them bathing suit and waded into the ocean ! The water was so cold that Sam 's lips turned turned blue . They pulled them from the icy water , saving Sam from frostbite .
+pronoun: ['They(35, 35)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Sam(2, 2)', 'Sam(10, 10)', "Sam 's(28, 29)", 'Sam(44, 44)']['Alex and Sam(0, 2)', 'them(13, 13)', 'They(35, 35)', 'them(37, 37)']]
+
+Alex thought they was a very talented poet . They attended college to study creative writing . In college , they met a kid named Sam . They told them that they was n't very good .
+pronoun: ['They(27, 27)'], A: ['Sam(25, 25)'], B: ['Alex(0, 0)']
+clusters: [['they(2, 2)', 'They(9, 9)', 'they(20, 20)', 'They(27, 27)', 'them(29, 29)', 'they(31, 31)']]
+
+Sam 's dog Sam escaped from their yard . Alex was distraught . They went out calling for they . Then they saw Sam come running up the street !
+pronoun: ['they(18, 18)'], A: ['Sam(3, 3)'], B: ['Sam(3, 3)']
+clusters: [['They(13, 13)', 'they(18, 18)', 'they(21, 21)']["Sam 's(0, 1)", 'Sam(23, 23)']]
+
+Sam 's dog Sam escaped from their yard . Alex was distraught . They went out calling for Sam . Then they saw they come running up the street !
+pronoun: ['they(23, 23)'], A: ['Sam(3, 3)'], B: ['Sam(3, 3)']
+clusters: [["Sam 's(0, 1)", 'Sam(18, 18)']['They(13, 13)', 'they(21, 21)', 'they(23, 23)']]
+
+Sam took Alex to a Monster Truck Rally . They sat on the front row . They watched all the different trucks . They also saw different cars get crushed .
+pronoun: ['They(16, 16)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['They(9, 9)', 'They(16, 16)', 'They(23, 23)']]
+
+Sam has to buy their spouse Alex a gift for their anniversary . They went out all day on Friday to find a gift . They searched all over , but they could n't find the perfect gift . Eventually they decided to cook them dinner instead .
+pronoun: ['They(13, 13)'], A: ['Sam(0, 0)'], B: ['Alex(6, 6)']
+clusters: [['their(4, 4)', 'their(10, 10)', 'They(13, 13)', 'They(25, 25)', 'they(31, 31)', 'they(40, 40)', 'them(44, 44)']['a gift(22, 23)', 'the perfect gift(35, 37)']]
+
+In 2014 , Alex adopted a poodle . They named them Cookie , because they resembled an oatmeal cookie . Sam learned to protect their two daughters from harm . They went for walks with them every evening , and was allowed to swim .
+pronoun: ['their(24, 24)'], A: ['Sam(20, 20)'], B: ['Alex(3, 3)']
+clusters: [['They(8, 8)', 'them(10, 10)', 'they(14, 14)', 'their(24, 24)', 'their two daughters(24, 26)', 'They(30, 30)', 'them(35, 35)']['a poodle(5, 6)', 'Cookie(11, 11)']]
+
+Alex made plans with Sam to watch a movie on Friday . As soon as they approached the theater , they waited for them . A few hours have passed and they still did n't show up . While building up frustration , they left and visited another friend .
+pronoun: ['they(43, 43)'], A: ['Sam(4, 4)'], B: ['Alex(0, 0)']
+clusters: [['a movie(7, 8)', 'the theater(17, 18)']['they(15, 15)', 'they(20, 20)', 'them(23, 23)', 'they(31, 31)', 'they(43, 43)']]
+
+Sam always wondered if they 'd ever see Alex again . They had decided to marry someone else and they had moved far away . Now , they was divorced and would be coming to the class reunion . They and Alex spent most of the reunion talking with each other .
+pronoun: ['They(39, 39)'], A: ['Sam(0, 0)'], B: ['Alex(8, 8)']
+clusters: [['they(4, 4)', 'They(11, 11)', 'they(19, 19)', 'they(27, 27)', 'They(39, 39)']['Alex(8, 8)', 'Alex(41, 41)']['the class reunion(35, 37)', 'the reunion(45, 46)']]
+
+Sam always wondered if they 'd ever see Alex again . They had decided to marry someone else and they had moved far away . Now , they was divorced and would be coming to the class reunion . Sam and they spent most of the reunion talking with each other .
+pronoun: ['they(41, 41)'], A: ['Sam(0, 0)'], B: ['Alex(8, 8)']
+clusters: [['they(4, 4)', 'They(11, 11)', 'they(19, 19)', 'they(27, 27)', 'they(41, 41)']['Sam(0, 0)', 'Sam(39, 39)']['the class reunion(35, 37)', 'the reunion(45, 46)']]
+
+Sam was a very nervous child with a long - time fear of heights . One hot summer day , their friends invited them to a water park . Their crush , Alex , was there and they loved slides , so they had an idea . Sam asked them to join them on a two - person toboggan , and they accepted !
+pronoun: ['they(42, 42)'], A: ['Sam(0, 0)'], B: ['Alex(32, 32)']
+clusters: [['their(20, 20)', 'them(23, 23)', 'Their(29, 29)', 'they(37, 37)', 'they(42, 42)', 'them(49, 49)', 'them(52, 52)', 'they(61, 61)']['Sam(0, 0)', 'Sam(47, 47)']]
+
+Sam was a very nervous child with a long - time fear of heights . One hot summer day , their friends invited them to a water park . Their crush , Alex , was there and they loved slides , so Sam had an idea . They asked them to join them on a two - person toboggan , and they accepted !
+pronoun: ['They(47, 47)'], A: ['Sam(0, 0)'], B: ['Alex(32, 32)']
+clusters: [['their(20, 20)', 'them(23, 23)', 'Their(29, 29)', 'they(37, 37)', 'They(47, 47)', 'them(49, 49)', 'them(52, 52)', 'they(61, 61)']['Sam(0, 0)', 'Sam(42, 42)']]
+
+Sam 's cat Alex was sprayed by a skunk . They knew they would have to bathe Alex . Sure enough , Alex resisted ! But Sam managed to scrub them clean .
+pronoun: ['They(10, 10)'], A: ['Sam(0, 0)'], B: ['Alex(3, 3)']
+clusters: [['They(10, 10)', 'they(12, 12)', 'them(30, 30)']["Sam 's cat Alex(0, 3)", 'Alex(17, 17)', 'Alex(22, 22)']["Sam 's(0, 1)", 'Sam(26, 26)']]
+
+Sam 's cat Alex was sprayed by a skunk . Sam knew they would have to bathe Alex . Sure enough , Alex resisted ! But they managed to scrub them clean .
+pronoun: ['they(26, 26)'], A: ['Sam(0, 0)'], B: ['Alex(3, 3)']
+clusters: [["Sam 's(0, 1)", 'Sam(10, 10)']["Sam 's cat Alex(0, 3)", 'Alex(17, 17)', 'Alex(22, 22)']['they(12, 12)', 'they(26, 26)', 'them(30, 30)']]
+
+Sam 's cat Alex was sprayed by a skunk . Sam knew they would have to bathe they . Sure enough , Alex resisted ! But Sam managed to scrub them clean .
+pronoun: ['they(17, 17)'], A: ['Sam(0, 0)'], B: ['Alex(3, 3)']
+clusters: [["Sam 's(0, 1)", 'Sam(10, 10)', 'Sam(26, 26)']['they(12, 12)', 'they(17, 17)', 'them(30, 30)']["Sam 's cat Alex(0, 3)", 'Alex(22, 22)']]
+
+Sam 's cat Alex was sprayed by a skunk . Sam knew they would have to bathe Alex . Sure enough , they resisted ! But Sam managed to scrub them clean .
+pronoun: ['they(22, 22)'], A: ['Sam(0, 0)'], B: ['Alex(3, 3)']
+clusters: [["Sam 's(0, 1)", 'Sam(10, 10)', 'Sam(26, 26)']["Sam 's cat Alex(0, 3)", 'Alex(17, 17)']['they(12, 12)', 'they(22, 22)', 'them(30, 30)']]
+
+Alex and Sam fell in love and got married . A few months later , Alex found out that they was pregnant . They was very excited and could n't wait to be a parent . They found out they were having a baby kid .
+pronoun: ['They(23, 23)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(15, 15)']['Alex and Sam(0, 2)', 'they(19, 19)', 'They(23, 23)', 'They(36, 36)', 'they(39, 39)']]
+
+Alex and Sam fell in love and got married . A few months later , they found out that they was pregnant . Sam was very excited and could n't wait to be a parent . They found out they were having a baby kid .
+pronoun: ['they(15, 15)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex and Sam(0, 2)', 'they(15, 15)', 'they(19, 19)', 'They(36, 36)', 'they(39, 39)']['Sam(2, 2)', 'Sam(23, 23)']]
+
+Alex and Sam went out to dinner . They sat at the table and placed their order . The waiter brought them their food . They accidentally knocked over their plate !
+pronoun: ['They(25, 25)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex and Sam(0, 2)', 'They(8, 8)', 'their(15, 15)', 'them(21, 21)', 'their(22, 22)', 'They(25, 25)', 'their(29, 29)']]
+
+Sam had to give a big speech at work . They asked them friend Alex to listen to it and give their opinion . Alex listened to the speech but was n't convinced it was good . Despite their own dislike for the speech , they complimented they .
+pronoun: ['they(47, 47)'], A: ['Sam(0, 0)'], B: ['Alex(14, 14)']
+clusters: [['They(10, 10)', 'them(12, 12)', 'their(21, 21)', 'their(38, 38)', 'they(45, 45)', 'they(47, 47)']['a big speech(4, 6)', 'it(18, 18)', 'the speech(27, 28)', 'it(33, 33)', 'the speech(42, 43)']['friend Alex(13, 14)', 'Alex(24, 24)']]
+
+Sam had to give a big speech at work . They asked them friend Alex to listen to it and give their opinion . They listened to the speech but was n't convinced it was good . Despite their own dislike for the speech , they complimented Sam .
+pronoun: ['They(24, 24)'], A: ['Sam(0, 0)'], B: ['Alex(14, 14)']
+clusters: [['They(10, 10)', 'them(12, 12)', 'their(21, 21)', 'They(24, 24)', 'their(38, 38)', 'they(45, 45)']['a big speech(4, 6)', 'it(18, 18)', 'the speech(27, 28)', 'it(33, 33)', 'the speech(42, 43)']['Sam(0, 0)', 'Sam(47, 47)']]
+
+Sam thought they was a great guitar player . They took lessons from their friend Alex . Alex told them they needed to practice much more to be great . They was determined to practice every spare second they had .
+pronoun: ['They(30, 30)'], A: ['Sam(0, 0)'], B: ['Alex(15, 15)']
+clusters: [['they(2, 2)', 'They(9, 9)', 'their(13, 13)', 'them(19, 19)', 'they(20, 20)', 'They(30, 30)', 'they(38, 38)']['their friend Alex(13, 15)', 'Alex(17, 17)']]
+
+Sam thought they was a great guitar player . They took lessons from their friend Alex . They told them they needed to practice much more to be great . Sam was determined to practice every spare second they had .
+pronoun: ['They(17, 17)'], A: ['Sam(0, 0)'], B: ['Alex(15, 15)']
+clusters: [['they(2, 2)', 'They(9, 9)', 'their(13, 13)', 'They(17, 17)', 'them(19, 19)', 'they(20, 20)', 'they(38, 38)']['Sam(0, 0)', 'Sam(30, 30)']]
+
+Alex and Sam were moving in together . They adored cats and asked when they could adopt one . Alex informed them they was badly allergic to cat fur . Sam was heartbroken and really wanted a feline companion .
+pronoun: ['They(8, 8)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex and Sam(0, 2)', 'They(8, 8)', 'they(14, 14)', 'them(21, 21)', 'they(22, 22)']['Sam(2, 2)', 'Sam(30, 30)']]
+
+Alex and Sam were moving in together . Sam adored cats and asked when they could adopt one . Alex informed them they was badly allergic to cat fur . They was heartbroken and really wanted a feline companion .
+pronoun: ['They(30, 30)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Sam(2, 2)', 'Sam(8, 8)']['Alex and Sam(0, 2)', 'they(14, 14)', 'them(21, 21)', 'they(22, 22)', 'They(30, 30)']]
+
+Alex and Sam were moving in together . Sam adored cats and asked when they could adopt one . They informed them they was badly allergic to cat fur . Sam was heartbroken and really wanted a feline companion .
+pronoun: ['They(19, 19)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Sam(2, 2)', 'Sam(8, 8)', 'Sam(30, 30)']['Alex and Sam(0, 2)', 'they(14, 14)', 'They(19, 19)', 'them(21, 21)', 'they(22, 22)']]
+
+Sam 's mom told them to babysit them little sibling Alex . They was annoyed because they would rather go to the mall . Alex asked Sam to play a game . The two ended up having a lot of fun together .
+pronoun: ['They(12, 12)'], A: ['Sam(0, 0)'], B: ['Alex(10, 10)']
+clusters: [['them(4, 4)', 'them(7, 7)', 'They(12, 12)', 'they(16, 16)', 'The two(32, 33)']["Sam 's(0, 1)", 'Sam(26, 26)']]
+
+Sam 's mom told them to babysit them little sibling Alex . Sam was annoyed because they would rather go to the mall . Alex asked they to play a game . The two ended up having a lot of fun together .
+pronoun: ['they(26, 26)'], A: ['Sam(0, 0)'], B: ['Alex(10, 10)']
+clusters: [['them(4, 4)', 'them(7, 7)', 'they(16, 16)', 'they(26, 26)', 'The two(32, 33)']["Sam 's(0, 1)", 'Sam(12, 12)']]
+
+Sam 's mom told them to babysit them little sibling Alex . Sam was annoyed because they would rather go to the mall . They asked Sam to play a game . The two ended up having a lot of fun together .
+pronoun: ['They(24, 24)'], A: ['Sam(0, 0)'], B: ['Alex(10, 10)']
+clusters: [['them(4, 4)', 'them(7, 7)', 'they(16, 16)', 'They(24, 24)']["Sam 's(0, 1)", 'Sam(12, 12)', 'Sam(26, 26)']]
+
+Alex wanted to learn how to play guitar to impress Sam . They saved up their money so they could take lessons . When they had enough money saved , Alex scheduled some lessons . Alex practiced really hard and now they knows how to play guitar .
+pronoun: ['They(12, 12)'], A: ['Sam(10, 10)'], B: ['Alex(0, 0)']
+clusters: [['They(12, 12)', 'their(15, 15)', 'they(18, 18)', 'they(24, 24)', 'they(41, 41)']['Alex(0, 0)', 'Alex(30, 30)', 'Alex(35, 35)']]
+
+Alex wanted to learn how to play guitar to impress Sam . Alex saved up their money so they could take lessons . When they had enough money saved , they scheduled some lessons . Alex practiced really hard and now they knows how to play guitar .
+pronoun: ['they(30, 30)'], A: ['Sam(10, 10)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(12, 12)', 'Alex(35, 35)']['their(15, 15)', 'they(18, 18)', 'they(24, 24)', 'they(30, 30)', 'they(41, 41)']]
+
+Alex wanted to learn how to play guitar to impress Sam . Alex saved up their money so they could take lessons . When they had enough money saved , Alex scheduled some lessons . They practiced really hard and now they knows how to play guitar .
+pronoun: ['They(35, 35)'], A: ['Sam(10, 10)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(12, 12)', 'Alex(30, 30)']['their(15, 15)', 'they(18, 18)', 'they(24, 24)', 'They(35, 35)', 'they(41, 41)']]
+
+Alex and Sam were making mud pies together . They were having fun pretending to be real life chefs . They got so carried away they forgot the pies were real . They took a big bite of one !
+pronoun: ['They(20, 20)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex and Sam(0, 2)', 'They(9, 9)', 'They(20, 20)', 'they(25, 25)', 'They(32, 32)']['mud pies(5, 6)', 'the pies(27, 28)']]
+
+After taking a long trip , Sam came back to town . They walked down main street and into a coffee shop . In the show they saw their friend , Alex . Alex was very excited to see they for the first time in years .
+pronoun: ['they(39, 39)'], A: ['Sam(6, 6)'], B: ['Alex(31, 31)']
+clusters: [['They(12, 12)', 'they(26, 26)', 'their(28, 28)', 'they(39, 39)']]
+
+After taking a long trip , Sam came back to town . They walked down main street and into a coffee shop . In the show they saw their friend , Alex . They was very excited to see Sam for the first time in years .
+pronoun: ['They(33, 33)'], A: ['Sam(6, 6)'], B: ['Alex(31, 31)']
+clusters: [['They(12, 12)', 'they(26, 26)', 'their(28, 28)', 'They(33, 33)']['Sam(6, 6)', 'Sam(39, 39)']]
+
+Sam and Alex were playing checkers . Alex suddenly pointed at the window and gestured to someone . They turned around to see who it was . While they was distracted , Alex moved some pieces closer .
+pronoun: ['They(18, 18)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Alex(2, 2)', 'Alex(7, 7)', 'Alex(32, 32)']['Sam and Alex(0, 2)', 'They(18, 18)', 'they(28, 28)']]
+
+Sam and Alex were playing checkers . They suddenly pointed at the window and gestured to someone . Sam turned around to see who it was . While they was distracted , Alex moved some pieces closer .
+pronoun: ['They(7, 7)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(7, 7)', 'they(28, 28)']['Sam(0, 0)', 'Sam(18, 18)']['Alex(2, 2)', 'Alex(32, 32)']]
+
+Sam and Alex were playing checkers . Alex suddenly pointed at the window and gestured to someone . Sam turned around to see who it was . While they was distracted , they moved some pieces closer .
+pronoun: ['they(32, 32)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Alex(2, 2)', 'Alex(7, 7)']['Sam(0, 0)', 'Sam(18, 18)']['Sam and Alex(0, 2)', 'they(28, 28)', 'they(32, 32)']]
+
+Sam was meeting them best friend for dinner . They had agreed on a Mexican restaurant . Sam got there first and reserved a table . Alex called they to ask where they was .
+pronoun: ['they(28, 28)'], A: ['Sam(0, 0)'], B: ['Alex(26, 26)']
+clusters: [['them(3, 3)', 'They(9, 9)', 'they(28, 28)', 'they(32, 32)']['Sam(0, 0)', 'Sam(17, 17)']]
+
+Sam 's spouse Alex asked them to make lasagna for dinner . They went to the store to buy the ingredients . When they got home they unpacked the groceries . They realized they forgot to buy the noodles .
+pronoun: ['They(12, 12)'], A: ['Sam(0, 0)'], B: ['Alex(3, 3)']
+clusters: [['them(5, 5)', 'They(12, 12)', 'they(23, 23)', 'they(26, 26)', 'They(31, 31)', 'they(33, 33)']['the ingredients(19, 20)', 'the noodles(37, 38)']]
+
+Sam and Alex went to the ice cream parlor . They could n't decide what they wanted . They tried six different samples . Then they realized they was n't hungry anymore .
+pronoun: ['They(10, 10)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(10, 10)', 'they(15, 15)', 'They(18, 18)', 'they(25, 25)', 'they(27, 27)']]
+
+Tonight , Sam had a tutoring job at Samantha 's house . When they arrived , Alex had them notes out and was ready to learn . They came prepared , and taught Alex the lesson . Sam also helped prepare Alex for them upcoming test .
+pronoun: ['They(27, 27)'], A: ['Sam(2, 2)'], B: ['Alex(16, 16)']
+clusters: [['they(13, 13)', 'them(18, 18)', 'They(27, 27)', 'them(43, 43)']['Alex(16, 16)', 'Alex(33, 33)', 'Alex(41, 41)']['Sam(2, 2)', 'Sam(37, 37)']]
+
+Tonight , Sam had a tutoring job at Samantha 's house . When they arrived , Alex had them notes out and was ready to learn . Sam came prepared , and taught Alex the lesson . They also helped prepare Alex for them upcoming test .
+pronoun: ['They(37, 37)'], A: ['Sam(2, 2)'], B: ['Alex(16, 16)']
+clusters: [['they(13, 13)', 'them(18, 18)', 'They(37, 37)', 'them(43, 43)']['Sam(2, 2)', 'Sam(27, 27)']['Alex(16, 16)', 'Alex(33, 33)', 'Alex(41, 41)']]
+
+Tonight , Sam had a tutoring job at Samantha 's house . When they arrived , Alex had them notes out and was ready to learn . Sam came prepared , and taught they the lesson . Sam also helped prepare Alex for them upcoming test .
+pronoun: ['they(33, 33)'], A: ['Sam(2, 2)'], B: ['Alex(16, 16)']
+clusters: [['they(13, 13)', 'them(18, 18)', 'they(33, 33)', 'them(43, 43)']['Sam(2, 2)', 'Sam(27, 27)', 'Sam(37, 37)']['Alex(16, 16)', 'Alex(41, 41)']]
+
+Tonight , Sam had a tutoring job at Samantha 's house . When they arrived , Alex had them notes out and was ready to learn . Sam came prepared , and taught Alex the lesson . Sam also helped prepare they for them upcoming test .
+pronoun: ['they(41, 41)'], A: ['Sam(2, 2)'], B: ['Alex(16, 16)']
+clusters: [['they(13, 13)', 'them(18, 18)', 'they(41, 41)', 'them(43, 43)']['Sam(2, 2)', 'Sam(27, 27)', 'Sam(37, 37)']['Alex(16, 16)', 'Alex(33, 33)']]
+
+Sam and Alex had been married a few years . They would have terrible fights . Their friends all told them to dump them . One night , they decided they were right .
+pronoun: ['Their(16, 16)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(10, 10)', 'Their(16, 16)', 'them(20, 20)', 'them(23, 23)', 'they(28, 28)', 'they(30, 30)']]
+
+Alex and Sam have been dating for six months . One day , they took them to the park . They led them on a walk around the lake . As they got to the gazebo , they got down on one knee .
+pronoun: ['they(13, 13)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex and Sam(0, 2)', 'they(13, 13)', 'them(15, 15)', 'They(20, 20)', 'them(22, 22)', 'they(31, 31)', 'they(37, 37)']]
+
+Sam had just moved to a new house . The neighbors came over with their child , Alex . They had bought pie and they showed Alex their room . Alex and Sam had a lot in common and played in Sam 's room .
+pronoun: ['they(24, 24)'], A: ['Sam(0, 0)'], B: ['Alex(17, 17)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)', 'they(24, 24)', 'their(27, 27)']['their child , Alex(14, 17)', 'Alex(26, 26)']['Sam(0, 0)', 'Sam(32, 32)', "Sam 's(41, 42)"]]
+
+Sam had just moved to a new house . The neighbors came over with their child , Alex . They had bought pie and Sam showed Alex their room . Alex and they had a lot in common and played in Sam 's room .
+pronoun: ['they(32, 32)'], A: ['Sam(0, 0)'], B: ['Alex(17, 17)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)', 'their(27, 27)', 'they(32, 32)']['Sam(0, 0)', 'Sam(24, 24)', "Sam 's(41, 42)"]['their child , Alex(14, 17)', 'Alex(26, 26)']]
+
+Sam had just moved to a new house . The neighbors came over with their child , Alex . They had bought pie and Sam showed Alex their room . Alex and Sam had a lot in common and played in their room .
+pronoun: ['their(41, 41)'], A: ['Sam(0, 0)'], B: ['Alex(17, 17)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)', 'their(27, 27)']['Sam(0, 0)', 'Sam(24, 24)', 'Sam(32, 32)']['pie and Sam(22, 24)', 'Alex and Sam(30, 32)', 'their(41, 41)']['their room(27, 28)', 'their room(41, 42)']]
+
+Sam had just moved to a new house . The neighbors came over with their child , Alex . They had bought pie and Sam showed they their room . Alex and Sam had a lot in common and played in Sam 's room .
+pronoun: ['they(26, 26)'], A: ['Sam(0, 0)'], B: ['Alex(17, 17)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)', 'they(26, 26)', 'their(27, 27)']['Sam(0, 0)', 'Sam(24, 24)', 'Sam(32, 32)', "Sam 's(41, 42)"]['pie and Sam(22, 24)', 'Alex and Sam(30, 32)']]
+
+Sam had just moved to a new house . The neighbors came over with their child , Alex . They had bought pie and Sam showed Alex their room . They and Sam had a lot in common and played in Sam 's room .
+pronoun: ['They(30, 30)'], A: ['Sam(0, 0)'], B: ['Alex(17, 17)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)', 'their(27, 27)', 'They(30, 30)']['Sam(0, 0)', 'Sam(24, 24)', 'Sam(32, 32)', "Sam 's(41, 42)"]['their child , Alex(14, 17)', 'Alex(26, 26)']]
+
+Sam 's dog Alex ran away one day . They printed posters and put them around the neighborhood . The next day , someone found they at the park . They called the number on the poster .
+pronoun: ['they(25, 25)'], A: ['Sam(0, 0)'], B: ['Alex(3, 3)']
+clusters: [['They(9, 9)', 'them(14, 14)', 'they(25, 25)', 'They(30, 30)']]
+
+Alex thought they played a good game of basketball . They decided to challenge their friend Sam . They agreed to play Alex . Sam practiced for a few days before the game .
+pronoun: ['They(18, 18)'], A: ['Sam(16, 16)'], B: ['Alex(0, 0)']
+clusters: [['they(2, 2)', 'They(10, 10)', 'their(14, 14)', 'They(18, 18)']['Alex(0, 0)', 'Alex(22, 22)']['their friend Sam(14, 16)', 'Sam(24, 24)']['a good game of basketball(4, 8)', 'the game(31, 32)']]
+
+Alex thought they played a good game of basketball . They decided to challenge their friend Sam . Sam agreed to play Alex . They practiced for a few days before the game .
+pronoun: ['They(24, 24)'], A: ['Sam(16, 16)'], B: ['Alex(0, 0)']
+clusters: [['they(2, 2)', 'They(10, 10)', 'their(14, 14)', 'They(24, 24)']['their friend Sam(14, 16)', 'Sam(18, 18)']['Alex(0, 0)', 'Alex(22, 22)']['a good game of basketball(4, 8)', 'the game(31, 32)']]
+
+Alex thought they played a good game of basketball . They decided to challenge their friend Sam . Sam agreed to play they . Sam practiced for a few days before the game .
+pronoun: ['they(22, 22)'], A: ['Sam(16, 16)'], B: ['Alex(0, 0)']
+clusters: [['they(2, 2)', 'They(10, 10)', 'their(14, 14)', 'they(22, 22)']['their friend Sam(14, 16)', 'Sam(18, 18)', 'Sam(24, 24)']['a good game of basketball(4, 8)', 'the game(31, 32)']]
+
+Alex had a parrot named Sam . They could repeat anything you said . They loved to sing . They taught them to say a knock knock joke .
+pronoun: ['They(19, 19)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['a parrot named Sam(2, 5)', 'you(11, 11)']['They(7, 7)', 'They(14, 14)', 'They(19, 19)', 'them(21, 21)']]
+
+Alex counted while Sam hid . They began to search for Chad . They looked behind the shed , but Sam was n't there . They looked behind the fence , but Sam was n't there .
+pronoun: ['They(6, 6)'], A: ['Sam(3, 3)'], B: ['Alex(0, 0)']
+clusters: [['They(6, 6)', 'They(13, 13)', 'They(25, 25)']['Sam(3, 3)', 'Sam(20, 20)', 'Sam(32, 32)']]
+
+Sam was a mean bully . They went to school on a Monday . They challenged Alex to a fight . Alex beat up they in self - defense .
+pronoun: ['they(24, 24)'], A: ['Sam(0, 0)'], B: ['Alex(16, 16)']
+clusters: [['They(6, 6)', 'They(14, 14)', 'they(24, 24)']['Alex(16, 16)', 'Alex(21, 21)']]
+
+Sam was a mean bully . They went to school on a Monday . They challenged Alex to a fight . They beat up Sam in self - defense .
+pronoun: ['They(21, 21)'], A: ['Sam(0, 0)'], B: ['Alex(16, 16)']
+clusters: [['They(6, 6)', 'They(14, 14)', 'They(21, 21)']['Sam(0, 0)', 'Sam(24, 24)']]
+
+Alex and Sam were siblings . One day they were riding their bikes . Alex lost them balance and fell over . They helped them up .
+pronoun: ['They(22, 22)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex and Sam(0, 2)', 'they(8, 8)', 'their(11, 11)', 'them(16, 16)', 'They(22, 22)', 'them(24, 24)']['Alex(0, 0)', 'Alex(14, 14)']]
+
+Alex and Sam were siblings . One day they were riding their bikes . They lost them balance and fell over . Sam helped them up .
+pronoun: ['They(14, 14)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex and Sam(0, 2)', 'they(8, 8)', 'their(11, 11)', 'They(14, 14)', 'them(16, 16)', 'them(24, 24)']['Sam(2, 2)', 'Sam(22, 22)']]
+
+Alex cooed and gurgled in them crib . Mrs Sam stood up and walked over to the crib . They was worried so they reached out and touched Alex . Mrs they was thankful Alex felt cool to the touch .
+pronoun: ['they(31, 31)'], A: ['Sam(9, 9)'], B: ['Alex(0, 0)']
+clusters: [['crib(6, 6)', 'the crib(16, 17)']['They(19, 19)', 'they(23, 23)', 'they(31, 31)']['Alex(0, 0)', 'Alex(28, 28)', 'Alex(34, 34)']]
+
+Alex cooed and gurgled in them crib . Mrs Sam stood up and walked over to the crib . They was worried so they reached out and touched they . Mrs Sam was thankful Alex felt cool to the touch .
+pronoun: ['they(28, 28)'], A: ['Sam(9, 9)'], B: ['Alex(0, 0)']
+clusters: [['crib(6, 6)', 'the crib(16, 17)']['They(19, 19)', 'they(23, 23)', 'they(28, 28)']['Mrs Sam(8, 9)', 'Sam(31, 31)']['Alex(0, 0)', 'Alex(34, 34)']]
+
+Alex cooed and gurgled in them crib . Mrs Sam stood up and walked over to the crib . They was worried so they reached out and touched Alex . Mrs Sam was thankful they felt cool to the touch .
+pronoun: ['they(34, 34)'], A: ['Sam(9, 9)'], B: ['Alex(0, 0)']
+clusters: [['crib(6, 6)', 'the crib(16, 17)']['They(19, 19)', 'they(23, 23)', 'they(34, 34)']['Alex(0, 0)', 'Alex(28, 28)']['Mrs Sam(8, 9)', 'Sam(31, 31)']]
+
+Sam decided to take a pottery class for a new hobby . A person named Alex sat at the station next to their . They and Alex grew close over the course of the semester . They went to a bar together after their final exam .
+pronoun: ['They(24, 24)'], A: ['Sam(0, 0)'], B: ['Alex(15, 15)']
+clusters: [['their(22, 22)', 'They(24, 24)']['A person named Alex(12, 15)', 'Alex(26, 26)']['They and Alex(24, 26)', 'They(36, 36)', 'their(43, 43)']]
+
+Sam decided to take a pottery class for a new hobby . A person named Alex sat at the station next to their . Sam and they grew close over the course of the semester . They went to a bar together after their final exam .
+pronoun: ['they(26, 26)'], A: ['Sam(0, 0)'], B: ['Alex(15, 15)']
+clusters: [['Sam(0, 0)', 'Sam(24, 24)']['their(22, 22)', 'they(26, 26)', 'They(36, 36)', 'their(43, 43)']]
+
+Alex and Sam were good friends but very competitive . Alex set out to beat they at basketball . They dribbled fast but tripped at the last second . Sam snatched the ball and scored .
+pronoun: ['they(15, 15)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(10, 10)']['Alex and Sam(0, 2)', 'they(15, 15)', 'They(19, 19)']['Sam(2, 2)', 'Sam(29, 29)']]
+
+Alex and Sam were good friends but very competitive . Alex set out to beat Sam at basketball . They dribbled fast but tripped at the last second . They snatched the ball and scored .
+pronoun: ['They(29, 29)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Sam(2, 2)', 'Sam(15, 15)']['Alex and Sam(0, 2)', 'They(19, 19)', 'They(29, 29)']]
+
+Alex and Sam were good friends but very competitive . They set out to beat Sam at basketball . They dribbled fast but tripped at the last second . Sam snatched the ball and scored .
+pronoun: ['They(10, 10)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex and Sam(0, 2)', 'They(10, 10)', 'They(19, 19)']['Sam(2, 2)', 'Sam(15, 15)', 'Sam(29, 29)']]
+
+Sam and Alex were tossing a ball in the back yard . They threw it too hard . It flew across the yard smashing into the kitchen window . Sam thought they was going to be in big trouble .
+pronoun: ['They(12, 12)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(12, 12)', 'they(31, 31)']['it(14, 14)', 'It(18, 18)']['the back yard(8, 10)', 'the yard(21, 22)']['Sam(0, 0)', 'Sam(29, 29)']]
+
+Sam and Alex were tossing a ball in the back yard . Sam threw it too hard . It flew across the yard smashing into the kitchen window . They thought they was going to be in big trouble .
+pronoun: ['They(29, 29)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam(0, 0)', 'Sam(12, 12)']['it(14, 14)', 'It(18, 18)']['the back yard(8, 10)', 'the yard(21, 22)']['Sam and Alex(0, 2)', 'They(29, 29)', 'they(31, 31)']]
+
+Alex 's parents bought them a new car for college . They drove the car to campus . The next day Alex let them friend Sam drive the car to class . They lost control of the car and spun into a ditch .
+pronoun: ['They(32, 32)'], A: ['Sam(25, 25)'], B: ['Alex(0, 0)']
+clusters: [["Alex 's parents(0, 2)", 'them(4, 4)', 'They(11, 11)', 'them(23, 23)', 'They(32, 32)']['a new car(5, 7)', 'the car(13, 14)', 'the car(27, 28)', 'the car(36, 37)']["Alex 's(0, 1)", 'Alex(21, 21)']]
+
+Alex and Sam were out to dinner on a date . After appetizers , Alex suddenly grabbed them stomach . They complained they was n't feeling good and left . They hoped that they had n't said something to upset them .
+pronoun: ['They(30, 30)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(14, 14)']['Alex and Sam(0, 2)', 'them(17, 17)', 'They(20, 20)', 'they(22, 22)', 'They(30, 30)', 'they(33, 33)', 'them(40, 40)']]
+
+Alex and Sam were out to dinner on a date . After appetizers , they suddenly grabbed them stomach . They complained they was n't feeling good and left . Sam hoped that they had n't said something to upset them .
+pronoun: ['they(14, 14)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex and Sam(0, 2)', 'they(14, 14)', 'them(17, 17)', 'They(20, 20)', 'they(22, 22)', 'they(33, 33)', 'them(40, 40)']['Sam(2, 2)', 'Sam(30, 30)']]
+
+Alex was excited to have their friend Sam sleepover on Friday . Their mom dropped them off at Max 's house just before dinner . Alex 's mom Sam and they had fun roasting hot dogs and playing . After dinner , the boys got in their sleeping bags and watched a movie .
+pronoun: ['Their(12, 12)'], A: ['Sam(7, 7)'], B: ['Alex(0, 0)']
+clusters: [['their(5, 5)', 'Their(12, 12)', 'them(15, 15)', 'they(30, 30)', 'the boys(42, 43)', 'their(46, 46)']['Alex(0, 0)', "Alex 's(25, 26)"]]
+
+Alex was excited to have their friend Sam sleepover on Friday . Sam 's mom dropped them off at Max 's house just before dinner . Alex 's mom they and they had fun roasting hot dogs and playing . After dinner , the boys got in their sleeping bags and watched a movie .
+pronoun: ['they(29, 29)'], A: ['Sam(7, 7)'], B: ['Alex(0, 0)']
+clusters: [['Sam(7, 7)', "Sam 's(12, 13)"]['their(5, 5)', 'them(16, 16)', 'they(29, 29)', 'they(31, 31)', 'the boys(43, 44)', 'their(47, 47)']['Alex(0, 0)', "Alex 's(26, 27)"]]
+
+Alex was excited to have their friend Sam sleepover on Friday . Sam 's mom dropped them off at Max 's house just before dinner . Their mom Sam and they had fun roasting hot dogs and playing . After dinner , the boys got in their sleeping bags and watched a movie .
+pronoun: ['Their(26, 26)'], A: ['Sam(7, 7)'], B: ['Alex(0, 0)']
+clusters: [['Sam(7, 7)', "Sam 's(12, 13)"]['them(16, 16)', 'Their(26, 26)', 'they(30, 30)', 'the boys(42, 43)', 'their(46, 46)']["Sam 's mom(12, 14)", 'Their mom Sam(26, 28)']]
+
+Alex was given a new puppy for their birthday . They named the puppy Sam . One day Alex took they for a walk through the park . Sam hurt their paw while they were playing .
+pronoun: ['they(20, 20)'], A: ['Sam(14, 14)'], B: ['Alex(0, 0)']
+clusters: [['their(7, 7)', 'They(10, 10)', 'they(20, 20)', 'their(30, 30)', 'they(33, 33)']['Alex(0, 0)', 'Alex(18, 18)']]
+
+Alex was given a new puppy for their birthday . They named the puppy Sam . One day Alex took Sam for a walk through the park . They hurt their paw while they were playing .
+pronoun: ['They(28, 28)'], A: ['Sam(14, 14)'], B: ['Alex(0, 0)']
+clusters: [['their(7, 7)', 'They(10, 10)', 'They(28, 28)', 'their(30, 30)', 'they(33, 33)']['Alex(0, 0)', 'Alex(18, 18)']]
+
+Alex was given a new puppy for their birthday . They named the puppy Sam . One day they took Sam for a walk through the park . Sam hurt their paw while they were playing .
+pronoun: ['they(18, 18)'], A: ['Sam(14, 14)'], B: ['Alex(0, 0)']
+clusters: [['their(7, 7)', 'They(10, 10)', 'they(18, 18)', 'their(30, 30)', 'they(33, 33)']['Sam(20, 20)', 'Sam(28, 28)']]
+
+Alex and Sam have been dating for 2 years . They really love each other . Alex decides they wants to marry they . They buys a diamond engagement ring .
+pronoun: ['they(22, 22)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex and Sam(0, 2)', 'They(10, 10)', 'they(18, 18)', 'they(22, 22)', 'They(24, 24)']['Alex(0, 0)', 'Alex(16, 16)']]
+
+Alex and Sam have been dating for 2 years . They really love each other . They decides they wants to marry Sam . They buys a diamond engagement ring .
+pronoun: ['They(16, 16)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex and Sam(0, 2)', 'They(10, 10)', 'They(16, 16)', 'they(18, 18)', 'They(24, 24)']['Sam(2, 2)', 'Sam(22, 22)']]
+
+Alex had a bunch of crystals they thought were magical . They would rub them when they needed good luck . One day , them friend Sam came over to visit . They told them they were really just colorful plastic .
+pronoun: ['They(32, 32)'], A: ['Sam(26, 26)'], B: ['Alex(0, 0)']
+clusters: [['they(6, 6)', 'They(11, 11)', 'them(14, 14)', 'they(16, 16)', 'them(24, 24)', 'They(32, 32)', 'them(34, 34)', 'they(35, 35)']]
+
+Sam got a call from them friend Alex . They told them there was big party at Brad 's tonight . They was so excited to go with Alex . The two got dressed and headed to the party .
+pronoun: ['They(21, 21)'], A: ['Sam(0, 0)'], B: ['Alex(7, 7)']
+clusters: [['them(5, 5)', 'They(9, 9)', 'them(11, 11)', 'They(21, 21)', 'The two(30, 31)']['Alex(7, 7)', 'Alex(28, 28)']['big party(14, 15)', 'the party(37, 38)']]
+
+Sam got a call from them friend Alex . They told them there was big party at Brad 's tonight . Sam was so excited to go with they . The two got dressed and headed to the party .
+pronoun: ['they(28, 28)'], A: ['Sam(0, 0)'], B: ['Alex(7, 7)']
+clusters: [['them(5, 5)', 'They(9, 9)', 'them(11, 11)', 'they(28, 28)', 'The two(30, 31)']['Sam(0, 0)', 'Sam(21, 21)']['big party(14, 15)', 'the party(37, 38)']]
+
+Alex is an avid tennis fan . Alex loved watching them favorite player , Sam . Alex was excited to learn that they was playing a match near them . Alex decided to purchase tickets to Sam 's tennis match .
+pronoun: ['they(22, 22)'], A: ['Sam(14, 14)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(7, 7)', 'Alex(16, 16)', 'Alex(30, 30)']['them(10, 10)', 'they(22, 22)', 'them(28, 28)']['Sam(14, 14)', "Sam 's(36, 37)"]]
+
+Alex is an avid tennis fan . Alex loved watching them favorite player , Sam . Alex was excited to learn that Sam was playing a match near them . Alex decided to purchase tickets to their tennis match .
+pronoun: ['their(36, 36)'], A: ['Sam(14, 14)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(7, 7)', 'them(10, 10)', 'Alex(16, 16)', 'them(28, 28)', 'Alex(30, 30)']['Sam(14, 14)', 'Sam(22, 22)']['tickets(34, 34)', 'their(36, 36)']]
+
+Alex is an avid tennis fan . Alex loved watching them favorite player , Sam . They was excited to learn that Sam was playing a match near them . Alex decided to purchase tickets to Sam 's tennis match .
+pronoun: ['They(16, 16)'], A: ['Sam(14, 14)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(7, 7)', 'Alex(30, 30)']['them(10, 10)', 'They(16, 16)', 'them(28, 28)']['Sam(14, 14)', 'Sam(22, 22)', "Sam 's(36, 37)"]]
+
+Sam recently met a nice lady on Alex . They agreed for their first date to cook at their house . Sam was nervous , but decided to start the cooking . Sam put on the pot of rice , but had to use the restroom .
+pronoun: ['They(9, 9)'], A: ['Sam(0, 0)'], B: ['Alex(7, 7)']
+clusters: [['They(9, 9)', 'their(12, 12)', 'their(18, 18)']['Sam(0, 0)', 'Sam(21, 21)', 'Sam(32, 32)']]
+
+Sam recently met a nice lady on Alex . Sam agreed for their first date to cook at their house . They was nervous , but decided to start the cooking . Sam put on the pot of rice , but had to use the restroom .
+pronoun: ['They(21, 21)'], A: ['Sam(0, 0)'], B: ['Alex(7, 7)']
+clusters: [['Sam(0, 0)', 'Sam(9, 9)', 'Sam(32, 32)']['their(12, 12)', 'their(18, 18)', 'They(21, 21)']]
+
+Sam recently met a nice lady on Alex . Sam agreed for their first date to cook at their house . Sam was nervous , but decided to start the cooking . They put on the pot of rice , but had to use the restroom .
+pronoun: ['They(32, 32)'], A: ['Sam(0, 0)'], B: ['Alex(7, 7)']
+clusters: [['Sam(0, 0)', 'Sam(9, 9)', 'Sam(21, 21)']['their(12, 12)', 'their(18, 18)', 'They(32, 32)']]
+
+Sam hated sharing them toys with them sibling Alex . They would always ruin them toys . Alex tried to play with their toy car , but they snatched it away . Alex began crying , and their parent rushed to check on them .
+pronoun: ['their(22, 22)'], A: ['Sam(0, 0)'], B: ['Alex(8, 8)']
+clusters: [['them(3, 3)', 'them(6, 6)', 'They(10, 10)', 'them(14, 14)', 'their(22, 22)', 'they(27, 27)', 'their(37, 37)', 'them(43, 43)']['their toy car(22, 24)', 'it(29, 29)']['Alex(17, 17)', 'Alex(32, 32)']]
+
+Sam hated sharing them toys with them sibling Alex . They would always ruin them toys . They tried to play with Sam 's toy car , but they snatched it away . Alex began crying , and their parent rushed to check on them .
+pronoun: ['They(17, 17)'], A: ['Sam(0, 0)'], B: ['Alex(8, 8)']
+clusters: [['them(3, 3)', 'them(6, 6)', 'They(10, 10)', 'them(14, 14)', 'They(17, 17)', 'they(28, 28)', 'their(38, 38)', 'them(44, 44)']['Sam(0, 0)', "Sam 's(22, 23)"]["Sam 's toy car(22, 25)", 'it(30, 30)']]
+
+Sam hated sharing them toys with them sibling Alex . They would always ruin them toys . Alex tried to play with Sam 's toy car , but they snatched it away . They began crying , and their parent rushed to check on them .
+pronoun: ['They(33, 33)'], A: ['Sam(0, 0)'], B: ['Alex(8, 8)']
+clusters: [['them(3, 3)', 'them(6, 6)', 'They(10, 10)', 'them(14, 14)', 'they(28, 28)', 'They(33, 33)', 'their(38, 38)', 'them(44, 44)']['Sam(0, 0)', "Sam 's(22, 23)"]["Sam 's toy car(22, 25)", 'it(30, 30)']]
+
+Sam and Alex were best friends . Their mom had to take a job across the country . Alex begged them mom to reconsider , but they refused . The two girls were upset , afraid their friendship would end .
+pronoun: ['Their(7, 7)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'Their(7, 7)', 'them(20, 20)', 'they(26, 26)', 'The two girls(29, 31)', 'their(36, 36)']['Alex(2, 2)', 'Alex(18, 18)']]
+
+Sam and Alex were best friends . Alex 's mom had to take a job across the country . They begged them mom to reconsider , but they refused . The two girls were upset , afraid their friendship would end .
+pronoun: ['They(19, 19)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Alex(2, 2)', "Alex 's(7, 8)"]['Sam and Alex(0, 2)', 'They(19, 19)', 'them(21, 21)', 'they(27, 27)', 'The two girls(30, 32)', 'their(37, 37)']["Alex 's mom(7, 9)", 'mom(22, 22)']]
+
+Alex and Sam have been engaged for seven years . They have finally set a wedding date for next summer . People were starting to wonder if they would ever get married . They said they was n't getting married until they was good and ready .
+pronoun: ['They(33, 33)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['Alex and Sam(0, 2)', 'They(10, 10)', 'They(33, 33)', 'they(35, 35)', 'they(41, 41)']['People(21, 21)', 'they(27, 27)']]
+
+Sam and Alex were playing a game of throw football in a field . Alex threw the ball long and they ran to catch it . Their weight broke through an old cistern cover when they ran over it . The fall into the hole killed Sam when they hit the bottom .
+pronoun: ['they(20, 20)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Alex(2, 2)', 'Alex(14, 14)', 'it(24, 24)', 'it(38, 38)']['Sam and Alex(0, 2)', 'they(20, 20)', 'Their(26, 26)', 'they(35, 35)', 'they(48, 48)']['Sam(0, 0)', 'Sam(46, 46)']]
+
+Sam and Alex were playing a game of throw football in a field . Alex threw the ball long and Sam ran to catch it . Their weight broke through an old cistern cover when they ran over it . The fall into the hole killed they when they hit the bottom .
+pronoun: ['they(46, 46)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Alex(2, 2)', 'Alex(14, 14)']['Sam(0, 0)', 'Sam(20, 20)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['Sam and Alex(0, 2)', 'Their(26, 26)', 'they(35, 35)', 'they(46, 46)', 'they(48, 48)']]
+
+Sam and Alex were playing a game of throw football in a field . They threw the ball long and Sam ran to catch it . Their weight broke through an old cistern cover when they ran over it . The fall into the hole killed Sam when they hit the bottom .
+pronoun: ['They(14, 14)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(14, 14)', 'Their(26, 26)', 'they(35, 35)', 'they(48, 48)']['Sam(0, 0)', 'Sam(20, 20)', 'Sam(46, 46)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']]
+
+Alex was on bended knee proposing to Sam . They was ready to accept and say yes . Suddenly , Sam got an array of phone calls from family . They answered the calls , ruining the proposal .
+pronoun: ['They(9, 9)'], A: ['Sam(7, 7)'], B: ['Alex(0, 0)']
+clusters: [['Sam(7, 7)', 'Sam(20, 20)']['They(9, 9)', 'They(30, 30)']['proposing(5, 5)', 'the proposal(36, 37)']]
+
+Alex was on bended knee proposing to Sam . Sam was ready to accept and say yes . Suddenly , they got an array of phone calls from family . They answered the calls , ruining the proposal .
+pronoun: ['they(20, 20)'], A: ['Sam(7, 7)'], B: ['Alex(0, 0)']
+clusters: [['Sam(7, 7)', 'Sam(9, 9)']['they(20, 20)', 'They(30, 30)']['proposing(5, 5)', 'the proposal(36, 37)']]
+
+Alex was nervous walking up to the girls . They mustered up their courage and walked over to Sam . They could n't believe they said yes to a dance . They headed out to the dance floor , hand in hand .
+pronoun: ['They(20, 20)'], A: ['Sam(18, 18)'], B: ['Alex(0, 0)']
+clusters: [['the girls(6, 7)', 'They(9, 9)', 'their(12, 12)', 'They(20, 20)', 'they(24, 24)', 'They(31, 31)']['a dance(28, 29)', 'the dance(35, 36)']]
+
+Sam and Alex had just started dating . They had acted very possessive at times , but they accepted it . Soon , they started isolating Sam from their friends and family . They had turned Sam into a full on hermit !
+pronoun: ['they(17, 17)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(8, 8)', 'they(17, 17)', 'they(23, 23)', 'their(28, 28)', 'They(33, 33)']['Sam(0, 0)', 'Sam(26, 26)', 'Sam(36, 36)']]
+
+Sam and Alex had just started dating . They had acted very possessive at times , but Sam accepted it . Soon , they started isolating they from their friends and family . They had turned Sam into a full on hermit !
+pronoun: ['they(26, 26)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(8, 8)', 'they(23, 23)', 'they(26, 26)', 'their(28, 28)', 'They(33, 33)']['Sam(0, 0)', 'Sam(17, 17)', 'Sam(36, 36)']]
+
+Sam and Alex had just started dating . They had acted very possessive at times , but Sam accepted it . Soon , they started isolating Sam from their friends and family . They had turned they into a full on hermit !
+pronoun: ['they(36, 36)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(8, 8)', 'they(23, 23)', 'their(28, 28)', 'They(33, 33)', 'they(36, 36)']['Sam(0, 0)', 'Sam(17, 17)', 'Sam(26, 26)']]
+
+Alex liked Sam very much but never talked to them . They was so shy , they hid behind the tree every time they went by . They was very curious and one day stopped to talked to them . They blushed so much , they run back to their house .
+pronoun: ['They(40, 40)'], A: ['Sam(2, 2)'], B: ['Alex(0, 0)']
+clusters: [['them(9, 9)', 'They(11, 11)', 'they(16, 16)', 'they(23, 23)', 'They(27, 27)', 'them(38, 38)', 'They(40, 40)', 'they(45, 45)', 'their(49, 49)']]
+
+Alex heard a meow from outside of them bedroom window . Outside , they finds a kitten stuck in a tree . Alex calls them neighbor , Sam , to help get the cat . They uses their dad 's ladder to climb up and rescue the kitten .
+pronoun: ['They(35, 35)'], A: ['Sam(27, 27)'], B: ['Alex(0, 0)']
+clusters: [['them(7, 7)', 'they(13, 13)', 'them(24, 24)', 'They(35, 35)', 'their(37, 37)']['Alex(0, 0)', 'Alex(22, 22)']['a kitten(15, 16)', 'the cat(32, 33)', 'the kitten(46, 47)']]
+
+Alex wanted to buy a new tie for an event . They decided to go to the store the day before the event . When Sam went to the store , they found out it was closed . They could not buy a tie for the event .
+pronoun: ['They(38, 38)'], A: ['Sam(25, 25)'], B: ['Alex(0, 0)']
+clusters: [['an event(8, 9)', 'the event(21, 22)', 'the event(45, 46)']['the store(16, 17)', 'the store(28, 29)']['They(11, 11)', 'they(31, 31)', 'They(38, 38)']['a new tie(4, 6)', 'it(34, 34)']]
+
+Sam and their spouse Alex got lost on their vacation . Alex insisted that they ask someone for directions . Sam refused to ask for directions . Their car eventually ran out of gas and they were stranded .
+pronoun: ['they(14, 14)'], A: ['Sam(0, 0)'], B: ['Alex(4, 4)']
+clusters: [['their(2, 2)', 'their(8, 8)', 'they(14, 14)', 'Their(27, 27)', 'they(35, 35)']['Sam(0, 0)', 'Sam(20, 20)']]
+
+Sam and their spouse Alex got lost on their vacation . Alex insisted that Sam ask someone for directions . They refused to ask for directions . Their car eventually ran out of gas and they were stranded .
+pronoun: ['They(20, 20)'], A: ['Sam(0, 0)'], B: ['Alex(4, 4)']
+clusters: [['their(2, 2)', 'their(8, 8)', 'They(20, 20)', 'Their(27, 27)', 'they(35, 35)']['Sam(0, 0)', 'Sam(14, 14)']]
+
+Sam and their spouse Alex got lost on their vacation . They insisted that Sam ask someone for directions . Sam refused to ask for directions . Their car eventually ran out of gas and they were stranded .
+pronoun: ['They(11, 11)'], A: ['Sam(0, 0)'], B: ['Alex(4, 4)']
+clusters: [['their(2, 2)', 'their(8, 8)', 'They(11, 11)', 'Their(27, 27)', 'they(35, 35)']['Sam(0, 0)', 'Sam(14, 14)', 'Sam(20, 20)']]
+
+Alex found a stray dog on the street . They brought the dog home . They named the dog Sam . They and Alex became good friends .
+pronoun: ['They(21, 21)'], A: ['Sam(19, 19)'], B: ['Alex(0, 0)']
+clusters: [['They(9, 9)', 'They(15, 15)', 'They(21, 21)']['Alex(0, 0)', 'Alex(23, 23)']]
+
+Alex found a stray dog on the street . They brought the dog home . They named the dog Sam . Sam and they became good friends .
+pronoun: ['they(23, 23)'], A: ['Sam(19, 19)'], B: ['Alex(0, 0)']
+clusters: [['They(9, 9)', 'They(15, 15)', 'they(23, 23)']]
+
+Alex 's favorite artist Sam was having a concert in the park . They knew they had to be there early to get a good spot . Alex woke up at 1 am determined to get a good spot . However , when Alex reached , they saw a massive crowd .
+pronoun: ['They(13, 13)'], A: ['Sam(4, 4)'], B: ['Alex(0, 0)']
+clusters: [['They(13, 13)', 'they(15, 15)', 'they(46, 46)']["Alex 's(0, 1)", 'Alex(27, 27)', 'Alex(43, 43)']['a good spot(23, 25)', 'a good spot(36, 38)']]
+
+Alex 's favorite artist Sam was having a concert in the park . Alex knew they had to be there early to get a good spot . They woke up at 1 am determined to get a good spot . However , when Alex reached , they saw a massive crowd .
+pronoun: ['They(27, 27)'], A: ['Sam(4, 4)'], B: ['Alex(0, 0)']
+clusters: [["Alex 's(0, 1)", 'Alex(13, 13)', 'Alex(43, 43)']['they(15, 15)', 'They(27, 27)', 'they(46, 46)']['a good spot(23, 25)', 'a good spot(36, 38)']]
+
+Alex 's favorite artist Sam was having a concert in the park . Alex knew they had to be there early to get a good spot . Alex woke up at 1 am determined to get a good spot . However , when they reached , they saw a massive crowd .
+pronoun: ['they(43, 43)'], A: ['Sam(4, 4)'], B: ['Alex(0, 0)']
+clusters: [["Alex 's(0, 1)", 'Alex(13, 13)', 'Alex(27, 27)']['a good spot(23, 25)', 'a good spot(36, 38)']['they(15, 15)', 'they(43, 43)', 'they(46, 46)']]
+
+Sam and Alex went camping at Yosemite . They decided to hike a twenty mile trail the first night . When they got back to the campsite they realized they lost their keys . They was in a pure panic not knowing how far away they dropped them .
+pronoun: ['they(27, 27)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(8, 8)', 'they(21, 21)', 'they(27, 27)', 'they(29, 29)', 'their(31, 31)', 'They(34, 34)', 'they(45, 45)', 'them(47, 47)']['Yosemite(6, 6)', 'the campsite(25, 26)']]
+
+Sam and Alex have been married for 20 years . Lately , they and Alex have n't been getting along . Sam tells them that it is time for them to separate . They moves into them sibling 's house .
+pronoun: ['they(12, 12)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'they(12, 12)', 'them(23, 23)', 'them(29, 29)', 'They(33, 33)', 'them(36, 36)']['Alex(2, 2)', 'Alex(14, 14)']['Sam(0, 0)', 'Sam(21, 21)']]
+
+Sam and Alex have been married for 20 years . Lately , Sam and Alex have n't been getting along . They tells them that it is time for them to separate . They moves into them sibling 's house .
+pronoun: ['They(21, 21)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam(0, 0)', 'Sam(12, 12)']['Sam and Alex(0, 2)', 'Sam and Alex(12, 14)', 'They(21, 21)', 'them(23, 23)', 'them(29, 29)', 'They(33, 33)', 'them(36, 36)']['Alex(2, 2)', 'Alex(14, 14)']]
+
+Sam and Alex have been married for 20 years . Lately , Sam and they have n't been getting along . Sam tells them that it is time for them to separate . They moves into them sibling 's house .
+pronoun: ['they(14, 14)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam(0, 0)', 'Sam(12, 12)', 'Sam(21, 21)']['Sam and Alex(0, 2)', 'they(14, 14)', 'them(23, 23)', 'them(29, 29)', 'They(33, 33)', 'them(36, 36)']]
+
+Sam had a grudge against Alex . They decided they was going to slit them throat . They waited in the shadows by Alex 's house . When they saw them red coat they lunged out , slicing and stabbing !
+pronoun: ['They(17, 17)'], A: ['Sam(0, 0)'], B: ['Alex(5, 5)']
+clusters: [['They(7, 7)', 'they(9, 9)', 'them(14, 14)', 'They(17, 17)', 'they(28, 28)', 'them(30, 30)', 'they(33, 33)']['Alex(5, 5)', "Alex 's(23, 24)"]]
+
+Sam had a grudge against Alex . They decided they was going to slit them throat . Sam waited in the shadows by their house . When they saw them red coat they lunged out , slicing and stabbing !
+pronoun: ['their(23, 23)'], A: ['Sam(0, 0)'], B: ['Alex(5, 5)']
+clusters: [['They(7, 7)', 'they(9, 9)', 'them(14, 14)', 'their(23, 23)', 'they(27, 27)', 'them(29, 29)', 'they(32, 32)']['Sam(0, 0)', 'Sam(17, 17)']]
+
+Sam and Alex went on a camping trip . They got lost somewhere deep in the woods . They was too scared to do anything . Alex used them compass and wits to help them get out of the woods .
+pronoun: ['They(18, 18)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(9, 9)', 'They(18, 18)', 'them(28, 28)', 'them(34, 34)']['Alex(2, 2)', 'Alex(26, 26)']['the woods(15, 16)', 'the woods(38, 39)']]
+
+Sam and Alex went on a camping trip . They got lost somewhere deep in the woods . Sam was too scared to do anything . They used them compass and wits to help them get out of the woods .
+pronoun: ['They(26, 26)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(9, 9)', 'They(26, 26)', 'them(28, 28)', 'them(34, 34)']['Sam(0, 0)', 'Sam(18, 18)']['the woods(15, 16)', 'the woods(38, 39)']]
+
+Sam had always hated winter and cold temperatures . However , since they had married Alex , they would be staying in Minnesota . Alex surprised they with a new floor heating system . It runs with a boiler and keeps the floors toasty warm .
+pronoun: ['they(26, 26)'], A: ['Sam(0, 0)'], B: ['Alex(15, 15)']
+clusters: [['they(12, 12)', 'they(17, 17)', 'they(26, 26)']['Alex(15, 15)', 'Alex(24, 24)']['a new floor heating system(28, 32)', 'It(34, 34)']]
+
+Sam had always hated winter and cold temperatures . However , since they had married Alex , they would be staying in Minnesota . They surprised Sam with a new floor heating system . It runs with a boiler and keeps the floors toasty warm .
+pronoun: ['They(24, 24)'], A: ['Sam(0, 0)'], B: ['Alex(15, 15)']
+clusters: [['they(12, 12)', 'they(17, 17)', 'They(24, 24)']['Sam(0, 0)', 'Sam(26, 26)']]
+
+Sam took their smartphone out to check out their mail . They perused through fifty emails , but none were from Alex . They sat on a bench waiting for them email . Four minutes later , their email appeared and they smiled widely .
+pronoun: ['their(37, 37)'], A: ['Sam(0, 0)'], B: ['Alex(21, 21)']
+clusters: [['their(2, 2)', 'their(8, 8)', 'They(11, 11)', 'They(23, 23)', 'their(37, 37)', 'they(41, 41)']['fifty emails(14, 15)', 'them(30, 30)']['their mail(8, 9)', 'their email(37, 38)']]
+
+Alex went to a restaurant with their friend Sam and their family . Carl 's family said they could order anything they wanted . So Alex ordered tons of food in excitement . But they struggled to finish even half of it .
+pronoun: ['they(17, 17)'], A: ['Sam(8, 8)'], B: ['Alex(0, 0)']
+clusters: [['their(6, 6)', 'their(10, 10)']['their family(10, 11)', "Carl 's family(13, 15)", 'they(17, 17)', 'they(21, 21)', 'they(34, 34)']['Alex(0, 0)', 'Alex(25, 25)']['tons of food(27, 29)', 'it(41, 41)']]
+
+Alex went to a restaurant with their friend Sam and their family . Carl 's family said Alex could order anything they wanted . So they ordered tons of food in excitement . But they struggled to finish even half of it .
+pronoun: ['they(25, 25)'], A: ['Sam(8, 8)'], B: ['Alex(0, 0)']
+clusters: [['their(6, 6)', 'their(10, 10)']['their family(10, 11)', "Carl 's family(13, 15)", 'they(21, 21)', 'they(25, 25)', 'they(34, 34)']['Alex(0, 0)', 'Alex(17, 17)']['tons of food(27, 29)', 'it(41, 41)']]
+
+Alex was a 7 year old kid living in an orphanage . All of them life they dreamed of finding a family . One day a nice family named the Sam came to meet they . They all played together and talked over lunch .
+pronoun: ['they(34, 34)'], A: ['Sam(30, 30)'], B: ['Alex(0, 0)']
+clusters: [['All of them(12, 14)', 'they(16, 16)', 'they(34, 34)', 'They all(36, 37)']]
+
+Alex met their best friend Sam while playing a game online . Alex and Sam had a lot in common , so they started hanging out a lot . Eventually , Alex decided they wanted to meet they in real life . Alex talked to Sam about it and they agreed to meet up .
+pronoun: ['they(37, 37)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', 'Alex(31, 31)', 'Alex(42, 42)']['their best friend Sam(2, 5)', 'Sam(14, 14)', 'Sam(45, 45)']['Alex and Sam(12, 14)', 'they(22, 22)', 'they(33, 33)', 'they(37, 37)', 'they(49, 49)']]
+
+Alex met their best friend Sam while playing a game online . Alex and Sam had a lot in common , so they started hanging out a lot . Eventually , Alex decided they wanted to meet Sam in real life . Alex talked to they about it and they agreed to meet up .
+pronoun: ['they(45, 45)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', 'Alex(31, 31)', 'Alex(42, 42)']['their best friend Sam(2, 5)', 'Sam(14, 14)', 'Sam(37, 37)']['Alex and Sam(12, 14)', 'they(22, 22)', 'they(33, 33)', 'they(45, 45)', 'they(49, 49)']['meet(36, 36)', 'it(47, 47)']]
+
+Alex met their best friend Sam while playing a game online . Alex and Sam had a lot in common , so they started hanging out a lot . Eventually , they decided they wanted to meet Sam in real life . Alex talked to Sam about it and they agreed to meet up .
+pronoun: ['they(31, 31)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', 'Alex(42, 42)']['their best friend Sam(2, 5)', 'Sam(14, 14)', 'Sam(37, 37)', 'Sam(45, 45)']['Alex and Sam(12, 14)', 'they(22, 22)', 'they(31, 31)', 'they(33, 33)', 'they(49, 49)']['meet(36, 36)', 'it(47, 47)']]
+
+Alex met their best friend Sam while playing a game online . Alex and Sam had a lot in common , so they started hanging out a lot . Eventually , Alex decided they wanted to meet Sam in real life . They talked to Sam about it and they agreed to meet up .
+pronoun: ['They(42, 42)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'their(2, 2)', 'Alex(31, 31)']['their best friend Sam(2, 5)', 'Sam(14, 14)', 'Sam(37, 37)', 'Sam(45, 45)']['Alex and Sam(12, 14)', 'they(22, 22)', 'they(33, 33)', 'They(42, 42)', 'they(49, 49)']['meet(36, 36)', 'it(47, 47)']]
+
+Sam wants to check the new fast food place in town . They asks their best friend Alex to tag along . They and Alex were excited to try the new burger . Sam gets to the place and orders a burger .
+pronoun: ['They(22, 22)'], A: ['Sam(0, 0)'], B: ['Alex(17, 17)']
+clusters: [['They(12, 12)', 'their(14, 14)', 'They(22, 22)']['their best friend Alex(14, 17)', 'Alex(24, 24)']['Sam(0, 0)', 'Sam(33, 33)']]
+
+Sam wants to check the new fast food place in town . They asks their best friend Alex to tag along . Sam and Alex were excited to try the new burger . They gets to the place and orders a burger .
+pronoun: ['They(33, 33)'], A: ['Sam(0, 0)'], B: ['Alex(17, 17)']
+clusters: [['They(12, 12)', 'their(14, 14)']['Sam(0, 0)', 'Sam(22, 22)']['their best friend Alex(14, 17)', 'Alex(24, 24)']['Sam and Alex(22, 24)', 'They(33, 33)']]
+
+Sam wants to check the new fast food place in town . They asks their best friend Alex to tag along . Sam and they were excited to try the new burger . Sam gets to the place and orders a burger .
+pronoun: ['they(24, 24)'], A: ['Sam(0, 0)'], B: ['Alex(17, 17)']
+clusters: [['They(12, 12)', 'their(14, 14)', 'they(24, 24)']['Sam(0, 0)', 'Sam(22, 22)', 'Sam(33, 33)']]
+
+Alex was bored at work . They decided to go on Reddit to pass the time . On Sam , they saw an interesting link . They clicked on the link , and read a good article .
+pronoun: ['they(20, 20)'], A: ['Sam(18, 18)'], B: ['Alex(0, 0)']
+clusters: [['They(6, 6)', 'they(20, 20)', 'They(26, 26)']]
+
+Sam and Alex wanted to buy a dog . They wanted a big dog , but Alex wanted a small one . When they arrived at the dog pound , only small dogs were left . Sam was sad , but they noticed that Alex had already chosen a dog .
+pronoun: ['They(9, 9)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(9, 9)', 'they(23, 23)', 'they(41, 41)']['Alex(2, 2)', 'Alex(16, 16)', 'Alex(44, 44)']['a dog(6, 7)', 'the dog(26, 27)', 'the dog pound(26, 28)']['Sam(0, 0)', 'Sam(36, 36)']]
+
+Sam and Alex wanted to buy a dog . Sam wanted a big dog , but Alex wanted a small one . When they arrived at the dog pound , only small dogs were left . They was sad , but they noticed that Alex had already chosen a dog .
+pronoun: ['They(36, 36)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam(0, 0)', 'Sam(9, 9)']['Alex(2, 2)', 'Alex(16, 16)', 'Alex(44, 44)']['Sam and Alex(0, 2)', 'they(23, 23)', 'They(36, 36)', 'they(41, 41)']['a dog(6, 7)', 'the dog(26, 27)', 'the dog pound(26, 28)']]
+
+Sam and Alex wanted to buy a dog . Sam wanted a big dog , but they wanted a small one . When they arrived at the dog pound , only small dogs were left . Sam was sad , but they noticed that Alex had already chosen a dog .
+pronoun: ['they(16, 16)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam(0, 0)', 'Sam(9, 9)', 'Sam(36, 36)']['Sam and Alex(0, 2)', 'they(16, 16)', 'they(23, 23)', 'they(41, 41)']['a dog(6, 7)', 'the dog(26, 27)', 'the dog pound(26, 28)']['Alex(2, 2)', 'Alex(44, 44)']]
+
+Sam and Alex wanted to buy a dog . Sam wanted a big dog , but Alex wanted a small one . When they arrived at the dog pound , only small dogs were left . Sam was sad , but they noticed that they had already chosen a dog .
+pronoun: ['they(44, 44)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam(0, 0)', 'Sam(9, 9)', 'Sam(36, 36)']['Alex(2, 2)', 'Alex(16, 16)']['Sam and Alex(0, 2)', 'they(23, 23)', 'they(41, 41)', 'they(44, 44)']['a dog(6, 7)', 'the dog(26, 27)', 'the dog pound(26, 28)']]
+
+Alex decided to fix their truck in their friend Sam 's big garage . While there , they accidentally broke one of their expensive power tools . Sam was forgiving , but Alex still has to replace the tool . They bought Sam dinner at a restaurant because they felt so guilty .
+pronoun: ['their(22, 22)'], A: ['Sam(9, 9)'], B: ['Alex(0, 0)']
+clusters: [['their(4, 4)', 'their(7, 7)', 'they(17, 17)', 'their(22, 22)', 'They(40, 40)', 'they(48, 48)']["their friend Sam 's(7, 10)", 'Sam(27, 27)', 'Sam(42, 42)']['Alex(0, 0)', 'Alex(32, 32)']['one of their expensive power tools(20, 25)', 'the tool(37, 38)']]
+
+Alex decided to fix their truck in their friend Sam 's big garage . While there , they accidentally broke one of Sam 's expensive power tools . They was forgiving , but Alex still has to replace the tool . They bought Sam dinner at a restaurant because they felt so guilty .
+pronoun: ['They(28, 28)'], A: ['Sam(9, 9)'], B: ['Alex(0, 0)']
+clusters: [['their(4, 4)', 'their(7, 7)', 'they(17, 17)', 'They(28, 28)', 'They(41, 41)', 'they(49, 49)']['Alex(0, 0)', 'Alex(33, 33)']["one of Sam 's expensive power tools(20, 26)", 'the tool(38, 39)']["Sam 's(22, 23)", 'Sam(43, 43)']]
+
+Alex decided to fix their truck in their friend Sam 's big garage . While there , they accidentally broke one of Sam 's expensive power tools . Sam was forgiving , but Alex still has to replace the tool . They bought they dinner at a restaurant because they felt so guilty .
+pronoun: ['they(43, 43)'], A: ['Sam(9, 9)'], B: ['Alex(0, 0)']
+clusters: [['their(4, 4)', 'their(7, 7)', 'they(17, 17)', 'They(41, 41)', 'they(43, 43)', 'they(49, 49)']["Sam 's(22, 23)", 'Sam(28, 28)']['Alex(0, 0)', 'Alex(33, 33)']["one of Sam 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+
+Alex decided to fix their truck in their friend Sam 's big garage . While there , they accidentally broke one of Sam 's expensive power tools . Sam was forgiving , but they still has to replace the tool . They bought Sam dinner at a restaurant because they felt so guilty .
+pronoun: ['they(33, 33)'], A: ['Sam(9, 9)'], B: ['Alex(0, 0)']
+clusters: [['their(4, 4)', 'their(7, 7)', 'they(17, 17)', 'they(33, 33)', 'They(41, 41)', 'they(49, 49)']["Sam 's(22, 23)", 'Sam(28, 28)', 'Sam(43, 43)']["one of Sam 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+
+Alex really wanted to lose weight . They asked them friend Sam to help them with them goal . Every morning Alex and they worked out together . Sam constantly reminded Alex of them goal and helped motivate them .
+pronoun: ['they(23, 23)'], A: ['Sam(11, 11)'], B: ['Alex(0, 0)']
+clusters: [['They(7, 7)', 'them(9, 9)', 'them(14, 14)', 'them(16, 16)', 'they(23, 23)', 'them(33, 33)', 'them(38, 38)']['Alex(0, 0)', 'Alex(21, 21)']['Sam(11, 11)', 'Sam(28, 28)']]
+
+Alex really wanted to lose weight . They asked them friend Sam to help them with them goal . Every morning Alex and Sam worked out together . They constantly reminded Alex of them goal and helped motivate them .
+pronoun: ['They(28, 28)'], A: ['Sam(11, 11)'], B: ['Alex(0, 0)']
+clusters: [['They(7, 7)', 'them(9, 9)', 'them(14, 14)', 'them(16, 16)']['Alex(0, 0)', 'Alex(21, 21)']['Sam(11, 11)', 'Sam(23, 23)']['Alex and Sam(21, 23)', 'They(28, 28)', 'them(33, 33)', 'them(38, 38)']]
+
+Alex really wanted to lose weight . They asked them friend Sam to help them with them goal . Every morning they and Sam worked out together . Sam constantly reminded Alex of them goal and helped motivate them .
+pronoun: ['they(21, 21)'], A: ['Sam(11, 11)'], B: ['Alex(0, 0)']
+clusters: [['They(7, 7)', 'them(9, 9)', 'them(14, 14)', 'them(16, 16)', 'they(21, 21)', 'them(33, 33)', 'them(38, 38)']['Sam(11, 11)', 'Sam(23, 23)', 'Sam(28, 28)']]
+
+Alex really wanted to lose weight . They asked them friend Sam to help them with them goal . Every morning Alex and Sam worked out together . Sam constantly reminded they of them goal and helped motivate them .
+pronoun: ['they(31, 31)'], A: ['Sam(11, 11)'], B: ['Alex(0, 0)']
+clusters: [['They(7, 7)', 'them(9, 9)', 'them(14, 14)', 'them(16, 16)']['Alex(0, 0)', 'Alex(21, 21)']['Sam(11, 11)', 'Sam(23, 23)', 'Sam(28, 28)']['Alex and Sam(21, 23)', 'they(31, 31)', 'them(33, 33)', 'them(38, 38)']]
+
+Alex was visiting them friend Sam 's house . After playing for an hour they were bored . Sam did n't have any ideas of things they could do . Alex thought it would be fun to pick apples tree in their yard .
+pronoun: ['their(41, 41)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['them(3, 3)', 'they(14, 14)', 'they(26, 26)', 'their(41, 41)']["Sam 's(5, 6)", 'Sam(18, 18)']['Alex(0, 0)', 'Alex(30, 30)']]
+
+Sam was planning to propose to Alex . They had already bought a diamond engagement ring . Eager to propose , they showed them the ring . Surprisingly , they opposed blood diamonds .
+pronoun: ['they(29, 29)'], A: ['Sam(0, 0)'], B: ['Alex(6, 6)']
+clusters: [['They(8, 8)', 'they(21, 21)', 'them(23, 23)', 'they(29, 29)']['a diamond engagement ring(12, 15)', 'the ring(24, 25)']]
+
+Ashlynn Loved Facebook . They had many different friends they chatted with daily . Them friend , Alex , made a negative comment about Donald Trump . Sam and they got into a flame war .
+pronoun: ['they(29, 29)'], A: ['Sam(27, 27)'], B: ['Alex(17, 17)']
+clusters: [['They(4, 4)', 'they(9, 9)', 'they(29, 29)']]
+
+Sam sent out a mass invitation to them family and friends . The invitation to Alex 's birthday party immediately got some responses . They opened the first response . They was happy to read the acceptance to the invitation .
+pronoun: ['They(24, 24)'], A: ['Sam(0, 0)'], B: ['Alex(15, 15)']
+clusters: [['some responses(21, 22)', 'They(24, 24)', 'They(30, 30)']['a mass invitation(3, 5)', 'the invitation(38, 39)']]
+
+Sam had a child named Alex . They was too busy to take care of their child . They sent Alex to a boarding school . Alex did not like the boarding school .
+pronoun: ['They(7, 7)'], A: ['Sam(0, 0)'], B: ['Alex(5, 5)']
+clusters: [['They(7, 7)', 'their(15, 15)', 'They(18, 18)']['a child named Alex(2, 5)', 'Alex(20, 20)', 'Alex(26, 26)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+
+Sam had a child named Alex . Sam was too busy to take care of their child . They sent they to a boarding school . Alex did not like the boarding school .
+pronoun: ['they(20, 20)'], A: ['Sam(0, 0)'], B: ['Alex(5, 5)']
+clusters: [['Sam(0, 0)', 'Sam(7, 7)']['their(15, 15)', 'They(18, 18)', 'they(20, 20)']['a child named Alex(2, 5)', 'Alex(26, 26)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+
+Sam had a child named Alex . Sam was too busy to take care of their child . They sent Alex to a boarding school . They did not like the boarding school .
+pronoun: ['They(26, 26)'], A: ['Sam(0, 0)'], B: ['Alex(5, 5)']
+clusters: [['Sam(0, 0)', 'Sam(7, 7)']['their(15, 15)', 'They(18, 18)', 'They(26, 26)']['a child named Alex(2, 5)', 'Alex(20, 20)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+
+Sam was crushed that everyone but them was invited to Alex 's party . The day before the party Alex asked them why they had n't RSVP'd . They realized that they was supposed to be invited . They told Alex they had n't gotten an invitation but they could go .
+pronoun: ['They(28, 28)'], A: ['Sam(0, 0)'], B: ['Alex(10, 10)']
+clusters: [['everyone(4, 4)', 'them(6, 6)', 'them(21, 21)', 'they(23, 23)', 'They(28, 28)', 'they(31, 31)', 'They(38, 38)', 'they(41, 41)', 'they(48, 48)']["Alex 's party(10, 12)", 'the party Alex(17, 19)']["Alex 's(10, 11)", 'Alex(40, 40)']]
+
+Sam was crushed that everyone but them was invited to Alex 's party . The day before the party they asked them why they had n't RSVP'd . Sam realized that they was supposed to be invited . They told Alex they had n't gotten an invitation but they could go .
+pronoun: ['they(19, 19)'], A: ['Sam(0, 0)'], B: ['Alex(10, 10)']
+clusters: [['everyone(4, 4)', 'them(6, 6)', 'they(19, 19)', 'them(21, 21)', 'they(23, 23)', 'they(31, 31)', 'They(38, 38)', 'they(41, 41)', 'they(48, 48)']['Sam(0, 0)', 'Sam(28, 28)']["Alex 's(10, 11)", 'Alex(40, 40)']]
+
+Sam was crushed that everyone but them was invited to Alex 's party . The day before the party Alex asked them why they had n't RSVP'd . Sam realized that they was supposed to be invited . They told they they had n't gotten an invitation but they could go .
+pronoun: ['they(40, 40)'], A: ['Sam(0, 0)'], B: ['Alex(10, 10)']
+clusters: [['everyone(4, 4)', 'them(6, 6)', 'them(21, 21)', 'they(23, 23)', 'they(31, 31)', 'They(38, 38)', 'they(40, 40)', 'they(41, 41)', 'they(48, 48)']["Alex 's party(10, 12)", 'the party Alex(17, 19)']['Sam(0, 0)', 'Sam(28, 28)']]
+
+Sam and Alex were married to each other . They was having an affair behind Alex 's back . One day , Sam was in their bedroom with their mistress . Alex came home and saw them together .
+pronoun: ['They(9, 9)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(9, 9)', 'their(25, 25)', 'their(28, 28)', 'them(36, 36)']['Alex(2, 2)', "Alex 's(15, 16)", 'Alex(31, 31)']['Sam(0, 0)', 'Sam(22, 22)']]
+
+Sam and Alex were married to each other . Sam was having an affair behind Alex 's back . One day , they was in their bedroom with their mistress . Alex came home and saw them together .
+pronoun: ['they(22, 22)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam(0, 0)', 'Sam(9, 9)']['Alex(2, 2)', "Alex 's(15, 16)", 'Alex(31, 31)']['Sam and Alex(0, 2)', 'they(22, 22)', 'their(25, 25)', 'their(28, 28)', 'them(36, 36)']]
+
+Sam and Alex were married to each other . Sam was having an affair behind their back . One day , Sam was in their bedroom with their mistress . Alex came home and saw them together .
+pronoun: ['their(15, 15)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam(0, 0)', 'Sam(9, 9)', 'Sam(21, 21)']['Sam and Alex(0, 2)', 'their(15, 15)', 'their(24, 24)', 'their(27, 27)', 'them(35, 35)']['Alex(2, 2)', 'Alex(30, 30)']]
+
+Sam and Alex were married to each other . Sam was having an affair behind Alex 's back . One day , Sam was in their bedroom with their mistress . They came home and saw them together .
+pronoun: ['They(31, 31)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam(0, 0)', 'Sam(9, 9)', 'Sam(22, 22)']['Alex(2, 2)', "Alex 's(15, 16)"]['Sam and Alex(0, 2)', 'their(25, 25)', 'their(28, 28)', 'They(31, 31)', 'them(36, 36)']]
+
+Alex met a kid named Sam . They swept Alex off of them feet . Several months later , Sam was arrested was selling drugs . Alex spent all of them money bailing them out of jail .
+pronoun: ['They(7, 7)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(9, 9)', 'Alex(26, 26)']['They(7, 7)', 'them(12, 12)', 'them(30, 30)', 'them(33, 33)']['a kid named Sam(2, 5)', 'Sam(19, 19)']]
+
+Alex met a kid named Sam . Sam swept Alex off of them feet . Several months later , they was arrested was selling drugs . Alex spent all of them money bailing them out of jail .
+pronoun: ['they(19, 19)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['a kid named Sam(2, 5)', 'Sam(7, 7)']['Alex(0, 0)', 'Alex(9, 9)', 'Alex(26, 26)']['them(12, 12)', 'they(19, 19)', 'them(30, 30)']['all of them(28, 30)', 'them(33, 33)']]
+
+Alex met a kid named Sam . Sam swept they off of them feet . Several months later , Sam was arrested was selling drugs . Alex spent all of them money bailing them out of jail .
+pronoun: ['they(9, 9)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['a kid named Sam(2, 5)', 'Sam(7, 7)', 'Sam(19, 19)']['they(9, 9)', 'them(12, 12)', 'them(30, 30)']['Alex(0, 0)', 'Alex(26, 26)']['all of them(28, 30)', 'them(33, 33)']]
+
+Alex met a kid named Sam . Sam swept Alex off of them feet . Several months later , Sam was arrested was selling drugs . They spent all of them money bailing them out of jail .
+pronoun: ['They(26, 26)'], A: ['Sam(5, 5)'], B: ['Alex(0, 0)']
+clusters: [['a kid named Sam(2, 5)', 'Sam(7, 7)', 'Sam(19, 19)']['Alex(0, 0)', 'Alex(9, 9)']['them(12, 12)', 'They(26, 26)', 'them(30, 30)']['all of them(28, 30)', 'them(33, 33)']]
+
+Sam and Alex were married only a month ago . They were so happy getting used to the married life . At least they were happy until their mom moved in . They treated Sam and Alex both like children .
+pronoun: ['their(27, 27)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(10, 10)', 'they(23, 23)', 'their(27, 27)', 'They(32, 32)', 'Sam and Alex(34, 36)']['Sam(0, 0)', 'Sam(34, 34)']['Alex(2, 2)', 'Alex(36, 36)']]
+
+Sam and Alex were married only a month ago . They were so happy getting used to the married life . At least they were happy until Sam 's mom moved in . They treated they and Alex both like children .
+pronoun: ['they(35, 35)'], A: ['Sam(0, 0)'], B: ['Alex(2, 2)']
+clusters: [['Sam and Alex(0, 2)', 'They(10, 10)', 'they(23, 23)', 'They(33, 33)', 'they(35, 35)']['Sam(0, 0)', "Sam 's(27, 28)"]['Alex(2, 2)', 'Alex(37, 37)']]
+
+Sam loves to play football with their friends . They decided to try out for their high school football team . During tryouts , Sam ran faster than everyone on the team ! Alex was impressed with their speed and made them a wide receiver .
+pronoun: ['their(37, 37)'], A: ['Sam(0, 0)'], B: ['Alex(33, 33)']
+clusters: [['their(6, 6)', 'They(9, 9)', 'their(15, 15)', 'their(37, 37)', 'them(41, 41)']['Sam(0, 0)', 'Sam(24, 24)']['their high school football team(15, 19)', 'the team(30, 31)']]
+
+There was an enormous , unsightly rock in Sam 's garden . They tried unsuccessfully to remove it himself . Begrudgingly , they called to Alex for help . Happy to oblige , they went over to help them .
+pronoun: ['they(33, 33)'], A: ['Sam(8, 8)'], B: ['Alex(25, 25)']
+clusters: [["an enormous , unsightly rock in Sam 's garden(2, 10)", 'it(17, 17)']['They(12, 12)', 'they(22, 22)', 'they(33, 33)', 'them(38, 38)']]
+
+Alex went on a blind date with Sam . They was the full package . Alex went back to their place . When they arrived they realized it was too good to be true .
+pronoun: ['They(9, 9)'], A: ['Sam(7, 7)'], B: ['Alex(0, 0)']
+clusters: [['Alex(0, 0)', 'Alex(15, 15)']['They(9, 9)', 'their(19, 19)', 'they(23, 23)', 'they(25, 25)']]
+
+Alex went on a blind date with Sam . Sam was the full package . They went back to their place . When they arrived they realized it was too good to be true .
+pronoun: ['They(15, 15)'], A: ['Sam(7, 7)'], B: ['Alex(0, 0)']
+clusters: [['Sam(7, 7)', 'Sam(9, 9)']['They(15, 15)', 'their(19, 19)', 'they(23, 23)', 'they(25, 25)']]
+
+Sam always hated spiders . Sam 's roommate Alex knew about this fear . Alex sprinkled their entire bed with little plastic spiders . Sam screamed out in terror when they saw their bed .
+pronoun: ['their(16, 16)'], A: ['Sam(0, 0)'], B: ['Alex(8, 8)']
+clusters: [['Sam(0, 0)', "Sam 's(5, 6)", 'Sam(24, 24)']["Sam 's roommate Alex(5, 8)", 'Alex(14, 14)']['their(16, 16)', 'they(30, 30)', 'their(32, 32)']]
+
+Sam always hated spiders . Sam 's roommate Alex knew about this fear . Alex sprinkled Sam 's entire bed with little plastic spiders . They screamed out in terror when they saw their bed .
+pronoun: ['They(25, 25)'], A: ['Sam(0, 0)'], B: ['Alex(8, 8)']
+clusters: [['Sam(0, 0)', "Sam 's(5, 6)", "Sam 's(16, 17)"]["Sam 's roommate Alex(5, 8)", 'Alex(14, 14)']['little plastic spiders(21, 23)', 'They(25, 25)', 'they(31, 31)', 'their(33, 33)']]
+
+Sam always hated spiders . Sam 's roommate Alex knew about this fear . They sprinkled Sam 's entire bed with little plastic spiders . Sam screamed out in terror when they saw their bed .
+pronoun: ['They(14, 14)'], A: ['Sam(0, 0)'], B: ['Alex(8, 8)']
+clusters: [['Sam(0, 0)', "Sam 's(5, 6)", "Sam 's(16, 17)", 'Sam(25, 25)']['They(14, 14)', 'they(31, 31)', 'their(33, 33)']["Sam 's entire bed(16, 19)", 'their bed(33, 34)']]
+
+
+
+
+
+didn't find prnoun
+1
+correct answer
+11
+incorrect answer
+12
+thought both were the same
+0
+neither a nor b selected
+193
+
+overall confidence: -1.740667289978749, 7.125808770355671
+overall confidence for correct answer   : -1.740667289978749, 7.948222382638089
+overall confiidence for incorrrect answer:-0.20233074824015299, 5.979817980508117
+correct confidence: 2.6428764137354763, 2.792755732707027
+correct other confidence: -7.546423037846883, 2.946294210623795
+incorrect confiden: 3.469715396563212, 2.680999143094592
+incorrect other confidence: -11.22929710149765, 4.896841282857067
+A count: 4, B count: 19

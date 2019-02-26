@@ -1,0 +1,2035 @@
+had 0 exceptions raised
+
+didn't find prnoun
+Eric and PRP$ wife had a daughter named Meg . NNP wife passed away . Eric and Meg were very sad . Eric met a woman and married PRP$ 5 years after PRP$ wife died .
+pronoun: ['5(29, 29)'], A: ['Meg(8, 8)'], B: ['Eric(0, 0)']
+clusters: [['PRP$(2, 2)', 'NNP(10, 10)', 'Meg(17, 17)', 'PRP$(28, 28)', 'PRP$(32, 32)']['PRP$ wife(2, 3)', 'NNP wife(10, 11)', 'PRP$ wife(32, 33)']['Eric(0, 0)', 'Eric(22, 22)']]
+
+Eric and PRP$ wife had a daughter named Meg . NNP wife passed away . Eric and Meg were very sad . Eric met a woman and married PRP$ 5 years after PRP$ wife died .
+pronoun: ['wife(33, 33)'], A: ['Meg(8, 8)'], B: ['Eric(0, 0)']
+clusters: [['PRP$(2, 2)', 'NNP(10, 10)', 'Meg(17, 17)', 'PRP$(28, 28)', 'PRP$(32, 32)']['PRP$ wife(2, 3)', 'NNP wife(10, 11)', 'PRP$ wife(32, 33)']['Eric(0, 0)', 'Eric(22, 22)']]
+
+Stacy originally thought PRP wanted five kids . PRP and Bob first were blessed with a daughter . Two years later , they had twin girls . Now , NNP is selling all PRP$ maternity and baby clothes .
+pronoun: ['PRP$(33, 33)'], A: ['Stacy(0, 0)'], B: ['Bob(10, 10)']
+clusters: [['PRP(3, 3)', 'PRP(8, 8)', 'NNP(29, 29)']['PRP and Bob(8, 10)', 'they(22, 22)']]
+
+Leah and Kerry went to the beach in December . Kerry put on PRP$ bathing suit and waded into the ocean ! The water was so cold that NNP lips turned turned blue . Leah pulled PRP from the icy water , saving Kerry from frostbite .
+pronoun: ['from(37, 37)'], A: ['Kerry(2, 2)'], B: ['Leah(0, 0)']
+clusters: [['Kerry(2, 2)', 'Kerry(10, 10)', 'Kerry(43, 43)']['Leah(0, 0)', 'PRP$(13, 13)', 'NNP(28, 28)', 'Leah(34, 34)', 'PRP(36, 36)', 'frostbite(45, 45)']]
+
+Bea yelled out that the computer was broken again . Mike walked into their shared office and looked at PRP , exasperated . NNP rolled PRP$ eyes . PRP approached Bea and the computer , sighing a long suffering sigh .
+pronoun: ['PRP(19, 19)'], A: ['Mike(10, 10)'], B: ['Bea(0, 0)']
+clusters: [['Mike(10, 10)', 'their(13, 13)']['PRP , exasperated(19, 21)', 'NNP(23, 23)', 'PRP$(25, 25)', 'PRP(28, 28)']['Bea(0, 0)', 'Bea(30, 30)']['the computer(4, 5)', 'the computer(32, 33)']]
+
+Bea yelled out that the computer was broken again . Mike walked into their shared office and looked at PRP , exasperated . Mike rolled PRP$ eyes . PRP approached NNP and the computer , sighing a long suffering sigh .
+pronoun: ['PRP(19, 19)'], A: ['Mike(10, 10)'], B: ['Bea(0, 0)']
+clusters: [['Mike(10, 10)', 'their(13, 13)', 'Mike(23, 23)']['PRP$(25, 25)', 'PRP(28, 28)', 'NNP(30, 30)']['the computer(4, 5)', 'the computer(32, 33)']]
+
+David has to buy PRP$ wife Sarah a gift for their anniversary . NNP went out all day on Friday to find a gift . PRP searched all over , but PRP could n't find the perfect gift . Eventually PRP decided to cook PRP$ dinner instead .
+pronoun: ['PRP(40, 40)'], A: ['David(0, 0)'], B: ['Sarah(6, 6)']
+clusters: [['PRP$(4, 4)', 'NNP(13, 13)', 'PRP(25, 25)', 'PRP(31, 31)', 'PRP$(44, 44)']['a gift(22, 23)', 'the perfect gift(35, 37)']]
+
+In 2014 , Marcy adopted a poodle . PRP named PRP$ Cookie , because PRP resembled an oatmeal cookie . Cookie learned to protect NNP two daughters from harm . PRP went for walks with them every evening , and was allowed to swim .
+pronoun: ['went(31, 31)'], A: ['Marcy(3, 3)'], B: ['Cookie(20, 20)']
+clusters: [['PRP(8, 8)', 'PRP(14, 14)', 'Cookie(20, 20)', 'NNP(24, 24)', 'PRP(30, 30)']['NNP two daughters(24, 26)', 'them(35, 35)']]
+
+John and Jane went out to dinner . They sat at the table and placed their order . The waiter brought them their food . NNP accidentally knocked over PRP$ plate !
+pronoun: ['PRP$(29, 29)'], A: ['John(0, 0)'], B: ['Jane(2, 2)']
+clusters: [['John and Jane(0, 2)', 'They(8, 8)', 'their(15, 15)', 'them(21, 21)', 'their(22, 22)']['The waiter(18, 19)', 'NNP(25, 25)']]
+
+Jude thought PRP was a great guitar player . PRP took lessons from PRP$ friend Ryan . Ryan told PRP PRP needed to practice much more to be great . NNP was determined to practice every spare second PRP had .
+pronoun: ['PRP(19, 19)'], A: ['Jude(0, 0)'], B: ['Ryan(15, 15)']
+clusters: [['PRP(2, 2)', 'PRP(9, 9)', 'PRP$(13, 13)', 'NNP(30, 30)', 'PRP(38, 38)']['Ryan(15, 15)', 'Ryan(17, 17)']['PRP$ friend Ryan(13, 15)', 'PRP PRP(19, 20)']]
+
+Jude thought PRP was a great guitar player . PRP took lessons from PRP$ friend Ryan . Ryan told PRP PRP needed to practice much more to be great . NNP was determined to practice every spare second PRP had .
+pronoun: ['PRP(20, 20)'], A: ['Jude(0, 0)'], B: ['Ryan(15, 15)']
+clusters: [['PRP(2, 2)', 'PRP(9, 9)', 'PRP$(13, 13)', 'NNP(30, 30)', 'PRP(38, 38)']['Ryan(15, 15)', 'Ryan(17, 17)']['PRP$ friend Ryan(13, 15)', 'PRP PRP(19, 20)']]
+
+Jude thought PRP was a great guitar player . PRP took lessons from PRP$ friend Ryan . NNP told PRP PRP needed to practice much more to be great . Jude was determined to practice every spare second PRP had .
+pronoun: ['PRP(19, 19)'], A: ['Jude(0, 0)'], B: ['Ryan(15, 15)']
+clusters: [['PRP(2, 2)', 'PRP(9, 9)', 'PRP$(13, 13)', 'NNP(17, 17)', 'PRP(38, 38)']['PRP$ friend Ryan(13, 15)', 'PRP PRP(19, 20)']['Jude(0, 0)', 'Jude(30, 30)']]
+
+Jude thought PRP was a great guitar player . PRP took lessons from PRP$ friend Ryan . NNP told PRP PRP needed to practice much more to be great . Jude was determined to practice every spare second PRP had .
+pronoun: ['PRP(20, 20)'], A: ['Jude(0, 0)'], B: ['Ryan(15, 15)']
+clusters: [['PRP(2, 2)', 'PRP(9, 9)', 'PRP$(13, 13)', 'NNP(17, 17)', 'PRP(38, 38)']['PRP$ friend Ryan(13, 15)', 'PRP PRP(19, 20)']['Jude(0, 0)', 'Jude(30, 30)']]
+
+Justin and Melanie were moving in together . NNP adored cats and asked when they could adopt one . Justin informed PRP PRP was badly allergic to cat fur . Melanie was heartbroken and really wanted a feline companion .
+pronoun: ['PRP(21, 21)'], A: ['Melanie(2, 2)'], B: ['Justin(0, 0)']
+clusters: [['Justin and Melanie(0, 2)', 'they(14, 14)']['Justin(0, 0)', 'Justin(19, 19)']['NNP(8, 8)', 'PRP PRP(21, 22)']['Melanie(2, 2)', 'Melanie(30, 30)']]
+
+Justin and Melanie were moving in together . NNP adored cats and asked when they could adopt one . Justin informed PRP PRP was badly allergic to cat fur . Melanie was heartbroken and really wanted a feline companion .
+pronoun: ['PRP(22, 22)'], A: ['Melanie(2, 2)'], B: ['Justin(0, 0)']
+clusters: [['Justin and Melanie(0, 2)', 'they(14, 14)']['Justin(0, 0)', 'Justin(19, 19)']['NNP(8, 8)', 'PRP PRP(21, 22)']['Melanie(2, 2)', 'Melanie(30, 30)']]
+
+Justin and Melanie were moving in together . Melanie adored cats and asked when they could adopt one . Justin informed PRP PRP was badly allergic to cat fur . NNP was heartbroken and really wanted a feline companion .
+pronoun: ['PRP(21, 21)'], A: ['Melanie(2, 2)'], B: ['Justin(0, 0)']
+clusters: [['Melanie(2, 2)', 'Melanie(8, 8)']['Justin and Melanie(0, 2)', 'they(14, 14)']['Justin(0, 0)', 'Justin(19, 19)']['PRP PRP(21, 22)', 'NNP(30, 30)']]
+
+Justin and Melanie were moving in together . Melanie adored cats and asked when they could adopt one . Justin informed PRP PRP was badly allergic to cat fur . NNP was heartbroken and really wanted a feline companion .
+pronoun: ['PRP(22, 22)'], A: ['Melanie(2, 2)'], B: ['Justin(0, 0)']
+clusters: [['Melanie(2, 2)', 'Melanie(8, 8)']['Justin and Melanie(0, 2)', 'they(14, 14)']['Justin(0, 0)', 'Justin(19, 19)']['PRP PRP(21, 22)', 'NNP(30, 30)']]
+
+Justin and Melanie were moving in together . Melanie adored cats and asked when they could adopt one . NNP informed PRP PRP was badly allergic to cat fur . Melanie was heartbroken and really wanted a feline companion .
+pronoun: ['PRP(21, 21)'], A: ['Melanie(2, 2)'], B: ['Justin(0, 0)']
+clusters: [['Melanie(2, 2)', 'Melanie(8, 8)', 'Melanie(30, 30)']['Justin and Melanie(0, 2)', 'they(14, 14)']['adored(9, 9)', 'NNP(19, 19)']]
+
+Justin and Melanie were moving in together . Melanie adored cats and asked when they could adopt one . NNP informed PRP PRP was badly allergic to cat fur . Melanie was heartbroken and really wanted a feline companion .
+pronoun: ['PRP(22, 22)'], A: ['Melanie(2, 2)'], B: ['Justin(0, 0)']
+clusters: [['Melanie(2, 2)', 'Melanie(8, 8)', 'Melanie(30, 30)']['Justin and Melanie(0, 2)', 'they(14, 14)']['adored(9, 9)', 'NNP(19, 19)']]
+
+Jenna and Frank had been married a few years . They would have terrible fights . NNP friends all told PRP to dump PRP . One night , PRP decided they were right .
+pronoun: ['to(21, 21)'], A: ['Jenna(0, 0)'], B: ['Frank(2, 2)']
+clusters: [['Jenna and Frank(0, 2)', 'They(10, 10)', 'they(30, 30)']['Jenna(0, 0)', 'NNP(16, 16)', 'PRP(20, 20)', 'PRP(23, 23)', 'PRP(28, 28)']]
+
+Jenna and Frank had been married a few years . They would have terrible fights . NNP friends all told PRP to dump PRP . One night , PRP decided they were right .
+pronoun: ['.(24, 24)'], A: ['Jenna(0, 0)'], B: ['Frank(2, 2)']
+clusters: [['Jenna and Frank(0, 2)', 'They(10, 10)', 'they(30, 30)']['Jenna(0, 0)', 'NNP(16, 16)', 'PRP(20, 20)', 'PRP(23, 23)', 'PRP(28, 28)']]
+
+Jenna and Frank had been married a few years . They would have terrible fights . NNP friends all told PRP to dump PRP . One night , PRP decided they were right .
+pronoun: ['decided(29, 29)'], A: ['Jenna(0, 0)'], B: ['Frank(2, 2)']
+clusters: [['Jenna and Frank(0, 2)', 'They(10, 10)', 'they(30, 30)']['Jenna(0, 0)', 'NNP(16, 16)', 'PRP(20, 20)', 'PRP(23, 23)', 'PRP(28, 28)']]
+
+Tim and Lucy have been dating for six months . One day , NNP took PRP to the park . PRP led PRP on a walk around the lake . As they got to the gazebo , PRP got down on one knee .
+pronoun: ['PRP(15, 15)'], A: ['Lucy(2, 2)'], B: ['Tim(0, 0)']
+clusters: [['NNP(13, 13)', 'PRP(20, 20)', 'PRP(22, 22)', 'the gazebo(34, 35)', 'PRP(37, 37)']['Tim and Lucy(0, 2)', 'they(31, 31)']]
+
+Timmy had just moved to a new house . The neighbors came over with their son , Jimmy . They had bought pie and Timmy showed NNP PRP$ room . Jimmy and Timmy had a lot in common and played in Timmy 's room .
+pronoun: ['PRP$(27, 27)'], A: ['Jimmy(17, 17)'], B: ['Timmy(0, 0)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['Timmy(0, 0)', 'Timmy(24, 24)', 'NNP PRP$(26, 27)', 'Timmy(32, 32)', "Timmy 's(41, 42)"]['their son , Jimmy(14, 17)', 'Jimmy(30, 30)']['pie and Timmy(22, 24)', 'Jimmy and Timmy(30, 32)']]
+
+Timmy had just moved to a new house . The neighbors came over with their son , Jimmy . They had bought pie and Timmy showed Jimmy PRP$ room . NNP and Timmy had a lot in common and played in Timmy 's room .
+pronoun: ['PRP$(27, 27)'], A: ['Jimmy(17, 17)'], B: ['Timmy(0, 0)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['Timmy(0, 0)', 'Timmy(24, 24)', 'NNP(30, 30)', 'Timmy(32, 32)', "Timmy 's(41, 42)"]['pie and Timmy(22, 24)', 'NNP and Timmy(30, 32)']]
+
+Timmy had just moved to a new house . The neighbors came over with their son , Jimmy . They had bought pie and NNP showed Jimmy PRP$ room . Jimmy and Timmy had a lot in common and played in Timmy 's room .
+pronoun: ['PRP$(27, 27)'], A: ['Jimmy(17, 17)'], B: ['Timmy(0, 0)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['Timmy(0, 0)', 'NNP(24, 24)', 'Timmy(32, 32)', "Timmy 's(41, 42)"]['their son , Jimmy(14, 17)', 'Jimmy(30, 30)']['pie and NNP(22, 24)', 'Jimmy and Timmy(30, 32)']]
+
+Timmy had just moved to a new house . The neighbors came over with their son , Jimmy . They had bought pie and Timmy showed Jimmy PRP$ room . Jimmy and NNP had a lot in common and played in Timmy 's room .
+pronoun: ['PRP$(27, 27)'], A: ['Jimmy(17, 17)'], B: ['Timmy(0, 0)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['Timmy(0, 0)', 'Timmy(24, 24)', 'NNP(32, 32)', "Timmy 's(41, 42)"]['their son , Jimmy(14, 17)', 'Jimmy(30, 30)']['pie and Timmy(22, 24)', 'Jimmy and NNP(30, 32)']]
+
+Timmy had just moved to a new house . The neighbors came over with their son , Jimmy . They had bought pie and Timmy showed Jimmy PRP$ room . Jimmy and Timmy had a lot in common and played in NNP room .
+pronoun: ['PRP$(27, 27)'], A: ['Jimmy(17, 17)'], B: ['Timmy(0, 0)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['Timmy(0, 0)', 'Timmy(24, 24)', 'Timmy(32, 32)', 'NNP(41, 41)']['their son , Jimmy(14, 17)', 'Jimmy(30, 30)']['pie and Timmy(22, 24)', 'Jimmy and Timmy(30, 32)']]
+
+Max was excited to have PRP$ friend Mason sleepover on Friday . NNP mom dropped PRP off at Max 's house just before dinner . Max 's mom Mason and they had fun roasting hot dogs and playing . After dinner , the boys got in their sleeping bags and watched a movie .
+pronoun: ['off(16, 16)'], A: ['Mason(7, 7)'], B: ['Max(0, 0)']
+clusters: [['PRP$(5, 5)', 'NNP(12, 12)', 'PRP(15, 15)']['PRP$ friend Mason(5, 7)', 'NNP mom(12, 13)']['Max(0, 0)', "Max 's(18, 19)", "Max 's(25, 26)"]["Max 's mom Mason(25, 28)", 'they(30, 30)', 'the boys(42, 43)', 'their(46, 46)']]
+
+Max was excited to have PRP$ friend Mason sleepover on Friday . Mason 's mom dropped PRP off at Max 's house just before dinner . Max 's mom NNP and they had fun roasting hot dogs and playing . After dinner , the boys got in their sleeping bags and watched a movie .
+pronoun: ['PRP(16, 16)'], A: ['Mason(7, 7)'], B: ['Max(0, 0)']
+clusters: [['PRP$ friend Mason(5, 7)', "Mason 's(12, 13)"]['Max(0, 0)', "Max 's(19, 20)", "Max 's(26, 27)"]["Max 's mom NNP(26, 29)", 'they(31, 31)', 'the boys(43, 44)', 'their(47, 47)']]
+
+Max was excited to have PRP$ friend Mason sleepover on Friday . Mason 's mom dropped PRP off at Max 's house just before dinner . NNP mom Mason and they had fun roasting hot dogs and playing . After dinner , the boys got in their sleeping bags and watched a movie .
+pronoun: ['PRP(16, 16)'], A: ['Mason(7, 7)'], B: ['Max(0, 0)']
+clusters: [['PRP$ friend Mason(5, 7)', "Mason 's(12, 13)"]['Max(0, 0)', "Max 's(19, 20)"]['PRP$(5, 5)', 'NNP(26, 26)']["Mason 's mom(12, 14)", 'they(30, 30)', 'the boys(42, 43)', 'their(46, 46)']]
+
+Gertrude hated sharing PRP$ toys with PRP$ brother Billy . PRP would always ruin PRP$ toys . Billy tried to play with NNP toy car , but PRP snatched it away . Billy began crying , and their mother rushed to check on them .
+pronoun: ['PRP$(14, 14)'], A: ['Gertrude(0, 0)'], B: ['Billy(8, 8)']
+clusters: [['Gertrude(0, 0)', 'PRP$(6, 6)', 'PRP(10, 10)', 'PRP(27, 27)']['PRP$ brother Billy(6, 8)', 'Billy(17, 17)', 'their(37, 37)', 'them(43, 43)']['NNP toy car(22, 24)', 'it(29, 29)']]
+
+Gertrude hated sharing PRP$ toys with PRP$ brother Billy . PRP would always ruin PRP$ toys . Billy tried to play with NNP toy car , but PRP snatched it away . Billy began crying , and their mother rushed to check on them .
+pronoun: ['snatched(28, 28)'], A: ['Gertrude(0, 0)'], B: ['Billy(8, 8)']
+clusters: [['Gertrude(0, 0)', 'PRP$(6, 6)', 'PRP(10, 10)', 'PRP(27, 27)']['PRP$ brother Billy(6, 8)', 'Billy(17, 17)', 'their(37, 37)', 'them(43, 43)']['NNP toy car(22, 24)', 'it(29, 29)']]
+
+Gertrude hated sharing PRP$ toys with PRP$ brother Billy . PRP would always ruin PRP$ toys . NNP tried to play with Gertrude 's toy car , but PRP snatched it away . Billy began crying , and their mother rushed to check on them .
+pronoun: ['PRP$(14, 14)'], A: ['Gertrude(0, 0)'], B: ['Billy(8, 8)']
+clusters: [['Gertrude(0, 0)', 'PRP$(6, 6)', 'PRP(10, 10)', 'NNP(17, 17)', "Gertrude 's(22, 23)", 'PRP(28, 28)', 'their(38, 38)', 'them(44, 44)']["Gertrude 's toy car(22, 25)", 'it(30, 30)']]
+
+Gertrude hated sharing PRP$ toys with PRP$ brother Billy . PRP would always ruin PRP$ toys . Billy tried to play with Gertrude 's toy car , but PRP snatched it away . NNP began crying , and their mother rushed to check on them .
+pronoun: ['PRP$(14, 14)'], A: ['Gertrude(0, 0)'], B: ['Billy(8, 8)']
+clusters: [['Gertrude(0, 0)', 'PRP(10, 10)', "Gertrude 's(22, 23)", 'PRP(28, 28)', 'NNP(33, 33)']['PRP$ brother Billy(6, 8)', 'Billy(17, 17)', 'their(38, 38)', 'them(44, 44)']["Gertrude 's toy car(22, 25)", 'it(30, 30)']]
+
+Michelle and Marie were best friends . NNP mom had to take a job across the country . Marie begged PRP$ mom to reconsider , but PRP refused . The two girls were upset , afraid their friendship would end .
+pronoun: ['mom(21, 21)'], A: ['Marie(2, 2)'], B: ['Michelle(0, 0)']
+clusters: [['Marie(2, 2)', 'Marie(18, 18)']['NNP(7, 7)', 'PRP$(20, 20)', 'PRP(26, 26)']['Michelle and Marie(0, 2)', 'The two girls(29, 31)', 'their(36, 36)']]
+
+Michelle and Marie were best friends . NNP mom had to take a job across the country . Marie begged PRP$ mom to reconsider , but PRP refused . The two girls were upset , afraid their friendship would end .
+pronoun: ['refused(27, 27)'], A: ['Marie(2, 2)'], B: ['Michelle(0, 0)']
+clusters: [['Marie(2, 2)', 'Marie(18, 18)']['NNP(7, 7)', 'PRP$(20, 20)', 'PRP(26, 26)']['Michelle and Marie(0, 2)', 'The two girls(29, 31)', 'their(36, 36)']]
+
+Don wanted to surprise PRP$ wife Jen for PRP$ birthday . NNP spent weeks tracking down PRP$ old school friends . PRP was able to talk to many of them . Don arranged to have all Jen 's old friends come over .
+pronoun: ['PRP$(8, 8)'], A: ['Don(0, 0)'], B: ['Jen(6, 6)']
+clusters: [['PRP$ wife Jen(4, 6)', 'NNP(11, 11)', 'PRP$(16, 16)', 'PRP(21, 21)']['PRP$ old school friends(16, 19)', 'them(29, 29)']['Don(0, 0)', 'Don(31, 31)']]
+
+Don wanted to surprise PRP$ wife Jen for PRP$ birthday . Don spent weeks tracking down PRP$ old school friends . PRP was able to talk to many of them . NNP arranged to have all Jen 's old friends come over .
+pronoun: ['PRP$(8, 8)'], A: ['Don(0, 0)'], B: ['Jen(6, 6)']
+clusters: [['Don(0, 0)', 'Don(11, 11)']['PRP$ wife Jen(4, 6)', 'PRP$(16, 16)', 'PRP(21, 21)', 'NNP(31, 31)']['PRP$ old school friends(16, 19)', 'them(29, 29)']]
+
+Don wanted to surprise PRP$ wife Jen for PRP$ birthday . Don spent weeks tracking down PRP$ old school friends . PRP was able to talk to many of them . Don arranged to have all NNP old friends come over .
+pronoun: ['PRP$(8, 8)'], A: ['Don(0, 0)'], B: ['Jen(6, 6)']
+clusters: [['Don(0, 0)', 'Don(11, 11)', 'Don(31, 31)']['PRP$ wife Jen(4, 6)', 'PRP$(16, 16)', 'PRP(21, 21)', 'NNP(36, 36)']['PRP$ old school friends(16, 19)', 'them(29, 29)', 'all NNP old friends(35, 38)']]
+
+Allison heard a meow from outside of PRP$ bedroom window . Outside , PRP finds a kitten stuck in a tree . Allison calls PRP$ neighbor , Tom , to help get the cat . NNP uses PRP$ dad 's ladder to climb up and rescue the kitten .
+pronoun: ['PRP$(37, 37)'], A: ['Tom(27, 27)'], B: ['Allison(0, 0)']
+clusters: [['PRP$ bedroom window(7, 9)', 'PRP(13, 13)', 'NNP(35, 35)']['Allison(0, 0)', 'Allison(22, 22)']['a kitten(15, 16)', 'the cat(32, 33)', 'the kitten(46, 47)']['PRP$ neighbor , Tom(24, 27)', "PRP$ dad 's(37, 39)"]]
+
+Ricky and Fonda have been married for 20 years . Lately , Ricky and NNP have n't been getting along . Ricky tells PRP that it is time for them to separate . PRP moves into PRP$ sister 's house .
+pronoun: ['PRP$(36, 36)'], A: ['Fonda(2, 2)'], B: ['Ricky(0, 0)']
+clusters: [['Ricky(0, 0)', 'Ricky(12, 12)', 'NNP(14, 14)', 'Ricky(21, 21)', 'PRP(23, 23)', 'PRP(33, 33)', "PRP$ sister 's(36, 38)"]['Ricky and Fonda(0, 2)', 'Ricky and NNP(12, 14)', 'them(29, 29)']]
+
+Ricky and Fonda have been married for 20 years . Lately , NNP and Fonda have n't been getting along . Ricky tells PRP that it is time for them to separate . PRP moves into PRP$ sister 's house .
+pronoun: ['PRP$(36, 36)'], A: ['Fonda(2, 2)'], B: ['Ricky(0, 0)']
+clusters: [['Ricky(0, 0)', 'NNP(12, 12)', 'Ricky(21, 21)', 'PRP(23, 23)', 'PRP(33, 33)', "PRP$ sister 's(36, 38)"]['Ricky and Fonda(0, 2)', 'NNP and Fonda(12, 14)', 'them(29, 29)']['Fonda(2, 2)', 'Fonda(14, 14)']]
+
+Ricky and Fonda have been married for 20 years . Lately , Ricky and Fonda have n't been getting along . NNP tells PRP that it is time for them to separate . PRP moves into PRP$ sister 's house .
+pronoun: ['PRP$(36, 36)'], A: ['Fonda(2, 2)'], B: ['Ricky(0, 0)']
+clusters: [['Ricky(0, 0)', 'Ricky(12, 12)', 'NNP(21, 21)', 'PRP(23, 23)', 'PRP(33, 33)', "PRP$ sister 's(36, 38)"]['Ricky and Fonda(0, 2)', 'Ricky and Fonda(12, 14)', 'them(29, 29)']['Fonda(2, 2)', 'Fonda(14, 14)']]
+
+Tom had a grudge against Ana . PRP decided PRP was going to slit PRP$ throat . Tom waited in the shadows by NNP house . When PRP saw PRP$ red coat PRP lunged out , slicing and stabbing !
+pronoun: ['red(30, 30)'], A: ['Tom(0, 0)'], B: ['Ana(5, 5)']
+clusters: [['PRP(7, 7)', 'PRP(9, 9)', 'PRP$(14, 14)', 'NNP(23, 23)', 'PRP(27, 27)', 'PRP$(29, 29)', 'PRP(32, 32)']['Tom(0, 0)', 'Tom(17, 17)']]
+
+Tom had a grudge against Ana . PRP decided PRP was going to slit PRP$ throat . Tom waited in the shadows by NNP house . When PRP saw PRP$ red coat PRP lunged out , slicing and stabbing !
+pronoun: ['saw(28, 28)'], A: ['Tom(0, 0)'], B: ['Ana(5, 5)']
+clusters: [['PRP(7, 7)', 'PRP(9, 9)', 'PRP$(14, 14)', 'NNP(23, 23)', 'PRP(27, 27)', 'PRP$(29, 29)', 'PRP(32, 32)']['Tom(0, 0)', 'Tom(17, 17)']]
+
+Tom had a grudge against Ana . PRP decided PRP was going to slit PRP$ throat . Tom waited in the shadows by NNP house . When PRP saw PRP$ red coat PRP lunged out , slicing and stabbing !
+pronoun: ['lunged(33, 33)'], A: ['Tom(0, 0)'], B: ['Ana(5, 5)']
+clusters: [['PRP(7, 7)', 'PRP(9, 9)', 'PRP$(14, 14)', 'NNP(23, 23)', 'PRP(27, 27)', 'PRP$(29, 29)', 'PRP(32, 32)']['Tom(0, 0)', 'Tom(17, 17)']]
+
+George and Kate went on a camping trip . They got lost somewhere deep in the woods . George was too scared to do anything . NNP used PRP$ compass and wits to help them get out of the woods .
+pronoun: ['PRP$(28, 28)'], A: ['George(0, 0)'], B: ['Kate(2, 2)']
+clusters: [['George and Kate(0, 2)', 'They(9, 9)']['PRP$ compass(28, 29)', 'them(34, 34)']['the woods(15, 16)', 'the woods(38, 39)']]
+
+Hubert took PRP$ smartphone out to check out PRP$ mail . PRP perused through fifty emails , but none were from Bertha . PRP sat on a bench waiting for PRP$ email . Four minutes later , NNP email appeared and PRP smiled widely .
+pronoun: ['smiled(42, 42)'], A: ['Bertha(21, 21)'], B: ['Hubert(0, 0)']
+clusters: [['PRP$(2, 2)', 'PRP$(8, 8)', 'PRP(11, 11)', 'Bertha(21, 21)', 'PRP(23, 23)', 'PRP$(30, 30)', 'NNP(37, 37)', 'PRP(41, 41)']['PRP$ email(30, 31)', 'NNP email(37, 38)']]
+
+Tim went to a restaurant with PRP$ friend Carl and PRP$ family . Carl 's family said NNP could order anything PRP wanted . So Tim ordered tons of food in excitement . But PRP struggled to finish even half of it .
+pronoun: ['PRP$(10, 10)'], A: ['Carl(8, 8)'], B: ['Tim(0, 0)']
+clusters: [['Carl(8, 8)', "Carl 's(13, 14)"]['PRP$(6, 6)', 'NNP(17, 17)', 'PRP(21, 21)', 'PRP(34, 34)']['Tim(0, 0)', 'Tim(25, 25)']['anything PRP wanted(20, 22)', 'it(41, 41)']]
+
+Tim went to a restaurant with PRP$ friend Carl and PRP$ family . Carl 's family said Tim could order anything PRP wanted . So NNP ordered tons of food in excitement . But PRP struggled to finish even half of it .
+pronoun: ['PRP$(10, 10)'], A: ['Carl(8, 8)'], B: ['Tim(0, 0)']
+clusters: [['Carl(8, 8)', "Carl 's(13, 14)"]['Tim(0, 0)', 'Tim(17, 17)']['PRP$(6, 6)', 'PRP(21, 21)', 'NNP(25, 25)', 'PRP(34, 34)']['anything PRP wanted(20, 22)', 'it(41, 41)']]
+
+Robert decided to fix PRP$ truck in PRP$ friend Tim 's big garage . While there , PRP accidentally broke one of NNP expensive power tools . Tim was forgiving , but Robert still has to replace the tool . PRP bought Tim dinner at a restaurant because PRP felt so guilty .
+pronoun: ['bought(41, 41)'], A: ['Robert(0, 0)'], B: ['Tim(9, 9)']
+clusters: [["PRP$ friend Tim 's(7, 10)", 'PRP(17, 17)', 'NNP(22, 22)', 'PRP(40, 40)', 'PRP(48, 48)']["Tim 's(9, 10)", 'Tim(27, 27)', 'Tim(42, 42)']['Robert(0, 0)', 'Robert(32, 32)']['one of NNP expensive power tools(20, 25)', 'the tool(37, 38)']]
+
+Robert decided to fix PRP$ truck in PRP$ friend Tim 's big garage . While there , PRP accidentally broke one of NNP expensive power tools . Tim was forgiving , but Robert still has to replace the tool . PRP bought Tim dinner at a restaurant because PRP felt so guilty .
+pronoun: ['felt(49, 49)'], A: ['Robert(0, 0)'], B: ['Tim(9, 9)']
+clusters: [["PRP$ friend Tim 's(7, 10)", 'PRP(17, 17)', 'NNP(22, 22)', 'PRP(40, 40)', 'PRP(48, 48)']["Tim 's(9, 10)", 'Tim(27, 27)', 'Tim(42, 42)']['Robert(0, 0)', 'Robert(32, 32)']['one of NNP expensive power tools(20, 25)', 'the tool(37, 38)']]
+
+Tom had a son named Eric . Tom was too busy to take care of PRP$ son . PRP sent NNP to a boarding school . Eric did not like the boarding school .
+pronoun: ['PRP$(15, 15)'], A: ['Tom(0, 0)'], B: ['Eric(5, 5)']
+clusters: [['Tom(0, 0)', 'Tom(7, 7)']['PRP$ son(15, 16)', 'PRP(18, 18)', 'NNP(20, 20)']['a son named Eric(2, 5)', 'Eric(26, 26)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+
+Tom had a son named Eric . Tom was too busy to take care of PRP$ son . PRP sent Eric to a boarding school . NNP did not like the boarding school .
+pronoun: ['PRP$(15, 15)'], A: ['Tom(0, 0)'], B: ['Eric(5, 5)']
+clusters: [['Tom(0, 0)', 'Tom(7, 7)']['PRP$ son(15, 16)', 'PRP(18, 18)', 'NNP(26, 26)']['a son named Eric(2, 5)', 'Eric(20, 20)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party NNP asked PRP why PRP had n't RSVP'd . Ellie realized that PRP was supposed to be invited . PRP told Katy PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(41, 41)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [['PRP(6, 6)', 'the party NNP(17, 19)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'PRP(31, 31)', 'PRP(38, 38)', 'Katy PRP(40, 41)', 'PRP(48, 48)']['Ellie(0, 0)', 'Ellie(28, 28)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party Katy asked PRP why PRP had n't RSVP'd . Ellie realized that PRP was supposed to be invited . PRP told NNP PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(41, 41)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [["Katy 's party(10, 12)", 'the party Katy(17, 19)']['PRP(6, 6)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'PRP(31, 31)', 'PRP(38, 38)', 'NNP PRP(40, 41)', 'PRP(48, 48)']['Ellie(0, 0)', 'Ellie(28, 28)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party Katy asked PRP why PRP had n't RSVP'd . NNP realized that PRP was supposed to be invited . PRP told Katy PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(41, 41)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [["Katy 's party(10, 12)", 'the party Katy(17, 19)']['PRP(6, 6)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'NNP(28, 28)', 'PRP(31, 31)', 'PRP(38, 38)', 'Katy PRP(40, 41)', 'PRP(48, 48)']]
+
+Tom and Mary were married to each other . NNP was having an affair behind Mary 's back . One day , Tom was in PRP$ bedroom with PRP$ mistress . Mary came home and saw them together .
+pronoun: ['PRP$(25, 25)'], A: ['Tom(0, 0)'], B: ['Mary(2, 2)']
+clusters: [['Tom(0, 0)', 'Tom(22, 22)']["Mary 's(15, 16)", 'Mary(31, 31)']['Tom and Mary(0, 2)', 'them(36, 36)']]
+
+Tom and Mary were married to each other . NNP was having an affair behind Mary 's back . One day , Tom was in PRP$ bedroom with PRP$ mistress . Mary came home and saw them together .
+pronoun: ['PRP$(28, 28)'], A: ['Tom(0, 0)'], B: ['Mary(2, 2)']
+clusters: [['Tom(0, 0)', 'Tom(22, 22)']["Mary 's(15, 16)", 'Mary(31, 31)']['Tom and Mary(0, 2)', 'them(36, 36)']]
+
+Tom and Mary were married to each other . Tom was having an affair behind Mary 's back . One day , NNP was in PRP$ bedroom with PRP$ mistress . Mary came home and saw them together .
+pronoun: ['PRP$(25, 25)'], A: ['Tom(0, 0)'], B: ['Mary(2, 2)']
+clusters: [['Tom(0, 0)', 'Tom(9, 9)']["Mary 's(15, 16)", 'Mary(31, 31)']['Tom and Mary(0, 2)', 'them(36, 36)']]
+
+Tom and Mary were married to each other . Tom was having an affair behind Mary 's back . One day , NNP was in PRP$ bedroom with PRP$ mistress . Mary came home and saw them together .
+pronoun: ['PRP$(28, 28)'], A: ['Tom(0, 0)'], B: ['Mary(2, 2)']
+clusters: [['Tom(0, 0)', 'Tom(9, 9)']["Mary 's(15, 16)", 'Mary(31, 31)']['Tom and Mary(0, 2)', 'them(36, 36)']]
+
+Tom and Mary were married to each other . Tom was having an affair behind NNP back . One day , Tom was in PRP$ bedroom with PRP$ mistress . Mary came home and saw them together .
+pronoun: ['bedroom(25, 25)'], A: ['Tom(0, 0)'], B: ['Mary(2, 2)']
+clusters: [['Tom(0, 0)', 'Tom(9, 9)', 'Tom(21, 21)']['Tom and Mary(0, 2)', 'them(35, 35)']]
+
+Tom and Mary were married to each other . Tom was having an affair behind NNP back . One day , Tom was in PRP$ bedroom with PRP$ mistress . Mary came home and saw them together .
+pronoun: ['mistress(28, 28)'], A: ['Tom(0, 0)'], B: ['Mary(2, 2)']
+clusters: [['Tom(0, 0)', 'Tom(9, 9)', 'Tom(21, 21)']['Tom and Mary(0, 2)', 'them(35, 35)']]
+
+Tom and Mary were married to each other . Tom was having an affair behind Mary 's back . One day , Tom was in PRP$ bedroom with PRP$ mistress . NNP came home and saw them together .
+pronoun: ['PRP$(25, 25)'], A: ['Tom(0, 0)'], B: ['Mary(2, 2)']
+clusters: [['Tom(0, 0)', 'Tom(9, 9)', 'Tom(22, 22)']['PRP$ mistress(28, 29)', 'NNP(31, 31)']['Tom and Mary(0, 2)', 'them(36, 36)']]
+
+Tom and Mary were married to each other . Tom was having an affair behind Mary 's back . One day , Tom was in PRP$ bedroom with PRP$ mistress . NNP came home and saw them together .
+pronoun: ['PRP$(28, 28)'], A: ['Tom(0, 0)'], B: ['Mary(2, 2)']
+clusters: [['Tom(0, 0)', 'Tom(9, 9)', 'Tom(22, 22)']['PRP$ mistress(28, 29)', 'NNP(31, 31)']['Tom and Mary(0, 2)', 'them(36, 36)']]
+
+Matt and Sarah were married only a month ago . They were so happy getting used to the married life . At least they were happy until NNP mom moved in . PRP treated Matt and Sarah both like children .
+pronoun: ['treated(33, 33)'], A: ['Matt(0, 0)'], B: ['Sarah(2, 2)']
+clusters: [['Matt and Sarah(0, 2)', 'They(10, 10)', 'they(23, 23)', 'Matt and Sarah(34, 36)']['NNP(27, 27)', 'PRP(32, 32)']['Matt(0, 0)', 'Matt(34, 34)']['Sarah(2, 2)', 'Sarah(36, 36)']]
+
+Brent loves to play football with PRP$ friends . PRP decided to try out for PRP$ high school football team . During tryouts , Brent ran faster than everyone on the team ! Coach was impressed with NNP speed and made PRP a wide receiver .
+pronoun: ['a(42, 42)'], A: ['Brent(0, 0)'], B: ['Coach(33, 33)']
+clusters: [['PRP$(6, 6)', 'PRP(9, 9)', 'PRP$(15, 15)', 'tryouts(22, 22)', 'NNP(37, 37)', 'PRP(41, 41)']['PRP$ high school football team(15, 19)', 'the team(30, 31)']]
+
+Jake always hated spiders . Jake 's roommate Derek knew about this fear . Derek sprinkled NNP entire bed with little plastic spiders . Jake screamed out in terror when PRP saw PRP$ bed .
+pronoun: ['bed(33, 33)'], A: ['Derek(8, 8)'], B: ['Jake(0, 0)']
+clusters: [['Jake(0, 0)', "Jake 's(5, 6)", 'Jake(24, 24)']['NNP(16, 16)', 'PRP(30, 30)', 'PRP$(32, 32)']]
+
+Jake always hated spiders . Jake 's roommate Derek knew about this fear . Derek sprinkled NNP entire bed with little plastic spiders . Jake screamed out in terror when PRP saw PRP$ bed .
+pronoun: ['saw(31, 31)'], A: ['Derek(8, 8)'], B: ['Jake(0, 0)']
+clusters: [['Jake(0, 0)', "Jake 's(5, 6)", 'Jake(24, 24)']['NNP(16, 16)', 'PRP(30, 30)', 'PRP$(32, 32)']]
+
+
+
+
+
+correct answer
+Eric and PRP$ wife had a daughter named Meg . Eric 's wife passed away . NNP and Meg were very sad . Eric met a woman and married PRP$ 5 years after PRP$ wife died .
+pronoun: ['PRP$(29, 29)'], A: ['Meg(8, 8)'], B: ['Eric(0, 0)']
+clusters: [['Eric(0, 0)', "Eric 's(10, 11)", 'Eric(23, 23)']['PRP$(2, 2)', 'NNP(16, 16)', 'Meg(18, 18)', 'PRP$(29, 29)', 'PRP$(33, 33)']['PRP$ wife(2, 3)', 'PRP$ wife(33, 34)']]
+Winograd answer: A (Meg)
+A confidence: 2.249840259552002
+B confidence: -0.27862048149108887
+
+Eric and PRP$ wife had a daughter named Meg . Eric 's wife passed away . NNP and Meg were very sad . Eric met a woman and married PRP$ 5 years after PRP$ wife died .
+pronoun: ['PRP$(33, 33)'], A: ['Meg(8, 8)'], B: ['Eric(0, 0)']
+clusters: [['Eric(0, 0)', "Eric 's(10, 11)", 'Eric(23, 23)']['PRP$(2, 2)', 'NNP(16, 16)', 'Meg(18, 18)', 'PRP$(29, 29)', 'PRP$(33, 33)']['PRP$ wife(2, 3)', 'PRP$ wife(33, 34)']]
+Winograd answer: A (Meg)
+A confidence: 4.753482818603516
+B confidence: 3.49898624420166
+
+Eric and PRP$ wife had a daughter named Meg . Eric 's wife passed away . Eric and Meg were very sad . NNP met a woman and married PRP$ 5 years after PRP$ wife died .
+pronoun: ['PRP$(29, 29)'], A: ['Meg(8, 8)'], B: ['Eric(0, 0)']
+clusters: [['Eric(0, 0)', "Eric 's(10, 11)"]['PRP$(2, 2)', 'Meg(18, 18)', 'NNP(23, 23)', 'PRP$(29, 29)', 'PRP$(33, 33)']['PRP$ wife(2, 3)', 'PRP$ wife(33, 34)']]
+Winograd answer: A (Meg)
+A confidence: 1.5721427202224731
+B confidence: 0.4156630039215088
+
+Eric and PRP$ wife had a daughter named Meg . Eric 's wife passed away . Eric and Meg were very sad . NNP met a woman and married PRP$ 5 years after PRP$ wife died .
+pronoun: ['PRP$(33, 33)'], A: ['Meg(8, 8)'], B: ['Eric(0, 0)']
+clusters: [['Eric(0, 0)', "Eric 's(10, 11)"]['PRP$(2, 2)', 'Meg(18, 18)', 'NNP(23, 23)', 'PRP$(29, 29)', 'PRP$(33, 33)']['PRP$ wife(2, 3)', 'PRP$ wife(33, 34)']]
+Winograd answer: A (Meg)
+A confidence: 4.427372455596924
+B confidence: 6.0909881591796875
+
+Mikey has a habit of taking items that do n't belong to PRP . Last night PRP stole a trailer from Henry 's yard . Henry has a camera in PRP$ yard and caught NN on tape . The cops were called and took Mikey to jail .
+pronoun: ['PRP$(30, 30)'], A: ['Mikey(0, 0)'], B: ['Henry(21, 21)']
+clusters: [['Mikey(0, 0)', 'PRP(12, 12)', 'PRP(16, 16)', 'PRP$(30, 30)', 'Mikey(44, 44)']["Henry 's(21, 22)", 'Henry(25, 25)']]
+Winograd answer: A (Mikey)
+A confidence: 2.5667083263397217
+B confidence: -20.529420852661133
+
+Mikey has a habit of taking items that do n't belong to PRP . Last night PRP stole a trailer from Henry 's yard . Henry has a camera in PRP$ yard and caught Mikey on tape . The cops were called and took NNP to jail .
+pronoun: ['PRP$(30, 30)'], A: ['Mikey(0, 0)'], B: ['Henry(21, 21)']
+clusters: [['Mikey(0, 0)', 'PRP(12, 12)', 'PRP(16, 16)', 'PRP$(30, 30)', 'Mikey(34, 34)', 'NNP(44, 44)']["Henry 's(21, 22)", 'Henry(25, 25)']]
+Winograd answer: A (Mikey)
+A confidence: 2.928103446960449
+B confidence: -19.76737403869629
+
+Mikey has a habit of taking items that do n't belong to PRP . Last night PRP stole a trailer from Henry 's yard . NNP has a camera in PRP$ yard and caught Mikey on tape . The cops were called and took Mikey to jail .
+pronoun: ['PRP$(30, 30)'], A: ['Mikey(0, 0)'], B: ['Henry(21, 21)']
+clusters: [['Mikey(0, 0)', 'PRP(12, 12)', 'PRP(16, 16)', 'NNP(25, 25)', 'PRP$(30, 30)', 'Mikey(34, 34)', 'Mikey(44, 44)']]
+Winograd answer: A (Mikey)
+A confidence: 3.2201597690582275
+B confidence: 3.415503740310669
+
+Theo was a very nervous child with a long - time fear of heights . One hot summer day , PRP$ friends invited PRP to a water park . PRP$ crush , Lucy , was there and PRP loved slides , so NNP had an idea . Theo asked PRP to join PRP on a two - person toboggan , and PRP accepted !
+pronoun: ['PRP(52, 52)'], A: ['Theo(0, 0)'], B: ['Lucy(32, 32)']
+clusters: [['Theo(0, 0)', 'PRP$(20, 20)', 'PRP(23, 23)', 'PRP(37, 37)', 'NNP(42, 42)', 'Theo(47, 47)', 'PRP(49, 49)', 'PRP(52, 52)', 'PRP(61, 61)']]
+Winograd answer: A (Theo)
+A confidence: 8.103082656860352
+B confidence: -13.564373970031738
+
+Theo was a very nervous child with a long - time fear of heights . One hot summer day , PRP$ friends invited PRP to a water park . PRP$ crush , Lucy , was there and PRP loved slides , so NNP had an idea . Theo asked PRP to join PRP on a two - person toboggan , and PRP accepted !
+pronoun: ['PRP(49, 49)'], A: ['Theo(0, 0)'], B: ['Lucy(32, 32)']
+clusters: [['Theo(0, 0)', 'PRP$(20, 20)', 'PRP(23, 23)', 'PRP(37, 37)', 'NNP(42, 42)', 'Theo(47, 47)', 'PRP(49, 49)', 'PRP(52, 52)', 'PRP(61, 61)']]
+Winograd answer: A (Theo)
+A confidence: 8.028669357299805
+B confidence: -10.275125503540039
+
+Theo was a very nervous child with a long - time fear of heights . One hot summer day , PRP$ friends invited PRP to a water park . PRP$ crush , Lucy , was there and PRP loved slides , so NNP had an idea . Theo asked PRP to join PRP on a two - person toboggan , and PRP accepted !
+pronoun: ['PRP(37, 37)'], A: ['Theo(0, 0)'], B: ['Lucy(32, 32)']
+clusters: [['Theo(0, 0)', 'PRP$(20, 20)', 'PRP(23, 23)', 'PRP(37, 37)', 'NNP(42, 42)', 'Theo(47, 47)', 'PRP(49, 49)', 'PRP(52, 52)', 'PRP(61, 61)']]
+Winograd answer: A (Theo)
+A confidence: 5.94685697555542
+B confidence: -16.03778648376465
+
+Theo was a very nervous child with a long - time fear of heights . One hot summer day , PRP$ friends invited PRP to a water park . PRP$ crush , Lucy , was there and PRP loved slides , so NNP had an idea . Theo asked PRP to join PRP on a two - person toboggan , and PRP accepted !
+pronoun: ['PRP(61, 61)'], A: ['Theo(0, 0)'], B: ['Lucy(32, 32)']
+clusters: [['Theo(0, 0)', 'PRP$(20, 20)', 'PRP(23, 23)', 'PRP(37, 37)', 'NNP(42, 42)', 'Theo(47, 47)', 'PRP(49, 49)', 'PRP(52, 52)', 'PRP(61, 61)']]
+Winograd answer: A (Theo)
+A confidence: 7.685876846313477
+B confidence: -10.733769416809082
+
+Theo was a very nervous child with a long - time fear of heights . One hot summer day , PRP$ friends invited PRP to a water park . PRP$ crush , Lucy , was there and PRP loved slides , so Theo had an idea . NNP asked PRP to join PRP on a two - person toboggan , and PRP accepted !
+pronoun: ['PRP(52, 52)'], A: ['Theo(0, 0)'], B: ['Lucy(32, 32)']
+clusters: [['Theo(0, 0)', 'PRP$(20, 20)', 'PRP(23, 23)', 'PRP(37, 37)', 'Theo(42, 42)', 'NNP(47, 47)', 'PRP(49, 49)', 'PRP(52, 52)', 'PRP(61, 61)']]
+Winograd answer: A (Theo)
+A confidence: 7.132662296295166
+B confidence: -13.39566421508789
+
+Theo was a very nervous child with a long - time fear of heights . One hot summer day , PRP$ friends invited PRP to a water park . PRP$ crush , Lucy , was there and PRP loved slides , so Theo had an idea . NNP asked PRP to join PRP on a two - person toboggan , and PRP accepted !
+pronoun: ['PRP(49, 49)'], A: ['Theo(0, 0)'], B: ['Lucy(32, 32)']
+clusters: [['Theo(0, 0)', 'PRP$(20, 20)', 'PRP(23, 23)', 'PRP(37, 37)', 'Theo(42, 42)', 'NNP(47, 47)', 'PRP(49, 49)', 'PRP(52, 52)', 'PRP(61, 61)']]
+Winograd answer: A (Theo)
+A confidence: 8.953511238098145
+B confidence: -11.357604026794434
+
+Theo was a very nervous child with a long - time fear of heights . One hot summer day , PRP$ friends invited PRP to a water park . PRP$ crush , Lucy , was there and PRP loved slides , so Theo had an idea . NNP asked PRP to join PRP on a two - person toboggan , and PRP accepted !
+pronoun: ['PRP(37, 37)'], A: ['Theo(0, 0)'], B: ['Lucy(32, 32)']
+clusters: [['Theo(0, 0)', 'PRP$(20, 20)', 'PRP(23, 23)', 'PRP(37, 37)', 'Theo(42, 42)', 'NNP(47, 47)', 'PRP(49, 49)', 'PRP(52, 52)', 'PRP(61, 61)']]
+Winograd answer: A (Theo)
+A confidence: 6.07280158996582
+B confidence: -16.029836654663086
+
+Theo was a very nervous child with a long - time fear of heights . One hot summer day , PRP$ friends invited PRP to a water park . PRP$ crush , Lucy , was there and PRP loved slides , so Theo had an idea . NNP asked PRP to join PRP on a two - person toboggan , and PRP accepted !
+pronoun: ['PRP(61, 61)'], A: ['Theo(0, 0)'], B: ['Lucy(32, 32)']
+clusters: [['Theo(0, 0)', 'PRP$(20, 20)', 'PRP(23, 23)', 'PRP(37, 37)', 'Theo(42, 42)', 'NNP(47, 47)', 'PRP(49, 49)', 'PRP(52, 52)', 'PRP(61, 61)']]
+Winograd answer: A (Theo)
+A confidence: 10.616693496704102
+B confidence: -10.822501182556152
+
+Ann 's cat Cora was sprayed by a skunk . Ann knew PRP would have to bathe NNP . Sure enough , Cora resisted ! But Ann managed to scrub PRP$ clean .
+pronoun: ['PRP$(30, 30)'], A: ['Cora(3, 3)'], B: ['Ann(0, 0)']
+clusters: [["Ann 's(0, 1)", 'Ann(10, 10)', 'Ann(26, 26)']["Ann 's cat Cora(0, 3)", 'PRP(12, 12)', 'NNP(17, 17)', 'Cora(22, 22)', 'PRP$(30, 30)']]
+Winograd answer: A (Cora)
+A confidence: 9.62460994720459
+B confidence: -13.15088939666748
+
+Ann 's cat Cora was sprayed by a skunk . Ann knew PRP would have to bathe NNP . Sure enough , Cora resisted ! But Ann managed to scrub PRP$ clean .
+pronoun: ['PRP(12, 12)'], A: ['Cora(3, 3)'], B: ['Ann(0, 0)']
+clusters: [["Ann 's(0, 1)", 'Ann(10, 10)', 'Ann(26, 26)']["Ann 's cat Cora(0, 3)", 'PRP(12, 12)', 'NNP(17, 17)', 'Cora(22, 22)', 'PRP$(30, 30)']]
+Winograd answer: A (Cora)
+A confidence: -inf
+B confidence: -11.912447929382324
+
+Ann 's cat Cora was sprayed by a skunk . Ann knew PRP would have to bathe Cora . Sure enough , NNP resisted ! But Ann managed to scrub PRP$ clean .
+pronoun: ['PRP$(30, 30)'], A: ['Cora(3, 3)'], B: ['Ann(0, 0)']
+clusters: [["Ann 's(0, 1)", 'Ann(10, 10)', 'Ann(26, 26)']["Ann 's cat Cora(0, 3)", 'PRP(12, 12)', 'Cora(17, 17)', 'NNP(22, 22)', 'PRP$(30, 30)']]
+Winograd answer: A (Cora)
+A confidence: 8.723419189453125
+B confidence: -13.270014762878418
+
+Ann 's cat Cora was sprayed by a skunk . Ann knew PRP would have to bathe Cora . Sure enough , NNP resisted ! But Ann managed to scrub PRP$ clean .
+pronoun: ['PRP(12, 12)'], A: ['Cora(3, 3)'], B: ['Ann(0, 0)']
+clusters: [["Ann 's(0, 1)", 'Ann(10, 10)', 'Ann(26, 26)']["Ann 's cat Cora(0, 3)", 'PRP(12, 12)', 'Cora(17, 17)', 'NNP(22, 22)', 'PRP$(30, 30)']]
+Winograd answer: A (Cora)
+A confidence: -inf
+B confidence: -12.077750205993652
+
+Ann 's cat Cora was sprayed by a skunk . NNP knew PRP would have to bathe Cora . Sure enough , Cora resisted ! But Ann managed to scrub PRP$ clean .
+pronoun: ['PRP$(30, 30)'], A: ['Cora(3, 3)'], B: ['Ann(0, 0)']
+clusters: [["Ann 's cat Cora(0, 3)", 'NNP(10, 10)', 'PRP(12, 12)', 'Cora(17, 17)', 'Cora(22, 22)', 'PRP$(30, 30)']["Ann 's(0, 1)", 'Ann(26, 26)']]
+Winograd answer: A (Cora)
+A confidence: 7.234341621398926
+B confidence: 10.09519100189209
+
+Ann 's cat Cora was sprayed by a skunk . NNP knew PRP would have to bathe Cora . Sure enough , Cora resisted ! But Ann managed to scrub PRP$ clean .
+pronoun: ['PRP(12, 12)'], A: ['Cora(3, 3)'], B: ['Ann(0, 0)']
+clusters: [["Ann 's cat Cora(0, 3)", 'NNP(10, 10)', 'PRP(12, 12)', 'Cora(17, 17)', 'Cora(22, 22)', 'PRP$(30, 30)']["Ann 's(0, 1)", 'Ann(26, 26)']]
+Winograd answer: A (Cora)
+A confidence: -inf
+B confidence: 11.477388381958008
+
+Ann 's cat Cora was sprayed by a skunk . Ann knew PRP would have to bathe Cora . Sure enough , Cora resisted ! But NNP managed to scrub PRP$ clean .
+pronoun: ['PRP$(30, 30)'], A: ['Cora(3, 3)'], B: ['Ann(0, 0)']
+clusters: [["Ann 's(0, 1)", 'Ann(10, 10)']["Ann 's cat Cora(0, 3)", 'PRP(12, 12)', 'Cora(17, 17)', 'Cora(22, 22)', 'NNP(26, 26)', 'PRP$(30, 30)']]
+Winograd answer: A (Cora)
+A confidence: 6.809432029724121
+B confidence: 3.288026809692383
+
+Ann 's cat Cora was sprayed by a skunk . Ann knew PRP would have to bathe Cora . Sure enough , Cora resisted ! But NNP managed to scrub PRP$ clean .
+pronoun: ['PRP(12, 12)'], A: ['Cora(3, 3)'], B: ['Ann(0, 0)']
+clusters: [["Ann 's(0, 1)", 'Ann(10, 10)']["Ann 's cat Cora(0, 3)", 'PRP(12, 12)', 'Cora(17, 17)', 'Cora(22, 22)', 'NNP(26, 26)', 'PRP$(30, 30)']]
+Winograd answer: A (Cora)
+A confidence: -inf
+B confidence: -11.958441734313965
+
+Jenn and Bill fell in love and got married . A few months later , NNP found out that PRP was pregnant . Bill was very excited and could n't wait to be a father . They found out they were having a baby boy .
+pronoun: ['PRP(19, 19)'], A: ['Jenn(0, 0)'], B: ['Bill(2, 2)']
+clusters: [['Jenn(0, 0)', 'NNP(15, 15)', 'PRP(19, 19)']['Bill(2, 2)', 'Bill(23, 23)']['Jenn and Bill(0, 2)', 'They(36, 36)', 'they(39, 39)']]
+Winograd answer: A (Jenn)
+A confidence: 9.056436538696289
+B confidence: -7.735854148864746
+
+Jenn and Bill fell in love and got married . A few months later , Jenn found out that PRP was pregnant . NNP was very excited and could n't wait to be a father . They found out they were having a baby boy .
+pronoun: ['PRP(19, 19)'], A: ['Jenn(0, 0)'], B: ['Bill(2, 2)']
+clusters: [['Jenn(0, 0)', 'Jenn(15, 15)', 'PRP(19, 19)', 'NNP(23, 23)']['Jenn and Bill(0, 2)', 'They(36, 36)', 'they(39, 39)']]
+Winograd answer: A (Jenn)
+A confidence: 6.951199531555176
+B confidence: -8.048890113830566
+
+Silvia had to give a big speech at work . PRP asked PRP$ friend Albert to listen to it and give PRP$ opinion . Albert listened to the speech but was n't convinced it was good . Despite PRP$ own dislike for the speech , PRP complimented NNP .
+pronoun: ['PRP$(21, 21)'], A: ['Silvia(0, 0)'], B: ['Albert(14, 14)']
+clusters: [['Silvia(0, 0)', 'PRP(10, 10)', 'PRP$(12, 12)', 'PRP$(21, 21)', 'PRP$(38, 38)', 'PRP(45, 45)', 'NNP(47, 47)']['a big speech(4, 6)', 'it(18, 18)', 'the speech(27, 28)', 'it(33, 33)', 'the speech(42, 43)']['PRP$ friend Albert(12, 14)', 'Albert(24, 24)']]
+Winograd answer: A (Silvia)
+A confidence: 4.975330352783203
+B confidence: -inf
+
+Silvia had to give a big speech at work . PRP asked PRP$ friend Albert to listen to it and give PRP$ opinion . Albert listened to the speech but was n't convinced it was good . Despite PRP$ own dislike for the speech , PRP complimented NNP .
+pronoun: ['PRP$(38, 38)'], A: ['Silvia(0, 0)'], B: ['Albert(14, 14)']
+clusters: [['Silvia(0, 0)', 'PRP(10, 10)', 'PRP$(12, 12)', 'PRP$(21, 21)', 'PRP$(38, 38)', 'PRP(45, 45)', 'NNP(47, 47)']['a big speech(4, 6)', 'it(18, 18)', 'the speech(27, 28)', 'it(33, 33)', 'the speech(42, 43)']['PRP$ friend Albert(12, 14)', 'Albert(24, 24)']]
+Winograd answer: A (Silvia)
+A confidence: 4.585120677947998
+B confidence: -8.886001586914062
+
+Silvia had to give a big speech at work . PRP asked PRP$ friend Albert to listen to it and give PRP$ opinion . Albert listened to the speech but was n't convinced it was good . Despite PRP$ own dislike for the speech , PRP complimented NNP .
+pronoun: ['PRP(45, 45)'], A: ['Silvia(0, 0)'], B: ['Albert(14, 14)']
+clusters: [['Silvia(0, 0)', 'PRP(10, 10)', 'PRP$(12, 12)', 'PRP$(21, 21)', 'PRP$(38, 38)', 'PRP(45, 45)', 'NNP(47, 47)']['a big speech(4, 6)', 'it(18, 18)', 'the speech(27, 28)', 'it(33, 33)', 'the speech(42, 43)']['PRP$ friend Albert(12, 14)', 'Albert(24, 24)']]
+Winograd answer: A (Silvia)
+A confidence: 7.90748405456543
+B confidence: -10.54677963256836
+
+Silvia had to give a big speech at work . PRP asked PRP$ friend Albert to listen to it and give PRP$ opinion . NNP listened to the speech but was n't convinced it was good . Despite PRP$ own dislike for the speech , PRP complimented Silvia .
+pronoun: ['PRP$(21, 21)'], A: ['Silvia(0, 0)'], B: ['Albert(14, 14)']
+clusters: [['Silvia(0, 0)', 'PRP(10, 10)', 'PRP$(12, 12)', 'PRP$(21, 21)', 'NNP(24, 24)', 'PRP$(38, 38)', 'PRP(45, 45)', 'Silvia(47, 47)']['a big speech(4, 6)', 'it(18, 18)', 'the speech(27, 28)', 'it(33, 33)', 'the speech(42, 43)']]
+Winograd answer: A (Silvia)
+A confidence: 5.352626800537109
+B confidence: -inf
+
+Silvia had to give a big speech at work . PRP asked PRP$ friend Albert to listen to it and give PRP$ opinion . NNP listened to the speech but was n't convinced it was good . Despite PRP$ own dislike for the speech , PRP complimented Silvia .
+pronoun: ['PRP$(38, 38)'], A: ['Silvia(0, 0)'], B: ['Albert(14, 14)']
+clusters: [['Silvia(0, 0)', 'PRP(10, 10)', 'PRP$(12, 12)', 'PRP$(21, 21)', 'NNP(24, 24)', 'PRP$(38, 38)', 'PRP(45, 45)', 'Silvia(47, 47)']['a big speech(4, 6)', 'it(18, 18)', 'the speech(27, 28)', 'it(33, 33)', 'the speech(42, 43)']]
+Winograd answer: A (Silvia)
+A confidence: 4.636200428009033
+B confidence: 7.685153961181641
+
+Silvia had to give a big speech at work . PRP asked PRP$ friend Albert to listen to it and give PRP$ opinion . NNP listened to the speech but was n't convinced it was good . Despite PRP$ own dislike for the speech , PRP complimented Silvia .
+pronoun: ['PRP(45, 45)'], A: ['Silvia(0, 0)'], B: ['Albert(14, 14)']
+clusters: [['Silvia(0, 0)', 'PRP(10, 10)', 'PRP$(12, 12)', 'PRP$(21, 21)', 'NNP(24, 24)', 'PRP$(38, 38)', 'PRP(45, 45)', 'Silvia(47, 47)']['a big speech(4, 6)', 'it(18, 18)', 'the speech(27, 28)', 'it(33, 33)', 'the speech(42, 43)']]
+Winograd answer: A (Silvia)
+A confidence: 7.9487433433532715
+B confidence: 11.408241271972656
+
+Andy recently met a nice lady on Tinder . NNP agreed for their first date to cook at PRP$ house . Andy was nervous , but decided to start the cooking . Andy put on the pot of rice , but had to use the restroom .
+pronoun: ['PRP$(18, 18)'], A: ['Tinder(7, 7)'], B: ['Andy(0, 0)']
+clusters: [['Tinder(7, 7)', 'NNP(9, 9)', 'PRP$(18, 18)']['Andy(0, 0)', 'Andy(21, 21)', 'Andy(32, 32)']]
+Winograd answer: A (Tinder)
+A confidence: 5.454555511474609
+B confidence: 7.051573753356934
+
+Andy recently met a nice lady on Tinder . Andy agreed for their first date to cook at PRP$ house . NNP was nervous , but decided to start the cooking . Andy put on the pot of rice , but had to use the restroom .
+pronoun: ['PRP$(18, 18)'], A: ['Tinder(7, 7)'], B: ['Andy(0, 0)']
+clusters: [['Andy(0, 0)', 'Andy(9, 9)', 'Andy(32, 32)']['Tinder(7, 7)', 'PRP$(18, 18)', 'NNP(21, 21)']]
+Winograd answer: A (Tinder)
+A confidence: 5.46811056137085
+B confidence: -14.775130271911621
+
+Andy recently met a nice lady on Tinder . Andy agreed for their first date to cook at PRP$ house . Andy was nervous , but decided to start the cooking . NNP put on the pot of rice , but had to use the restroom .
+pronoun: ['PRP$(18, 18)'], A: ['Tinder(7, 7)'], B: ['Andy(0, 0)']
+clusters: [['Andy(0, 0)', 'Andy(9, 9)', 'Andy(21, 21)']['Tinder(7, 7)', 'PRP$(18, 18)', 'NNP(32, 32)']]
+Winograd answer: A (Tinder)
+A confidence: 5.415706157684326
+B confidence: -13.982208251953125
+
+Gertrude hated sharing PRP$ toys with PRP$ brother Billy . PRP would always ruin PRP$ toys . Billy tried to play with NNP toy car , but PRP snatched it away . Billy began crying , and their mother rushed to check on them .
+pronoun: ['PRP(10, 10)'], A: ['Gertrude(0, 0)'], B: ['Billy(8, 8)']
+clusters: [['Gertrude(0, 0)', 'PRP$(6, 6)', 'PRP(10, 10)', 'PRP(27, 27)']['PRP$ brother Billy(6, 8)', 'Billy(17, 17)', 'their(37, 37)', 'them(43, 43)']['NNP toy car(22, 24)', 'it(29, 29)']]
+Winograd answer: A (Gertrude)
+A confidence: 10.065540313720703
+B confidence: -inf
+
+Gertrude hated sharing PRP$ toys with PRP$ brother Billy . PRP would always ruin PRP$ toys . NNP tried to play with Gertrude 's toy car , but PRP snatched it away . Billy began crying , and their mother rushed to check on them .
+pronoun: ['PRP(10, 10)'], A: ['Gertrude(0, 0)'], B: ['Billy(8, 8)']
+clusters: [['Gertrude(0, 0)', 'PRP$(6, 6)', 'PRP(10, 10)', 'NNP(17, 17)', "Gertrude 's(22, 23)", 'PRP(28, 28)', 'their(38, 38)', 'them(44, 44)']["Gertrude 's toy car(22, 25)", 'it(30, 30)']]
+Winograd answer: A (Gertrude)
+A confidence: 10.198317527770996
+B confidence: -inf
+
+Gertrude hated sharing PRP$ toys with PRP$ brother Billy . PRP would always ruin PRP$ toys . NNP tried to play with Gertrude 's toy car , but PRP snatched it away . Billy began crying , and their mother rushed to check on them .
+pronoun: ['PRP(28, 28)'], A: ['Gertrude(0, 0)'], B: ['Billy(8, 8)']
+clusters: [['Gertrude(0, 0)', 'PRP$(6, 6)', 'PRP(10, 10)', 'NNP(17, 17)', "Gertrude 's(22, 23)", 'PRP(28, 28)', 'their(38, 38)', 'them(44, 44)']["Gertrude 's toy car(22, 25)", 'it(30, 30)']]
+Winograd answer: A (Gertrude)
+A confidence: 8.928512573242188
+B confidence: 15.05611515045166
+
+Gertrude hated sharing PRP$ toys with PRP$ brother Billy . PRP would always ruin PRP$ toys . Billy tried to play with Gertrude 's toy car , but PRP snatched it away . NNP began crying , and their mother rushed to check on them .
+pronoun: ['PRP(10, 10)'], A: ['Gertrude(0, 0)'], B: ['Billy(8, 8)']
+clusters: [['Gertrude(0, 0)', 'PRP(10, 10)', "Gertrude 's(22, 23)", 'PRP(28, 28)', 'NNP(33, 33)']['PRP$ brother Billy(6, 8)', 'Billy(17, 17)', 'their(38, 38)', 'them(44, 44)']["Gertrude 's toy car(22, 25)", 'it(30, 30)']]
+Winograd answer: A (Gertrude)
+A confidence: 10.735677719116211
+B confidence: -inf
+
+Gertrude hated sharing PRP$ toys with PRP$ brother Billy . PRP would always ruin PRP$ toys . Billy tried to play with Gertrude 's toy car , but PRP snatched it away . NNP began crying , and their mother rushed to check on them .
+pronoun: ['PRP(28, 28)'], A: ['Gertrude(0, 0)'], B: ['Billy(8, 8)']
+clusters: [['Gertrude(0, 0)', 'PRP(10, 10)', "Gertrude 's(22, 23)", 'PRP(28, 28)', 'NNP(33, 33)']['PRP$ brother Billy(6, 8)', 'Billy(17, 17)', 'their(38, 38)', 'them(44, 44)']["Gertrude 's toy car(22, 25)", 'it(30, 30)']]
+Winograd answer: A (Gertrude)
+A confidence: 8.994050979614258
+B confidence: -14.101898193359375
+
+Bill and Tonya had just started dating . PRP had acted very possessive at times , but NNP accepted it . Soon , PRP started isolating Bill from PRP$ friends and family . PRP had turned Bill into a full on hermit !
+pronoun: ['PRP$(28, 28)'], A: ['Tonya(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['Tonya(2, 2)', 'PRP(8, 8)', 'NNP(17, 17)', 'PRP(23, 23)', 'PRP$(28, 28)', 'PRP(33, 33)']['Bill(0, 0)', 'Bill(26, 26)', 'Bill(36, 36)']]
+Winograd answer: A (Tonya)
+A confidence: 6.419135570526123
+B confidence: 4.48146915435791
+
+Bill and Tonya had just started dating . PRP had acted very possessive at times , but NNP accepted it . Soon , PRP started isolating Bill from PRP$ friends and family . PRP had turned Bill into a full on hermit !
+pronoun: ['PRP(8, 8)'], A: ['Tonya(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['Tonya(2, 2)', 'PRP(8, 8)', 'NNP(17, 17)', 'PRP(23, 23)', 'PRP$(28, 28)', 'PRP(33, 33)']['Bill(0, 0)', 'Bill(26, 26)', 'Bill(36, 36)']]
+Winograd answer: A (Tonya)
+A confidence: 12.034278869628906
+B confidence: -4.692563056945801
+
+Bill and Tonya had just started dating . PRP had acted very possessive at times , but NNP accepted it . Soon , PRP started isolating Bill from PRP$ friends and family . PRP had turned Bill into a full on hermit !
+pronoun: ['PRP(23, 23)'], A: ['Tonya(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['Tonya(2, 2)', 'PRP(8, 8)', 'NNP(17, 17)', 'PRP(23, 23)', 'PRP$(28, 28)', 'PRP(33, 33)']['Bill(0, 0)', 'Bill(26, 26)', 'Bill(36, 36)']]
+Winograd answer: A (Tonya)
+A confidence: 10.265928268432617
+B confidence: 11.681889533996582
+
+Bill and Tonya had just started dating . PRP had acted very possessive at times , but NNP accepted it . Soon , PRP started isolating Bill from PRP$ friends and family . PRP had turned Bill into a full on hermit !
+pronoun: ['PRP(33, 33)'], A: ['Tonya(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['Tonya(2, 2)', 'PRP(8, 8)', 'NNP(17, 17)', 'PRP(23, 23)', 'PRP$(28, 28)', 'PRP(33, 33)']['Bill(0, 0)', 'Bill(26, 26)', 'Bill(36, 36)']]
+Winograd answer: A (Tonya)
+A confidence: 9.740842819213867
+B confidence: 10.719239234924316
+
+Bill and Tonya had just started dating . PRP had acted very possessive at times , but Bill accepted it . Soon , PRP started isolating NNP from PRP$ friends and family . PRP had turned Bill into a full on hermit !
+pronoun: ['PRP$(28, 28)'], A: ['Tonya(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['Tonya(2, 2)', 'PRP(8, 8)', 'PRP(23, 23)', 'NNP(26, 26)', 'PRP$(28, 28)', 'PRP(33, 33)']['Bill(0, 0)', 'Bill(17, 17)', 'Bill(36, 36)']]
+Winograd answer: A (Tonya)
+A confidence: 6.029672622680664
+B confidence: -1.8502987623214722
+
+Bill and Tonya had just started dating . PRP had acted very possessive at times , but Bill accepted it . Soon , PRP started isolating NNP from PRP$ friends and family . PRP had turned Bill into a full on hermit !
+pronoun: ['PRP(8, 8)'], A: ['Tonya(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['Tonya(2, 2)', 'PRP(8, 8)', 'PRP(23, 23)', 'NNP(26, 26)', 'PRP$(28, 28)', 'PRP(33, 33)']['Bill(0, 0)', 'Bill(17, 17)', 'Bill(36, 36)']]
+Winograd answer: A (Tonya)
+A confidence: 12.024752616882324
+B confidence: -4.878194808959961
+
+Bill and Tonya had just started dating . PRP had acted very possessive at times , but Bill accepted it . Soon , PRP started isolating NNP from PRP$ friends and family . PRP had turned Bill into a full on hermit !
+pronoun: ['PRP(23, 23)'], A: ['Tonya(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['Tonya(2, 2)', 'PRP(8, 8)', 'PRP(23, 23)', 'NNP(26, 26)', 'PRP$(28, 28)', 'PRP(33, 33)']['Bill(0, 0)', 'Bill(17, 17)', 'Bill(36, 36)']]
+Winograd answer: A (Tonya)
+A confidence: 10.040352821350098
+B confidence: -5.0614399909973145
+
+Bill and Tonya had just started dating . PRP had acted very possessive at times , but Bill accepted it . Soon , PRP started isolating NNP from PRP$ friends and family . PRP had turned Bill into a full on hermit !
+pronoun: ['PRP(33, 33)'], A: ['Tonya(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['Tonya(2, 2)', 'PRP(8, 8)', 'PRP(23, 23)', 'NNP(26, 26)', 'PRP$(28, 28)', 'PRP(33, 33)']['Bill(0, 0)', 'Bill(17, 17)', 'Bill(36, 36)']]
+Winograd answer: A (Tonya)
+A confidence: 9.819944381713867
+B confidence: 6.575196266174316
+
+Bill and Tonya had just started dating . PRP had acted very possessive at times , but Bill accepted it . Soon , PRP started isolating Bill from PRP$ friends and family . PRP had turned NNP into a full on hermit !
+pronoun: ['PRP$(28, 28)'], A: ['Tonya(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['Tonya(2, 2)', 'PRP(8, 8)', 'PRP(23, 23)', 'PRP$(28, 28)', 'PRP(33, 33)', 'NNP(36, 36)']['Bill(0, 0)', 'Bill(17, 17)', 'Bill(26, 26)']]
+Winograd answer: A (Tonya)
+A confidence: 6.367484092712402
+B confidence: -13.672506332397461
+
+Bill and Tonya had just started dating . PRP had acted very possessive at times , but Bill accepted it . Soon , PRP started isolating Bill from PRP$ friends and family . PRP had turned NNP into a full on hermit !
+pronoun: ['PRP(8, 8)'], A: ['Tonya(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['Tonya(2, 2)', 'PRP(8, 8)', 'PRP(23, 23)', 'PRP$(28, 28)', 'PRP(33, 33)', 'NNP(36, 36)']['Bill(0, 0)', 'Bill(17, 17)', 'Bill(26, 26)']]
+Winograd answer: A (Tonya)
+A confidence: 12.021385192871094
+B confidence: -4.865019798278809
+
+Bill and Tonya had just started dating . PRP had acted very possessive at times , but Bill accepted it . Soon , PRP started isolating Bill from PRP$ friends and family . PRP had turned NNP into a full on hermit !
+pronoun: ['PRP(23, 23)'], A: ['Tonya(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['Tonya(2, 2)', 'PRP(8, 8)', 'PRP(23, 23)', 'PRP$(28, 28)', 'PRP(33, 33)', 'NNP(36, 36)']['Bill(0, 0)', 'Bill(17, 17)', 'Bill(26, 26)']]
+Winograd answer: A (Tonya)
+A confidence: 10.298262596130371
+B confidence: -5.2269978523254395
+
+Bill and Tonya had just started dating . PRP had acted very possessive at times , but Bill accepted it . Soon , PRP started isolating Bill from PRP$ friends and family . PRP had turned NNP into a full on hermit !
+pronoun: ['PRP(33, 33)'], A: ['Tonya(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['Tonya(2, 2)', 'PRP(8, 8)', 'PRP(23, 23)', 'PRP$(28, 28)', 'PRP(33, 33)', 'NNP(36, 36)']['Bill(0, 0)', 'Bill(17, 17)', 'Bill(26, 26)']]
+Winograd answer: A (Tonya)
+A confidence: 9.898889541625977
+B confidence: -2.4898533821105957
+
+Hubert took PRP$ smartphone out to check out PRP$ mail . PRP perused through fifty emails , but none were from Bertha . PRP sat on a bench waiting for PRP$ email . Four minutes later , NNP email appeared and PRP smiled widely .
+pronoun: ['PRP$(30, 30)'], A: ['Bertha(21, 21)'], B: ['Hubert(0, 0)']
+clusters: [['PRP$(2, 2)', 'PRP$(8, 8)', 'PRP(11, 11)', 'Bertha(21, 21)', 'PRP(23, 23)', 'PRP$(30, 30)', 'NNP(37, 37)', 'PRP(41, 41)']['PRP$ email(30, 31)', 'NNP email(37, 38)']]
+Winograd answer: A (Bertha)
+A confidence: 6.428014278411865
+B confidence: -13.548715591430664
+
+Hubert took PRP$ smartphone out to check out PRP$ mail . PRP perused through fifty emails , but none were from Bertha . PRP sat on a bench waiting for PRP$ email . Four minutes later , NNP email appeared and PRP smiled widely .
+pronoun: ['PRP(23, 23)'], A: ['Bertha(21, 21)'], B: ['Hubert(0, 0)']
+clusters: [['PRP$(2, 2)', 'PRP$(8, 8)', 'PRP(11, 11)', 'Bertha(21, 21)', 'PRP(23, 23)', 'PRP$(30, 30)', 'NNP(37, 37)', 'PRP(41, 41)']['PRP$ email(30, 31)', 'NNP email(37, 38)']]
+Winograd answer: A (Bertha)
+A confidence: 9.857844352722168
+B confidence: -8.904882431030273
+
+Ellis and Ina wanted to buy a dog . Ellis wanted a big dog , but NNP wanted a small one . When they arrived at the dog pound , only small dogs were left . Ellis was sad , but PRP noticed that Ina had already chosen a dog .
+pronoun: ['PRP(41, 41)'], A: ['Ina(2, 2)'], B: ['Ellis(0, 0)']
+clusters: [['Ellis(0, 0)', 'Ellis(9, 9)', 'Ellis(36, 36)']['Ina(2, 2)', 'NNP(16, 16)', 'PRP(41, 41)', 'Ina(44, 44)']['Ellis and Ina(0, 2)', 'they(23, 23)']['a dog(6, 7)', 'the dog(26, 27)', 'the dog pound(26, 28)']]
+Winograd answer: A (Ina)
+A confidence: 10.88561725616455
+B confidence: -6.9830546379089355
+
+Ellis and Ina wanted to buy a dog . Ellis wanted a big dog , but Ina wanted a small one . When they arrived at the dog pound , only small dogs were left . Ellis was sad , but PRP noticed that NNP had already chosen a dog .
+pronoun: ['PRP(41, 41)'], A: ['Ina(2, 2)'], B: ['Ellis(0, 0)']
+clusters: [['Ellis(0, 0)', 'Ellis(9, 9)', 'Ellis(36, 36)']['Ina(2, 2)', 'Ina(16, 16)', 'PRP(41, 41)', 'NNP(44, 44)']['Ellis and Ina(0, 2)', 'they(23, 23)']['a dog(6, 7)', 'the dog(26, 27)', 'the dog pound(26, 28)']]
+Winograd answer: A (Ina)
+A confidence: 9.903589248657227
+B confidence: -6.95855188369751
+
+Ellis and Ina wanted to buy a dog . NNP wanted a big dog , but Ina wanted a small one . When they arrived at the dog pound , only small dogs were left . Ellis was sad , but PRP noticed that Ina had already chosen a dog .
+pronoun: ['PRP(41, 41)'], A: ['Ina(2, 2)'], B: ['Ellis(0, 0)']
+clusters: [['Ina(2, 2)', 'NNP(9, 9)', 'Ina(16, 16)', 'PRP(41, 41)', 'Ina(44, 44)']['Ellis and Ina(0, 2)', 'they(23, 23)']['a dog(6, 7)', 'the dog(26, 27)', 'the dog pound(26, 28)']['Ellis(0, 0)', 'Ellis(36, 36)']]
+Winograd answer: A (Ina)
+A confidence: 9.949399948120117
+B confidence: 10.113073348999023
+
+Ellis and Ina wanted to buy a dog . Ellis wanted a big dog , but Ina wanted a small one . When they arrived at the dog pound , only small dogs were left . NNP was sad , but PRP noticed that Ina had already chosen a dog .
+pronoun: ['PRP(41, 41)'], A: ['Ina(2, 2)'], B: ['Ellis(0, 0)']
+clusters: [['Ellis(0, 0)', 'Ellis(9, 9)']['Ina(2, 2)', 'Ina(16, 16)', 'NNP(36, 36)', 'PRP(41, 41)', 'Ina(44, 44)']['Ellis and Ina(0, 2)', 'they(23, 23)']['a dog(6, 7)', 'the dog(26, 27)', 'the dog pound(26, 28)']]
+Winograd answer: A (Ina)
+A confidence: 10.398266792297363
+B confidence: 11.078962326049805
+
+Erin went on a blind date with Toby . NNP was the full package . Erin went back to PRP$ place . When PRP arrived PRP realized it was too good to be true .
+pronoun: ['PRP$(19, 19)'], A: ['Toby(7, 7)'], B: ['Erin(0, 0)']
+clusters: [['Toby(7, 7)', 'NNP(9, 9)', 'PRP$(19, 19)', 'PRP(23, 23)', 'PRP(25, 25)']['Erin(0, 0)', 'Erin(15, 15)']]
+Winograd answer: A (Toby)
+A confidence: 6.883604526519775
+B confidence: -13.950904846191406
+
+Erin went on a blind date with Toby . NNP was the full package . Erin went back to PRP$ place . When PRP arrived PRP realized it was too good to be true .
+pronoun: ['PRP(23, 23)'], A: ['Toby(7, 7)'], B: ['Erin(0, 0)']
+clusters: [['Toby(7, 7)', 'NNP(9, 9)', 'PRP$(19, 19)', 'PRP(23, 23)', 'PRP(25, 25)']['Erin(0, 0)', 'Erin(15, 15)']]
+Winograd answer: A (Toby)
+A confidence: 10.628835678100586
+B confidence: -4.728237152099609
+
+Erin went on a blind date with Toby . NNP was the full package . Erin went back to PRP$ place . When PRP arrived PRP realized it was too good to be true .
+pronoun: ['PRP(25, 25)'], A: ['Toby(7, 7)'], B: ['Erin(0, 0)']
+clusters: [['Toby(7, 7)', 'NNP(9, 9)', 'PRP$(19, 19)', 'PRP(23, 23)', 'PRP(25, 25)']['Erin(0, 0)', 'Erin(15, 15)']]
+Winograd answer: A (Toby)
+A confidence: 11.704395294189453
+B confidence: -11.713903427124023
+
+Erin went on a blind date with Toby . Toby was the full package . NNP went back to PRP$ place . When PRP arrived PRP realized it was too good to be true .
+pronoun: ['PRP$(19, 19)'], A: ['Toby(7, 7)'], B: ['Erin(0, 0)']
+clusters: [['Toby(7, 7)', 'Toby(9, 9)', 'NNP(15, 15)', 'PRP$(19, 19)', 'PRP(23, 23)', 'PRP(25, 25)']]
+Winograd answer: A (Toby)
+A confidence: 6.761124610900879
+B confidence: 0.256483793258667
+
+Erin went on a blind date with Toby . Toby was the full package . NNP went back to PRP$ place . When PRP arrived PRP realized it was too good to be true .
+pronoun: ['PRP(23, 23)'], A: ['Toby(7, 7)'], B: ['Erin(0, 0)']
+clusters: [['Toby(7, 7)', 'Toby(9, 9)', 'NNP(15, 15)', 'PRP$(19, 19)', 'PRP(23, 23)', 'PRP(25, 25)']]
+Winograd answer: A (Toby)
+A confidence: 10.285538673400879
+B confidence: 14.588858604431152
+
+Erin went on a blind date with Toby . Toby was the full package . NNP went back to PRP$ place . When PRP arrived PRP realized it was too good to be true .
+pronoun: ['PRP(25, 25)'], A: ['Toby(7, 7)'], B: ['Erin(0, 0)']
+clusters: [['Toby(7, 7)', 'Toby(9, 9)', 'NNP(15, 15)', 'PRP$(19, 19)', 'PRP(23, 23)', 'PRP(25, 25)']]
+Winograd answer: A (Toby)
+A confidence: 11.68303108215332
+B confidence: 13.822816848754883
+
+
+
+
+
+incorrect answer
+Leah and Kerry went to the beach in December . NNP put on PRP$ bathing suit and waded into the ocean ! The water was so cold that Kerry 's lips turned turned blue . Leah pulled PRP from the icy water , saving Kerry from frostbite .
+pronoun: ['PRP$(13, 13)'], A: ['Kerry(2, 2)'], B: ['Leah(0, 0)']
+clusters: [['Leah(0, 0)', 'NNP(10, 10)', 'PRP$(13, 13)', 'Leah(35, 35)', 'PRP(37, 37)', 'frostbite(46, 46)']['Kerry(2, 2)', "Kerry 's(28, 29)", 'Kerry(44, 44)']]
+Winograd answer: A (Kerry)
+A confidence: -0.04945790767669678
+B confidence: 4.104858875274658
+
+Leah and Kerry went to the beach in December . NNP put on PRP$ bathing suit and waded into the ocean ! The water was so cold that Kerry 's lips turned turned blue . Leah pulled PRP from the icy water , saving Kerry from frostbite .
+pronoun: ['PRP(37, 37)'], A: ['Kerry(2, 2)'], B: ['Leah(0, 0)']
+clusters: [['Leah(0, 0)', 'NNP(10, 10)', 'PRP$(13, 13)', 'Leah(35, 35)', 'PRP(37, 37)', 'frostbite(46, 46)']['Kerry(2, 2)', "Kerry 's(28, 29)", 'Kerry(44, 44)']]
+Winograd answer: A (Kerry)
+A confidence: 8.56594181060791
+B confidence: 5.347442150115967
+
+Leah and Kerry went to the beach in December . Kerry put on PRP$ bathing suit and waded into the ocean ! The water was so cold that NNP lips turned turned blue . Leah pulled PRP from the icy water , saving Kerry from frostbite .
+pronoun: ['PRP$(13, 13)'], A: ['Kerry(2, 2)'], B: ['Leah(0, 0)']
+clusters: [['Kerry(2, 2)', 'Kerry(10, 10)', 'Kerry(43, 43)']['Leah(0, 0)', 'PRP$(13, 13)', 'NNP(28, 28)', 'Leah(34, 34)', 'PRP(36, 36)', 'frostbite(45, 45)']]
+Winograd answer: A (Kerry)
+A confidence: -16.797748565673828
+B confidence: 4.398621082305908
+
+Leah and Kerry went to the beach in December . Kerry put on PRP$ bathing suit and waded into the ocean ! The water was so cold that Kerry 's lips turned turned blue . Leah pulled PRP from the icy water , saving NNP from frostbite .
+pronoun: ['PRP$(13, 13)'], A: ['Kerry(2, 2)'], B: ['Leah(0, 0)']
+clusters: [['Kerry(2, 2)', 'Kerry(10, 10)', "Kerry 's(28, 29)"]['Leah(0, 0)', 'PRP$(13, 13)', 'Leah(35, 35)', 'PRP(37, 37)', 'NNP(44, 44)', 'frostbite(46, 46)']]
+Winograd answer: A (Kerry)
+A confidence: -16.945316314697266
+B confidence: 4.138347625732422
+
+Leah and Kerry went to the beach in December . Kerry put on PRP$ bathing suit and waded into the ocean ! The water was so cold that Kerry 's lips turned turned blue . Leah pulled PRP from the icy water , saving NNP from frostbite .
+pronoun: ['PRP(37, 37)'], A: ['Kerry(2, 2)'], B: ['Leah(0, 0)']
+clusters: [['Kerry(2, 2)', 'Kerry(10, 10)', "Kerry 's(28, 29)"]['Leah(0, 0)', 'PRP$(13, 13)', 'Leah(35, 35)', 'PRP(37, 37)', 'NNP(44, 44)', 'frostbite(46, 46)']]
+Winograd answer: A (Kerry)
+A confidence: -13.098611831665039
+B confidence: 5.1280646324157715
+
+Leah and Kerry went to the beach in December . Kerry put on PRP$ bathing suit and waded into the ocean ! The water was so cold that Kerry 's lips turned turned blue . NNP pulled PRP from the icy water , saving Kerry from frostbite .
+pronoun: ['PRP$(13, 13)'], A: ['Kerry(2, 2)'], B: ['Leah(0, 0)']
+clusters: [['Kerry(2, 2)', 'Kerry(10, 10)', "Kerry 's(28, 29)", 'Kerry(44, 44)']['Leah(0, 0)', 'PRP$(13, 13)', 'NNP(35, 35)', 'PRP(37, 37)', 'frostbite(46, 46)']]
+Winograd answer: A (Kerry)
+A confidence: -16.93157958984375
+B confidence: 4.148517608642578
+
+Leah and Kerry went to the beach in December . Kerry put on PRP$ bathing suit and waded into the ocean ! The water was so cold that Kerry 's lips turned turned blue . NNP pulled PRP from the icy water , saving Kerry from frostbite .
+pronoun: ['PRP(37, 37)'], A: ['Kerry(2, 2)'], B: ['Leah(0, 0)']
+clusters: [['Kerry(2, 2)', 'Kerry(10, 10)', "Kerry 's(28, 29)", 'Kerry(44, 44)']['Leah(0, 0)', 'PRP$(13, 13)', 'NNP(35, 35)', 'PRP(37, 37)', 'frostbite(46, 46)']]
+Winograd answer: A (Kerry)
+A confidence: -13.454535484313965
+B confidence: 5.494975566864014
+
+Amy 's mom told PRP to babysit PRP$ little brother Kyle . NNP was annoyed because PRP would rather go to the mall . Kyle asked Amy to play a game . The two ended up having a lot of fun together .
+pronoun: ['PRP(16, 16)'], A: ['Amy(0, 0)'], B: ['Kyle(10, 10)']
+clusters: [['PRP(4, 4)', 'NNP(12, 12)', 'PRP(16, 16)', 'Kyle(24, 24)']["Amy 's(0, 1)", 'Amy(26, 26)']]
+Winograd answer: A (Amy)
+A confidence: 10.985404014587402
+B confidence: -inf
+
+Amy 's mom told PRP to babysit PRP$ little brother Kyle . Amy was annoyed because PRP would rather go to the mall . Kyle asked NNP to play a game . The two ended up having a lot of fun together .
+pronoun: ['PRP(16, 16)'], A: ['Amy(0, 0)'], B: ['Kyle(10, 10)']
+clusters: [["Amy 's(0, 1)", 'Amy(12, 12)']['PRP(4, 4)', 'PRP(16, 16)', 'Kyle(24, 24)', 'NNP(26, 26)']]
+Winograd answer: A (Amy)
+A confidence: -11.121064186096191
+B confidence: -inf
+
+Jamie and Susie were making mud pies together . They were having fun pretending to be real life chefs . NNP got so carried away PRP forgot the pies were real . PRP took a big bite of one !
+pronoun: ['PRP(25, 25)'], A: ['Jamie(0, 0)'], B: ['Susie(2, 2)']
+clusters: [['Jamie and Susie(0, 2)', 'They(9, 9)']['Susie(2, 2)', 'NNP(20, 20)', 'PRP(25, 25)', 'PRP(32, 32)']['mud pies(5, 6)', 'the pies(27, 28)']]
+Winograd answer: A (Jamie)
+A confidence: 11.113261222839355
+B confidence: 6.579888820648193
+
+Jamie and Susie were making mud pies together . They were having fun pretending to be real life chefs . NNP got so carried away PRP forgot the pies were real . PRP took a big bite of one !
+pronoun: ['PRP(32, 32)'], A: ['Jamie(0, 0)'], B: ['Susie(2, 2)']
+clusters: [['Jamie and Susie(0, 2)', 'They(9, 9)']['Susie(2, 2)', 'NNP(20, 20)', 'PRP(25, 25)', 'PRP(32, 32)']['mud pies(5, 6)', 'the pies(27, 28)']]
+Winograd answer: A (Jamie)
+A confidence: 11.628464698791504
+B confidence: 6.260717868804932
+
+Ursula had a parrot named Ariel . PRP could repeat anything you said . PRP loved to sing . NN taught PRP to say a knock knock joke .
+pronoun: ['PRP(21, 21)'], A: ['Ariel(5, 5)'], B: ['Ursula(0, 0)']
+clusters: [['Ursula(0, 0)', 'PRP(7, 7)', 'PRP(14, 14)', 'PRP(21, 21)']]
+Winograd answer: A (Ariel)
+A confidence: -inf
+B confidence: 6.608893871307373
+
+Ursula had a parrot named Ariel . PRP could repeat anything you said . PRP loved to sing . NN taught PRP to say a knock knock joke .
+pronoun: ['PRP(7, 7)'], A: ['Ariel(5, 5)'], B: ['Ursula(0, 0)']
+clusters: [['Ursula(0, 0)', 'PRP(7, 7)', 'PRP(14, 14)', 'PRP(21, 21)']]
+Winograd answer: A (Ariel)
+A confidence: -inf
+B confidence: 11.899740219116211
+
+Ursula had a parrot named Ariel . PRP could repeat anything you said . PRP loved to sing . NN taught PRP to say a knock knock joke .
+pronoun: ['PRP(14, 14)'], A: ['Ariel(5, 5)'], B: ['Ursula(0, 0)']
+clusters: [['Ursula(0, 0)', 'PRP(7, 7)', 'PRP(14, 14)', 'PRP(21, 21)']]
+Winograd answer: A (Ariel)
+A confidence: -inf
+B confidence: 8.301084518432617
+
+Jake was given a new puppy for PRP$ birthday . PRP named the puppy Spot . One day NNP took Spot for a walk through the park . Spot hurt PRP$ paw while they were playing .
+pronoun: ['PRP$(30, 30)'], A: ['Jake(0, 0)'], B: ['Spot(14, 14)']
+clusters: [['PRP$(7, 7)', 'PRP(10, 10)', 'NNP(18, 18)', 'Spot(20, 20)', 'Spot(28, 28)', 'PRP$(30, 30)']]
+Winograd answer: A (Jake)
+A confidence: 5.459479808807373
+B confidence: 6.809764862060547
+
+Jake was given a new puppy for PRP$ birthday . PRP named the puppy Spot . One day Jake took NNP for a walk through the park . Spot hurt PRP$ paw while they were playing .
+pronoun: ['PRP$(30, 30)'], A: ['Jake(0, 0)'], B: ['Spot(14, 14)']
+clusters: [['PRP$(7, 7)', 'PRP(10, 10)', 'NNP(20, 20)', 'Spot(28, 28)', 'PRP$(30, 30)']['Jake(0, 0)', 'Jake(18, 18)']]
+Winograd answer: A (Jake)
+A confidence: -10.118682861328125
+B confidence: 6.915924072265625
+
+Jake was given a new puppy for PRP$ birthday . PRP named the puppy Spot . One day Jake took Spot for a walk through the park . NNP hurt PRP$ paw while they were playing .
+pronoun: ['PRP$(30, 30)'], A: ['Jake(0, 0)'], B: ['Spot(14, 14)']
+clusters: [['PRP$(7, 7)', 'PRP(10, 10)', 'Spot(20, 20)', 'NNP(28, 28)', 'PRP$(30, 30)']['Jake(0, 0)', 'Jake(18, 18)']]
+Winograd answer: A (Jake)
+A confidence: -10.341608047485352
+B confidence: 6.571633815765381
+
+Jill got a call from PRP$ friend Betty . PRP told PRP there was big party at Brad 's tonight . NNP was so excited to go with Betty . The two got dressed and headed to the party .
+pronoun: ['PRP(11, 11)'], A: ['Jill(0, 0)'], B: ['Betty(7, 7)']
+clusters: [['PRP$(5, 5)', 'PRP(9, 9)', 'NNP(21, 21)']['PRP$ friend Betty(5, 7)', 'PRP(11, 11)', 'Betty(28, 28)']]
+Winograd answer: A (Jill)
+A confidence: -11.82945442199707
+B confidence: -inf
+
+Cathy is an avid tennis fan . Cathy loved watching PRP$ favorite player , Serena . NNP was excited to learn that Serena was playing a match near PRP . Cathy decided to purchase tickets to Serena 's tennis match .
+pronoun: ['PRP(28, 28)'], A: ['Cathy(0, 0)'], B: ['Serena(14, 14)']
+clusters: [['Cathy(0, 0)', 'Cathy(7, 7)', 'Cathy(30, 30)']['PRP$(10, 10)', 'NNP(16, 16)', 'Serena(22, 22)', 'PRP(28, 28)', "Serena 's(36, 37)"]]
+Winograd answer: A (Cathy)
+A confidence: 5.120185852050781
+B confidence: 9.96792984008789
+
+Cathy is an avid tennis fan . Cathy loved watching PRP$ favorite player , Serena . Cathy was excited to learn that Serena was playing a match near PRP . NNP decided to purchase tickets to Serena 's tennis match .
+pronoun: ['PRP(28, 28)'], A: ['Cathy(0, 0)'], B: ['Serena(14, 14)']
+clusters: [['Cathy(0, 0)', 'Cathy(7, 7)', 'Cathy(16, 16)']['PRP$ favorite player , Serena(10, 14)', 'Serena(22, 22)', 'PRP(28, 28)', 'NNP(30, 30)', "Serena 's(36, 37)"]]
+Winograd answer: A (Cathy)
+A confidence: -12.2802734375
+B confidence: 9.965689659118652
+
+Cathy is an avid tennis fan . Cathy loved watching PRP$ favorite player , Serena . Cathy was excited to learn that Serena was playing a match near PRP . Cathy decided to purchase tickets to NNP tennis match .
+pronoun: ['PRP(28, 28)'], A: ['Cathy(0, 0)'], B: ['Serena(14, 14)']
+clusters: [['Cathy(0, 0)', 'Cathy(7, 7)', 'Cathy(16, 16)', 'Cathy(30, 30)']['PRP$(10, 10)', 'Serena(22, 22)', 'PRP(28, 28)', 'NNP(36, 36)']]
+Winograd answer: A (Cathy)
+A confidence: -12.854107856750488
+B confidence: 9.707128524780273
+
+Ricky and Fonda have been married for 20 years . Lately , Ricky and NNP have n't been getting along . Ricky tells PRP that it is time for them to separate . PRP moves into PRP$ sister 's house .
+pronoun: ['PRP(23, 23)'], A: ['Fonda(2, 2)'], B: ['Ricky(0, 0)']
+clusters: [['Ricky(0, 0)', 'Ricky(12, 12)', 'NNP(14, 14)', 'Ricky(21, 21)', 'PRP(23, 23)', 'PRP(33, 33)', "PRP$ sister 's(36, 38)"]['Ricky and Fonda(0, 2)', 'Ricky and NNP(12, 14)', 'them(29, 29)']]
+Winograd answer: A (Fonda)
+A confidence: 5.464864730834961
+B confidence: 7.051454544067383
+
+Ricky and Fonda have been married for 20 years . Lately , Ricky and NNP have n't been getting along . Ricky tells PRP that it is time for them to separate . PRP moves into PRP$ sister 's house .
+pronoun: ['PRP(33, 33)'], A: ['Fonda(2, 2)'], B: ['Ricky(0, 0)']
+clusters: [['Ricky(0, 0)', 'Ricky(12, 12)', 'NNP(14, 14)', 'Ricky(21, 21)', 'PRP(23, 23)', 'PRP(33, 33)', "PRP$ sister 's(36, 38)"]['Ricky and Fonda(0, 2)', 'Ricky and NNP(12, 14)', 'them(29, 29)']]
+Winograd answer: A (Fonda)
+A confidence: 6.243549823760986
+B confidence: 11.006022453308105
+
+Ricky and Fonda have been married for 20 years . Lately , NNP and Fonda have n't been getting along . Ricky tells PRP that it is time for them to separate . PRP moves into PRP$ sister 's house .
+pronoun: ['PRP(23, 23)'], A: ['Fonda(2, 2)'], B: ['Ricky(0, 0)']
+clusters: [['Ricky(0, 0)', 'NNP(12, 12)', 'Ricky(21, 21)', 'PRP(23, 23)', 'PRP(33, 33)', "PRP$ sister 's(36, 38)"]['Ricky and Fonda(0, 2)', 'NNP and Fonda(12, 14)', 'them(29, 29)']['Fonda(2, 2)', 'Fonda(14, 14)']]
+Winograd answer: A (Fonda)
+A confidence: -10.156282424926758
+B confidence: 7.0329999923706055
+
+Ricky and Fonda have been married for 20 years . Lately , NNP and Fonda have n't been getting along . Ricky tells PRP that it is time for them to separate . PRP moves into PRP$ sister 's house .
+pronoun: ['PRP(33, 33)'], A: ['Fonda(2, 2)'], B: ['Ricky(0, 0)']
+clusters: [['Ricky(0, 0)', 'NNP(12, 12)', 'Ricky(21, 21)', 'PRP(23, 23)', 'PRP(33, 33)', "PRP$ sister 's(36, 38)"]['Ricky and Fonda(0, 2)', 'NNP and Fonda(12, 14)', 'them(29, 29)']['Fonda(2, 2)', 'Fonda(14, 14)']]
+Winograd answer: A (Fonda)
+A confidence: -6.200462341308594
+B confidence: 10.927748680114746
+
+Ricky and Fonda have been married for 20 years . Lately , Ricky and Fonda have n't been getting along . NNP tells PRP that it is time for them to separate . PRP moves into PRP$ sister 's house .
+pronoun: ['PRP(23, 23)'], A: ['Fonda(2, 2)'], B: ['Ricky(0, 0)']
+clusters: [['Ricky(0, 0)', 'Ricky(12, 12)', 'NNP(21, 21)', 'PRP(23, 23)', 'PRP(33, 33)', "PRP$ sister 's(36, 38)"]['Ricky and Fonda(0, 2)', 'Ricky and Fonda(12, 14)', 'them(29, 29)']['Fonda(2, 2)', 'Fonda(14, 14)']]
+Winograd answer: A (Fonda)
+A confidence: -10.04141902923584
+B confidence: 7.569912910461426
+
+Ricky and Fonda have been married for 20 years . Lately , Ricky and Fonda have n't been getting along . NNP tells PRP that it is time for them to separate . PRP moves into PRP$ sister 's house .
+pronoun: ['PRP(33, 33)'], A: ['Fonda(2, 2)'], B: ['Ricky(0, 0)']
+clusters: [['Ricky(0, 0)', 'Ricky(12, 12)', 'NNP(21, 21)', 'PRP(23, 23)', 'PRP(33, 33)', "PRP$ sister 's(36, 38)"]['Ricky and Fonda(0, 2)', 'Ricky and Fonda(12, 14)', 'them(29, 29)']['Fonda(2, 2)', 'Fonda(14, 14)']]
+Winograd answer: A (Fonda)
+A confidence: -6.588653087615967
+B confidence: 12.82042407989502
+
+Angel was bored at work . PRP decided to go on Reddit to pass the time . On Reddit , NNP saw an interesting link . PRP clicked on the link , and read a good article .
+pronoun: ['PRP(26, 26)'], A: ['Angel(0, 0)'], B: ['Reddit(18, 18)']
+clusters: [['PRP(6, 6)', 'Reddit(11, 11)', 'Reddit(18, 18)', 'NNP(20, 20)', 'PRP(26, 26)']['an interesting link(22, 24)', 'the link(29, 30)']]
+Winograd answer: A (Angel)
+A confidence: 13.167753219604492
+B confidence: 4.626946449279785
+
+
+
+
+
+thought both were the same
+Liam and Gus were good friends but very competitive . NNP set out to beat Gus at basketball . PRP dribbled fast but tripped at the last second . Gus snatched the ball and scored .
+pronoun: ['PRP(19, 19)'], A: ['Liam(0, 0)'], B: ['Gus(2, 2)']
+clusters: [['Liam(0, 0)', 'Gus(2, 2)', 'NNP(10, 10)', 'Gus(15, 15)', 'PRP(19, 19)', 'Gus(29, 29)']]
+
+Liam and Gus were good friends but very competitive . Liam set out to beat NNP at basketball . PRP dribbled fast but tripped at the last second . Gus snatched the ball and scored .
+pronoun: ['PRP(19, 19)'], A: ['Liam(0, 0)'], B: ['Gus(2, 2)']
+clusters: [['Liam(0, 0)', 'Gus(2, 2)', 'Liam(10, 10)', 'NNP(15, 15)', 'PRP(19, 19)', 'Gus(29, 29)']]
+
+Liam and Gus were good friends but very competitive . Liam set out to beat Gus at basketball . PRP dribbled fast but tripped at the last second . NNP snatched the ball and scored .
+pronoun: ['PRP(19, 19)'], A: ['Liam(0, 0)'], B: ['Gus(2, 2)']
+clusters: [['Liam(0, 0)', 'Gus(2, 2)', 'Liam(10, 10)', 'Gus(15, 15)', 'PRP(19, 19)', 'NNP(29, 29)']]
+
+
+
+
+
+neither a nor b selected
+Bobby thought Bill should buy a trailer and haul it with PRP$ car . Bill thought a truck would be better for what PRP needed . NNP pointed out two vehicles were much more expensive . Bill was set in PRP$ ways with conventional thinking .
+pronoun: ['PRP$(11, 11)'], A: ['Bobby(0, 0)'], B: ['Bill(2, 2)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Bill(2, 2)', 'Bill(14, 14)', 'Bill(36, 36)']['PRP$(11, 11)', 'PRP(23, 23)', 'NNP(26, 26)', 'PRP$(40, 40)']]
+
+Bobby thought Bill should buy a trailer and haul it with PRP$ car . Bill thought a truck would be better for what PRP needed . NNP pointed out two vehicles were much more expensive . Bill was set in PRP$ ways with conventional thinking .
+pronoun: ['PRP$(40, 40)'], A: ['Bobby(0, 0)'], B: ['Bill(2, 2)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Bill(2, 2)', 'Bill(14, 14)', 'Bill(36, 36)']['PRP$(11, 11)', 'PRP(23, 23)', 'NNP(26, 26)', 'PRP$(40, 40)']]
+
+Bobby thought Bill should buy a trailer and haul it with PRP$ car . Bill thought a truck would be better for what PRP needed . NNP pointed out two vehicles were much more expensive . Bill was set in PRP$ ways with conventional thinking .
+pronoun: ['PRP(23, 23)'], A: ['Bobby(0, 0)'], B: ['Bill(2, 2)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Bill(2, 2)', 'Bill(14, 14)', 'Bill(36, 36)']['PRP$(11, 11)', 'PRP(23, 23)', 'NNP(26, 26)', 'PRP$(40, 40)']]
+
+Bobby thought Bill should buy a trailer and haul it with PRP$ car . NNP thought a truck would be better for what PRP needed . Bobby pointed out two vehicles were much more expensive . Bill was set in PRP$ ways with conventional thinking .
+pronoun: ['PRP$(11, 11)'], A: ['Bobby(0, 0)'], B: ['Bill(2, 2)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['PRP$(11, 11)', 'NNP(14, 14)', 'PRP(23, 23)', 'PRP$(40, 40)']['Bobby(0, 0)', 'Bobby(26, 26)']['Bill(2, 2)', 'Bill(36, 36)']]
+
+Bobby thought Bill should buy a trailer and haul it with PRP$ car . NNP thought a truck would be better for what PRP needed . Bobby pointed out two vehicles were much more expensive . Bill was set in PRP$ ways with conventional thinking .
+pronoun: ['PRP$(40, 40)'], A: ['Bobby(0, 0)'], B: ['Bill(2, 2)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['PRP$(11, 11)', 'NNP(14, 14)', 'PRP(23, 23)', 'PRP$(40, 40)']['Bobby(0, 0)', 'Bobby(26, 26)']['Bill(2, 2)', 'Bill(36, 36)']]
+
+Bobby thought Bill should buy a trailer and haul it with PRP$ car . NNP thought a truck would be better for what PRP needed . Bobby pointed out two vehicles were much more expensive . Bill was set in PRP$ ways with conventional thinking .
+pronoun: ['PRP(23, 23)'], A: ['Bobby(0, 0)'], B: ['Bill(2, 2)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['PRP$(11, 11)', 'NNP(14, 14)', 'PRP(23, 23)', 'PRP$(40, 40)']['Bobby(0, 0)', 'Bobby(26, 26)']['Bill(2, 2)', 'Bill(36, 36)']]
+
+Bobby thought Bill should buy a trailer and haul it with PRP$ car . Bill thought a truck would be better for what PRP needed . Bobby pointed out two vehicles were much more expensive . NNP was set in PRP$ ways with conventional thinking .
+pronoun: ['PRP$(11, 11)'], A: ['Bobby(0, 0)'], B: ['Bill(2, 2)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Bill(2, 2)', 'Bill(14, 14)']['PRP$(11, 11)', 'PRP(23, 23)', 'NNP(36, 36)', 'PRP$(40, 40)']['Bobby(0, 0)', 'Bobby(26, 26)']]
+
+Bobby thought Bill should buy a trailer and haul it with PRP$ car . Bill thought a truck would be better for what PRP needed . Bobby pointed out two vehicles were much more expensive . NNP was set in PRP$ ways with conventional thinking .
+pronoun: ['PRP$(40, 40)'], A: ['Bobby(0, 0)'], B: ['Bill(2, 2)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Bill(2, 2)', 'Bill(14, 14)']['PRP$(11, 11)', 'PRP(23, 23)', 'NNP(36, 36)', 'PRP$(40, 40)']['Bobby(0, 0)', 'Bobby(26, 26)']]
+
+Bobby thought Bill should buy a trailer and haul it with PRP$ car . Bill thought a truck would be better for what PRP needed . Bobby pointed out two vehicles were much more expensive . NNP was set in PRP$ ways with conventional thinking .
+pronoun: ['PRP(23, 23)'], A: ['Bobby(0, 0)'], B: ['Bill(2, 2)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Bill(2, 2)', 'Bill(14, 14)']['PRP$(11, 11)', 'PRP(23, 23)', 'NNP(36, 36)', 'PRP$(40, 40)']['Bobby(0, 0)', 'Bobby(26, 26)']]
+
+Mark and Jo were brainstorming ideas for a children 's show . Mark suggested that a monster attacks the children . NNP laughed because PRP thought Mark was joking . Mark was confused because PRP thought it was a great idea .
+pronoun: ['PRP(24, 24)'], A: ['Jo(2, 2)'], B: ['Mark(0, 0)']
+clusters: [["a children 's(7, 9)", 'the children(18, 19)']['NNP(21, 21)', 'PRP(24, 24)', 'PRP(34, 34)']['Mark(12, 12)', 'Mark(26, 26)', 'Mark(30, 30)', 'it(36, 36)']]
+
+Mark and Jo were brainstorming ideas for a children 's show . Mark suggested that a monster attacks the children . NNP laughed because PRP thought Mark was joking . Mark was confused because PRP thought it was a great idea .
+pronoun: ['PRP(34, 34)'], A: ['Jo(2, 2)'], B: ['Mark(0, 0)']
+clusters: [["a children 's(7, 9)", 'the children(18, 19)']['NNP(21, 21)', 'PRP(24, 24)', 'PRP(34, 34)']['Mark(12, 12)', 'Mark(26, 26)', 'Mark(30, 30)', 'it(36, 36)']]
+
+Mark and Jo were brainstorming ideas for a children 's show . NNP suggested that a monster attacks the children . Jo laughed because PRP thought Mark was joking . Mark was confused because PRP thought it was a great idea .
+pronoun: ['PRP(24, 24)'], A: ['Jo(2, 2)'], B: ['Mark(0, 0)']
+clusters: [["a children 's(7, 9)", 'the children(18, 19)']['Jo(2, 2)', 'Jo(21, 21)']['NNP(12, 12)', 'PRP(24, 24)', 'PRP(34, 34)']['Mark(26, 26)', 'Mark(30, 30)', 'it(36, 36)']]
+
+Mark and Jo were brainstorming ideas for a children 's show . NNP suggested that a monster attacks the children . Jo laughed because PRP thought Mark was joking . Mark was confused because PRP thought it was a great idea .
+pronoun: ['PRP(34, 34)'], A: ['Jo(2, 2)'], B: ['Mark(0, 0)']
+clusters: [["a children 's(7, 9)", 'the children(18, 19)']['Jo(2, 2)', 'Jo(21, 21)']['NNP(12, 12)', 'PRP(24, 24)', 'PRP(34, 34)']['Mark(26, 26)', 'Mark(30, 30)', 'it(36, 36)']]
+
+Mark and Jo were brainstorming ideas for a children 's show . Mark suggested that a monster attacks the children . Jo laughed because PRP thought NNP was joking . Mark was confused because PRP thought it was a great idea .
+pronoun: ['PRP(24, 24)'], A: ['Jo(2, 2)'], B: ['Mark(0, 0)']
+clusters: [["a children 's(7, 9)", 'the children(18, 19)']['Jo(2, 2)', 'Jo(21, 21)']['PRP(24, 24)', 'NNP(26, 26)', 'PRP(34, 34)']['Mark(12, 12)', 'Mark(30, 30)', 'it(36, 36)']]
+
+Mark and Jo were brainstorming ideas for a children 's show . Mark suggested that a monster attacks the children . Jo laughed because PRP thought NNP was joking . Mark was confused because PRP thought it was a great idea .
+pronoun: ['PRP(34, 34)'], A: ['Jo(2, 2)'], B: ['Mark(0, 0)']
+clusters: [["a children 's(7, 9)", 'the children(18, 19)']['Jo(2, 2)', 'Jo(21, 21)']['PRP(24, 24)', 'NNP(26, 26)', 'PRP(34, 34)']['Mark(12, 12)', 'Mark(30, 30)', 'it(36, 36)']]
+
+Mark and Jo were brainstorming ideas for a children 's show . Mark suggested that a monster attacks the children . Jo laughed because PRP thought Mark was joking . NNP was confused because PRP thought it was a great idea .
+pronoun: ['PRP(24, 24)'], A: ['Jo(2, 2)'], B: ['Mark(0, 0)']
+clusters: [["a children 's(7, 9)", 'the children(18, 19)']['Jo(2, 2)', 'Jo(21, 21)']['Mark(12, 12)', 'Mark(26, 26)']['PRP(24, 24)', 'NNP(30, 30)', 'PRP(34, 34)']]
+
+Mark and Jo were brainstorming ideas for a children 's show . Mark suggested that a monster attacks the children . Jo laughed because PRP thought Mark was joking . NNP was confused because PRP thought it was a great idea .
+pronoun: ['PRP(34, 34)'], A: ['Jo(2, 2)'], B: ['Mark(0, 0)']
+clusters: [["a children 's(7, 9)", 'the children(18, 19)']['Jo(2, 2)', 'Jo(21, 21)']['Mark(12, 12)', 'Mark(26, 26)']['PRP(24, 24)', 'NNP(30, 30)', 'PRP(34, 34)']]
+
+Eric and PRP$ wife had a daughter named Meg . Eric 's wife passed away . Eric and NNP were very sad . Eric met a woman and married PRP$ 5 years after PRP$ wife died .
+pronoun: ['PRP$(29, 29)'], A: ['Meg(8, 8)'], B: ['Eric(0, 0)']
+clusters: [['Eric(0, 0)', "Eric 's(10, 11)", 'Eric(23, 23)']['PRP$(2, 2)', 'NNP(18, 18)', 'PRP$(29, 29)', 'PRP$(33, 33)']['PRP$ wife(2, 3)', 'PRP$ wife(33, 34)']]
+
+Eric and PRP$ wife had a daughter named Meg . Eric 's wife passed away . Eric and NNP were very sad . Eric met a woman and married PRP$ 5 years after PRP$ wife died .
+pronoun: ['PRP$(33, 33)'], A: ['Meg(8, 8)'], B: ['Eric(0, 0)']
+clusters: [['Eric(0, 0)', "Eric 's(10, 11)", 'Eric(23, 23)']['PRP$(2, 2)', 'NNP(18, 18)', 'PRP$(29, 29)', 'PRP$(33, 33)']['PRP$ wife(2, 3)', 'PRP$ wife(33, 34)']]
+
+Allen thought PRP was a very talented poet . PRP attended college to study creative writing . In college , PRP met a boy named Carl . NNP told PRP that PRP was n't very good .
+pronoun: ['PRP(29, 29)'], A: ['Allen(0, 0)'], B: ['Carl(25, 25)']
+clusters: [['PRP(2, 2)', 'PRP(9, 9)', 'PRP(20, 20)', 'NNP(27, 27)', 'PRP(29, 29)', 'PRP(31, 31)']]
+
+Allen thought PRP was a very talented poet . PRP attended college to study creative writing . In college , PRP met a boy named Carl . NNP told PRP that PRP was n't very good .
+pronoun: ['PRP(31, 31)'], A: ['Allen(0, 0)'], B: ['Carl(25, 25)']
+clusters: [['PRP(2, 2)', 'PRP(9, 9)', 'PRP(20, 20)', 'NNP(27, 27)', 'PRP(29, 29)', 'PRP(31, 31)']]
+
+Sam 's dog Rex escaped from their yard . Sam was distraught . PRP went out calling for NNP . Then PRP saw Rex come running up the street !
+pronoun: ['PRP(13, 13)'], A: ['Sam(9, 9)'], B: ['Rex(3, 3)']
+clusters: [["Sam 's(0, 1)", 'Sam(9, 9)']['PRP(13, 13)', 'NNP(18, 18)', 'PRP(21, 21)']["Sam 's dog Rex(0, 3)", 'Rex(23, 23)']]
+
+Sam 's dog Rex escaped from their yard . Sam was distraught . PRP went out calling for NNP . Then PRP saw Rex come running up the street !
+pronoun: ['PRP(21, 21)'], A: ['Sam(9, 9)'], B: ['Rex(3, 3)']
+clusters: [["Sam 's(0, 1)", 'Sam(9, 9)']['PRP(13, 13)', 'NNP(18, 18)', 'PRP(21, 21)']["Sam 's dog Rex(0, 3)", 'Rex(23, 23)']]
+
+Sam 's dog Rex escaped from their yard . Sam was distraught . PRP went out calling for Rex . Then PRP saw NNP come running up the street !
+pronoun: ['PRP(13, 13)'], A: ['Sam(9, 9)'], B: ['Rex(3, 3)']
+clusters: [["Sam 's(0, 1)", 'Sam(9, 9)']['PRP(13, 13)', 'PRP(21, 21)', 'NNP(23, 23)']]
+
+Sam 's dog Rex escaped from their yard . Sam was distraught . PRP went out calling for Rex . Then PRP saw NNP come running up the street !
+pronoun: ['PRP(21, 21)'], A: ['Sam(9, 9)'], B: ['Rex(3, 3)']
+clusters: [["Sam 's(0, 1)", 'Sam(9, 9)']['PRP(13, 13)', 'PRP(21, 21)', 'NNP(23, 23)']]
+
+Bea yelled out that the computer was broken again . Mike walked into their shared office and looked at PRP , exasperated . NNP rolled PRP$ eyes . PRP approached Bea and the computer , sighing a long suffering sigh .
+pronoun: ['PRP$(25, 25)'], A: ['Mike(10, 10)'], B: ['Bea(0, 0)']
+clusters: [['Mike(10, 10)', 'their(13, 13)']['PRP , exasperated(19, 21)', 'NNP(23, 23)', 'PRP$(25, 25)', 'PRP(28, 28)']['Bea(0, 0)', 'Bea(30, 30)']['the computer(4, 5)', 'the computer(32, 33)']]
+
+Bea yelled out that the computer was broken again . Mike walked into their shared office and looked at PRP , exasperated . NNP rolled PRP$ eyes . PRP approached Bea and the computer , sighing a long suffering sigh .
+pronoun: ['PRP(28, 28)'], A: ['Mike(10, 10)'], B: ['Bea(0, 0)']
+clusters: [['Mike(10, 10)', 'their(13, 13)']['PRP , exasperated(19, 21)', 'NNP(23, 23)', 'PRP$(25, 25)', 'PRP(28, 28)']['Bea(0, 0)', 'Bea(30, 30)']['the computer(4, 5)', 'the computer(32, 33)']]
+
+Bea yelled out that the computer was broken again . Mike walked into their shared office and looked at PRP , exasperated . Mike rolled PRP$ eyes . PRP approached NNP and the computer , sighing a long suffering sigh .
+pronoun: ['PRP$(25, 25)'], A: ['Mike(10, 10)'], B: ['Bea(0, 0)']
+clusters: [['Mike(10, 10)', 'their(13, 13)', 'Mike(23, 23)']['PRP$(25, 25)', 'PRP(28, 28)', 'NNP(30, 30)']['the computer(4, 5)', 'the computer(32, 33)']]
+
+Bea yelled out that the computer was broken again . Mike walked into their shared office and looked at PRP , exasperated . Mike rolled PRP$ eyes . PRP approached NNP and the computer , sighing a long suffering sigh .
+pronoun: ['PRP(28, 28)'], A: ['Mike(10, 10)'], B: ['Bea(0, 0)']
+clusters: [['Mike(10, 10)', 'their(13, 13)', 'Mike(23, 23)']['PRP$(25, 25)', 'PRP(28, 28)', 'NNP(30, 30)']['the computer(4, 5)', 'the computer(32, 33)']]
+
+Bob took Laura to a Monster Truck Rally . They sat on the front row . NNP watched all the different trucks . PRP also saw different cars get crushed .
+pronoun: ['PRP(23, 23)'], A: ['Laura(2, 2)'], B: ['Bob(0, 0)']
+clusters: [['a Monster Truck Rally(4, 7)', 'NNP(16, 16)', 'PRP(23, 23)']]
+
+David has to buy PRP$ wife Sarah a gift for their anniversary . NNP went out all day on Friday to find a gift . PRP searched all over , but PRP could n't find the perfect gift . Eventually PRP decided to cook PRP$ dinner instead .
+pronoun: ['PRP$(44, 44)'], A: ['David(0, 0)'], B: ['Sarah(6, 6)']
+clusters: [['PRP$(4, 4)', 'NNP(13, 13)', 'PRP(25, 25)', 'PRP(31, 31)', 'PRP$(44, 44)']['a gift(22, 23)', 'the perfect gift(35, 37)']]
+
+David has to buy PRP$ wife Sarah a gift for their anniversary . NNP went out all day on Friday to find a gift . PRP searched all over , but PRP could n't find the perfect gift . Eventually PRP decided to cook PRP$ dinner instead .
+pronoun: ['PRP(25, 25)'], A: ['David(0, 0)'], B: ['Sarah(6, 6)']
+clusters: [['PRP$(4, 4)', 'NNP(13, 13)', 'PRP(25, 25)', 'PRP(31, 31)', 'PRP$(44, 44)']['a gift(22, 23)', 'the perfect gift(35, 37)']]
+
+David has to buy PRP$ wife Sarah a gift for their anniversary . NNP went out all day on Friday to find a gift . PRP searched all over , but PRP could n't find the perfect gift . Eventually PRP decided to cook PRP$ dinner instead .
+pronoun: ['PRP(31, 31)'], A: ['David(0, 0)'], B: ['Sarah(6, 6)']
+clusters: [['PRP$(4, 4)', 'NNP(13, 13)', 'PRP(25, 25)', 'PRP(31, 31)', 'PRP$(44, 44)']['a gift(22, 23)', 'the perfect gift(35, 37)']]
+
+Ben made plans with Diana to watch a movie on Friday . As soon as PRP approached the theater , PRP waited for PRP . A few hours have passed and PRP still did n't show up . While building up frustration , NNP left and visited another friend .
+pronoun: ['PRP(23, 23)'], A: ['Ben(0, 0)'], B: ['Diana(4, 4)']
+clusters: [['a movie(7, 8)', 'the theater(17, 18)']['PRP(15, 15)', 'PRP(20, 20)', 'PRP(23, 23)', 'PRP(31, 31)', 'NNP(43, 43)']]
+
+Ben made plans with Diana to watch a movie on Friday . As soon as PRP approached the theater , PRP waited for PRP . A few hours have passed and PRP still did n't show up . While building up frustration , NNP left and visited another friend .
+pronoun: ['PRP(15, 15)'], A: ['Ben(0, 0)'], B: ['Diana(4, 4)']
+clusters: [['a movie(7, 8)', 'the theater(17, 18)']['PRP(15, 15)', 'PRP(20, 20)', 'PRP(23, 23)', 'PRP(31, 31)', 'NNP(43, 43)']]
+
+Ben made plans with Diana to watch a movie on Friday . As soon as PRP approached the theater , PRP waited for PRP . A few hours have passed and PRP still did n't show up . While building up frustration , NNP left and visited another friend .
+pronoun: ['PRP(20, 20)'], A: ['Ben(0, 0)'], B: ['Diana(4, 4)']
+clusters: [['a movie(7, 8)', 'the theater(17, 18)']['PRP(15, 15)', 'PRP(20, 20)', 'PRP(23, 23)', 'PRP(31, 31)', 'NNP(43, 43)']]
+
+Ben made plans with Diana to watch a movie on Friday . As soon as PRP approached the theater , PRP waited for PRP . A few hours have passed and PRP still did n't show up . While building up frustration , NNP left and visited another friend .
+pronoun: ['PRP(31, 31)'], A: ['Ben(0, 0)'], B: ['Diana(4, 4)']
+clusters: [['a movie(7, 8)', 'the theater(17, 18)']['PRP(15, 15)', 'PRP(20, 20)', 'PRP(23, 23)', 'PRP(31, 31)', 'NNP(43, 43)']]
+
+Tom always wondered if PRP 'd ever see Sue again . PRP had decided to marry someone else and they had moved far away . Now , PRP was divorced and would be coming to the class reunion . NNP and Sue spent most of the reunion talking with each other .
+pronoun: ['PRP(11, 11)'], A: ['Tom(0, 0)'], B: ['Sue(8, 8)']
+clusters: [['PRP(4, 4)', 'PRP(11, 11)', 'PRP(27, 27)', 'NNP(39, 39)']['Sue(8, 8)', 'Sue(41, 41)']['the class reunion(35, 37)', 'the reunion(45, 46)']]
+
+Tom always wondered if PRP 'd ever see Sue again . PRP had decided to marry someone else and they had moved far away . Now , PRP was divorced and would be coming to the class reunion . NNP and Sue spent most of the reunion talking with each other .
+pronoun: ['PRP(27, 27)'], A: ['Tom(0, 0)'], B: ['Sue(8, 8)']
+clusters: [['PRP(4, 4)', 'PRP(11, 11)', 'PRP(27, 27)', 'NNP(39, 39)']['Sue(8, 8)', 'Sue(41, 41)']['the class reunion(35, 37)', 'the reunion(45, 46)']]
+
+Tom always wondered if PRP 'd ever see Sue again . PRP had decided to marry someone else and they had moved far away . Now , PRP was divorced and would be coming to the class reunion . Tom and NNP spent most of the reunion talking with each other .
+pronoun: ['PRP(11, 11)'], A: ['Tom(0, 0)'], B: ['Sue(8, 8)']
+clusters: [['PRP(4, 4)', 'PRP(11, 11)', 'PRP(27, 27)', 'NNP(41, 41)']['Tom(0, 0)', 'Tom(39, 39)']['the class reunion(35, 37)', 'the reunion(45, 46)']]
+
+Tom always wondered if PRP 'd ever see Sue again . PRP had decided to marry someone else and they had moved far away . Now , PRP was divorced and would be coming to the class reunion . Tom and NNP spent most of the reunion talking with each other .
+pronoun: ['PRP(27, 27)'], A: ['Tom(0, 0)'], B: ['Sue(8, 8)']
+clusters: [['PRP(4, 4)', 'PRP(11, 11)', 'PRP(27, 27)', 'NNP(41, 41)']['Tom(0, 0)', 'Tom(39, 39)']['the class reunion(35, 37)', 'the reunion(45, 46)']]
+
+Jude thought PRP was a great guitar player . PRP took lessons from PRP$ friend Ryan . Ryan told PRP PRP needed to practice much more to be great . NNP was determined to practice every spare second PRP had .
+pronoun: ['PRP(38, 38)'], A: ['Jude(0, 0)'], B: ['Ryan(15, 15)']
+clusters: [['PRP(2, 2)', 'PRP(9, 9)', 'PRP$(13, 13)', 'NNP(30, 30)', 'PRP(38, 38)']['Ryan(15, 15)', 'Ryan(17, 17)']['PRP$ friend Ryan(13, 15)', 'PRP PRP(19, 20)']]
+
+Jude thought PRP was a great guitar player . PRP took lessons from PRP$ friend Ryan . NNP told PRP PRP needed to practice much more to be great . Jude was determined to practice every spare second PRP had .
+pronoun: ['PRP(38, 38)'], A: ['Jude(0, 0)'], B: ['Ryan(15, 15)']
+clusters: [['PRP(2, 2)', 'PRP(9, 9)', 'PRP$(13, 13)', 'NNP(17, 17)', 'PRP(38, 38)']['PRP$ friend Ryan(13, 15)', 'PRP PRP(19, 20)']['Jude(0, 0)', 'Jude(30, 30)']]
+
+Amy 's mom told PRP to babysit PRP$ little brother Kyle . Amy was annoyed because PRP would rather go to the mall . NNP asked Amy to play a game . The two ended up having a lot of fun together .
+pronoun: ['PRP(16, 16)'], A: ['Amy(0, 0)'], B: ['Kyle(10, 10)']
+clusters: [["Amy 's(0, 1)", 'Amy(12, 12)', 'Amy(26, 26)']['PRP(4, 4)', 'PRP(16, 16)', 'NNP(24, 24)']]
+
+Joe wanted to learn how to play guitar to impress Cindy . NNP saved up PRP$ money so PRP could take lessons . When PRP had enough money saved , Joe scheduled some lessons . Joe practiced really hard and now PRP knows how to play guitar .
+pronoun: ['PRP$(15, 15)'], A: ['Joe(0, 0)'], B: ['Cindy(10, 10)']
+clusters: [['NNP(12, 12)', 'PRP$(15, 15)', 'PRP(18, 18)', 'PRP(24, 24)', 'PRP(41, 41)']['Joe(0, 0)', 'Joe(30, 30)', 'Joe(35, 35)']]
+
+Joe wanted to learn how to play guitar to impress Cindy . NNP saved up PRP$ money so PRP could take lessons . When PRP had enough money saved , Joe scheduled some lessons . Joe practiced really hard and now PRP knows how to play guitar .
+pronoun: ['PRP(18, 18)'], A: ['Joe(0, 0)'], B: ['Cindy(10, 10)']
+clusters: [['NNP(12, 12)', 'PRP$(15, 15)', 'PRP(18, 18)', 'PRP(24, 24)', 'PRP(41, 41)']['Joe(0, 0)', 'Joe(30, 30)', 'Joe(35, 35)']]
+
+Joe wanted to learn how to play guitar to impress Cindy . NNP saved up PRP$ money so PRP could take lessons . When PRP had enough money saved , Joe scheduled some lessons . Joe practiced really hard and now PRP knows how to play guitar .
+pronoun: ['PRP(24, 24)'], A: ['Joe(0, 0)'], B: ['Cindy(10, 10)']
+clusters: [['NNP(12, 12)', 'PRP$(15, 15)', 'PRP(18, 18)', 'PRP(24, 24)', 'PRP(41, 41)']['Joe(0, 0)', 'Joe(30, 30)', 'Joe(35, 35)']]
+
+Joe wanted to learn how to play guitar to impress Cindy . NNP saved up PRP$ money so PRP could take lessons . When PRP had enough money saved , Joe scheduled some lessons . Joe practiced really hard and now PRP knows how to play guitar .
+pronoun: ['PRP(41, 41)'], A: ['Joe(0, 0)'], B: ['Cindy(10, 10)']
+clusters: [['NNP(12, 12)', 'PRP$(15, 15)', 'PRP(18, 18)', 'PRP(24, 24)', 'PRP(41, 41)']['Joe(0, 0)', 'Joe(30, 30)', 'Joe(35, 35)']]
+
+Joe wanted to learn how to play guitar to impress Cindy . Joe saved up PRP$ money so PRP could take lessons . When PRP had enough money saved , NNP scheduled some lessons . Joe practiced really hard and now PRP knows how to play guitar .
+pronoun: ['PRP$(15, 15)'], A: ['Joe(0, 0)'], B: ['Cindy(10, 10)']
+clusters: [['Joe(0, 0)', 'Joe(12, 12)', 'Joe(35, 35)']['PRP$(15, 15)', 'PRP(18, 18)', 'PRP(24, 24)', 'NNP(30, 30)', 'PRP(41, 41)']]
+
+Joe wanted to learn how to play guitar to impress Cindy . Joe saved up PRP$ money so PRP could take lessons . When PRP had enough money saved , NNP scheduled some lessons . Joe practiced really hard and now PRP knows how to play guitar .
+pronoun: ['PRP(18, 18)'], A: ['Joe(0, 0)'], B: ['Cindy(10, 10)']
+clusters: [['Joe(0, 0)', 'Joe(12, 12)', 'Joe(35, 35)']['PRP$(15, 15)', 'PRP(18, 18)', 'PRP(24, 24)', 'NNP(30, 30)', 'PRP(41, 41)']]
+
+Joe wanted to learn how to play guitar to impress Cindy . Joe saved up PRP$ money so PRP could take lessons . When PRP had enough money saved , NNP scheduled some lessons . Joe practiced really hard and now PRP knows how to play guitar .
+pronoun: ['PRP(24, 24)'], A: ['Joe(0, 0)'], B: ['Cindy(10, 10)']
+clusters: [['Joe(0, 0)', 'Joe(12, 12)', 'Joe(35, 35)']['PRP$(15, 15)', 'PRP(18, 18)', 'PRP(24, 24)', 'NNP(30, 30)', 'PRP(41, 41)']]
+
+Joe wanted to learn how to play guitar to impress Cindy . Joe saved up PRP$ money so PRP could take lessons . When PRP had enough money saved , NNP scheduled some lessons . Joe practiced really hard and now PRP knows how to play guitar .
+pronoun: ['PRP(41, 41)'], A: ['Joe(0, 0)'], B: ['Cindy(10, 10)']
+clusters: [['Joe(0, 0)', 'Joe(12, 12)', 'Joe(35, 35)']['PRP$(15, 15)', 'PRP(18, 18)', 'PRP(24, 24)', 'NNP(30, 30)', 'PRP(41, 41)']]
+
+Joe wanted to learn how to play guitar to impress Cindy . Joe saved up PRP$ money so PRP could take lessons . When PRP had enough money saved , Joe scheduled some lessons . NNP practiced really hard and now PRP knows how to play guitar .
+pronoun: ['PRP$(15, 15)'], A: ['Joe(0, 0)'], B: ['Cindy(10, 10)']
+clusters: [['Joe(0, 0)', 'Joe(12, 12)', 'Joe(30, 30)']['PRP$(15, 15)', 'PRP(18, 18)', 'PRP(24, 24)', 'NNP(35, 35)', 'PRP(41, 41)']]
+
+Joe wanted to learn how to play guitar to impress Cindy . Joe saved up PRP$ money so PRP could take lessons . When PRP had enough money saved , Joe scheduled some lessons . NNP practiced really hard and now PRP knows how to play guitar .
+pronoun: ['PRP(18, 18)'], A: ['Joe(0, 0)'], B: ['Cindy(10, 10)']
+clusters: [['Joe(0, 0)', 'Joe(12, 12)', 'Joe(30, 30)']['PRP$(15, 15)', 'PRP(18, 18)', 'PRP(24, 24)', 'NNP(35, 35)', 'PRP(41, 41)']]
+
+Joe wanted to learn how to play guitar to impress Cindy . Joe saved up PRP$ money so PRP could take lessons . When PRP had enough money saved , Joe scheduled some lessons . NNP practiced really hard and now PRP knows how to play guitar .
+pronoun: ['PRP(24, 24)'], A: ['Joe(0, 0)'], B: ['Cindy(10, 10)']
+clusters: [['Joe(0, 0)', 'Joe(12, 12)', 'Joe(30, 30)']['PRP$(15, 15)', 'PRP(18, 18)', 'PRP(24, 24)', 'NNP(35, 35)', 'PRP(41, 41)']]
+
+Joe wanted to learn how to play guitar to impress Cindy . Joe saved up PRP$ money so PRP could take lessons . When PRP had enough money saved , Joe scheduled some lessons . NNP practiced really hard and now PRP knows how to play guitar .
+pronoun: ['PRP(41, 41)'], A: ['Joe(0, 0)'], B: ['Cindy(10, 10)']
+clusters: [['Joe(0, 0)', 'Joe(12, 12)', 'Joe(30, 30)']['PRP$(15, 15)', 'PRP(18, 18)', 'PRP(24, 24)', 'NNP(35, 35)', 'PRP(41, 41)']]
+
+Abby and Justin were playing checkers . NNP suddenly pointed at the window and gestured to someone . Abby turned around to see who it was . While PRP was distracted , Justin moved some pieces closer .
+pronoun: ['PRP(28, 28)'], A: ['Justin(2, 2)'], B: ['Abby(0, 0)']
+clusters: [['NNP(7, 7)', 'PRP(28, 28)']['Justin(2, 2)', 'Justin(32, 32)']]
+
+Abby and Justin were playing checkers . Justin suddenly pointed at the window and gestured to someone . Abby turned around to see who it was . While PRP was distracted , NNP moved some pieces closer .
+pronoun: ['PRP(28, 28)'], A: ['Justin(2, 2)'], B: ['Abby(0, 0)']
+clusters: [['Justin(2, 2)', 'Justin(7, 7)']['gestured(14, 14)', 'PRP(28, 28)', 'NNP(32, 32)']]
+
+Abby and Justin were playing checkers . Justin suddenly pointed at the window and gestured to someone . NNP turned around to see who it was . While PRP was distracted , Justin moved some pieces closer .
+pronoun: ['PRP(28, 28)'], A: ['Justin(2, 2)'], B: ['Abby(0, 0)']
+clusters: [['Justin(2, 2)', 'Justin(7, 7)', 'Justin(32, 32)']['gestured(14, 14)', 'NNP(18, 18)', 'PRP(28, 28)']]
+
+Whitney was meeting PRP$ best friend for dinner . They had agreed on a Mexican restaurant . Whitney got there first and reserved a table . Brooke called NNP to ask where PRP was .
+pronoun: ['PRP(32, 32)'], A: ['Whitney(0, 0)'], B: ['Brooke(26, 26)']
+clusters: [['Whitney(0, 0)', 'Whitney(17, 17)']['PRP$(3, 3)', 'PRP(32, 32)']]
+
+Shelly 's husband Rick asked PRP to make lasagna for dinner . NNP went to the store to buy the ingredients . When PRP got home PRP unpacked the groceries . PRP realized PRP forgot to buy the noodles .
+pronoun: ['PRP(5, 5)'], A: ['Shelly(0, 0)'], B: ['Rick(3, 3)']
+clusters: [['PRP(5, 5)', 'NNP(12, 12)', 'PRP(23, 23)', 'PRP(26, 26)', 'unpacked(27, 27)', 'PRP(31, 31)', 'PRP(33, 33)']['the ingredients(19, 20)', 'the noodles(37, 38)']]
+
+Shelly 's husband Rick asked PRP to make lasagna for dinner . NNP went to the store to buy the ingredients . When PRP got home PRP unpacked the groceries . PRP realized PRP forgot to buy the noodles .
+pronoun: ['PRP(23, 23)'], A: ['Shelly(0, 0)'], B: ['Rick(3, 3)']
+clusters: [['PRP(5, 5)', 'NNP(12, 12)', 'PRP(23, 23)', 'PRP(26, 26)', 'unpacked(27, 27)', 'PRP(31, 31)', 'PRP(33, 33)']['the ingredients(19, 20)', 'the noodles(37, 38)']]
+
+Shelly 's husband Rick asked PRP to make lasagna for dinner . NNP went to the store to buy the ingredients . When PRP got home PRP unpacked the groceries . PRP realized PRP forgot to buy the noodles .
+pronoun: ['PRP(26, 26)'], A: ['Shelly(0, 0)'], B: ['Rick(3, 3)']
+clusters: [['PRP(5, 5)', 'NNP(12, 12)', 'PRP(23, 23)', 'PRP(26, 26)', 'unpacked(27, 27)', 'PRP(31, 31)', 'PRP(33, 33)']['the ingredients(19, 20)', 'the noodles(37, 38)']]
+
+Shelly 's husband Rick asked PRP to make lasagna for dinner . NNP went to the store to buy the ingredients . When PRP got home PRP unpacked the groceries . PRP realized PRP forgot to buy the noodles .
+pronoun: ['PRP(31, 31)'], A: ['Shelly(0, 0)'], B: ['Rick(3, 3)']
+clusters: [['PRP(5, 5)', 'NNP(12, 12)', 'PRP(23, 23)', 'PRP(26, 26)', 'unpacked(27, 27)', 'PRP(31, 31)', 'PRP(33, 33)']['the ingredients(19, 20)', 'the noodles(37, 38)']]
+
+Shelly 's husband Rick asked PRP to make lasagna for dinner . NNP went to the store to buy the ingredients . When PRP got home PRP unpacked the groceries . PRP realized PRP forgot to buy the noodles .
+pronoun: ['PRP(33, 33)'], A: ['Shelly(0, 0)'], B: ['Rick(3, 3)']
+clusters: [['PRP(5, 5)', 'NNP(12, 12)', 'PRP(23, 23)', 'PRP(26, 26)', 'unpacked(27, 27)', 'PRP(31, 31)', 'PRP(33, 33)']['the ingredients(19, 20)', 'the noodles(37, 38)']]
+
+Bill and Joe went to the ice cream parlor . NNP could n't decide what PRP wanted . PRP tried six different samples . Then PRP realized PRP was n't hungry anymore .
+pronoun: ['PRP(15, 15)'], A: ['Joe(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['NNP(10, 10)', 'PRP(15, 15)', 'PRP(18, 18)', 'PRP(25, 25)', 'PRP(27, 27)']]
+
+Bill and Joe went to the ice cream parlor . NNP could n't decide what PRP wanted . PRP tried six different samples . Then PRP realized PRP was n't hungry anymore .
+pronoun: ['PRP(18, 18)'], A: ['Joe(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['NNP(10, 10)', 'PRP(15, 15)', 'PRP(18, 18)', 'PRP(25, 25)', 'PRP(27, 27)']]
+
+Bill and Joe went to the ice cream parlor . NNP could n't decide what PRP wanted . PRP tried six different samples . Then PRP realized PRP was n't hungry anymore .
+pronoun: ['PRP(25, 25)'], A: ['Joe(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['NNP(10, 10)', 'PRP(15, 15)', 'PRP(18, 18)', 'PRP(25, 25)', 'PRP(27, 27)']]
+
+Bill and Joe went to the ice cream parlor . NNP could n't decide what PRP wanted . PRP tried six different samples . Then PRP realized PRP was n't hungry anymore .
+pronoun: ['PRP(27, 27)'], A: ['Joe(2, 2)'], B: ['Bill(0, 0)']
+clusters: [['NNP(10, 10)', 'PRP(15, 15)', 'PRP(18, 18)', 'PRP(25, 25)', 'PRP(27, 27)']]
+
+Tonight , Mary had a tutoring job at Samantha 's house . When PRP arrived , Samantha had PRP$ notes out and was ready to learn . Mary came prepared , and taught NNP the lesson . Mary also helped prepare Samantha for PRP$ upcoming test .
+pronoun: ['PRP$(18, 18)'], A: ['Samantha(16, 16)'], B: ['Mary(2, 2)']
+clusters: [["Samantha 's(8, 9)", 'Samantha(16, 16)', 'Samantha(41, 41)']['PRP(13, 13)', 'PRP$(18, 18)', 'NNP(33, 33)', 'PRP$(43, 43)']['Mary(2, 2)', 'Mary(27, 27)', 'Mary(37, 37)']]
+
+Tonight , Mary had a tutoring job at Samantha 's house . When PRP arrived , Samantha had PRP$ notes out and was ready to learn . Mary came prepared , and taught NNP the lesson . Mary also helped prepare Samantha for PRP$ upcoming test .
+pronoun: ['PRP$(43, 43)'], A: ['Samantha(16, 16)'], B: ['Mary(2, 2)']
+clusters: [["Samantha 's(8, 9)", 'Samantha(16, 16)', 'Samantha(41, 41)']['PRP(13, 13)', 'PRP$(18, 18)', 'NNP(33, 33)', 'PRP$(43, 43)']['Mary(2, 2)', 'Mary(27, 27)', 'Mary(37, 37)']]
+
+Tonight , Mary had a tutoring job at Samantha 's house . When PRP arrived , Samantha had PRP$ notes out and was ready to learn . Mary came prepared , and taught Samantha the lesson . Mary also helped prepare NNP for PRP$ upcoming test .
+pronoun: ['PRP$(18, 18)'], A: ['Samantha(16, 16)'], B: ['Mary(2, 2)']
+clusters: [["Samantha 's(8, 9)", 'Samantha(16, 16)', 'Samantha(33, 33)']['PRP(13, 13)', 'PRP$(18, 18)', 'NNP(41, 41)', 'PRP$(43, 43)']['Mary(2, 2)', 'Mary(27, 27)', 'Mary(37, 37)']]
+
+Tonight , Mary had a tutoring job at Samantha 's house . When PRP arrived , Samantha had PRP$ notes out and was ready to learn . Mary came prepared , and taught Samantha the lesson . Mary also helped prepare NNP for PRP$ upcoming test .
+pronoun: ['PRP$(43, 43)'], A: ['Samantha(16, 16)'], B: ['Mary(2, 2)']
+clusters: [["Samantha 's(8, 9)", 'Samantha(16, 16)', 'Samantha(33, 33)']['PRP(13, 13)', 'PRP$(18, 18)', 'NNP(41, 41)', 'PRP$(43, 43)']['Mary(2, 2)', 'Mary(27, 27)', 'Mary(37, 37)']]
+
+Tonight , Mary had a tutoring job at Samantha 's house . When PRP arrived , Samantha had PRP$ notes out and was ready to learn . NNP came prepared , and taught Samantha the lesson . Mary also helped prepare Samantha for PRP$ upcoming test .
+pronoun: ['PRP$(18, 18)'], A: ['Samantha(16, 16)'], B: ['Mary(2, 2)']
+clusters: [["Samantha 's(8, 9)", 'Samantha(16, 16)', 'Samantha(33, 33)', 'Samantha(41, 41)']['PRP(13, 13)', 'PRP$(18, 18)', 'NNP(27, 27)', 'PRP$(43, 43)']['Mary(2, 2)', 'Mary(37, 37)']]
+
+Tonight , Mary had a tutoring job at Samantha 's house . When PRP arrived , Samantha had PRP$ notes out and was ready to learn . NNP came prepared , and taught Samantha the lesson . Mary also helped prepare Samantha for PRP$ upcoming test .
+pronoun: ['PRP$(43, 43)'], A: ['Samantha(16, 16)'], B: ['Mary(2, 2)']
+clusters: [["Samantha 's(8, 9)", 'Samantha(16, 16)', 'Samantha(33, 33)', 'Samantha(41, 41)']['PRP(13, 13)', 'PRP$(18, 18)', 'NNP(27, 27)', 'PRP$(43, 43)']['Mary(2, 2)', 'Mary(37, 37)']]
+
+Tonight , Mary had a tutoring job at Samantha 's house . When PRP arrived , Samantha had PRP$ notes out and was ready to learn . Mary came prepared , and taught Samantha the lesson . NNP also helped prepare Samantha for PRP$ upcoming test .
+pronoun: ['PRP$(18, 18)'], A: ['Samantha(16, 16)'], B: ['Mary(2, 2)']
+clusters: [["Samantha 's(8, 9)", 'Samantha(16, 16)', 'Samantha(33, 33)', 'Samantha(41, 41)']['PRP(13, 13)', 'PRP$(18, 18)', 'NNP(37, 37)', 'PRP$(43, 43)']['Mary(2, 2)', 'Mary(27, 27)']]
+
+Tonight , Mary had a tutoring job at Samantha 's house . When PRP arrived , Samantha had PRP$ notes out and was ready to learn . Mary came prepared , and taught Samantha the lesson . NNP also helped prepare Samantha for PRP$ upcoming test .
+pronoun: ['PRP$(43, 43)'], A: ['Samantha(16, 16)'], B: ['Mary(2, 2)']
+clusters: [["Samantha 's(8, 9)", 'Samantha(16, 16)', 'Samantha(33, 33)', 'Samantha(41, 41)']['PRP(13, 13)', 'PRP$(18, 18)', 'NNP(37, 37)', 'PRP$(43, 43)']['Mary(2, 2)', 'Mary(27, 27)']]
+
+Tim and Lucy have been dating for six months . One day , NNP took PRP to the park . PRP led PRP on a walk around the lake . As they got to the gazebo , PRP got down on one knee .
+pronoun: ['PRP(22, 22)'], A: ['Lucy(2, 2)'], B: ['Tim(0, 0)']
+clusters: [['NNP(13, 13)', 'PRP(20, 20)', 'PRP(22, 22)', 'the gazebo(34, 35)', 'PRP(37, 37)']['Tim and Lucy(0, 2)', 'they(31, 31)']]
+
+Tim and Lucy have been dating for six months . One day , NNP took PRP to the park . PRP led PRP on a walk around the lake . As they got to the gazebo , PRP got down on one knee .
+pronoun: ['PRP(20, 20)'], A: ['Lucy(2, 2)'], B: ['Tim(0, 0)']
+clusters: [['NNP(13, 13)', 'PRP(20, 20)', 'PRP(22, 22)', 'the gazebo(34, 35)', 'PRP(37, 37)']['Tim and Lucy(0, 2)', 'they(31, 31)']]
+
+Tim and Lucy have been dating for six months . One day , NNP took PRP to the park . PRP led PRP on a walk around the lake . As they got to the gazebo , PRP got down on one knee .
+pronoun: ['PRP(37, 37)'], A: ['Lucy(2, 2)'], B: ['Tim(0, 0)']
+clusters: [['NNP(13, 13)', 'PRP(20, 20)', 'PRP(22, 22)', 'the gazebo(34, 35)', 'PRP(37, 37)']['Tim and Lucy(0, 2)', 'they(31, 31)']]
+
+Megan 's dog Spot ran away one day . PRP printed posters and put them around the neighborhood . The next day , someone found NNP at the park . They called the number on the poster .
+pronoun: ['PRP(9, 9)'], A: ['Spot(3, 3)'], B: ['Megan(0, 0)']
+clusters: [["Megan 's dog Spot(0, 3)", 'PRP(9, 9)']["Megan 's(0, 1)", 'NNP(25, 25)']['them(14, 14)', 'They(30, 30)']]
+
+Josh counted while Chad hid . NNP began to search for Chad . PRP looked behind the shed , but Chad was n't there . PRP looked behind the fence , but Chad was n't there .
+pronoun: ['PRP(13, 13)'], A: ['Josh(0, 0)'], B: ['Chad(3, 3)']
+clusters: [['Chad(3, 3)', 'Chad(11, 11)', 'Chad(20, 20)', 'Chad(32, 32)']['NNP(6, 6)', 'PRP(13, 13)', 'PRP(25, 25)']]
+
+Josh counted while Chad hid . NNP began to search for Chad . PRP looked behind the shed , but Chad was n't there . PRP looked behind the fence , but Chad was n't there .
+pronoun: ['PRP(25, 25)'], A: ['Josh(0, 0)'], B: ['Chad(3, 3)']
+clusters: [['Chad(3, 3)', 'Chad(11, 11)', 'Chad(20, 20)', 'Chad(32, 32)']['NNP(6, 6)', 'PRP(13, 13)', 'PRP(25, 25)']]
+
+Josh counted while Chad hid . Josh began to search for Chad . PRP looked behind the shed , but NNP was n't there . PRP looked behind the fence , but Chad was n't there .
+pronoun: ['PRP(13, 13)'], A: ['Josh(0, 0)'], B: ['Chad(3, 3)']
+clusters: [['Josh(0, 0)', 'Josh(6, 6)']['Chad(3, 3)', 'Chad(11, 11)', 'Chad(32, 32)']['PRP(13, 13)', 'NNP(20, 20)', 'PRP(25, 25)']]
+
+Josh counted while Chad hid . Josh began to search for Chad . PRP looked behind the shed , but NNP was n't there . PRP looked behind the fence , but Chad was n't there .
+pronoun: ['PRP(25, 25)'], A: ['Josh(0, 0)'], B: ['Chad(3, 3)']
+clusters: [['Josh(0, 0)', 'Josh(6, 6)']['Chad(3, 3)', 'Chad(11, 11)', 'Chad(32, 32)']['PRP(13, 13)', 'NNP(20, 20)', 'PRP(25, 25)']]
+
+Josh counted while Chad hid . Josh began to search for Chad . PRP looked behind the shed , but Chad was n't there . PRP looked behind the fence , but NNP was n't there .
+pronoun: ['PRP(13, 13)'], A: ['Josh(0, 0)'], B: ['Chad(3, 3)']
+clusters: [['Josh(0, 0)', 'Josh(6, 6)']['Chad(3, 3)', 'Chad(11, 11)', 'Chad(20, 20)']['PRP(13, 13)', 'PRP(25, 25)', 'NNP(32, 32)']]
+
+Josh counted while Chad hid . Josh began to search for Chad . PRP looked behind the shed , but Chad was n't there . PRP looked behind the fence , but NNP was n't there .
+pronoun: ['PRP(25, 25)'], A: ['Josh(0, 0)'], B: ['Chad(3, 3)']
+clusters: [['Josh(0, 0)', 'Josh(6, 6)']['Chad(3, 3)', 'Chad(11, 11)', 'Chad(20, 20)']['PRP(13, 13)', 'PRP(25, 25)', 'NNP(32, 32)']]
+
+Sue told Bob you always had to haggle with street vendors . PRP said it 's just the way we do things here in New York . Bob was from Texas and they did things differently down there . PRP figured PRP 'd try it NNP way , though .
+pronoun: ['PRP(39, 39)'], A: ['Sue(0, 0)'], B: ['Bob(2, 2)']
+clusters: [['Bob(2, 2)', 'you(3, 3)', 'Bob(27, 27)']['PRP(12, 12)', 'PRP(39, 39)', 'PRP(41, 41)', 'NNP(45, 45)']]
+
+Sue told Bob you always had to haggle with street vendors . PRP said it 's just the way we do things here in New York . Bob was from Texas and they did things differently down there . PRP figured PRP 'd try it NNP way , though .
+pronoun: ['PRP(41, 41)'], A: ['Sue(0, 0)'], B: ['Bob(2, 2)']
+clusters: [['Bob(2, 2)', 'you(3, 3)', 'Bob(27, 27)']['PRP(12, 12)', 'PRP(39, 39)', 'PRP(41, 41)', 'NNP(45, 45)']]
+
+Sue told Bob you always had to haggle with street vendors . PRP said it 's just the way we do things here in New York . Bob was from Texas and they did things differently down there . PRP figured PRP 'd try it NNP way , though .
+pronoun: ['PRP(12, 12)'], A: ['Sue(0, 0)'], B: ['Bob(2, 2)']
+clusters: [['Bob(2, 2)', 'you(3, 3)', 'Bob(27, 27)']['PRP(12, 12)', 'PRP(39, 39)', 'PRP(41, 41)', 'NNP(45, 45)']]
+
+Sue told Bob you always had to haggle with street vendors . PRP said it 's just the way we do things here in New York . NNP was from Texas and they did things differently down there . PRP figured PRP 'd try it Sue 's way , though .
+pronoun: ['PRP(39, 39)'], A: ['Sue(0, 0)'], B: ['Bob(2, 2)']
+clusters: [['Bob(2, 2)', 'you(3, 3)']['PRP(12, 12)', 'NNP(27, 27)', 'they(32, 32)', 'PRP(39, 39)', 'PRP(41, 41)']['Sue(0, 0)', "Sue 's(45, 46)"]]
+
+Sue told Bob you always had to haggle with street vendors . PRP said it 's just the way we do things here in New York . NNP was from Texas and they did things differently down there . PRP figured PRP 'd try it Sue 's way , though .
+pronoun: ['PRP(41, 41)'], A: ['Sue(0, 0)'], B: ['Bob(2, 2)']
+clusters: [['Bob(2, 2)', 'you(3, 3)']['PRP(12, 12)', 'NNP(27, 27)', 'they(32, 32)', 'PRP(39, 39)', 'PRP(41, 41)']['Sue(0, 0)', "Sue 's(45, 46)"]]
+
+Sue told Bob you always had to haggle with street vendors . PRP said it 's just the way we do things here in New York . NNP was from Texas and they did things differently down there . PRP figured PRP 'd try it Sue 's way , though .
+pronoun: ['PRP(12, 12)'], A: ['Sue(0, 0)'], B: ['Bob(2, 2)']
+clusters: [['Bob(2, 2)', 'you(3, 3)']['PRP(12, 12)', 'NNP(27, 27)', 'they(32, 32)', 'PRP(39, 39)', 'PRP(41, 41)']['Sue(0, 0)', "Sue 's(45, 46)"]]
+
+Jane and Alice were sisters . One day they were riding their bikes . NNP lost PRP$ balance and fell over . Alice helped PRP up .
+pronoun: ['PRP$(16, 16)'], A: ['Jane(0, 0)'], B: ['Alice(2, 2)']
+clusters: [['Jane and Alice(0, 2)', 'they(8, 8)', 'their(11, 11)']['NNP(14, 14)', 'PRP$(16, 16)', 'PRP(24, 24)']['Alice(2, 2)', 'Alice(22, 22)']]
+
+Jane and Alice were sisters . One day they were riding their bikes . NNP lost PRP$ balance and fell over . Alice helped PRP up .
+pronoun: ['PRP(24, 24)'], A: ['Jane(0, 0)'], B: ['Alice(2, 2)']
+clusters: [['Jane and Alice(0, 2)', 'they(8, 8)', 'their(11, 11)']['NNP(14, 14)', 'PRP$(16, 16)', 'PRP(24, 24)']['Alice(2, 2)', 'Alice(22, 22)']]
+
+Jane and Alice were sisters . One day they were riding their bikes . Jane lost PRP$ balance and fell over . NNP helped PRP up .
+pronoun: ['PRP$(16, 16)'], A: ['Jane(0, 0)'], B: ['Alice(2, 2)']
+clusters: [['Jane and Alice(0, 2)', 'they(8, 8)', 'their(11, 11)']['Jane(0, 0)', 'Jane(14, 14)']['PRP$(16, 16)', 'NNP(22, 22)', 'PRP(24, 24)']]
+
+Jane and Alice were sisters . One day they were riding their bikes . Jane lost PRP$ balance and fell over . NNP helped PRP up .
+pronoun: ['PRP(24, 24)'], A: ['Jane(0, 0)'], B: ['Alice(2, 2)']
+clusters: [['Jane and Alice(0, 2)', 'they(8, 8)', 'their(11, 11)']['Jane(0, 0)', 'Jane(14, 14)']['PRP$(16, 16)', 'NNP(22, 22)', 'PRP(24, 24)']]
+
+Rita cooed and gurgled in PRP$ crib . Mrs Sampson stood up and walked over to the crib . PRP was worried so PRP reached out and touched Rita . Mrs NNP was thankful Rita felt cool to the touch .
+pronoun: ['PRP(19, 19)'], A: ['Sampson(9, 9)'], B: ['Rita(0, 0)']
+clusters: [['PRP$ crib(5, 6)', 'Mrs Sampson(8, 9)', 'the crib(16, 17)', 'PRP(19, 19)', 'PRP(23, 23)', 'Mrs NNP(30, 31)']['Rita(0, 0)', 'Rita(28, 28)', 'Rita(34, 34)']]
+
+Rita cooed and gurgled in PRP$ crib . Mrs Sampson stood up and walked over to the crib . PRP was worried so PRP reached out and touched Rita . Mrs NNP was thankful Rita felt cool to the touch .
+pronoun: ['PRP(23, 23)'], A: ['Sampson(9, 9)'], B: ['Rita(0, 0)']
+clusters: [['PRP$ crib(5, 6)', 'Mrs Sampson(8, 9)', 'the crib(16, 17)', 'PRP(19, 19)', 'PRP(23, 23)', 'Mrs NNP(30, 31)']['Rita(0, 0)', 'Rita(28, 28)', 'Rita(34, 34)']]
+
+Rita cooed and gurgled in PRP$ crib . Mrs Sampson stood up and walked over to the crib . PRP was worried so PRP reached out and touched NNP . Mrs Sampson was thankful Rita felt cool to the touch .
+pronoun: ['PRP(19, 19)'], A: ['Sampson(9, 9)'], B: ['Rita(0, 0)']
+clusters: [['PRP$ crib(5, 6)', 'Mrs Sampson(8, 9)', 'the crib(16, 17)', 'PRP(19, 19)', 'PRP(23, 23)', 'NNP(28, 28)', 'Mrs Sampson(30, 31)']['Rita(0, 0)', 'Rita(34, 34)']]
+
+Rita cooed and gurgled in PRP$ crib . Mrs Sampson stood up and walked over to the crib . PRP was worried so PRP reached out and touched NNP . Mrs Sampson was thankful Rita felt cool to the touch .
+pronoun: ['PRP(23, 23)'], A: ['Sampson(9, 9)'], B: ['Rita(0, 0)']
+clusters: [['PRP$ crib(5, 6)', 'Mrs Sampson(8, 9)', 'the crib(16, 17)', 'PRP(19, 19)', 'PRP(23, 23)', 'NNP(28, 28)', 'Mrs Sampson(30, 31)']['Rita(0, 0)', 'Rita(34, 34)']]
+
+Rita cooed and gurgled in PRP$ crib . Mrs Sampson stood up and walked over to the crib . PRP was worried so PRP reached out and touched Rita . Mrs Sampson was thankful NNP felt cool to the touch .
+pronoun: ['PRP(19, 19)'], A: ['Sampson(9, 9)'], B: ['Rita(0, 0)']
+clusters: [['PRP$ crib(5, 6)', 'Mrs Sampson(8, 9)', 'the crib(16, 17)', 'PRP(19, 19)', 'PRP(23, 23)', 'Mrs Sampson(30, 31)', 'NNP(34, 34)']['Rita(0, 0)', 'Rita(28, 28)']]
+
+Rita cooed and gurgled in PRP$ crib . Mrs Sampson stood up and walked over to the crib . PRP was worried so PRP reached out and touched Rita . Mrs Sampson was thankful NNP felt cool to the touch .
+pronoun: ['PRP(23, 23)'], A: ['Sampson(9, 9)'], B: ['Rita(0, 0)']
+clusters: [['PRP$ crib(5, 6)', 'Mrs Sampson(8, 9)', 'the crib(16, 17)', 'PRP(19, 19)', 'PRP(23, 23)', 'Mrs Sampson(30, 31)', 'NNP(34, 34)']['Rita(0, 0)', 'Rita(28, 28)']]
+
+Jason decided to take a pottery class for a new hobby . A man named John sat at the station next to PRP$ . Jason and NNP grew close over the course of the semester . They went to a bar together after their final exam .
+pronoun: ['PRP$(22, 22)'], A: ['John(15, 15)'], B: ['Jason(0, 0)']
+clusters: [['Jason(0, 0)', 'Jason(24, 24)']['PRP$(22, 22)', 'NNP(26, 26)']['Jason and NNP(24, 26)', 'They(36, 36)', 'their(43, 43)']]
+
+Jason decided to take a pottery class for a new hobby . A man named John sat at the station next to PRP$ . NNP and John grew close over the course of the semester . They went to a bar together after their final exam .
+pronoun: ['PRP$(22, 22)'], A: ['John(15, 15)'], B: ['Jason(0, 0)']
+clusters: [['PRP$(22, 22)', 'NNP(24, 24)']['A man named John(12, 15)', 'John(26, 26)']['NNP and John(24, 26)', 'They(36, 36)', 'their(43, 43)']]
+
+Bobby and Joe were tossing a ball in the back yard . NNP threw it too hard . It flew across the yard smashing into the kitchen window . Bobby thought PRP was going to be in big trouble .
+pronoun: ['PRP(31, 31)'], A: ['Bobby(0, 0)'], B: ['Joe(2, 2)']
+clusters: [['tossing(4, 4)', 'NNP(12, 12)', 'It(18, 18)', 'PRP(31, 31)']['the back yard(8, 10)', 'the yard(21, 22)']['Bobby(0, 0)', 'Bobby(29, 29)']]
+
+Bobby and Joe were tossing a ball in the back yard . Bobby threw it too hard . It flew across the yard smashing into the kitchen window . NNP thought PRP was going to be in big trouble .
+pronoun: ['PRP(31, 31)'], A: ['Bobby(0, 0)'], B: ['Joe(2, 2)']
+clusters: [['Bobby(0, 0)', 'Bobby(12, 12)']['it(14, 14)', 'It(18, 18)']['the back yard(8, 10)', 'the yard(21, 22)']['NNP(29, 29)', 'PRP(31, 31)']]
+
+Lauren and Dave were out to dinner on a date . After appetizers , NNP suddenly grabbed PRP$ stomach . PRP complained PRP was n't feeling good and left . Dave hoped that PRP had n't said something to upset PRP .
+pronoun: ['PRP$(17, 17)'], A: ['Lauren(0, 0)'], B: ['Dave(2, 2)']
+clusters: [['appetizers(12, 12)', 'NNP(14, 14)', 'PRP$(17, 17)', 'PRP(20, 20)', 'PRP(22, 22)', 'PRP(33, 33)', 'PRP(40, 40)']['Dave(2, 2)', 'Dave(30, 30)']]
+
+Lauren and Dave were out to dinner on a date . After appetizers , NNP suddenly grabbed PRP$ stomach . PRP complained PRP was n't feeling good and left . Dave hoped that PRP had n't said something to upset PRP .
+pronoun: ['PRP(40, 40)'], A: ['Lauren(0, 0)'], B: ['Dave(2, 2)']
+clusters: [['appetizers(12, 12)', 'NNP(14, 14)', 'PRP$(17, 17)', 'PRP(20, 20)', 'PRP(22, 22)', 'PRP(33, 33)', 'PRP(40, 40)']['Dave(2, 2)', 'Dave(30, 30)']]
+
+Lauren and Dave were out to dinner on a date . After appetizers , NNP suddenly grabbed PRP$ stomach . PRP complained PRP was n't feeling good and left . Dave hoped that PRP had n't said something to upset PRP .
+pronoun: ['PRP(33, 33)'], A: ['Lauren(0, 0)'], B: ['Dave(2, 2)']
+clusters: [['appetizers(12, 12)', 'NNP(14, 14)', 'PRP$(17, 17)', 'PRP(20, 20)', 'PRP(22, 22)', 'PRP(33, 33)', 'PRP(40, 40)']['Dave(2, 2)', 'Dave(30, 30)']]
+
+Lauren and Dave were out to dinner on a date . After appetizers , NNP suddenly grabbed PRP$ stomach . PRP complained PRP was n't feeling good and left . Dave hoped that PRP had n't said something to upset PRP .
+pronoun: ['PRP(20, 20)'], A: ['Lauren(0, 0)'], B: ['Dave(2, 2)']
+clusters: [['appetizers(12, 12)', 'NNP(14, 14)', 'PRP$(17, 17)', 'PRP(20, 20)', 'PRP(22, 22)', 'PRP(33, 33)', 'PRP(40, 40)']['Dave(2, 2)', 'Dave(30, 30)']]
+
+Lauren and Dave were out to dinner on a date . After appetizers , NNP suddenly grabbed PRP$ stomach . PRP complained PRP was n't feeling good and left . Dave hoped that PRP had n't said something to upset PRP .
+pronoun: ['PRP(22, 22)'], A: ['Lauren(0, 0)'], B: ['Dave(2, 2)']
+clusters: [['appetizers(12, 12)', 'NNP(14, 14)', 'PRP$(17, 17)', 'PRP(20, 20)', 'PRP(22, 22)', 'PRP(33, 33)', 'PRP(40, 40)']['Dave(2, 2)', 'Dave(30, 30)']]
+
+Lauren and Dave were out to dinner on a date . After appetizers , Lauren suddenly grabbed PRP$ stomach . PRP complained PRP was n't feeling good and left . NNP hoped that PRP had n't said something to upset PRP .
+pronoun: ['PRP$(17, 17)'], A: ['Lauren(0, 0)'], B: ['Dave(2, 2)']
+clusters: [['Lauren(0, 0)', 'Lauren(14, 14)']['appetizers(12, 12)', 'PRP$(17, 17)', 'PRP(20, 20)', 'PRP(22, 22)', 'NNP(30, 30)', 'PRP(33, 33)', 'PRP(40, 40)']]
+
+Lauren and Dave were out to dinner on a date . After appetizers , Lauren suddenly grabbed PRP$ stomach . PRP complained PRP was n't feeling good and left . NNP hoped that PRP had n't said something to upset PRP .
+pronoun: ['PRP(40, 40)'], A: ['Lauren(0, 0)'], B: ['Dave(2, 2)']
+clusters: [['Lauren(0, 0)', 'Lauren(14, 14)']['appetizers(12, 12)', 'PRP$(17, 17)', 'PRP(20, 20)', 'PRP(22, 22)', 'NNP(30, 30)', 'PRP(33, 33)', 'PRP(40, 40)']]
+
+Lauren and Dave were out to dinner on a date . After appetizers , Lauren suddenly grabbed PRP$ stomach . PRP complained PRP was n't feeling good and left . NNP hoped that PRP had n't said something to upset PRP .
+pronoun: ['PRP(33, 33)'], A: ['Lauren(0, 0)'], B: ['Dave(2, 2)']
+clusters: [['Lauren(0, 0)', 'Lauren(14, 14)']['appetizers(12, 12)', 'PRP$(17, 17)', 'PRP(20, 20)', 'PRP(22, 22)', 'NNP(30, 30)', 'PRP(33, 33)', 'PRP(40, 40)']]
+
+Lauren and Dave were out to dinner on a date . After appetizers , Lauren suddenly grabbed PRP$ stomach . PRP complained PRP was n't feeling good and left . NNP hoped that PRP had n't said something to upset PRP .
+pronoun: ['PRP(20, 20)'], A: ['Lauren(0, 0)'], B: ['Dave(2, 2)']
+clusters: [['Lauren(0, 0)', 'Lauren(14, 14)']['appetizers(12, 12)', 'PRP$(17, 17)', 'PRP(20, 20)', 'PRP(22, 22)', 'NNP(30, 30)', 'PRP(33, 33)', 'PRP(40, 40)']]
+
+Lauren and Dave were out to dinner on a date . After appetizers , Lauren suddenly grabbed PRP$ stomach . PRP complained PRP was n't feeling good and left . NNP hoped that PRP had n't said something to upset PRP .
+pronoun: ['PRP(22, 22)'], A: ['Lauren(0, 0)'], B: ['Dave(2, 2)']
+clusters: [['Lauren(0, 0)', 'Lauren(14, 14)']['appetizers(12, 12)', 'PRP$(17, 17)', 'PRP(20, 20)', 'PRP(22, 22)', 'NNP(30, 30)', 'PRP(33, 33)', 'PRP(40, 40)']]
+
+John and Cathy have been dating for 2 years . They really love each other . NNP decides PRP wants to marry Cathy . PRP buys a diamond engagement ring .
+pronoun: ['PRP(18, 18)'], A: ['John(0, 0)'], B: ['Cathy(2, 2)']
+clusters: [['John and Cathy(0, 2)', 'They(10, 10)']['NNP(16, 16)', 'PRP(18, 18)', 'PRP(24, 24)']['Cathy(2, 2)', 'Cathy(22, 22)']]
+
+John and Cathy have been dating for 2 years . They really love each other . NNP decides PRP wants to marry Cathy . PRP buys a diamond engagement ring .
+pronoun: ['PRP(24, 24)'], A: ['John(0, 0)'], B: ['Cathy(2, 2)']
+clusters: [['John and Cathy(0, 2)', 'They(10, 10)']['NNP(16, 16)', 'PRP(18, 18)', 'PRP(24, 24)']['Cathy(2, 2)', 'Cathy(22, 22)']]
+
+John and Cathy have been dating for 2 years . They really love each other . John decides PRP wants to marry NNP . PRP buys a diamond engagement ring .
+pronoun: ['PRP(18, 18)'], A: ['John(0, 0)'], B: ['Cathy(2, 2)']
+clusters: [['John and Cathy(0, 2)', 'They(10, 10)']['John(0, 0)', 'John(16, 16)']['PRP(18, 18)', 'NNP(22, 22)', 'PRP(24, 24)']]
+
+John and Cathy have been dating for 2 years . They really love each other . John decides PRP wants to marry NNP . PRP buys a diamond engagement ring .
+pronoun: ['PRP(24, 24)'], A: ['John(0, 0)'], B: ['Cathy(2, 2)']
+clusters: [['John and Cathy(0, 2)', 'They(10, 10)']['John(0, 0)', 'John(16, 16)']['PRP(18, 18)', 'NNP(22, 22)', 'PRP(24, 24)']]
+
+Betty had a bunch of crystals PRP thought were magical . PRP would rub them when PRP needed good luck . One day , PRP$ friend Mary came over to visit . NNP told PRP they were really just colorful plastic .
+pronoun: ['PRP(34, 34)'], A: ['Mary(26, 26)'], B: ['Betty(0, 0)']
+clusters: [['PRP(6, 6)', 'PRP(11, 11)', 'PRP(16, 16)', 'PRP$(24, 24)', 'PRP$ friend Mary(24, 26)', 'NNP(32, 32)', 'PRP(34, 34)', 'they(35, 35)']['a bunch of crystals PRP thought were magical(2, 9)', 'them(14, 14)']]
+
+Jill got a call from PRP$ friend Betty . PRP told PRP there was big party at Brad 's tonight . NNP was so excited to go with Betty . The two got dressed and headed to the party .
+pronoun: ['PRP(9, 9)'], A: ['Jill(0, 0)'], B: ['Betty(7, 7)']
+clusters: [['PRP$(5, 5)', 'PRP(9, 9)', 'NNP(21, 21)']['PRP$ friend Betty(5, 7)', 'PRP(11, 11)', 'Betty(28, 28)']]
+
+Jill got a call from PRP$ friend Betty . PRP told PRP there was big party at Brad 's tonight . Jill was so excited to go with NNP . The two got dressed and headed to the party .
+pronoun: ['PRP(11, 11)'], A: ['Jill(0, 0)'], B: ['Betty(7, 7)']
+clusters: [['PRP$(5, 5)', 'PRP(9, 9)', 'NNP(28, 28)']['PRP$ friend Betty(5, 7)', 'PRP(11, 11)']['Jill(0, 0)', 'Jill(21, 21)']]
+
+Jill got a call from PRP$ friend Betty . PRP told PRP there was big party at Brad 's tonight . Jill was so excited to go with NNP . The two got dressed and headed to the party .
+pronoun: ['PRP(9, 9)'], A: ['Jill(0, 0)'], B: ['Betty(7, 7)']
+clusters: [['PRP$(5, 5)', 'PRP(9, 9)', 'NNP(28, 28)']['PRP$ friend Betty(5, 7)', 'PRP(11, 11)']['Jill(0, 0)', 'Jill(21, 21)']]
+
+Cathy is an avid tennis fan . Cathy loved watching PRP$ favorite player , Serena . Cathy was excited to learn that NNP was playing a match near PRP . Cathy decided to purchase tickets to Serena 's tennis match .
+pronoun: ['PRP(28, 28)'], A: ['Cathy(0, 0)'], B: ['Serena(14, 14)']
+clusters: [['Cathy(0, 0)', 'Cathy(7, 7)', 'Cathy(16, 16)', 'Cathy(30, 30)']['PRP$ favorite player , Serena(10, 14)', 'NNP(22, 22)', 'PRP(28, 28)', "Serena 's(36, 37)"]]
+
+Michelle and Marie were best friends . Marie 's mom had to take a job across the country . NNP begged PRP$ mom to reconsider , but PRP refused . The two girls were upset , afraid their friendship would end .
+pronoun: ['PRP$(21, 21)'], A: ['Marie(2, 2)'], B: ['Michelle(0, 0)']
+clusters: [['Marie(2, 2)', "Marie 's(7, 8)"]['NNP(19, 19)', 'PRP$(21, 21)', 'PRP(27, 27)']['Michelle and Marie(0, 2)', 'The two girls(30, 32)', 'their(37, 37)']]
+
+Michelle and Marie were best friends . Marie 's mom had to take a job across the country . NNP begged PRP$ mom to reconsider , but PRP refused . The two girls were upset , afraid their friendship would end .
+pronoun: ['PRP(27, 27)'], A: ['Marie(2, 2)'], B: ['Michelle(0, 0)']
+clusters: [['Marie(2, 2)', "Marie 's(7, 8)"]['NNP(19, 19)', 'PRP$(21, 21)', 'PRP(27, 27)']['Michelle and Marie(0, 2)', 'The two girls(30, 32)', 'their(37, 37)']]
+
+Crystal and Fred have been engaged for seven years . They have finally set a wedding date for next summer . People were starting to wonder if they would ever get married . NNP said PRP was n't getting married until PRP was good and ready .
+pronoun: ['PRP(35, 35)'], A: ['Fred(2, 2)'], B: ['Crystal(0, 0)']
+clusters: [['Crystal and Fred(0, 2)', 'They(10, 10)']['People(21, 21)', 'they(27, 27)']['NNP(33, 33)', 'PRP(35, 35)', 'PRP(41, 41)']]
+
+Crystal and Fred have been engaged for seven years . They have finally set a wedding date for next summer . People were starting to wonder if they would ever get married . NNP said PRP was n't getting married until PRP was good and ready .
+pronoun: ['PRP(41, 41)'], A: ['Fred(2, 2)'], B: ['Crystal(0, 0)']
+clusters: [['Crystal and Fred(0, 2)', 'They(10, 10)']['People(21, 21)', 'they(27, 27)']['NNP(33, 33)', 'PRP(35, 35)', 'PRP(41, 41)']]
+
+Jack and Diane were playing a game of throw football in a field . NN threw the ball long and Jack ran to catch it . PRP$ weight broke through an old cistern cover when PRP ran over it . The fall into the hole killed Jack when PRP hit the bottom .
+pronoun: ['PRP$(26, 26)'], A: ['Diane(2, 2)'], B: ['Jack(0, 0)']
+clusters: [['Jack(0, 0)', 'Jack(20, 20)', 'Jack(46, 46)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['PRP$(26, 26)', 'PRP(35, 35)', 'PRP(48, 48)']]
+
+Jack and Diane were playing a game of throw football in a field . NN threw the ball long and Jack ran to catch it . PRP$ weight broke through an old cistern cover when PRP ran over it . The fall into the hole killed Jack when PRP hit the bottom .
+pronoun: ['PRP(35, 35)'], A: ['Diane(2, 2)'], B: ['Jack(0, 0)']
+clusters: [['Jack(0, 0)', 'Jack(20, 20)', 'Jack(46, 46)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['PRP$(26, 26)', 'PRP(35, 35)', 'PRP(48, 48)']]
+
+Jack and Diane were playing a game of throw football in a field . NN threw the ball long and Jack ran to catch it . PRP$ weight broke through an old cistern cover when PRP ran over it . The fall into the hole killed Jack when PRP hit the bottom .
+pronoun: ['PRP(48, 48)'], A: ['Diane(2, 2)'], B: ['Jack(0, 0)']
+clusters: [['Jack(0, 0)', 'Jack(20, 20)', 'Jack(46, 46)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['PRP$(26, 26)', 'PRP(35, 35)', 'PRP(48, 48)']]
+
+Jack and Diane were playing a game of throw football in a field . Diane threw the ball long and NNP ran to catch it . PRP$ weight broke through an old cistern cover when PRP ran over it . The fall into the hole killed Jack when PRP hit the bottom .
+pronoun: ['PRP$(26, 26)'], A: ['Diane(2, 2)'], B: ['Jack(0, 0)']
+clusters: [['Diane(2, 2)', 'Diane(14, 14)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['NNP(20, 20)', 'PRP$(26, 26)', 'PRP(35, 35)', 'PRP(48, 48)']['Jack(0, 0)', 'Jack(46, 46)']]
+
+Jack and Diane were playing a game of throw football in a field . Diane threw the ball long and NNP ran to catch it . PRP$ weight broke through an old cistern cover when PRP ran over it . The fall into the hole killed Jack when PRP hit the bottom .
+pronoun: ['PRP(35, 35)'], A: ['Diane(2, 2)'], B: ['Jack(0, 0)']
+clusters: [['Diane(2, 2)', 'Diane(14, 14)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['NNP(20, 20)', 'PRP$(26, 26)', 'PRP(35, 35)', 'PRP(48, 48)']['Jack(0, 0)', 'Jack(46, 46)']]
+
+Jack and Diane were playing a game of throw football in a field . Diane threw the ball long and NNP ran to catch it . PRP$ weight broke through an old cistern cover when PRP ran over it . The fall into the hole killed Jack when PRP hit the bottom .
+pronoun: ['PRP(48, 48)'], A: ['Diane(2, 2)'], B: ['Jack(0, 0)']
+clusters: [['Diane(2, 2)', 'Diane(14, 14)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['NNP(20, 20)', 'PRP$(26, 26)', 'PRP(35, 35)', 'PRP(48, 48)']['Jack(0, 0)', 'Jack(46, 46)']]
+
+Jack and Diane were playing a game of throw football in a field . Diane threw the ball long and Jack ran to catch it . PRP$ weight broke through an old cistern cover when PRP ran over it . The fall into the hole killed NNP when PRP hit the bottom .
+pronoun: ['PRP$(26, 26)'], A: ['Diane(2, 2)'], B: ['Jack(0, 0)']
+clusters: [['Diane(2, 2)', 'Diane(14, 14)']['Jack(0, 0)', 'Jack(20, 20)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['PRP$(26, 26)', 'PRP(35, 35)', 'NNP(46, 46)', 'PRP(48, 48)']]
+
+Jack and Diane were playing a game of throw football in a field . Diane threw the ball long and Jack ran to catch it . PRP$ weight broke through an old cistern cover when PRP ran over it . The fall into the hole killed NNP when PRP hit the bottom .
+pronoun: ['PRP(35, 35)'], A: ['Diane(2, 2)'], B: ['Jack(0, 0)']
+clusters: [['Diane(2, 2)', 'Diane(14, 14)']['Jack(0, 0)', 'Jack(20, 20)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['PRP$(26, 26)', 'PRP(35, 35)', 'NNP(46, 46)', 'PRP(48, 48)']]
+
+Jack and Diane were playing a game of throw football in a field . Diane threw the ball long and Jack ran to catch it . PRP$ weight broke through an old cistern cover when PRP ran over it . The fall into the hole killed NNP when PRP hit the bottom .
+pronoun: ['PRP(48, 48)'], A: ['Diane(2, 2)'], B: ['Jack(0, 0)']
+clusters: [['Diane(2, 2)', 'Diane(14, 14)']['Jack(0, 0)', 'Jack(20, 20)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['PRP$(26, 26)', 'PRP(35, 35)', 'NNP(46, 46)', 'PRP(48, 48)']]
+
+Don wanted to surprise PRP$ wife Jen for PRP$ birthday . NNP spent weeks tracking down PRP$ old school friends . PRP was able to talk to many of them . Don arranged to have all Jen 's old friends come over .
+pronoun: ['PRP$(16, 16)'], A: ['Don(0, 0)'], B: ['Jen(6, 6)']
+clusters: [['PRP$ wife Jen(4, 6)', 'NNP(11, 11)', 'PRP$(16, 16)', 'PRP(21, 21)']['PRP$ old school friends(16, 19)', 'them(29, 29)']['Don(0, 0)', 'Don(31, 31)']]
+
+Don wanted to surprise PRP$ wife Jen for PRP$ birthday . NNP spent weeks tracking down PRP$ old school friends . PRP was able to talk to many of them . Don arranged to have all Jen 's old friends come over .
+pronoun: ['PRP(21, 21)'], A: ['Don(0, 0)'], B: ['Jen(6, 6)']
+clusters: [['PRP$ wife Jen(4, 6)', 'NNP(11, 11)', 'PRP$(16, 16)', 'PRP(21, 21)']['PRP$ old school friends(16, 19)', 'them(29, 29)']['Don(0, 0)', 'Don(31, 31)']]
+
+Don wanted to surprise PRP$ wife Jen for PRP$ birthday . Don spent weeks tracking down PRP$ old school friends . PRP was able to talk to many of them . NNP arranged to have all Jen 's old friends come over .
+pronoun: ['PRP$(16, 16)'], A: ['Don(0, 0)'], B: ['Jen(6, 6)']
+clusters: [['Don(0, 0)', 'Don(11, 11)']['PRP$ wife Jen(4, 6)', 'PRP$(16, 16)', 'PRP(21, 21)', 'NNP(31, 31)']['PRP$ old school friends(16, 19)', 'them(29, 29)']]
+
+Don wanted to surprise PRP$ wife Jen for PRP$ birthday . Don spent weeks tracking down PRP$ old school friends . PRP was able to talk to many of them . NNP arranged to have all Jen 's old friends come over .
+pronoun: ['PRP(21, 21)'], A: ['Don(0, 0)'], B: ['Jen(6, 6)']
+clusters: [['Don(0, 0)', 'Don(11, 11)']['PRP$ wife Jen(4, 6)', 'PRP$(16, 16)', 'PRP(21, 21)', 'NNP(31, 31)']['PRP$ old school friends(16, 19)', 'them(29, 29)']]
+
+Don wanted to surprise PRP$ wife Jen for PRP$ birthday . Don spent weeks tracking down PRP$ old school friends . PRP was able to talk to many of them . Don arranged to have all NNP old friends come over .
+pronoun: ['PRP$(16, 16)'], A: ['Don(0, 0)'], B: ['Jen(6, 6)']
+clusters: [['Don(0, 0)', 'Don(11, 11)', 'Don(31, 31)']['PRP$ wife Jen(4, 6)', 'PRP$(16, 16)', 'PRP(21, 21)', 'NNP(36, 36)']['PRP$ old school friends(16, 19)', 'them(29, 29)', 'all NNP old friends(35, 38)']]
+
+Don wanted to surprise PRP$ wife Jen for PRP$ birthday . Don spent weeks tracking down PRP$ old school friends . PRP was able to talk to many of them . Don arranged to have all NNP old friends come over .
+pronoun: ['PRP(21, 21)'], A: ['Don(0, 0)'], B: ['Jen(6, 6)']
+clusters: [['Don(0, 0)', 'Don(11, 11)', 'Don(31, 31)']['PRP$ wife Jen(4, 6)', 'PRP$(16, 16)', 'PRP(21, 21)', 'NNP(36, 36)']['PRP$ old school friends(16, 19)', 'them(29, 29)', 'all NNP old friends(35, 38)']]
+
+Todd was on bended knee proposing to Sarah . NNP was ready to accept and say yes . Suddenly , Sarah got an array of phone calls from family . PRP answered the calls , ruining the proposal .
+pronoun: ['PRP(30, 30)'], A: ['Todd(0, 0)'], B: ['Sarah(7, 7)']
+clusters: [['bended(3, 3)', 'NNP(9, 9)', 'PRP(30, 30)']['Sarah(7, 7)', 'Sarah(20, 20)']['proposing(5, 5)', 'the proposal(36, 37)']]
+
+Todd was on bended knee proposing to Sarah . Sarah was ready to accept and say yes . Suddenly , NNP got an array of phone calls from family . PRP answered the calls , ruining the proposal .
+pronoun: ['PRP(30, 30)'], A: ['Todd(0, 0)'], B: ['Sarah(7, 7)']
+clusters: [['Sarah(7, 7)', 'Sarah(9, 9)']['bended(3, 3)', 'NNP(20, 20)', 'PRP(30, 30)']['an array of phone calls from family(22, 28)', 'the calls(32, 33)']['proposing(5, 5)', 'the proposal(36, 37)']]
+
+Tony was nervous walking up to the girls . PRP mustered up PRP$ courage and walked over to Claire . NNP could n't believe PRP said yes to a dance . They headed out to the dance floor , hand in hand .
+pronoun: ['PRP(24, 24)'], A: ['Claire(18, 18)'], B: ['Tony(0, 0)']
+clusters: [['PRP(9, 9)', 'PRP$(12, 12)', 'NNP(20, 20)', 'PRP(24, 24)']['a dance(28, 29)', 'the dance(35, 36)']]
+
+Arthur liked Elisa very much but never talked to PRP . PRP was so shy , PRP hid behind the tree every time PRP went by . PRP was very curious and one day stopped to talked to PRP . NNP blushed so much , PRP run back to PRP$ house .
+pronoun: ['PRP(9, 9)'], A: ['Arthur(0, 0)'], B: ['Elisa(2, 2)']
+clusters: [['PRP(9, 9)', 'PRP(11, 11)', 'PRP(16, 16)', 'PRP(23, 23)', 'PRP(27, 27)', 'PRP(38, 38)', 'NNP(40, 40)', 'PRP(45, 45)', 'PRP$(49, 49)']]
+
+Arthur liked Elisa very much but never talked to PRP . PRP was so shy , PRP hid behind the tree every time PRP went by . PRP was very curious and one day stopped to talked to PRP . NNP blushed so much , PRP run back to PRP$ house .
+pronoun: ['PRP$(49, 49)'], A: ['Arthur(0, 0)'], B: ['Elisa(2, 2)']
+clusters: [['PRP(9, 9)', 'PRP(11, 11)', 'PRP(16, 16)', 'PRP(23, 23)', 'PRP(27, 27)', 'PRP(38, 38)', 'NNP(40, 40)', 'PRP(45, 45)', 'PRP$(49, 49)']]
+
+Arthur liked Elisa very much but never talked to PRP . PRP was so shy , PRP hid behind the tree every time PRP went by . PRP was very curious and one day stopped to talked to PRP . NNP blushed so much , PRP run back to PRP$ house .
+pronoun: ['PRP(23, 23)'], A: ['Arthur(0, 0)'], B: ['Elisa(2, 2)']
+clusters: [['PRP(9, 9)', 'PRP(11, 11)', 'PRP(16, 16)', 'PRP(23, 23)', 'PRP(27, 27)', 'PRP(38, 38)', 'NNP(40, 40)', 'PRP(45, 45)', 'PRP$(49, 49)']]
+
+Arthur liked Elisa very much but never talked to PRP . PRP was so shy , PRP hid behind the tree every time PRP went by . PRP was very curious and one day stopped to talked to PRP . NNP blushed so much , PRP run back to PRP$ house .
+pronoun: ['PRP(27, 27)'], A: ['Arthur(0, 0)'], B: ['Elisa(2, 2)']
+clusters: [['PRP(9, 9)', 'PRP(11, 11)', 'PRP(16, 16)', 'PRP(23, 23)', 'PRP(27, 27)', 'PRP(38, 38)', 'NNP(40, 40)', 'PRP(45, 45)', 'PRP$(49, 49)']]
+
+Arthur liked Elisa very much but never talked to PRP . PRP was so shy , PRP hid behind the tree every time PRP went by . PRP was very curious and one day stopped to talked to PRP . NNP blushed so much , PRP run back to PRP$ house .
+pronoun: ['PRP(38, 38)'], A: ['Arthur(0, 0)'], B: ['Elisa(2, 2)']
+clusters: [['PRP(9, 9)', 'PRP(11, 11)', 'PRP(16, 16)', 'PRP(23, 23)', 'PRP(27, 27)', 'PRP(38, 38)', 'NNP(40, 40)', 'PRP(45, 45)', 'PRP$(49, 49)']]
+
+Arthur liked Elisa very much but never talked to PRP . PRP was so shy , PRP hid behind the tree every time PRP went by . PRP was very curious and one day stopped to talked to PRP . NNP blushed so much , PRP run back to PRP$ house .
+pronoun: ['PRP(11, 11)'], A: ['Arthur(0, 0)'], B: ['Elisa(2, 2)']
+clusters: [['PRP(9, 9)', 'PRP(11, 11)', 'PRP(16, 16)', 'PRP(23, 23)', 'PRP(27, 27)', 'PRP(38, 38)', 'NNP(40, 40)', 'PRP(45, 45)', 'PRP$(49, 49)']]
+
+Arthur liked Elisa very much but never talked to PRP . PRP was so shy , PRP hid behind the tree every time PRP went by . PRP was very curious and one day stopped to talked to PRP . NNP blushed so much , PRP run back to PRP$ house .
+pronoun: ['PRP(16, 16)'], A: ['Arthur(0, 0)'], B: ['Elisa(2, 2)']
+clusters: [['PRP(9, 9)', 'PRP(11, 11)', 'PRP(16, 16)', 'PRP(23, 23)', 'PRP(27, 27)', 'PRP(38, 38)', 'NNP(40, 40)', 'PRP(45, 45)', 'PRP$(49, 49)']]
+
+Arthur liked Elisa very much but never talked to PRP . PRP was so shy , PRP hid behind the tree every time PRP went by . PRP was very curious and one day stopped to talked to PRP . NNP blushed so much , PRP run back to PRP$ house .
+pronoun: ['PRP(45, 45)'], A: ['Arthur(0, 0)'], B: ['Elisa(2, 2)']
+clusters: [['PRP(9, 9)', 'PRP(11, 11)', 'PRP(16, 16)', 'PRP(23, 23)', 'PRP(27, 27)', 'PRP(38, 38)', 'NNP(40, 40)', 'PRP(45, 45)', 'PRP$(49, 49)']]
+
+Tim wanted to buy a new tie for an event . PRP decided to go to the store the day before the event . When Time went to the store , PRP found out it was closed . NNP could not buy a tie for the event .
+pronoun: ['PRP(31, 31)'], A: ['Time(25, 25)'], B: ['Tim(0, 0)']
+clusters: [['an event(8, 9)', 'the event(21, 22)', 'the event(45, 46)']['the store(16, 17)', 'the store(28, 29)']['PRP(11, 11)', 'PRP(31, 31)', 'NNP(38, 38)']]
+
+Cathy 's favorite artist Beyonce was having a concert in the park . NNP knew PRP had to be there early to get a good spot . Cathy woke up at 1 am determined to get a good spot . However , when Cathy reached , PRP saw a massive crowd .
+pronoun: ['PRP(15, 15)'], A: ['Cathy(0, 0)'], B: ['Beyonce(4, 4)']
+clusters: [['NNP(13, 13)', 'PRP(15, 15)', 'PRP(46, 46)']["Cathy 's(0, 1)", 'Cathy(27, 27)', 'Cathy(43, 43)']['a good spot(23, 25)', 'a good spot(36, 38)']]
+
+Cathy 's favorite artist Beyonce was having a concert in the park . NNP knew PRP had to be there early to get a good spot . Cathy woke up at 1 am determined to get a good spot . However , when Cathy reached , PRP saw a massive crowd .
+pronoun: ['PRP(46, 46)'], A: ['Cathy(0, 0)'], B: ['Beyonce(4, 4)']
+clusters: [['NNP(13, 13)', 'PRP(15, 15)', 'PRP(46, 46)']["Cathy 's(0, 1)", 'Cathy(27, 27)', 'Cathy(43, 43)']['a good spot(23, 25)', 'a good spot(36, 38)']]
+
+Cathy 's favorite artist Beyonce was having a concert in the park . Cathy knew PRP had to be there early to get a good spot . NNP woke up at 1 am determined to get a good spot . However , when Cathy reached , PRP saw a massive crowd .
+pronoun: ['PRP(15, 15)'], A: ['Cathy(0, 0)'], B: ['Beyonce(4, 4)']
+clusters: [["Cathy 's(0, 1)", 'Cathy(13, 13)', 'Cathy(43, 43)']['PRP(15, 15)', 'NNP(27, 27)', 'PRP(46, 46)']['a good spot(23, 25)', 'a good spot(36, 38)']]
+
+Cathy 's favorite artist Beyonce was having a concert in the park . Cathy knew PRP had to be there early to get a good spot . NNP woke up at 1 am determined to get a good spot . However , when Cathy reached , PRP saw a massive crowd .
+pronoun: ['PRP(46, 46)'], A: ['Cathy(0, 0)'], B: ['Beyonce(4, 4)']
+clusters: [["Cathy 's(0, 1)", 'Cathy(13, 13)', 'Cathy(43, 43)']['PRP(15, 15)', 'NNP(27, 27)', 'PRP(46, 46)']['a good spot(23, 25)', 'a good spot(36, 38)']]
+
+Cathy 's favorite artist Beyonce was having a concert in the park . Cathy knew PRP had to be there early to get a good spot . Cathy woke up at 1 am determined to get a good spot . However , when NNP reached , PRP saw a massive crowd .
+pronoun: ['PRP(15, 15)'], A: ['Cathy(0, 0)'], B: ['Beyonce(4, 4)']
+clusters: [["Cathy 's(0, 1)", 'Cathy(13, 13)', 'Cathy(27, 27)']['a good spot(23, 25)', 'a good spot(36, 38)']['PRP(15, 15)', 'NNP(43, 43)', 'PRP(46, 46)']]
+
+Cathy 's favorite artist Beyonce was having a concert in the park . Cathy knew PRP had to be there early to get a good spot . Cathy woke up at 1 am determined to get a good spot . However , when NNP reached , PRP saw a massive crowd .
+pronoun: ['PRP(46, 46)'], A: ['Cathy(0, 0)'], B: ['Beyonce(4, 4)']
+clusters: [["Cathy 's(0, 1)", 'Cathy(13, 13)', 'Cathy(27, 27)']['a good spot(23, 25)', 'a good spot(36, 38)']['PRP(15, 15)', 'NNP(43, 43)', 'PRP(46, 46)']]
+
+Lauren and Maxwell went camping at Yosemite . They decided to hike a twenty mile trail the first night . When they got back to the campsite NNP realized PRP lost PRP$ keys . PRP was in a pure panic not knowing how far away PRP dropped them .
+pronoun: ['PRP$(31, 31)'], A: ['Lauren(0, 0)'], B: ['Maxwell(2, 2)']
+clusters: [['Lauren and Maxwell(0, 2)', 'They(8, 8)', 'they(21, 21)', 'them(47, 47)']['Yosemite(6, 6)', 'the campsite NNP(25, 27)', 'NNP(27, 27)', 'PRP(29, 29)', 'PRP$(31, 31)', 'PRP(34, 34)', 'PRP(45, 45)']]
+
+Lauren and Maxwell went camping at Yosemite . They decided to hike a twenty mile trail the first night . When they got back to the campsite NNP realized PRP lost PRP$ keys . PRP was in a pure panic not knowing how far away PRP dropped them .
+pronoun: ['PRP(29, 29)'], A: ['Lauren(0, 0)'], B: ['Maxwell(2, 2)']
+clusters: [['Lauren and Maxwell(0, 2)', 'They(8, 8)', 'they(21, 21)', 'them(47, 47)']['Yosemite(6, 6)', 'the campsite NNP(25, 27)', 'NNP(27, 27)', 'PRP(29, 29)', 'PRP$(31, 31)', 'PRP(34, 34)', 'PRP(45, 45)']]
+
+Lauren and Maxwell went camping at Yosemite . They decided to hike a twenty mile trail the first night . When they got back to the campsite NNP realized PRP lost PRP$ keys . PRP was in a pure panic not knowing how far away PRP dropped them .
+pronoun: ['PRP(34, 34)'], A: ['Lauren(0, 0)'], B: ['Maxwell(2, 2)']
+clusters: [['Lauren and Maxwell(0, 2)', 'They(8, 8)', 'they(21, 21)', 'them(47, 47)']['Yosemite(6, 6)', 'the campsite NNP(25, 27)', 'NNP(27, 27)', 'PRP(29, 29)', 'PRP$(31, 31)', 'PRP(34, 34)', 'PRP(45, 45)']]
+
+Lauren and Maxwell went camping at Yosemite . They decided to hike a twenty mile trail the first night . When they got back to the campsite NNP realized PRP lost PRP$ keys . PRP was in a pure panic not knowing how far away PRP dropped them .
+pronoun: ['PRP(45, 45)'], A: ['Lauren(0, 0)'], B: ['Maxwell(2, 2)']
+clusters: [['Lauren and Maxwell(0, 2)', 'They(8, 8)', 'they(21, 21)', 'them(47, 47)']['Yosemite(6, 6)', 'the campsite NNP(25, 27)', 'NNP(27, 27)', 'PRP(29, 29)', 'PRP$(31, 31)', 'PRP(34, 34)', 'PRP(45, 45)']]
+
+Tom had a grudge against Ana . PRP decided PRP was going to slit PRP$ throat . NNP waited in the shadows by Ana 's house . When PRP saw PRP$ red coat PRP lunged out , slicing and stabbing !
+pronoun: ['PRP$(14, 14)'], A: ['Tom(0, 0)'], B: ['Ana(5, 5)']
+clusters: [['PRP(7, 7)', 'PRP(9, 9)', 'PRP$(14, 14)', 'NNP(17, 17)', 'PRP(28, 28)', 'PRP$(30, 30)', 'PRP(33, 33)']['Ana(5, 5)', "Ana 's(23, 24)"]]
+
+Tom had a grudge against Ana . PRP decided PRP was going to slit PRP$ throat . NNP waited in the shadows by Ana 's house . When PRP saw PRP$ red coat PRP lunged out , slicing and stabbing !
+pronoun: ['PRP$(30, 30)'], A: ['Tom(0, 0)'], B: ['Ana(5, 5)']
+clusters: [['PRP(7, 7)', 'PRP(9, 9)', 'PRP$(14, 14)', 'NNP(17, 17)', 'PRP(28, 28)', 'PRP$(30, 30)', 'PRP(33, 33)']['Ana(5, 5)', "Ana 's(23, 24)"]]
+
+Tom had a grudge against Ana . PRP decided PRP was going to slit PRP$ throat . NNP waited in the shadows by Ana 's house . When PRP saw PRP$ red coat PRP lunged out , slicing and stabbing !
+pronoun: ['PRP(7, 7)'], A: ['Tom(0, 0)'], B: ['Ana(5, 5)']
+clusters: [['PRP(7, 7)', 'PRP(9, 9)', 'PRP$(14, 14)', 'NNP(17, 17)', 'PRP(28, 28)', 'PRP$(30, 30)', 'PRP(33, 33)']['Ana(5, 5)', "Ana 's(23, 24)"]]
+
+Tom had a grudge against Ana . PRP decided PRP was going to slit PRP$ throat . NNP waited in the shadows by Ana 's house . When PRP saw PRP$ red coat PRP lunged out , slicing and stabbing !
+pronoun: ['PRP(9, 9)'], A: ['Tom(0, 0)'], B: ['Ana(5, 5)']
+clusters: [['PRP(7, 7)', 'PRP(9, 9)', 'PRP$(14, 14)', 'NNP(17, 17)', 'PRP(28, 28)', 'PRP$(30, 30)', 'PRP(33, 33)']['Ana(5, 5)', "Ana 's(23, 24)"]]
+
+Tom had a grudge against Ana . PRP decided PRP was going to slit PRP$ throat . NNP waited in the shadows by Ana 's house . When PRP saw PRP$ red coat PRP lunged out , slicing and stabbing !
+pronoun: ['PRP(28, 28)'], A: ['Tom(0, 0)'], B: ['Ana(5, 5)']
+clusters: [['PRP(7, 7)', 'PRP(9, 9)', 'PRP$(14, 14)', 'NNP(17, 17)', 'PRP(28, 28)', 'PRP$(30, 30)', 'PRP(33, 33)']['Ana(5, 5)', "Ana 's(23, 24)"]]
+
+Tom had a grudge against Ana . PRP decided PRP was going to slit PRP$ throat . NNP waited in the shadows by Ana 's house . When PRP saw PRP$ red coat PRP lunged out , slicing and stabbing !
+pronoun: ['PRP(33, 33)'], A: ['Tom(0, 0)'], B: ['Ana(5, 5)']
+clusters: [['PRP(7, 7)', 'PRP(9, 9)', 'PRP$(14, 14)', 'NNP(17, 17)', 'PRP(28, 28)', 'PRP$(30, 30)', 'PRP(33, 33)']['Ana(5, 5)', "Ana 's(23, 24)"]]
+
+Tom had a grudge against Ana . PRP decided PRP was going to slit PRP$ throat . Tom waited in the shadows by NNP house . When PRP saw PRP$ red coat PRP lunged out , slicing and stabbing !
+pronoun: ['PRP$(14, 14)'], A: ['Tom(0, 0)'], B: ['Ana(5, 5)']
+clusters: [['PRP(7, 7)', 'PRP(9, 9)', 'PRP$(14, 14)', 'NNP(23, 23)', 'PRP(27, 27)', 'PRP$(29, 29)', 'PRP(32, 32)']['Tom(0, 0)', 'Tom(17, 17)']]
+
+Tom had a grudge against Ana . PRP decided PRP was going to slit PRP$ throat . Tom waited in the shadows by NNP house . When PRP saw PRP$ red coat PRP lunged out , slicing and stabbing !
+pronoun: ['PRP(7, 7)'], A: ['Tom(0, 0)'], B: ['Ana(5, 5)']
+clusters: [['PRP(7, 7)', 'PRP(9, 9)', 'PRP$(14, 14)', 'NNP(23, 23)', 'PRP(27, 27)', 'PRP$(29, 29)', 'PRP(32, 32)']['Tom(0, 0)', 'Tom(17, 17)']]
+
+Tom had a grudge against Ana . PRP decided PRP was going to slit PRP$ throat . Tom waited in the shadows by NNP house . When PRP saw PRP$ red coat PRP lunged out , slicing and stabbing !
+pronoun: ['PRP(9, 9)'], A: ['Tom(0, 0)'], B: ['Ana(5, 5)']
+clusters: [['PRP(7, 7)', 'PRP(9, 9)', 'PRP$(14, 14)', 'NNP(23, 23)', 'PRP(27, 27)', 'PRP$(29, 29)', 'PRP(32, 32)']['Tom(0, 0)', 'Tom(17, 17)']]
+
+George and Kate went on a camping trip . They got lost somewhere deep in the woods . NNP was too scared to do anything . Kate used PRP$ compass and wits to help them get out of the woods .
+pronoun: ['PRP$(28, 28)'], A: ['George(0, 0)'], B: ['Kate(2, 2)']
+clusters: [['George and Kate(0, 2)', 'They(9, 9)', 'them(34, 34)']['Kate(2, 2)', 'Kate(26, 26)']['NNP(18, 18)', 'PRP$(28, 28)']['the woods(15, 16)', 'the woods(38, 39)']]
+
+Stacy had always hated winter and cold temperatures . However , since PRP had married Ron , PRP would be staying in Minnesota . Ron surprised NNP with a new floor heating system . It runs with a boiler and keeps the floors toasty warm .
+pronoun: ['PRP(17, 17)'], A: ['Stacy(0, 0)'], B: ['Ron(15, 15)']
+clusters: [['PRP(12, 12)', 'PRP(17, 17)', 'NNP(26, 26)', 'It(34, 34)']['Ron(15, 15)', 'Ron(24, 24)']]
+
+Stacy had always hated winter and cold temperatures . However , since PRP had married Ron , PRP would be staying in Minnesota . NNP surprised Stacy with a new floor heating system . It runs with a boiler and keeps the floors toasty warm .
+pronoun: ['PRP(17, 17)'], A: ['Stacy(0, 0)'], B: ['Ron(15, 15)']
+clusters: [['PRP(12, 12)', 'PRP(17, 17)', 'NNP(24, 24)']['Stacy(0, 0)', 'Stacy(26, 26)', 'It(34, 34)']]
+
+Tim went to a restaurant with PRP$ friend Carl and PRP$ family . Carl 's family said NNP could order anything PRP wanted . So Tim ordered tons of food in excitement . But PRP struggled to finish even half of it .
+pronoun: ['PRP(21, 21)'], A: ['Carl(8, 8)'], B: ['Tim(0, 0)']
+clusters: [['Carl(8, 8)', "Carl 's(13, 14)"]['PRP$(6, 6)', 'NNP(17, 17)', 'PRP(21, 21)', 'PRP(34, 34)']['Tim(0, 0)', 'Tim(25, 25)']['anything PRP wanted(20, 22)', 'it(41, 41)']]
+
+Tim went to a restaurant with PRP$ friend Carl and PRP$ family . Carl 's family said NNP could order anything PRP wanted . So Tim ordered tons of food in excitement . But PRP struggled to finish even half of it .
+pronoun: ['PRP(34, 34)'], A: ['Carl(8, 8)'], B: ['Tim(0, 0)']
+clusters: [['Carl(8, 8)', "Carl 's(13, 14)"]['PRP$(6, 6)', 'NNP(17, 17)', 'PRP(21, 21)', 'PRP(34, 34)']['Tim(0, 0)', 'Tim(25, 25)']['anything PRP wanted(20, 22)', 'it(41, 41)']]
+
+Tim went to a restaurant with PRP$ friend Carl and PRP$ family . Carl 's family said Tim could order anything PRP wanted . So NNP ordered tons of food in excitement . But PRP struggled to finish even half of it .
+pronoun: ['PRP(21, 21)'], A: ['Carl(8, 8)'], B: ['Tim(0, 0)']
+clusters: [['Carl(8, 8)', "Carl 's(13, 14)"]['Tim(0, 0)', 'Tim(17, 17)']['PRP$(6, 6)', 'PRP(21, 21)', 'NNP(25, 25)', 'PRP(34, 34)']['anything PRP wanted(20, 22)', 'it(41, 41)']]
+
+Tim went to a restaurant with PRP$ friend Carl and PRP$ family . Carl 's family said Tim could order anything PRP wanted . So NNP ordered tons of food in excitement . But PRP struggled to finish even half of it .
+pronoun: ['PRP(34, 34)'], A: ['Carl(8, 8)'], B: ['Tim(0, 0)']
+clusters: [['Carl(8, 8)', "Carl 's(13, 14)"]['Tim(0, 0)', 'Tim(17, 17)']['PRP$(6, 6)', 'PRP(21, 21)', 'NNP(25, 25)', 'PRP(34, 34)']['anything PRP wanted(20, 22)', 'it(41, 41)']]
+
+Bob asked PRP$ new girlfriend , Sheila , to go camping one weekend . At first , NNP was excited as the weekend began . Soon , however , PRP found PRP did n't like camping with Bob 's big dog . Bob broke up with Sheila a few weeks later .
+pronoun: ['PRP(29, 29)'], A: ['Sheila(6, 6)'], B: ['Bob(0, 0)']
+clusters: [['PRP$ new girlfriend , Sheila(2, 6)', 'NNP(17, 17)', 'PRP(29, 29)', 'PRP(31, 31)']['Bob(0, 0)', "Bob 's(37, 38)", 'Bob(42, 42)']['Sheila(6, 6)', 'Sheila(46, 46)']]
+
+Bob asked PRP$ new girlfriend , Sheila , to go camping one weekend . At first , NNP was excited as the weekend began . Soon , however , PRP found PRP did n't like camping with Bob 's big dog . Bob broke up with Sheila a few weeks later .
+pronoun: ['PRP(31, 31)'], A: ['Sheila(6, 6)'], B: ['Bob(0, 0)']
+clusters: [['PRP$ new girlfriend , Sheila(2, 6)', 'NNP(17, 17)', 'PRP(29, 29)', 'PRP(31, 31)']['Bob(0, 0)', "Bob 's(37, 38)", 'Bob(42, 42)']['Sheila(6, 6)', 'Sheila(46, 46)']]
+
+Bob asked PRP$ new girlfriend , Sheila , to go camping one weekend . At first , Sheila was excited as the weekend began . Soon , however , PRP found PRP did n't like camping with Bob 's big dog . Bob broke up with NNP a few weeks later .
+pronoun: ['PRP(29, 29)'], A: ['Sheila(6, 6)'], B: ['Bob(0, 0)']
+clusters: [['Sheila(6, 6)', 'Sheila(17, 17)']['PRP$(2, 2)', 'PRP(29, 29)', 'PRP(31, 31)', 'NNP(46, 46)']['Bob(0, 0)', "Bob 's(37, 38)", 'Bob(42, 42)']]
+
+Bob asked PRP$ new girlfriend , Sheila , to go camping one weekend . At first , Sheila was excited as the weekend began . Soon , however , PRP found PRP did n't like camping with Bob 's big dog . Bob broke up with NNP a few weeks later .
+pronoun: ['PRP(31, 31)'], A: ['Sheila(6, 6)'], B: ['Bob(0, 0)']
+clusters: [['Sheila(6, 6)', 'Sheila(17, 17)']['PRP$(2, 2)', 'PRP(29, 29)', 'PRP(31, 31)', 'NNP(46, 46)']['Bob(0, 0)', "Bob 's(37, 38)", 'Bob(42, 42)']]
+
+Bob asked PRP$ new girlfriend , Sheila , to go camping one weekend . At first , Sheila was excited as the weekend began . Soon , however , PRP found PRP did n't like camping with NNP big dog . Bob broke up with Sheila a few weeks later .
+pronoun: ['PRP(29, 29)'], A: ['Sheila(6, 6)'], B: ['Bob(0, 0)']
+clusters: [['Sheila(6, 6)', 'Sheila(17, 17)', 'Sheila(45, 45)']['PRP$(2, 2)', 'PRP(29, 29)', 'PRP(31, 31)', 'NNP(37, 37)']['Bob(0, 0)', 'Bob(41, 41)']]
+
+Bob asked PRP$ new girlfriend , Sheila , to go camping one weekend . At first , Sheila was excited as the weekend began . Soon , however , PRP found PRP did n't like camping with NNP big dog . Bob broke up with Sheila a few weeks later .
+pronoun: ['PRP(31, 31)'], A: ['Sheila(6, 6)'], B: ['Bob(0, 0)']
+clusters: [['Sheila(6, 6)', 'Sheila(17, 17)', 'Sheila(45, 45)']['PRP$(2, 2)', 'PRP(29, 29)', 'PRP(31, 31)', 'NNP(37, 37)']['Bob(0, 0)', 'Bob(41, 41)']]
+
+Bob asked PRP$ new girlfriend , Sheila , to go camping one weekend . At first , Sheila was excited as the weekend began . Soon , however , PRP found PRP did n't like camping with Bob 's big dog . NNP broke up with Sheila a few weeks later .
+pronoun: ['PRP(29, 29)'], A: ['Sheila(6, 6)'], B: ['Bob(0, 0)']
+clusters: [['Sheila(6, 6)', 'Sheila(17, 17)', 'Sheila(46, 46)']['PRP$(2, 2)', 'PRP(29, 29)', 'PRP(31, 31)', 'NNP(42, 42)']['Bob(0, 0)', "Bob 's(37, 38)"]]
+
+Bob asked PRP$ new girlfriend , Sheila , to go camping one weekend . At first , Sheila was excited as the weekend began . Soon , however , PRP found PRP did n't like camping with Bob 's big dog . NNP broke up with Sheila a few weeks later .
+pronoun: ['PRP(31, 31)'], A: ['Sheila(6, 6)'], B: ['Bob(0, 0)']
+clusters: [['Sheila(6, 6)', 'Sheila(17, 17)', 'Sheila(46, 46)']['PRP$(2, 2)', 'PRP(29, 29)', 'PRP(31, 31)', 'NNP(42, 42)']['Bob(0, 0)', "Bob 's(37, 38)"]]
+
+Ryan met PRP$ best friend Sam while playing a game online . Ryan and NNP had a lot in common , so they started hanging out a lot . Eventually , Ryan decided PRP wanted to meet Sam in real life . Ryan talked to Sam about it and they agreed to meet up .
+pronoun: ['PRP(33, 33)'], A: ['Sam(5, 5)'], B: ['Ryan(0, 0)']
+clusters: [['Ryan(0, 0)', 'Ryan(12, 12)', 'Ryan(31, 31)', 'Ryan(42, 42)']['PRP$(2, 2)', 'NNP(14, 14)', 'PRP(33, 33)']['Ryan and NNP(12, 14)', 'they(22, 22)', 'they(49, 49)']['PRP$ best friend Sam(2, 5)', 'Sam(37, 37)', 'Sam(45, 45)']['meet(36, 36)', 'it(47, 47)']]
+
+Ryan met PRP$ best friend Sam while playing a game online . Ryan and Sam had a lot in common , so they started hanging out a lot . Eventually , Ryan decided PRP wanted to meet NNP in real life . Ryan talked to Sam about it and they agreed to meet up .
+pronoun: ['PRP(33, 33)'], A: ['Sam(5, 5)'], B: ['Ryan(0, 0)']
+clusters: [['Ryan(0, 0)', 'Ryan(12, 12)', 'Ryan(31, 31)', 'Ryan(42, 42)']['PRP$ best friend Sam(2, 5)', 'Sam(14, 14)', 'Sam(45, 45)']['Ryan and Sam(12, 14)', 'they(22, 22)', 'they(49, 49)']['PRP$(2, 2)', 'PRP(33, 33)', 'NNP(37, 37)']['meet(36, 36)', 'it(47, 47)']]
+
+Ryan met PRP$ best friend Sam while playing a game online . Ryan and Sam had a lot in common , so they started hanging out a lot . Eventually , Ryan decided PRP wanted to meet Sam in real life . Ryan talked to NNP about it and they agreed to meet up .
+pronoun: ['PRP(33, 33)'], A: ['Sam(5, 5)'], B: ['Ryan(0, 0)']
+clusters: [['Ryan(0, 0)', 'Ryan(12, 12)', 'Ryan(31, 31)', 'Ryan(42, 42)']['PRP$ best friend Sam(2, 5)', 'Sam(14, 14)', 'Sam(37, 37)']['Ryan and Sam(12, 14)', 'they(22, 22)', 'they(49, 49)']['PRP$(2, 2)', 'PRP(33, 33)', 'NNP(45, 45)']['meet(36, 36)', 'it(47, 47)']]
+
+Ryan met PRP$ best friend Sam while playing a game online . NNP and Sam had a lot in common , so they started hanging out a lot . Eventually , Ryan decided PRP wanted to meet Sam in real life . Ryan talked to Sam about it and they agreed to meet up .
+pronoun: ['PRP(33, 33)'], A: ['Sam(5, 5)'], B: ['Ryan(0, 0)']
+clusters: [['PRP$(2, 2)', 'NNP(12, 12)', 'PRP(33, 33)']['PRP$ best friend Sam(2, 5)', 'Sam(14, 14)', 'Sam(37, 37)', 'Sam(45, 45)']['NNP and Sam(12, 14)', 'they(22, 22)', 'they(49, 49)']['Ryan(0, 0)', 'Ryan(31, 31)', 'Ryan(42, 42)']['meet(36, 36)', 'it(47, 47)']]
+
+Ryan met PRP$ best friend Sam while playing a game online . Ryan and Sam had a lot in common , so they started hanging out a lot . Eventually , NNP decided PRP wanted to meet Sam in real life . Ryan talked to Sam about it and they agreed to meet up .
+pronoun: ['PRP(33, 33)'], A: ['Sam(5, 5)'], B: ['Ryan(0, 0)']
+clusters: [['Ryan(0, 0)', 'Ryan(12, 12)', 'Ryan(42, 42)']['PRP$ best friend Sam(2, 5)', 'Sam(14, 14)', 'Sam(37, 37)', 'Sam(45, 45)']['Ryan and Sam(12, 14)', 'they(22, 22)', 'they(49, 49)']['PRP$(2, 2)', 'NNP(31, 31)', 'PRP(33, 33)']['meet(36, 36)', 'it(47, 47)']]
+
+Ryan met PRP$ best friend Sam while playing a game online . Ryan and Sam had a lot in common , so they started hanging out a lot . Eventually , Ryan decided PRP wanted to meet Sam in real life . NNP talked to Sam about it and they agreed to meet up .
+pronoun: ['PRP(33, 33)'], A: ['Sam(5, 5)'], B: ['Ryan(0, 0)']
+clusters: [['Ryan(0, 0)', 'Ryan(12, 12)', 'Ryan(31, 31)']['PRP$ best friend Sam(2, 5)', 'Sam(14, 14)', 'Sam(37, 37)', 'Sam(45, 45)']['Ryan and Sam(12, 14)', 'they(22, 22)', 'they(49, 49)']['PRP$(2, 2)', 'PRP(33, 33)', 'NNP(42, 42)']['meet(36, 36)', 'it(47, 47)']]
+
+Robert decided to fix PRP$ truck in PRP$ friend Tim 's big garage . While there , PRP accidentally broke one of Tim 's expensive power tools . Tim was forgiving , but NNP still has to replace the tool . PRP bought Tim dinner at a restaurant because PRP felt so guilty .
+pronoun: ['PRP(17, 17)'], A: ['Robert(0, 0)'], B: ['Tim(9, 9)']
+clusters: [["PRP$ friend Tim 's(7, 10)", 'PRP(17, 17)', 'NNP(33, 33)', 'PRP(41, 41)', 'PRP(49, 49)']["Tim 's(9, 10)", "Tim 's(22, 23)", 'Tim(28, 28)', 'Tim(43, 43)']["one of Tim 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+
+Robert decided to fix PRP$ truck in PRP$ friend Tim 's big garage . While there , PRP accidentally broke one of Tim 's expensive power tools . Tim was forgiving , but NNP still has to replace the tool . PRP bought Tim dinner at a restaurant because PRP felt so guilty .
+pronoun: ['PRP(41, 41)'], A: ['Robert(0, 0)'], B: ['Tim(9, 9)']
+clusters: [["PRP$ friend Tim 's(7, 10)", 'PRP(17, 17)', 'NNP(33, 33)', 'PRP(41, 41)', 'PRP(49, 49)']["Tim 's(9, 10)", "Tim 's(22, 23)", 'Tim(28, 28)', 'Tim(43, 43)']["one of Tim 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+
+Robert decided to fix PRP$ truck in PRP$ friend Tim 's big garage . While there , PRP accidentally broke one of Tim 's expensive power tools . Tim was forgiving , but NNP still has to replace the tool . PRP bought Tim dinner at a restaurant because PRP felt so guilty .
+pronoun: ['PRP(49, 49)'], A: ['Robert(0, 0)'], B: ['Tim(9, 9)']
+clusters: [["PRP$ friend Tim 's(7, 10)", 'PRP(17, 17)', 'NNP(33, 33)', 'PRP(41, 41)', 'PRP(49, 49)']["Tim 's(9, 10)", "Tim 's(22, 23)", 'Tim(28, 28)', 'Tim(43, 43)']["one of Tim 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+
+Robert decided to fix PRP$ truck in PRP$ friend Tim 's big garage . While there , PRP accidentally broke one of NNP expensive power tools . Tim was forgiving , but Robert still has to replace the tool . PRP bought Tim dinner at a restaurant because PRP felt so guilty .
+pronoun: ['PRP(17, 17)'], A: ['Robert(0, 0)'], B: ['Tim(9, 9)']
+clusters: [["PRP$ friend Tim 's(7, 10)", 'PRP(17, 17)', 'NNP(22, 22)', 'PRP(40, 40)', 'PRP(48, 48)']["Tim 's(9, 10)", 'Tim(27, 27)', 'Tim(42, 42)']['Robert(0, 0)', 'Robert(32, 32)']['one of NNP expensive power tools(20, 25)', 'the tool(37, 38)']]
+
+Robert decided to fix PRP$ truck in PRP$ friend Tim 's big garage . While there , PRP accidentally broke one of Tim 's expensive power tools . NNP was forgiving , but Robert still has to replace the tool . PRP bought Tim dinner at a restaurant because PRP felt so guilty .
+pronoun: ['PRP(17, 17)'], A: ['Robert(0, 0)'], B: ['Tim(9, 9)']
+clusters: [["PRP$ friend Tim 's(7, 10)", 'PRP(17, 17)', 'NNP(28, 28)', 'PRP(41, 41)', 'PRP(49, 49)']["Tim 's(9, 10)", "Tim 's(22, 23)", 'Tim(43, 43)']['Robert(0, 0)', 'Robert(33, 33)']["one of Tim 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+
+Robert decided to fix PRP$ truck in PRP$ friend Tim 's big garage . While there , PRP accidentally broke one of Tim 's expensive power tools . NNP was forgiving , but Robert still has to replace the tool . PRP bought Tim dinner at a restaurant because PRP felt so guilty .
+pronoun: ['PRP(41, 41)'], A: ['Robert(0, 0)'], B: ['Tim(9, 9)']
+clusters: [["PRP$ friend Tim 's(7, 10)", 'PRP(17, 17)', 'NNP(28, 28)', 'PRP(41, 41)', 'PRP(49, 49)']["Tim 's(9, 10)", "Tim 's(22, 23)", 'Tim(43, 43)']['Robert(0, 0)', 'Robert(33, 33)']["one of Tim 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+
+Robert decided to fix PRP$ truck in PRP$ friend Tim 's big garage . While there , PRP accidentally broke one of Tim 's expensive power tools . NNP was forgiving , but Robert still has to replace the tool . PRP bought Tim dinner at a restaurant because PRP felt so guilty .
+pronoun: ['PRP(49, 49)'], A: ['Robert(0, 0)'], B: ['Tim(9, 9)']
+clusters: [["PRP$ friend Tim 's(7, 10)", 'PRP(17, 17)', 'NNP(28, 28)', 'PRP(41, 41)', 'PRP(49, 49)']["Tim 's(9, 10)", "Tim 's(22, 23)", 'Tim(43, 43)']['Robert(0, 0)', 'Robert(33, 33)']["one of Tim 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+
+Robert decided to fix PRP$ truck in PRP$ friend Tim 's big garage . While there , PRP accidentally broke one of Tim 's expensive power tools . Tim was forgiving , but Robert still has to replace the tool . PRP bought NNP dinner at a restaurant because PRP felt so guilty .
+pronoun: ['PRP(17, 17)'], A: ['Robert(0, 0)'], B: ['Tim(9, 9)']
+clusters: [["PRP$ friend Tim 's(7, 10)", 'PRP(17, 17)', 'PRP(41, 41)', 'NNP(43, 43)', 'PRP(49, 49)']["Tim 's(9, 10)", "Tim 's(22, 23)", 'Tim(28, 28)']['Robert(0, 0)', 'Robert(33, 33)']["one of Tim 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+
+Robert decided to fix PRP$ truck in PRP$ friend Tim 's big garage . While there , PRP accidentally broke one of Tim 's expensive power tools . Tim was forgiving , but Robert still has to replace the tool . PRP bought NNP dinner at a restaurant because PRP felt so guilty .
+pronoun: ['PRP(41, 41)'], A: ['Robert(0, 0)'], B: ['Tim(9, 9)']
+clusters: [["PRP$ friend Tim 's(7, 10)", 'PRP(17, 17)', 'PRP(41, 41)', 'NNP(43, 43)', 'PRP(49, 49)']["Tim 's(9, 10)", "Tim 's(22, 23)", 'Tim(28, 28)']['Robert(0, 0)', 'Robert(33, 33)']["one of Tim 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+
+Robert decided to fix PRP$ truck in PRP$ friend Tim 's big garage . While there , PRP accidentally broke one of Tim 's expensive power tools . Tim was forgiving , but Robert still has to replace the tool . PRP bought NNP dinner at a restaurant because PRP felt so guilty .
+pronoun: ['PRP(49, 49)'], A: ['Robert(0, 0)'], B: ['Tim(9, 9)']
+clusters: [["PRP$ friend Tim 's(7, 10)", 'PRP(17, 17)', 'PRP(41, 41)', 'NNP(43, 43)', 'PRP(49, 49)']["Tim 's(9, 10)", "Tim 's(22, 23)", 'Tim(28, 28)']['Robert(0, 0)', 'Robert(33, 33)']["one of Tim 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning Helen and NNP worked out together . Monica constantly reminded Helen of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP(14, 14)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'NNP(23, 23)', 'PRP$(33, 33)', 'PRP(38, 38)']['Helen(0, 0)', 'Helen(21, 21)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning Helen and NNP worked out together . Monica constantly reminded Helen of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP$(16, 16)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'NNP(23, 23)', 'PRP$(33, 33)', 'PRP(38, 38)']['Helen(0, 0)', 'Helen(21, 21)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning Helen and NNP worked out together . Monica constantly reminded Helen of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP$(33, 33)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'NNP(23, 23)', 'PRP$(33, 33)', 'PRP(38, 38)']['Helen(0, 0)', 'Helen(21, 21)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning Helen and NNP worked out together . Monica constantly reminded Helen of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP(38, 38)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'NNP(23, 23)', 'PRP$(33, 33)', 'PRP(38, 38)']['Helen(0, 0)', 'Helen(21, 21)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning Helen and Monica worked out together . NNP constantly reminded Helen of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP(14, 14)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'NNP(28, 28)', 'PRP$(33, 33)', 'PRP(38, 38)']['Helen(0, 0)', 'Helen(21, 21)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning Helen and Monica worked out together . NNP constantly reminded Helen of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP$(16, 16)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'NNP(28, 28)', 'PRP$(33, 33)', 'PRP(38, 38)']['Helen(0, 0)', 'Helen(21, 21)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning Helen and Monica worked out together . NNP constantly reminded Helen of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP$(33, 33)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'NNP(28, 28)', 'PRP$(33, 33)', 'PRP(38, 38)']['Helen(0, 0)', 'Helen(21, 21)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning Helen and Monica worked out together . NNP constantly reminded Helen of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP(38, 38)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'NNP(28, 28)', 'PRP$(33, 33)', 'PRP(38, 38)']['Helen(0, 0)', 'Helen(21, 21)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning NNP and Monica worked out together . Monica constantly reminded Helen of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP(14, 14)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'NNP(21, 21)', 'PRP$(33, 33)', 'PRP(38, 38)']['Monica(23, 23)', 'Monica(28, 28)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning NNP and Monica worked out together . Monica constantly reminded Helen of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP$(16, 16)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'NNP(21, 21)', 'PRP$(33, 33)', 'PRP(38, 38)']['Monica(23, 23)', 'Monica(28, 28)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning NNP and Monica worked out together . Monica constantly reminded Helen of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP$(33, 33)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'NNP(21, 21)', 'PRP$(33, 33)', 'PRP(38, 38)']['Monica(23, 23)', 'Monica(28, 28)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning NNP and Monica worked out together . Monica constantly reminded Helen of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP(38, 38)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'NNP(21, 21)', 'PRP$(33, 33)', 'PRP(38, 38)']['Monica(23, 23)', 'Monica(28, 28)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning Helen and Monica worked out together . Monica constantly reminded NNP of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP(14, 14)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'PRP$(33, 33)', 'PRP(38, 38)']['Helen(0, 0)', 'Helen(21, 21)']['Monica(23, 23)', 'Monica(28, 28)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning Helen and Monica worked out together . Monica constantly reminded NNP of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP$(16, 16)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'PRP$(33, 33)', 'PRP(38, 38)']['Helen(0, 0)', 'Helen(21, 21)']['Monica(23, 23)', 'Monica(28, 28)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning Helen and Monica worked out together . Monica constantly reminded NNP of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP$(33, 33)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'PRP$(33, 33)', 'PRP(38, 38)']['Helen(0, 0)', 'Helen(21, 21)']['Monica(23, 23)', 'Monica(28, 28)']]
+
+Helen really wanted to lose weight . PRP asked PRP$ friend Monica to help PRP with PRP$ goal . Every morning Helen and Monica worked out together . Monica constantly reminded NNP of PRP$ goal and helped motivate PRP .
+pronoun: ['PRP(38, 38)'], A: ['Monica(11, 11)'], B: ['Helen(0, 0)']
+clusters: [['PRP(7, 7)', 'PRP$(9, 9)', 'PRP(14, 14)', 'PRP$(16, 16)', 'PRP$(33, 33)', 'PRP(38, 38)']['Helen(0, 0)', 'Helen(21, 21)']['Monica(23, 23)', 'Monica(28, 28)']]
+
+Tom was planning to propose to Mary . PRP had already bought a diamond engagement ring . Eager to propose , PRP showed PRP the ring . Surprisingly , NNP opposed blood diamonds .
+pronoun: ['PRP(23, 23)'], A: ['Tom(0, 0)'], B: ['Mary(6, 6)']
+clusters: [['PRP(8, 8)', 'PRP(21, 21)', 'PRP(23, 23)', 'NNP(29, 29)']['a diamond engagement ring(12, 15)', 'the ring(24, 25)']]
+
+Tom was planning to propose to Mary . PRP had already bought a diamond engagement ring . Eager to propose , PRP showed PRP the ring . Surprisingly , NNP opposed blood diamonds .
+pronoun: ['PRP(8, 8)'], A: ['Tom(0, 0)'], B: ['Mary(6, 6)']
+clusters: [['PRP(8, 8)', 'PRP(21, 21)', 'PRP(23, 23)', 'NNP(29, 29)']['a diamond engagement ring(12, 15)', 'the ring(24, 25)']]
+
+Tom was planning to propose to Mary . PRP had already bought a diamond engagement ring . Eager to propose , PRP showed PRP the ring . Surprisingly , NNP opposed blood diamonds .
+pronoun: ['PRP(21, 21)'], A: ['Tom(0, 0)'], B: ['Mary(6, 6)']
+clusters: [['PRP(8, 8)', 'PRP(21, 21)', 'PRP(23, 23)', 'NNP(29, 29)']['a diamond engagement ring(12, 15)', 'the ring(24, 25)']]
+
+Nic sent out a mass invitation to PRP$ family and friends . The invitation to Kay 's birthday party immediately got some responses . NNP opened the first response . PRP was happy to read the acceptance to the invitation .
+pronoun: ['PRP(30, 30)'], A: ['Nic(0, 0)'], B: ['Kay(15, 15)']
+clusters: [['PRP$ family and friends(7, 10)', 'NNP(24, 24)', 'PRP(30, 30)']["The invitation to Kay 's birthday party(12, 18)", 'the invitation(38, 39)']]
+
+Tom had a son named Eric . NNP was too busy to take care of PRP$ son . PRP sent Eric to a boarding school . Eric did not like the boarding school .
+pronoun: ['PRP$(15, 15)'], A: ['Tom(0, 0)'], B: ['Eric(5, 5)']
+clusters: [['NNP(7, 7)', 'PRP$(15, 15)', 'PRP(18, 18)']['a son named Eric(2, 5)', 'Eric(20, 20)', 'Eric(26, 26)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+
+Tom had a son named Eric . NNP was too busy to take care of PRP$ son . PRP sent Eric to a boarding school . Eric did not like the boarding school .
+pronoun: ['PRP(18, 18)'], A: ['Tom(0, 0)'], B: ['Eric(5, 5)']
+clusters: [['NNP(7, 7)', 'PRP$(15, 15)', 'PRP(18, 18)']['a son named Eric(2, 5)', 'Eric(20, 20)', 'Eric(26, 26)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+
+Tom had a son named Eric . Tom was too busy to take care of PRP$ son . PRP sent NNP to a boarding school . Eric did not like the boarding school .
+pronoun: ['PRP(18, 18)'], A: ['Tom(0, 0)'], B: ['Eric(5, 5)']
+clusters: [['Tom(0, 0)', 'Tom(7, 7)']['PRP$ son(15, 16)', 'PRP(18, 18)', 'NNP(20, 20)']['a son named Eric(2, 5)', 'Eric(26, 26)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+
+Tom had a son named Eric . Tom was too busy to take care of PRP$ son . PRP sent Eric to a boarding school . NNP did not like the boarding school .
+pronoun: ['PRP(18, 18)'], A: ['Tom(0, 0)'], B: ['Eric(5, 5)']
+clusters: [['Tom(0, 0)', 'Tom(7, 7)']['PRP$ son(15, 16)', 'PRP(18, 18)', 'NNP(26, 26)']['a son named Eric(2, 5)', 'Eric(20, 20)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party NNP asked PRP why PRP had n't RSVP'd . Ellie realized that PRP was supposed to be invited . PRP told Katy PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(21, 21)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [['PRP(6, 6)', 'the party NNP(17, 19)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'PRP(31, 31)', 'PRP(38, 38)', 'Katy PRP(40, 41)', 'PRP(48, 48)']['Ellie(0, 0)', 'Ellie(28, 28)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party NNP asked PRP why PRP had n't RSVP'd . Ellie realized that PRP was supposed to be invited . PRP told Katy PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(23, 23)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [['PRP(6, 6)', 'the party NNP(17, 19)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'PRP(31, 31)', 'PRP(38, 38)', 'Katy PRP(40, 41)', 'PRP(48, 48)']['Ellie(0, 0)', 'Ellie(28, 28)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party NNP asked PRP why PRP had n't RSVP'd . Ellie realized that PRP was supposed to be invited . PRP told Katy PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(31, 31)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [['PRP(6, 6)', 'the party NNP(17, 19)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'PRP(31, 31)', 'PRP(38, 38)', 'Katy PRP(40, 41)', 'PRP(48, 48)']['Ellie(0, 0)', 'Ellie(28, 28)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party NNP asked PRP why PRP had n't RSVP'd . Ellie realized that PRP was supposed to be invited . PRP told Katy PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(38, 38)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [['PRP(6, 6)', 'the party NNP(17, 19)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'PRP(31, 31)', 'PRP(38, 38)', 'Katy PRP(40, 41)', 'PRP(48, 48)']['Ellie(0, 0)', 'Ellie(28, 28)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party NNP asked PRP why PRP had n't RSVP'd . Ellie realized that PRP was supposed to be invited . PRP told Katy PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(48, 48)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [['PRP(6, 6)', 'the party NNP(17, 19)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'PRP(31, 31)', 'PRP(38, 38)', 'Katy PRP(40, 41)', 'PRP(48, 48)']['Ellie(0, 0)', 'Ellie(28, 28)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party Katy asked PRP why PRP had n't RSVP'd . Ellie realized that PRP was supposed to be invited . PRP told NNP PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(21, 21)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [["Katy 's party(10, 12)", 'the party Katy(17, 19)']['PRP(6, 6)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'PRP(31, 31)', 'PRP(38, 38)', 'NNP PRP(40, 41)', 'PRP(48, 48)']['Ellie(0, 0)', 'Ellie(28, 28)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party Katy asked PRP why PRP had n't RSVP'd . Ellie realized that PRP was supposed to be invited . PRP told NNP PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(23, 23)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [["Katy 's party(10, 12)", 'the party Katy(17, 19)']['PRP(6, 6)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'PRP(31, 31)', 'PRP(38, 38)', 'NNP PRP(40, 41)', 'PRP(48, 48)']['Ellie(0, 0)', 'Ellie(28, 28)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party Katy asked PRP why PRP had n't RSVP'd . Ellie realized that PRP was supposed to be invited . PRP told NNP PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(31, 31)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [["Katy 's party(10, 12)", 'the party Katy(17, 19)']['PRP(6, 6)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'PRP(31, 31)', 'PRP(38, 38)', 'NNP PRP(40, 41)', 'PRP(48, 48)']['Ellie(0, 0)', 'Ellie(28, 28)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party Katy asked PRP why PRP had n't RSVP'd . Ellie realized that PRP was supposed to be invited . PRP told NNP PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(38, 38)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [["Katy 's party(10, 12)", 'the party Katy(17, 19)']['PRP(6, 6)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'PRP(31, 31)', 'PRP(38, 38)', 'NNP PRP(40, 41)', 'PRP(48, 48)']['Ellie(0, 0)', 'Ellie(28, 28)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party Katy asked PRP why PRP had n't RSVP'd . Ellie realized that PRP was supposed to be invited . PRP told NNP PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(48, 48)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [["Katy 's party(10, 12)", 'the party Katy(17, 19)']['PRP(6, 6)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'PRP(31, 31)', 'PRP(38, 38)', 'NNP PRP(40, 41)', 'PRP(48, 48)']['Ellie(0, 0)', 'Ellie(28, 28)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party Katy asked PRP why PRP had n't RSVP'd . NNP realized that PRP was supposed to be invited . PRP told Katy PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(21, 21)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [["Katy 's party(10, 12)", 'the party Katy(17, 19)']['PRP(6, 6)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'NNP(28, 28)', 'PRP(31, 31)', 'PRP(38, 38)', 'Katy PRP(40, 41)', 'PRP(48, 48)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party Katy asked PRP why PRP had n't RSVP'd . NNP realized that PRP was supposed to be invited . PRP told Katy PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(23, 23)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [["Katy 's party(10, 12)", 'the party Katy(17, 19)']['PRP(6, 6)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'NNP(28, 28)', 'PRP(31, 31)', 'PRP(38, 38)', 'Katy PRP(40, 41)', 'PRP(48, 48)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party Katy asked PRP why PRP had n't RSVP'd . NNP realized that PRP was supposed to be invited . PRP told Katy PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(31, 31)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [["Katy 's party(10, 12)", 'the party Katy(17, 19)']['PRP(6, 6)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'NNP(28, 28)', 'PRP(31, 31)', 'PRP(38, 38)', 'Katy PRP(40, 41)', 'PRP(48, 48)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party Katy asked PRP why PRP had n't RSVP'd . NNP realized that PRP was supposed to be invited . PRP told Katy PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(38, 38)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [["Katy 's party(10, 12)", 'the party Katy(17, 19)']['PRP(6, 6)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'NNP(28, 28)', 'PRP(31, 31)', 'PRP(38, 38)', 'Katy PRP(40, 41)', 'PRP(48, 48)']]
+
+Ellie was crushed that everyone but PRP was invited to Katy 's party . The day before the party Katy asked PRP why PRP had n't RSVP'd . NNP realized that PRP was supposed to be invited . PRP told Katy PRP had n't gotten an invitation but PRP could go .
+pronoun: ['PRP(48, 48)'], A: ['Katy(10, 10)'], B: ['Ellie(0, 0)']
+clusters: [["Katy 's party(10, 12)", 'the party Katy(17, 19)']['PRP(6, 6)', 'PRP(21, 21)', 'PRP(23, 23)', "RSVP'd(26, 26)", 'NNP(28, 28)', 'PRP(31, 31)', 'PRP(38, 38)', 'Katy PRP(40, 41)', 'PRP(48, 48)']]
+
+Julie met a boy named Brandon . NNP swept Julie off of PRP$ feet . Several months later , Brandon was arrested was selling drugs . Julie spent all of PRP$ money bailing PRP out of jail .
+pronoun: ['PRP$(12, 12)'], A: ['Brandon(5, 5)'], B: ['Julie(0, 0)']
+clusters: [['Julie(0, 0)', 'Julie(9, 9)', 'Julie(26, 26)']['NNP(7, 7)', 'PRP$(12, 12)', 'PRP$(30, 30)', 'PRP(33, 33)']['a boy named Brandon(2, 5)', 'Brandon(19, 19)']]
+
+Julie met a boy named Brandon . NNP swept Julie off of PRP$ feet . Several months later , Brandon was arrested was selling drugs . Julie spent all of PRP$ money bailing PRP out of jail .
+pronoun: ['PRP$(30, 30)'], A: ['Brandon(5, 5)'], B: ['Julie(0, 0)']
+clusters: [['Julie(0, 0)', 'Julie(9, 9)', 'Julie(26, 26)']['NNP(7, 7)', 'PRP$(12, 12)', 'PRP$(30, 30)', 'PRP(33, 33)']['a boy named Brandon(2, 5)', 'Brandon(19, 19)']]
+
+Julie met a boy named Brandon . NNP swept Julie off of PRP$ feet . Several months later , Brandon was arrested was selling drugs . Julie spent all of PRP$ money bailing PRP out of jail .
+pronoun: ['PRP(33, 33)'], A: ['Brandon(5, 5)'], B: ['Julie(0, 0)']
+clusters: [['Julie(0, 0)', 'Julie(9, 9)', 'Julie(26, 26)']['NNP(7, 7)', 'PRP$(12, 12)', 'PRP$(30, 30)', 'PRP(33, 33)']['a boy named Brandon(2, 5)', 'Brandon(19, 19)']]
+
+Julie met a boy named Brandon . Brandon swept Julie off of PRP$ feet . Several months later , NNP was arrested was selling drugs . Julie spent all of PRP$ money bailing PRP out of jail .
+pronoun: ['PRP$(12, 12)'], A: ['Brandon(5, 5)'], B: ['Julie(0, 0)']
+clusters: [['a boy named Brandon(2, 5)', 'Brandon(7, 7)']['Julie(0, 0)', 'Julie(9, 9)', 'Julie(26, 26)']['PRP$(12, 12)', 'NNP(19, 19)', 'PRP$(30, 30)', 'PRP(33, 33)']]
+
+Julie met a boy named Brandon . Brandon swept Julie off of PRP$ feet . Several months later , NNP was arrested was selling drugs . Julie spent all of PRP$ money bailing PRP out of jail .
+pronoun: ['PRP$(30, 30)'], A: ['Brandon(5, 5)'], B: ['Julie(0, 0)']
+clusters: [['a boy named Brandon(2, 5)', 'Brandon(7, 7)']['Julie(0, 0)', 'Julie(9, 9)', 'Julie(26, 26)']['PRP$(12, 12)', 'NNP(19, 19)', 'PRP$(30, 30)', 'PRP(33, 33)']]
+
+Julie met a boy named Brandon . Brandon swept Julie off of PRP$ feet . Several months later , NNP was arrested was selling drugs . Julie spent all of PRP$ money bailing PRP out of jail .
+pronoun: ['PRP(33, 33)'], A: ['Brandon(5, 5)'], B: ['Julie(0, 0)']
+clusters: [['a boy named Brandon(2, 5)', 'Brandon(7, 7)']['Julie(0, 0)', 'Julie(9, 9)', 'Julie(26, 26)']['PRP$(12, 12)', 'NNP(19, 19)', 'PRP$(30, 30)', 'PRP(33, 33)']]
+
+Julie met a boy named Brandon . Brandon swept NNP off of PRP$ feet . Several months later , Brandon was arrested was selling drugs . Julie spent all of PRP$ money bailing PRP out of jail .
+pronoun: ['PRP$(12, 12)'], A: ['Brandon(5, 5)'], B: ['Julie(0, 0)']
+clusters: [['a boy named Brandon(2, 5)', 'Brandon(7, 7)', 'Brandon(19, 19)']['NNP(9, 9)', 'PRP$(12, 12)', 'PRP$(30, 30)', 'PRP(33, 33)']['Julie(0, 0)', 'Julie(26, 26)']['NNP off of PRP$(9, 12)', 'all of PRP$(28, 30)']]
+
+Julie met a boy named Brandon . Brandon swept NNP off of PRP$ feet . Several months later , Brandon was arrested was selling drugs . Julie spent all of PRP$ money bailing PRP out of jail .
+pronoun: ['PRP$(30, 30)'], A: ['Brandon(5, 5)'], B: ['Julie(0, 0)']
+clusters: [['a boy named Brandon(2, 5)', 'Brandon(7, 7)', 'Brandon(19, 19)']['NNP(9, 9)', 'PRP$(12, 12)', 'PRP$(30, 30)', 'PRP(33, 33)']['Julie(0, 0)', 'Julie(26, 26)']['NNP off of PRP$(9, 12)', 'all of PRP$(28, 30)']]
+
+Julie met a boy named Brandon . Brandon swept NNP off of PRP$ feet . Several months later , Brandon was arrested was selling drugs . Julie spent all of PRP$ money bailing PRP out of jail .
+pronoun: ['PRP(33, 33)'], A: ['Brandon(5, 5)'], B: ['Julie(0, 0)']
+clusters: [['a boy named Brandon(2, 5)', 'Brandon(7, 7)', 'Brandon(19, 19)']['NNP(9, 9)', 'PRP$(12, 12)', 'PRP$(30, 30)', 'PRP(33, 33)']['Julie(0, 0)', 'Julie(26, 26)']['NNP off of PRP$(9, 12)', 'all of PRP$(28, 30)']]
+
+Julie met a boy named Brandon . Brandon swept Julie off of PRP$ feet . Several months later , Brandon was arrested was selling drugs . NNP spent all of PRP$ money bailing PRP out of jail .
+pronoun: ['PRP$(12, 12)'], A: ['Brandon(5, 5)'], B: ['Julie(0, 0)']
+clusters: [['a boy named Brandon(2, 5)', 'Brandon(7, 7)', 'Brandon(19, 19)']['Julie(0, 0)', 'Julie(9, 9)']['PRP$(12, 12)', 'NNP(26, 26)', 'PRP$(30, 30)', 'PRP(33, 33)']]
+
+Julie met a boy named Brandon . Brandon swept Julie off of PRP$ feet . Several months later , Brandon was arrested was selling drugs . NNP spent all of PRP$ money bailing PRP out of jail .
+pronoun: ['PRP$(30, 30)'], A: ['Brandon(5, 5)'], B: ['Julie(0, 0)']
+clusters: [['a boy named Brandon(2, 5)', 'Brandon(7, 7)', 'Brandon(19, 19)']['Julie(0, 0)', 'Julie(9, 9)']['PRP$(12, 12)', 'NNP(26, 26)', 'PRP$(30, 30)', 'PRP(33, 33)']]
+
+Julie met a boy named Brandon . Brandon swept Julie off of PRP$ feet . Several months later , Brandon was arrested was selling drugs . NNP spent all of PRP$ money bailing PRP out of jail .
+pronoun: ['PRP(33, 33)'], A: ['Brandon(5, 5)'], B: ['Julie(0, 0)']
+clusters: [['a boy named Brandon(2, 5)', 'Brandon(7, 7)', 'Brandon(19, 19)']['Julie(0, 0)', 'Julie(9, 9)']['PRP$(12, 12)', 'NNP(26, 26)', 'PRP$(30, 30)', 'PRP(33, 33)']]
+
+Matt and Sarah were married only a month ago . They were so happy getting used to the married life . At least they were happy until Matt 's mom moved in . PRP treated NNP and Sarah both like children .
+pronoun: ['PRP(33, 33)'], A: ['Matt(0, 0)'], B: ['Sarah(2, 2)']
+clusters: [['Matt and Sarah(0, 2)', 'They(10, 10)', 'they(23, 23)', 'NNP and Sarah(35, 37)']['Matt(0, 0)', "Matt 's(27, 28)"]['PRP(33, 33)', 'NNP(35, 35)']['Sarah(2, 2)', 'Sarah(37, 37)']]
+
+Matt and Sarah were married only a month ago . They were so happy getting used to the married life . At least they were happy until Matt 's mom moved in . PRP treated Matt and NNP both like children .
+pronoun: ['PRP(33, 33)'], A: ['Matt(0, 0)'], B: ['Sarah(2, 2)']
+clusters: [['Matt and Sarah(0, 2)', 'They(10, 10)', 'they(23, 23)', 'Matt and NNP(35, 37)']['Matt(0, 0)', "Matt 's(27, 28)", 'Matt(35, 35)']['PRP(33, 33)', 'NNP(37, 37)']]
+
+There was an enormous , unsightly rock in Tom 's garden . PRP tried unsuccessfully to remove it himself . Begrudgingly , PRP called to Mary for help . Happy to oblige , NNP went over to help PRP .
+pronoun: ['PRP(38, 38)'], A: ['Tom(8, 8)'], B: ['Mary(25, 25)']
+clusters: [["an enormous , unsightly rock in Tom 's garden(2, 10)", 'it(17, 17)']['PRP(12, 12)', 'himself(18, 18)', 'PRP(22, 22)', 'NNP(33, 33)', 'PRP(38, 38)']]
+
+Jake always hated spiders . Jake 's roommate Derek knew about this fear . NNP sprinkled Jake 's entire bed with little plastic spiders . Jake screamed out in terror when PRP saw PRP$ bed .
+pronoun: ['PRP$(33, 33)'], A: ['Derek(8, 8)'], B: ['Jake(0, 0)']
+clusters: [['Jake(0, 0)', "Jake 's(5, 6)", "Jake 's(16, 17)", 'Jake(25, 25)']['NNP(14, 14)', 'PRP(31, 31)', 'PRP$(33, 33)']]
+
+Jake always hated spiders . Jake 's roommate Derek knew about this fear . NNP sprinkled Jake 's entire bed with little plastic spiders . Jake screamed out in terror when PRP saw PRP$ bed .
+pronoun: ['PRP(31, 31)'], A: ['Derek(8, 8)'], B: ['Jake(0, 0)']
+clusters: [['Jake(0, 0)', "Jake 's(5, 6)", "Jake 's(16, 17)", 'Jake(25, 25)']['NNP(14, 14)', 'PRP(31, 31)', 'PRP$(33, 33)']]
+
+Jake always hated spiders . Jake 's roommate Derek knew about this fear . Derek sprinkled Jake 's entire bed with little plastic spiders . NNP screamed out in terror when PRP saw PRP$ bed .
+pronoun: ['PRP$(33, 33)'], A: ['Derek(8, 8)'], B: ['Jake(0, 0)']
+clusters: [['Jake(0, 0)', "Jake 's(5, 6)", "Jake 's(16, 17)"]["Jake 's roommate Derek(5, 8)", 'Derek(14, 14)']['NNP(25, 25)', 'PRP(31, 31)', 'PRP$(33, 33)']]
+
+Jake always hated spiders . Jake 's roommate Derek knew about this fear . Derek sprinkled Jake 's entire bed with little plastic spiders . NNP screamed out in terror when PRP saw PRP$ bed .
+pronoun: ['PRP(31, 31)'], A: ['Derek(8, 8)'], B: ['Jake(0, 0)']
+clusters: [['Jake(0, 0)', "Jake 's(5, 6)", "Jake 's(16, 17)"]["Jake 's roommate Derek(5, 8)", 'Derek(14, 14)']['NNP(25, 25)', 'PRP(31, 31)', 'PRP$(33, 33)']]
+
+
+
+
+
+didn't find prnoun
+70
+correct answer
+63
+incorrect answer
+28
+thought both were the same
+3
+neither a nor b selected
+265
+
+overall confidence: 1.765502777592889, 9.319105177435855
+overall confidence for correct answer   : 1.765502777592889, 8.443915968574837
+overall confiidence for incorrrect answer:-0.920528209486673, 9.452293126577022
+correct confidence: 7.736877167035663, 4.200263022862214
+correct other confidence: -3.9648739037842584, 10.000445033293895
+incorrect confiden: 5.385616442986897, 2.999100198491843
+incorrect other confidence: -4.042414088249206, 10.460079375069187
+A count: 53, B count: 38

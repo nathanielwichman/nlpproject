@@ -1,0 +1,1448 @@
+had 0 exceptions raised
+
+didn't find prnoun
+Fred and Bob were brainstorming ideas for a children 's show . He suggested that a monster attacks the children . Bob laughed because he thought Fred was joking . Fred was confused because he thought it was a great idea .
+pronoun: ['He(12, 12)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [["a children 's(7, 9)", 'the children(18, 19)']['Bob(2, 2)', 'Bob(21, 21)', 'he(24, 24)', 'he(34, 34)']['Fred(26, 26)', 'Fred(30, 30)']]
+
+Bob and Fred were playing checkers . He suddenly pointed at the window and gestured to someone . Bob turned around to see who it was . While he was distracted , Fred moved some pieces closer .
+pronoun: ['He(7, 7)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Bob(0, 0)', 'Bob(18, 18)', 'he(28, 28)']['Fred(2, 2)', 'Fred(32, 32)']]
+
+Bob had just moved to a new house . The neighbors came over with their son , Fred . They had bought pie and Bob showed Fred his room . He and Bob had a lot in common and played in Bob 's room .
+pronoun: ['He(30, 30)'], A: ['Bob(0, 0)'], B: ['Fred(17, 17)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['Bob(0, 0)', 'Bob(24, 24)', 'Bob(32, 32)', "Bob 's(41, 42)"]['their son , Fred(14, 17)', 'Fred(26, 26)', 'his(27, 27)']['pie and Bob(22, 24)', 'He and Bob(30, 32)']['his room(27, 28)', "Bob 's room(41, 43)"]]
+
+Fred and Bob were married only a month ago . They were so happy getting used to the married life . At least they were happy until Fred 's mom moved in . He treated Fred and he both like children .
+pronoun: ['he(37, 37)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred and Bob(0, 2)', 'They(10, 10)', 'they(23, 23)']['Fred(0, 0)', "Fred 's(27, 28)", 'He(33, 33)', 'Fred(35, 35)']]
+
+
+
+
+
+correct answer
+Fred thought Bob should buy a trailer and haul it with his car . He thought a truck would be better for what he needed . Fred pointed out two vehicles were much more expensive . Bob was set in his ways with conventional thinking .
+pronoun: ['He(14, 14)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Bob(2, 2)', 'his(11, 11)', 'He(14, 14)', 'he(23, 23)', 'Bob(36, 36)', 'his(40, 40)']['Fred(0, 0)', 'Fred(26, 26)']]
+Winograd answer: A (Bob)
+A confidence: 6.390275478363037
+B confidence: 4.987258434295654
+
+Bob originally thought he wanted five kids . He and Fred first were blessed with a son . Two years later , they had twin girls . Now , he is selling all his maternity and baby clothes .
+pronoun: ['he(29, 29)'], A: ['Bob(0, 0)'], B: ['Bob(0, 0)']
+clusters: [['Bob(0, 0)', 'he(3, 3)', 'He(8, 8)', 'he(29, 29)', 'his(33, 33)']['five kids(5, 6)', 'they(22, 22)']]
+Winograd answer: A (Bob)
+A confidence: -0.9270511269569397
+B confidence: -0.9270511269569397
+
+Fred and Bob went to the beach in December . He put on his bathing suit and waded into the ocean ! The water was so cold that Bob 's lips turned turned blue . Fred pulled him from the icy water , saving Bob from frostbite .
+pronoun: ['He(10, 10)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', 'He(10, 10)', 'his(13, 13)', "Bob 's(28, 29)", 'him(37, 37)', 'Bob(44, 44)']]
+Winograd answer: A (Bob)
+A confidence: 5.959111213684082
+B confidence: -inf
+
+Fred and Bob went to the beach in December . Bob put on his bathing suit and waded into the ocean ! The water was so cold that his lips turned turned blue . Fred pulled him from the icy water , saving Bob from frostbite .
+pronoun: ['his(28, 28)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', 'Bob(10, 10)', 'his(13, 13)', 'his(28, 28)', 'him(36, 36)', 'Bob(43, 43)']]
+Winograd answer: A (Bob)
+A confidence: 7.800084114074707
+B confidence: -inf
+
+Fred and Bob went to the beach in December . Bob put on his bathing suit and waded into the ocean ! The water was so cold that Bob 's lips turned turned blue . Fred pulled him from the icy water , saving he from frostbite .
+pronoun: ['he(44, 44)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', 'Bob(10, 10)', 'his(13, 13)', "Bob 's(28, 29)", 'him(37, 37)', 'he(44, 44)']]
+Winograd answer: A (Bob)
+A confidence: 3.3882598876953125
+B confidence: 3.587507486343384
+
+Fred yelled out that the computer was broken again . Bob walked into their shared office and looked at him , exasperated . He rolled his eyes . He approached Fred and the computer , sighing a long suffering sigh .
+pronoun: ['He(23, 23)'], A: ['Bob(10, 10)'], B: ['Fred(0, 0)']
+clusters: [['Bob(10, 10)', 'their(13, 13)', 'him(19, 19)', 'He(23, 23)', 'his(25, 25)', 'He(28, 28)']['Fred(0, 0)', 'Fred(30, 30)']['the computer(4, 5)', 'the computer(32, 33)']]
+Winograd answer: A (Bob)
+A confidence: 14.950422286987305
+B confidence: 7.296616554260254
+
+Bob has to buy his husband Fred a gift for their anniversary . He went out all day on Friday to find a gift . He searched all over , but he could n't find the perfect gift . Eventually he decided to cook his dinner instead .
+pronoun: ['He(13, 13)'], A: ['Bob(0, 0)'], B: ['Fred(6, 6)']
+clusters: [['Bob(0, 0)', 'his(4, 4)', 'He(13, 13)', 'He(25, 25)', 'he(31, 31)', 'he(40, 40)', 'his(44, 44)']['a gift(22, 23)', 'the perfect gift(35, 37)']]
+Winograd answer: A (Bob)
+A confidence: 9.050069808959961
+B confidence: -inf
+
+Fred made plans with Bob to watch a movie on Friday . As soon as he approached the theater , he waited for him . A few hours have passed and he still did n't show up . While building up frustration , he left and visited another friend .
+pronoun: ['he(43, 43)'], A: ['Bob(4, 4)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'he(15, 15)', 'he(20, 20)', 'him(23, 23)', 'he(31, 31)', 'he(43, 43)']['a movie(7, 8)', 'the theater(17, 18)']]
+Winograd answer: B (Fred)
+A confidence: -9.774263381958008
+B confidence: -3.3647301197052
+
+Bob always wondered if he 'd ever see Fred again . He had decided to marry someone else and they had moved far away . Now , he was divorced and would be coming to the class reunion . He and Fred spent most of the reunion talking with each other .
+pronoun: ['He(39, 39)'], A: ['Bob(0, 0)'], B: ['Fred(8, 8)']
+clusters: [['Bob(0, 0)', 'he(4, 4)', 'He(11, 11)', 'he(27, 27)', 'He(39, 39)']['Fred(8, 8)', 'Fred(41, 41)']]
+Winograd answer: A (Bob)
+A confidence: -2.007573366165161
+B confidence: -2.2074499130249023
+
+Bob was a very nervous child with a long - time fear of heights . One hot summer day , his friends invited him to a water park . His crush , Fred , was there and he loved slides , so he had an idea . Bob asked him to join him on a two - person toboggan , and he accepted !
+pronoun: ['he(42, 42)'], A: ['Bob(0, 0)'], B: ['Fred(32, 32)']
+clusters: [['Bob(0, 0)', 'his(20, 20)', 'him(23, 23)', 'His(29, 29)', 'he(37, 37)', 'he(42, 42)', 'Bob(47, 47)', 'him(49, 49)', 'him(52, 52)', 'he(61, 61)']]
+Winograd answer: A (Bob)
+A confidence: 3.120006561279297
+B confidence: -0.8879321217536926
+
+Bob was a very nervous child with a long - time fear of heights . One hot summer day , his friends invited him to a water park . His crush , Fred , was there and he loved slides , so Bob had an idea . He asked him to join him on a two - person toboggan , and he accepted !
+pronoun: ['He(47, 47)'], A: ['Bob(0, 0)'], B: ['Fred(32, 32)']
+clusters: [['Bob(0, 0)', 'his(20, 20)', 'him(23, 23)', 'His(29, 29)', 'he(37, 37)', 'Bob(42, 42)', 'He(47, 47)', 'him(49, 49)', 'him(52, 52)', 'he(61, 61)']]
+Winograd answer: A (Bob)
+A confidence: 6.451830863952637
+B confidence: -1.630494236946106
+
+Fred 's cat Bob was sprayed by a skunk . Fred knew he would have to bathe Bob . Sure enough , Bob resisted ! But he managed to scrub his clean .
+pronoun: ['he(26, 26)'], A: ['Bob(3, 3)'], B: ['Fred(0, 0)']
+clusters: [["Fred 's(0, 1)", 'Fred(10, 10)', 'he(12, 12)', 'he(26, 26)', 'his(30, 30)']["Fred 's cat Bob(0, 3)", 'Bob(17, 17)', 'Bob(22, 22)']]
+Winograd answer: B (Fred)
+A confidence: 3.9027371406555176
+B confidence: 4.78796911239624
+
+Fred and Bob were moving in together . Bob adored cats and asked when they could adopt one . Fred informed him he was badly allergic to cat fur . He was heartbroken and really wanted a feline companion .
+pronoun: ['He(30, 30)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', 'Bob(8, 8)', 'him(21, 21)', 'he(22, 22)', 'He(30, 30)']['Fred and Bob(0, 2)', 'they(14, 14)']['Fred(0, 0)', 'Fred(19, 19)']]
+Winograd answer: A (Bob)
+A confidence: 0.21820837259292603
+B confidence: 5.771100997924805
+
+Fred 's mom told him to babysit his little brother Bob . He was annoyed because he would rather go to the mall . Bob asked Fred to play a game . The two ended up having a lot of fun together .
+pronoun: ['He(12, 12)'], A: ['Bob(10, 10)'], B: ['Fred(0, 0)']
+clusters: [["Fred 's(0, 1)", 'him(4, 4)', 'his(7, 7)', 'He(12, 12)', 'he(16, 16)', 'Fred(26, 26)']['his little brother Bob(7, 10)', 'Bob(24, 24)']]
+Winograd answer: B (Fred)
+A confidence: -inf
+B confidence: -inf
+
+Fred wanted to learn how to play guitar to impress Bob . He saved up his money so he could take lessons . When he had enough money saved , Fred scheduled some lessons . Fred practiced really hard and now he knows how to play guitar .
+pronoun: ['He(12, 12)'], A: ['Bob(10, 10)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(12, 12)', 'his(15, 15)', 'he(18, 18)', 'he(24, 24)', 'Fred(30, 30)', 'Fred(35, 35)', 'he(41, 41)']]
+Winograd answer: B (Fred)
+A confidence: 3.9766621589660645
+B confidence: 9.425320625305176
+
+Fred wanted to learn how to play guitar to impress Bob . Fred saved up his money so he could take lessons . When he had enough money saved , he scheduled some lessons . Fred practiced really hard and now he knows how to play guitar .
+pronoun: ['he(30, 30)'], A: ['Bob(10, 10)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(12, 12)', 'his(15, 15)', 'he(18, 18)', 'he(24, 24)', 'he(30, 30)', 'Fred(35, 35)', 'he(41, 41)']]
+Winograd answer: B (Fred)
+A confidence: -0.8447589874267578
+B confidence: 3.3126327991485596
+
+Fred wanted to learn how to play guitar to impress Bob . Fred saved up his money so he could take lessons . When he had enough money saved , Fred scheduled some lessons . He practiced really hard and now he knows how to play guitar .
+pronoun: ['He(35, 35)'], A: ['Bob(10, 10)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(12, 12)', 'his(15, 15)', 'he(18, 18)', 'he(24, 24)', 'Fred(30, 30)', 'He(35, 35)', 'he(41, 41)']]
+Winograd answer: B (Fred)
+A confidence: 0.591539740562439
+B confidence: 6.241636276245117
+
+Bob and Fred were making mud pies together . They were having fun pretending to be real life chefs . He got so carried away he forgot the pies were real . He took a big bite of one !
+pronoun: ['He(20, 20)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Bob and Fred(0, 2)', 'They(9, 9)']['Bob(0, 0)', 'He(20, 20)', 'he(25, 25)', 'He(32, 32)']['mud pies(5, 6)', 'the pies(27, 28)']]
+Winograd answer: A (Bob)
+A confidence: 0.20132404565811157
+B confidence: -6.065965175628662
+
+After taking a long trip , Bob came back to town . He walked down main street and into a coffee shop . In the show he saw his friend , Fred . Fred was very excited to see he for the first time in years .
+pronoun: ['he(39, 39)'], A: ['Bob(6, 6)'], B: ['Fred(31, 31)']
+clusters: [['Bob(6, 6)', 'He(12, 12)', 'he(26, 26)', 'his(28, 28)', 'he(39, 39)']['his friend , Fred(28, 31)', 'Fred(33, 33)']]
+Winograd answer: A (Bob)
+A confidence: -0.5309444665908813
+B confidence: 2.801163911819458
+
+Bob was meeting his best friend for dinner . They had agreed on a Mexican restaurant . Bob got there first and reserved a table . Fred called he to ask where he was .
+pronoun: ['he(28, 28)'], A: ['Bob(0, 0)'], B: ['Fred(26, 26)']
+clusters: [['Bob(0, 0)', 'his(3, 3)', 'Bob(17, 17)', 'he(28, 28)', 'he(32, 32)']]
+Winograd answer: A (Bob)
+A confidence: 4.864434242248535
+B confidence: -0.7902719378471375
+
+Bob and Fred went to the ice cream parlor . He could n't decide what he wanted . He tried six different samples . Then he realized he was n't hungry anymore .
+pronoun: ['He(10, 10)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Fred(2, 2)', 'He(10, 10)', 'he(15, 15)', 'He(18, 18)', 'he(25, 25)', 'he(27, 27)']]
+Winograd answer: B (Fred)
+A confidence: -0.6550763249397278
+B confidence: 2.223329544067383
+
+Tonight , Bob had a tutoring job at Samantha 's house . When he arrived , Fred had his notes out and was ready to learn . He came prepared , and taught Fred the lesson . Bob also helped prepare Fred for his upcoming test .
+pronoun: ['He(27, 27)'], A: ['Bob(2, 2)'], B: ['Fred(16, 16)']
+clusters: [['Bob(2, 2)', 'he(13, 13)', 'his(18, 18)', 'He(27, 27)', 'Bob(37, 37)', 'his(43, 43)']['Fred(16, 16)', 'Fred(33, 33)', 'Fred(41, 41)']]
+Winograd answer: A (Bob)
+A confidence: 6.417634963989258
+B confidence: 9.548181533813477
+
+Tonight , Bob had a tutoring job at Samantha 's house . When he arrived , Fred had his notes out and was ready to learn . Bob came prepared , and taught Fred the lesson . He also helped prepare Fred for his upcoming test .
+pronoun: ['He(37, 37)'], A: ['Bob(2, 2)'], B: ['Fred(16, 16)']
+clusters: [['Bob(2, 2)', 'he(13, 13)', 'his(18, 18)', 'Bob(27, 27)', 'He(37, 37)', 'his(43, 43)']['Fred(16, 16)', 'Fred(33, 33)', 'Fred(41, 41)']]
+Winograd answer: A (Bob)
+A confidence: 7.578103065490723
+B confidence: 7.787750244140625
+
+Bob had just moved to a new house . The neighbors came over with their son , Fred . They had bought pie and he showed Fred his room . Fred and Bob had a lot in common and played in Bob 's room .
+pronoun: ['he(24, 24)'], A: ['Bob(0, 0)'], B: ['Fred(17, 17)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)', 'Fred and Bob(30, 32)']['Bob(0, 0)', 'he(24, 24)', 'Bob(32, 32)', "Bob 's(41, 42)"]['their son , Fred(14, 17)', 'Fred(26, 26)', 'his(27, 27)']['his room(27, 28)', "Bob 's room(41, 43)"]]
+Winograd answer: A (Bob)
+A confidence: 6.376948833465576
+B confidence: -inf
+
+Bob had just moved to a new house . The neighbors came over with their son , Fred . They had bought pie and Bob showed Fred his room . Fred and he had a lot in common and played in Bob 's room .
+pronoun: ['he(32, 32)'], A: ['Bob(0, 0)'], B: ['Fred(17, 17)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['Bob(0, 0)', 'Bob(24, 24)', 'he(32, 32)', "Bob 's(41, 42)"]['their son , Fred(14, 17)', 'Fred(26, 26)', 'his(27, 27)', 'Fred(30, 30)']['his room(27, 28)', "Bob 's room(41, 43)"]]
+Winograd answer: A (Bob)
+A confidence: 5.382669925689697
+B confidence: 0.719318687915802
+
+Bob had just moved to a new house . The neighbors came over with their son , Fred . They had bought pie and Bob showed Fred his room . Fred and Bob had a lot in common and played in his room .
+pronoun: ['his(41, 41)'], A: ['Bob(0, 0)'], B: ['Fred(17, 17)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['Bob(0, 0)', 'Bob(24, 24)', 'Bob(32, 32)', 'his(41, 41)']['their son , Fred(14, 17)', 'Fred(26, 26)', 'his(27, 27)']['pie and Bob(22, 24)', 'Fred and Bob(30, 32)']['his room(27, 28)', 'his room(41, 42)']]
+Winograd answer: A (Bob)
+A confidence: 5.447611331939697
+B confidence: 0.7722002267837524
+
+Fred thought he played a good game of basketball . He decided to challenge his friend Bob . Bob agreed to play Fred . He practiced for a few days before the game .
+pronoun: ['He(24, 24)'], A: ['Bob(16, 16)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'he(2, 2)', 'He(10, 10)', 'his(14, 14)', 'Fred(22, 22)']['his friend Bob(14, 16)', 'Bob(18, 18)', 'He(24, 24)']['a good game of basketball(4, 8)', 'the game(31, 32)']]
+Winograd answer: A (Bob)
+A confidence: 12.224644660949707
+B confidence: 1.866521954536438
+
+Bob had a parrot named Fred . He could repeat anything you said . He loved to sing . He taught him to say a knock knock joke .
+pronoun: ['He(19, 19)'], A: ['Bob(0, 0)'], B: ['Fred(5, 5)']
+clusters: [['Bob(0, 0)', 'He(7, 7)', 'you(11, 11)', 'He(14, 14)', 'He(19, 19)', 'him(21, 21)']]
+Winograd answer: A (Bob)
+A confidence: 6.628109931945801
+B confidence: -inf
+
+Fred counted while Bob hid . Fred began to search for Chad . He looked behind the shed , but Bob was n't there . He looked behind the fence , but he was n't there .
+pronoun: ['he(32, 32)'], A: ['Bob(3, 3)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(6, 6)', 'He(13, 13)', 'He(25, 25)']['Bob(3, 3)', 'Bob(20, 20)', 'he(32, 32)']]
+Winograd answer: A (Bob)
+A confidence: 8.264023780822754
+B confidence: 3.392245054244995
+
+Fred counted while Bob hid . He began to search for Chad . He looked behind the shed , but Bob was n't there . He looked behind the fence , but Bob was n't there .
+pronoun: ['He(6, 6)'], A: ['Bob(3, 3)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(6, 6)', 'He(13, 13)', 'He(25, 25)']['Bob(3, 3)', 'Bob(20, 20)', 'Bob(32, 32)']]
+Winograd answer: B (Fred)
+A confidence: 0.3988610506057739
+B confidence: 6.8123884201049805
+
+Bob and Fred were tossing a ball in the back yard . Bob threw it too hard . It flew across the yard smashing into the kitchen window . He thought he was going to be in big trouble .
+pronoun: ['He(29, 29)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Bob(0, 0)', 'Bob(12, 12)', 'He(29, 29)', 'he(31, 31)']['it(14, 14)', 'It(18, 18)']['the back yard(8, 10)', 'the yard(21, 22)']]
+Winograd answer: A (Bob)
+A confidence: 2.8357181549072266
+B confidence: -7.546213150024414
+
+Bob was excited to have his friend Fred sleepover on Friday . Fred 's mom dropped him off at Max 's house just before dinner . His mom Fred and they had fun roasting hot dogs and playing . After dinner , the boys got in their sleeping bags and watched a movie .
+pronoun: ['His(26, 26)'], A: ['Bob(0, 0)'], B: ['Fred(7, 7)']
+clusters: [['Bob(0, 0)', 'his(5, 5)', 'him(16, 16)', 'His(26, 26)']['they(30, 30)', 'the boys(42, 43)', 'their(46, 46)']]
+Winograd answer: A (Bob)
+A confidence: 1.9687421321868896
+B confidence: -inf
+
+Bob was given a new puppy for his birthday . He named the puppy Fred . One day he took Fred for a walk through the park . Fred hurt his paw while they were playing .
+pronoun: ['he(18, 18)'], A: ['Bob(0, 0)'], B: ['Fred(14, 14)']
+clusters: [['Bob(0, 0)', 'his(7, 7)', 'He(10, 10)', 'he(18, 18)']['Fred(20, 20)', 'Fred(28, 28)', 'his(30, 30)']]
+Winograd answer: A (Bob)
+A confidence: 5.967117786407471
+B confidence: -inf
+
+Fred got a call from his friend Bob . He told him there was big party at Brad 's tonight . He was so excited to go with Bob . The two got dressed and headed to the party .
+pronoun: ['He(21, 21)'], A: ['Bob(7, 7)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'his(5, 5)', 'He(9, 9)', 'He(21, 21)']['his friend Bob(5, 7)', 'him(11, 11)', 'Bob(28, 28)']]
+Winograd answer: B (Fred)
+A confidence: -inf
+B confidence: 2.0115134716033936
+
+Fred is an avid tennis fan . Fred loved watching his favorite player , Bob . Fred was excited to learn that Bob was playing a match near him . He decided to purchase tickets to Bob 's tennis match .
+pronoun: ['He(30, 30)'], A: ['Bob(14, 14)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(7, 7)', 'his(10, 10)', 'Fred(16, 16)', 'He(30, 30)']['Bob(14, 14)', 'Bob(22, 22)', 'him(28, 28)', "Bob 's(36, 37)"]]
+Winograd answer: B (Fred)
+A confidence: 4.9403462409973145
+B confidence: 8.3281888961792
+
+Bob recently met a nice lady on Fred . He agreed for their first date to cook at his house . Bob was nervous , but decided to start the cooking . Bob put on the pot of rice , but had to use the restroom .
+pronoun: ['He(9, 9)'], A: ['Bob(0, 0)'], B: ['Fred(7, 7)']
+clusters: [['Bob(0, 0)', 'He(9, 9)', 'his(18, 18)', 'Bob(21, 21)', 'Bob(32, 32)']]
+Winograd answer: A (Bob)
+A confidence: 4.577146530151367
+B confidence: -12.708123207092285
+
+Bob recently met a nice lady on Fred . Bob agreed for their first date to cook at his house . He was nervous , but decided to start the cooking . Bob put on the pot of rice , but had to use the restroom .
+pronoun: ['He(21, 21)'], A: ['Bob(0, 0)'], B: ['Fred(7, 7)']
+clusters: [['Bob(0, 0)', 'Bob(9, 9)', 'his(18, 18)', 'He(21, 21)', 'Bob(32, 32)']]
+Winograd answer: A (Bob)
+A confidence: 8.263562202453613
+B confidence: -5.951046466827393
+
+Bob recently met a nice lady on Fred . Bob agreed for their first date to cook at his house . Bob was nervous , but decided to start the cooking . He put on the pot of rice , but had to use the restroom .
+pronoun: ['He(32, 32)'], A: ['Bob(0, 0)'], B: ['Fred(7, 7)']
+clusters: [['Bob(0, 0)', 'Bob(9, 9)', 'his(18, 18)', 'Bob(21, 21)', 'He(32, 32)']]
+Winograd answer: A (Bob)
+A confidence: 8.656965255737305
+B confidence: -8.825425148010254
+
+Fred hated sharing his toys with his brother Bob . He would always ruin his toys . Bob tried to play with Fred 's toy car , but he snatched it away . He began crying , and their mother rushed to check on them .
+pronoun: ['He(33, 33)'], A: ['Bob(8, 8)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'his(3, 3)', 'his(6, 6)', 'He(10, 10)', 'his(14, 14)', "Fred 's(22, 23)"]['his toys(3, 4)', 'his toys(14, 15)', 'them(44, 44)']['his brother Bob(6, 8)', 'Bob(17, 17)', 'he(28, 28)', 'He(33, 33)', 'their(38, 38)']["Fred 's toy car(22, 25)", 'it(30, 30)']]
+Winograd answer: A (Bob)
+A confidence: 11.144526481628418
+B confidence: 3.3059494495391846
+
+Bob and Fred were best friends . Fred 's mom had to take a job across the country . He begged his mom to reconsider , but he refused . The two girls were upset , afraid their friendship would end .
+pronoun: ['He(19, 19)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Fred(2, 2)', "Fred 's(7, 8)", 'He(19, 19)', 'his(21, 21)', 'he(27, 27)']["Fred 's mom(7, 9)", 'his mom(21, 22)']['Bob and Fred(0, 2)', 'The two girls(30, 32)', 'their(37, 37)']]
+Winograd answer: B (Fred)
+A confidence: -3.867072582244873
+B confidence: -9.463371276855469
+
+Bob wanted to surprise his husband Fred for his birthday . He spent weeks tracking down his old school friends . He was able to talk to many of them . Bob arranged to have all Fred 's old friends come over .
+pronoun: ['He(11, 11)'], A: ['Bob(0, 0)'], B: ['Fred(6, 6)']
+clusters: [['Bob(0, 0)', 'his(4, 4)', 'his(8, 8)', 'He(11, 11)', 'his(16, 16)', 'He(21, 21)', 'Bob(31, 31)']['his old school friends(16, 19)', 'them(29, 29)', "all Fred 's old friends(35, 39)"]]
+Winograd answer: A (Bob)
+A confidence: 8.52777099609375
+B confidence: -inf
+
+Bob wanted to surprise his husband Fred for his birthday . Bob spent weeks tracking down his old school friends . He was able to talk to many of them . He arranged to have all Fred 's old friends come over .
+pronoun: ['He(31, 31)'], A: ['Bob(0, 0)'], B: ['Fred(6, 6)']
+clusters: [['Bob(0, 0)', 'his(4, 4)', 'Bob(11, 11)', 'his(16, 16)', 'He(21, 21)', 'He(31, 31)']['his husband Fred(4, 6)', 'his(8, 8)']['his old school friends(16, 19)', 'them(29, 29)', "all Fred 's old friends(35, 39)"]]
+Winograd answer: A (Bob)
+A confidence: 8.664529800415039
+B confidence: -inf
+
+Fred was on bended knee proposing to Bob . Bob was ready to accept and say yes . Suddenly , he got an array of phone calls from family . He answered the calls , ruining the proposal .
+pronoun: ['he(20, 20)'], A: ['Bob(7, 7)'], B: ['Fred(0, 0)']
+clusters: [['Bob(7, 7)', 'Bob(9, 9)', 'he(20, 20)', 'He(30, 30)']['proposing(5, 5)', 'the proposal(36, 37)']]
+Winograd answer: A (Bob)
+A confidence: 6.475983619689941
+B confidence: 1.7792879343032837
+
+Fred was nervous walking up to the girls . He mustered up his courage and walked over to Bob . He could n't believe he said yes to a dance . They headed out to the dance floor , hand in hand .
+pronoun: ['He(20, 20)'], A: ['Bob(18, 18)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(9, 9)', 'his(12, 12)', 'He(20, 20)', 'he(24, 24)']['the girls(6, 7)', 'They(31, 31)']['a dance(28, 29)', 'the dance(35, 36)']]
+Winograd answer: B (Fred)
+A confidence: -0.05300050973892212
+B confidence: 1.9835118055343628
+
+Bob took a nap in his tree house . Something outside made a loud noise . Bob looked outside and saw his friend Fred . He invited bill up to the tree house .
+pronoun: ['He(25, 25)'], A: ['Bob(0, 0)'], B: ['Fred(23, 23)']
+clusters: [['Bob(0, 0)', 'his(5, 5)', 'Bob(16, 16)', 'his(21, 21)', 'He(25, 25)']['his tree house(5, 7)', 'the tree house(30, 32)']]
+Winograd answer: A (Bob)
+A confidence: 9.531535148620605
+B confidence: -inf
+
+Bob liked Fred very much but never talked to him . He was so shy , he hid behind the tree every time he went by . He was very curious and one day stopped to talked to him . He blushed so much , he run back to his house .
+pronoun: ['He(40, 40)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Bob(0, 0)', 'him(9, 9)', 'He(11, 11)', 'he(16, 16)', 'he(23, 23)', 'He(27, 27)', 'him(38, 38)', 'He(40, 40)', 'he(45, 45)', 'his(49, 49)']]
+Winograd answer: A (Bob)
+A confidence: 4.292047023773193
+B confidence: 1.4602322578430176
+
+Bob found a stray dog on the street . He brought the dog home . He named the dog Fred . Fred and he became good friends .
+pronoun: ['he(23, 23)'], A: ['Bob(0, 0)'], B: ['Fred(19, 19)']
+clusters: [['Bob(0, 0)', 'He(9, 9)', 'He(15, 15)', 'he(23, 23)']]
+Winograd answer: A (Bob)
+A confidence: 2.92889666557312
+B confidence: 1.7665715217590332
+
+Fred 's favorite artist Bob was having a concert in the park . Fred knew he had to be there early to get a good spot . He woke up at 1 am determined to get a good spot . However , when Fred reached , he saw a massive crowd .
+pronoun: ['He(27, 27)'], A: ['Bob(4, 4)'], B: ['Fred(0, 0)']
+clusters: [["Fred 's(0, 1)", 'Fred(13, 13)', 'he(15, 15)', 'He(27, 27)', 'Fred(43, 43)', 'he(46, 46)']['a good spot(23, 25)', 'a good spot(36, 38)']]
+Winograd answer: B (Fred)
+A confidence: 1.2769982814788818
+B confidence: 9.324915885925293
+
+Fred 's favorite artist Bob was having a concert in the park . Fred knew he had to be there early to get a good spot . Fred woke up at 1 am determined to get a good spot . However , when he reached , he saw a massive crowd .
+pronoun: ['he(43, 43)'], A: ['Bob(4, 4)'], B: ['Fred(0, 0)']
+clusters: [["Fred 's(0, 1)", 'Fred(13, 13)', 'he(15, 15)', 'Fred(27, 27)', 'he(43, 43)', 'he(46, 46)']['a good spot(23, 25)', 'a good spot(36, 38)']]
+Winograd answer: B (Fred)
+A confidence: 1.5340585708618164
+B confidence: 8.85004997253418
+
+Fred had a grudge against Bob . He decided he was going to slit his throat . He waited in the shadows by Bob 's house . When he saw his red coat he lunged out , slicing and stabbing !
+pronoun: ['He(17, 17)'], A: ['Bob(5, 5)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(7, 7)', 'he(9, 9)', 'his(14, 14)', 'He(17, 17)', 'he(28, 28)', 'his(30, 30)', 'he(33, 33)']['Bob(5, 5)', "Bob 's(23, 24)"]]
+Winograd answer: B (Fred)
+A confidence: -1.0492477416992188
+B confidence: 4.969618797302246
+
+Bob had always hated winter and cold temperatures . However , since he had married Fred , he would be staying in Minnesota . Fred surprised he with a new floor heating system . It runs with a boiler and keeps the floors toasty warm .
+pronoun: ['he(26, 26)'], A: ['Bob(0, 0)'], B: ['Fred(15, 15)']
+clusters: [['Bob(0, 0)', 'he(12, 12)', 'he(17, 17)', 'he(26, 26)']['Fred(15, 15)', 'Fred(24, 24)']['a new floor heating system(28, 32)', 'It(34, 34)']]
+Winograd answer: A (Bob)
+A confidence: 2.937448024749756
+B confidence: 2.0351991653442383
+
+Fred went to a restaurant with his friend Bob and his family . Carl 's family said he could order anything he wanted . So Fred ordered tons of food in excitement . But he struggled to finish even half of it .
+pronoun: ['he(17, 17)'], A: ['Bob(8, 8)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'his(6, 6)', 'he(17, 17)', 'he(21, 21)', 'Fred(25, 25)', 'he(34, 34)']['his friend Bob(6, 8)', 'his(10, 10)']['his family(10, 11)', "Carl 's family(13, 15)"]['tons of food(27, 29)', 'it(41, 41)']]
+Winograd answer: B (Fred)
+A confidence: -inf
+B confidence: 1.8239610195159912
+
+Fred went to a restaurant with his friend Bob and his family . Carl 's family said Fred could order anything he wanted . So he ordered tons of food in excitement . But he struggled to finish even half of it .
+pronoun: ['he(25, 25)'], A: ['Bob(8, 8)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'his(6, 6)', 'Fred(17, 17)', 'he(21, 21)', 'he(25, 25)', 'he(34, 34)']['his friend Bob(6, 8)', 'his(10, 10)']['his family(10, 11)', "Carl 's family(13, 15)"]['tons of food(27, 29)', 'it(41, 41)']]
+Winograd answer: B (Fred)
+A confidence: -inf
+B confidence: 6.2376298904418945
+
+Fred asked his new girlfriend , Bob , to go camping one weekend . At first , Bob was excited as the weekend began . Soon , however , he found he did n't like camping with Fred 's big dog . Fred broke up with he a few weeks later .
+pronoun: ['he(46, 46)'], A: ['Bob(6, 6)'], B: ['Bob(6, 6)']
+clusters: [['Fred(0, 0)', 'his(2, 2)', "Fred 's(37, 38)", 'Fred(42, 42)']['Bob(6, 6)', 'Bob(17, 17)', 'he(29, 29)', 'he(31, 31)', 'he(46, 46)']]
+Winograd answer: A (Bob)
+A confidence: 3.8901774883270264
+B confidence: 3.8901774883270264
+
+Bob was a 7 year old boy living in an orphanage . All of his life he dreamed of finding a family . One day a nice family named the Fred came to meet he . They all played together and talked over lunch .
+pronoun: ['he(34, 34)'], A: ['Bob(0, 0)'], B: ['Fred(30, 30)']
+clusters: [['Bob(0, 0)', 'his(14, 14)', 'he(16, 16)', 'he(34, 34)']['a nice family(25, 27)', 'They all(36, 37)', 'all(37, 37)']]
+Winograd answer: A (Bob)
+A confidence: 2.065060615539551
+B confidence: -inf
+
+Fred met his best friend Bob while playing a game online . He and Bob had a lot in common , so they started hanging out a lot . Eventually , Fred decided he wanted to meet Bob in real life . Fred talked to Bob about it and they agreed to meet up .
+pronoun: ['He(12, 12)'], A: ['Bob(5, 5)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'his(2, 2)', 'He(12, 12)', 'Fred(31, 31)', 'he(33, 33)', 'Fred(42, 42)']['his best friend Bob(2, 5)', 'Bob(14, 14)', 'Bob(37, 37)', 'Bob(45, 45)']['He and Bob(12, 14)', 'they(22, 22)', 'they(49, 49)']]
+Winograd answer: B (Fred)
+A confidence: -inf
+B confidence: 1.8040063381195068
+
+Fred met his best friend Bob while playing a game online . Fred and Bob had a lot in common , so they started hanging out a lot . Eventually , he decided he wanted to meet Bob in real life . Fred talked to Bob about it and they agreed to meet up .
+pronoun: ['he(31, 31)'], A: ['Bob(5, 5)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'his(2, 2)', 'he(31, 31)', 'he(33, 33)', 'Fred(42, 42)']['his best friend Bob(2, 5)', 'Bob(14, 14)', 'Bob(37, 37)', 'Bob(45, 45)']['Fred and Bob(12, 14)', 'they(22, 22)', 'they(49, 49)']]
+Winograd answer: B (Fred)
+A confidence: 3.916320562362671
+B confidence: 3.6627635955810547
+
+Fred met his best friend Bob while playing a game online . Fred and Bob had a lot in common , so they started hanging out a lot . Eventually , Fred decided he wanted to meet Bob in real life . He talked to Bob about it and they agreed to meet up .
+pronoun: ['He(42, 42)'], A: ['Bob(5, 5)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'his(2, 2)', 'Fred(31, 31)', 'he(33, 33)', 'He(42, 42)']['his best friend Bob(2, 5)', 'Bob(14, 14)', 'Bob(37, 37)', 'Bob(45, 45)', 'it(47, 47)']['Fred and Bob(12, 14)', 'they(22, 22)', 'they(49, 49)']]
+Winograd answer: B (Fred)
+A confidence: 0.6188673973083496
+B confidence: 11.67941665649414
+
+Bob wants to check the new fast food place in town . He asks his best friend Fred to tag along . He and Fred were excited to try the new burger . Bob gets to the place and orders a burger .
+pronoun: ['He(22, 22)'], A: ['Bob(0, 0)'], B: ['Fred(17, 17)']
+clusters: [['Bob(0, 0)', 'He(12, 12)', 'his(14, 14)', 'He(22, 22)', 'Bob(33, 33)']['his best friend Fred(14, 17)', 'Fred(24, 24)']]
+Winograd answer: A (Bob)
+A confidence: 3.3896484375
+B confidence: -inf
+
+Bob wants to check the new fast food place in town . He asks his best friend Fred to tag along . Bob and Fred were excited to try the new burger . He gets to the place and orders a burger .
+pronoun: ['He(33, 33)'], A: ['Bob(0, 0)'], B: ['Fred(17, 17)']
+clusters: [['Bob(0, 0)', 'He(12, 12)', 'his(14, 14)', 'Bob(22, 22)', 'He(33, 33)']]
+Winograd answer: A (Bob)
+A confidence: 6.101047039031982
+B confidence: -3.0032668113708496
+
+Bob was bored at work . He decided to go on Reddit to pass the time . On Fred , he saw an interesting link . He clicked on the link , and read a good article .
+pronoun: ['he(20, 20)'], A: ['Bob(0, 0)'], B: ['Fred(18, 18)']
+clusters: [['Bob(0, 0)', 'He(6, 6)', 'he(20, 20)', 'He(26, 26)']['an interesting link(22, 24)', 'the link(29, 30)']]
+Winograd answer: A (Bob)
+A confidence: 4.287896633148193
+B confidence: -8.370616912841797
+
+Fred and Bob wanted to buy a dog . Fred wanted a big dog , but Bob wanted a small one . When they arrived at the dog pound , only small dogs were left . He was sad , but he noticed that Bob had already chosen a dog .
+pronoun: ['He(36, 36)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(9, 9)', 'He(36, 36)', 'he(41, 41)']['Bob(2, 2)', 'Bob(16, 16)', 'Bob(44, 44)']['Fred and Bob(0, 2)', 'they(23, 23)']['a dog(6, 7)', 'the dog(26, 27)', 'the dog pound(26, 28)']]
+Winograd answer: B (Fred)
+A confidence: 1.6454739570617676
+B confidence: 2.7660908699035645
+
+Bob decided to fix his truck in his friend Fred 's big garage . While there , he accidentally broke one of Fred 's expensive power tools . Fred was forgiving , but he still has to replace the tool . He bought Fred dinner at a restaurant because he felt so guilty .
+pronoun: ['he(33, 33)'], A: ['Bob(0, 0)'], B: ['Fred(9, 9)']
+clusters: [['Bob(0, 0)', 'his(4, 4)', 'his(7, 7)', 'he(17, 17)', 'he(33, 33)', 'He(41, 41)', 'he(49, 49)']["Fred 's(22, 23)", 'Fred(28, 28)', 'Fred(43, 43)']["one of Fred 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+Winograd answer: A (Bob)
+A confidence: 6.868719577789307
+B confidence: 5.933065891265869
+
+Fred really wanted to lose weight . He asked his friend Bob to help him with his goal . Every morning he and Bob worked out together . Bob constantly reminded Fred of his goal and helped motivate him .
+pronoun: ['he(21, 21)'], A: ['Bob(11, 11)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(7, 7)', 'his(9, 9)', 'him(14, 14)', 'his(16, 16)', 'he(21, 21)']['his friend Bob(9, 11)', 'Bob(23, 23)', 'Bob(28, 28)', 'his(33, 33)', 'him(38, 38)']['his goal(16, 17)', 'his goal(33, 34)']]
+Winograd answer: B (Fred)
+A confidence: -inf
+B confidence: -0.2584342956542969
+
+Fred really wanted to lose weight . He asked his friend Bob to help him with his goal . Every morning Fred and Bob worked out together . Bob constantly reminded he of his goal and helped motivate him .
+pronoun: ['he(31, 31)'], A: ['Bob(11, 11)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(7, 7)', 'his(9, 9)', 'him(14, 14)', 'his(16, 16)', 'Fred(21, 21)', 'he(31, 31)']['his friend Bob(9, 11)', 'Bob(23, 23)', 'Bob(28, 28)', 'his(33, 33)', 'him(38, 38)']['his goal(16, 17)', 'his goal(33, 34)']]
+Winograd answer: B (Fred)
+A confidence: 2.911055564880371
+B confidence: 0.9293383359909058
+
+Bob sent out a mass invitation to his family and friends . The invitation to Fred 's birthday party immediately got some responses . He opened the first response . He was happy to read the acceptance to the invitation .
+pronoun: ['He(24, 24)'], A: ['Bob(0, 0)'], B: ['Fred(15, 15)']
+clusters: [['Bob(0, 0)', 'his(7, 7)', 'He(24, 24)', 'He(30, 30)']['a mass invitation(3, 5)', "The invitation to Fred 's birthday party(12, 18)", 'the invitation(38, 39)']]
+Winograd answer: A (Bob)
+A confidence: 6.016049385070801
+B confidence: -inf
+
+Bob had a son named Fred . Bob was too busy to take care of his son . He sent he to a boarding school . Fred did not like the boarding school .
+pronoun: ['he(20, 20)'], A: ['Bob(0, 0)'], B: ['Fred(5, 5)']
+clusters: [['Bob(0, 0)', 'Bob(7, 7)', 'his(15, 15)', 'He(18, 18)']['a son named Fred(2, 5)', 'his son(15, 16)', 'he(20, 20)', 'Fred(26, 26)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+Winograd answer: B (Fred)
+A confidence: 3.7120437622070312
+B confidence: -inf
+
+Fred was crushed that everyone but him was invited to Bob 's party . The day before the party Bob asked him why he had n't RSVP'd . He realized that he was supposed to be invited . He told Bob he had n't gotten an invitation but he could go .
+pronoun: ['He(28, 28)'], A: ['Bob(10, 10)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'him(6, 6)', 'him(21, 21)', 'he(23, 23)', 'He(28, 28)', 'he(31, 31)', 'He(38, 38)', 'he(41, 41)', 'he(48, 48)']["Bob 's party(10, 12)", 'the party Bob(17, 19)']["Bob 's(10, 11)", 'Bob(40, 40)']]
+Winograd answer: B (Fred)
+A confidence: -inf
+B confidence: 3.4295260906219482
+
+Fred and Bob were married to each other . Fred was having an affair behind Bob 's back . One day , he was in his bedroom with his mistress . Bob came home and saw them together .
+pronoun: ['he(22, 22)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', "Bob 's(15, 16)", 'his(25, 25)', 'his(28, 28)', 'Bob(31, 31)']['Fred(9, 9)', 'he(22, 22)']['Fred and Bob(0, 2)', 'them(36, 36)']]
+Winograd answer: B (Fred)
+A confidence: -5.7713117599487305
+B confidence: 8.60865592956543
+
+Fred and Bob were married only a month ago . They were so happy getting used to the married life . At least they were happy until Fred 's mom moved in . He treated he and Bob both like children .
+pronoun: ['he(35, 35)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred and Bob(0, 2)', 'They(10, 10)', 'they(23, 23)']['Fred(0, 0)', "Fred 's(27, 28)", 'He(33, 33)', 'he(35, 35)']['Bob(2, 2)', 'Bob(37, 37)']]
+Winograd answer: B (Fred)
+A confidence: -5.323347091674805
+B confidence: -4.9948930740356445
+
+
+
+
+
+incorrect answer
+Fred thought Bob should buy a trailer and haul it with his car . Bob thought a truck would be better for what he needed . Fred pointed out two vehicles were much more expensive . He was set in his ways with conventional thinking .
+pronoun: ['He(36, 36)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Bob(2, 2)', 'his(11, 11)', 'Bob(14, 14)', 'he(23, 23)']['Fred(0, 0)', 'Fred(26, 26)', 'He(36, 36)', 'his(40, 40)']]
+Winograd answer: A (Bob)
+A confidence: 2.80529522895813
+B confidence: 6.64181661605835
+
+Fred thought Bob should buy a trailer and haul it with his car . Bob thought a truck would be better for what he needed . He pointed out two vehicles were much more expensive . Bob was set in his ways with conventional thinking .
+pronoun: ['He(26, 26)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Bob(2, 2)', 'his(11, 11)', 'Bob(14, 14)', 'he(23, 23)', 'He(26, 26)', 'Bob(36, 36)', 'his(40, 40)']]
+Winograd answer: B (Fred)
+A confidence: 9.132689476013184
+B confidence: 2.6992084980010986
+
+Fred and Bob were brainstorming ideas for a children 's show . Fred suggested that a monster attacks the children . He laughed because he thought Fred was joking . Fred was confused because he thought it was a great idea .
+pronoun: ['He(21, 21)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [["a children 's(7, 9)", 'the children(18, 19)']['Fred(12, 12)', 'He(21, 21)', 'he(24, 24)', 'Fred(26, 26)', 'Fred(30, 30)', 'he(34, 34)']]
+Winograd answer: A (Bob)
+A confidence: -8.074125289916992
+B confidence: 11.343745231628418
+
+Fred and Bob were brainstorming ideas for a children 's show . Fred suggested that a monster attacks the children . Bob laughed because he thought he was joking . Fred was confused because he thought it was a great idea .
+pronoun: ['he(26, 26)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [["a children 's(7, 9)", 'the children(18, 19)']['Bob(2, 2)', 'Bob(21, 21)', 'he(24, 24)', 'he(26, 26)', 'he(34, 34)']['Fred(12, 12)', 'Fred(30, 30)']]
+Winograd answer: B (Fred)
+A confidence: 4.875396251678467
+B confidence: 4.493443489074707
+
+Fred and Bob were brainstorming ideas for a children 's show . Fred suggested that a monster attacks the children . Bob laughed because he thought Fred was joking . He was confused because he thought it was a great idea .
+pronoun: ['He(30, 30)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [["a children 's(7, 9)", 'the children(18, 19)']['Bob(2, 2)', 'Bob(21, 21)', 'he(24, 24)', 'He(30, 30)', 'he(34, 34)']['Fred(12, 12)', 'Fred(26, 26)', 'it(36, 36)']]
+Winograd answer: B (Fred)
+A confidence: 6.7805705070495605
+B confidence: 6.210310935974121
+
+Fred and his husband had a son named Bob . Fred 's husband passed away . Fred and he were very sad . Fred met a man and married his 5 years after his husband died .
+pronoun: ['he(18, 18)'], A: ['Bob(8, 8)'], B: ['Fred(0, 0)']
+clusters: [['his husband(2, 3)', "Fred 's(10, 11)", "Fred 's husband(10, 12)", 'he(18, 18)', 'Fred(23, 23)', 'his husband(33, 34)']['a man(25, 26)', 'his(29, 29)', 'his(33, 33)']]
+Winograd answer: A (Bob)
+A confidence: -inf
+B confidence: -inf
+
+Fred has a habit of taking items that do n't belong to him . Last night he stole a trailer from Bob 's yard . Bob has a camera in his yard and caught he on tape . The cops were called and took Fred to jail .
+pronoun: ['he(34, 34)'], A: ['Bob(21, 21)'], B: ['Fred(0, 0)']
+clusters: [['him(12, 12)', 'he(16, 16)']["Bob 's(21, 22)", 'Bob(25, 25)', 'his(30, 30)', 'he(34, 34)']["Bob 's yard(21, 23)", 'his yard(30, 31)']]
+Winograd answer: B (Fred)
+A confidence: 3.576943874359131
+B confidence: -inf
+
+Fred has a habit of taking items that do n't belong to him . Last night he stole a trailer from Bob 's yard . Bob has a camera in his yard and caught Fred on tape . The cops were called and took he to jail .
+pronoun: ['he(44, 44)'], A: ['Bob(21, 21)'], B: ['Fred(0, 0)']
+clusters: [['him(12, 12)', 'he(16, 16)']["Bob 's(21, 22)", 'Bob(25, 25)', 'his(30, 30)', 'he(44, 44)']["Bob 's yard(21, 23)", 'his yard(30, 31)']]
+Winograd answer: B (Fred)
+A confidence: 0.9092187881469727
+B confidence: 3.682675838470459
+
+Fred and Bob went to the beach in December . Bob put on his bathing suit and waded into the ocean ! The water was so cold that Bob 's lips turned turned blue . He pulled him from the icy water , saving Bob from frostbite .
+pronoun: ['He(35, 35)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', 'Bob(10, 10)', 'his(13, 13)', "Bob 's(28, 29)", 'He(35, 35)', 'him(37, 37)', 'Bob(44, 44)']]
+Winograd answer: B (Fred)
+A confidence: 10.226385116577148
+B confidence: -inf
+
+Fred thought he was a very talented poet . He attended college to study creative writing . In college , he met a boy named Bob . He told him that he was n't very good .
+pronoun: ['He(27, 27)'], A: ['Bob(25, 25)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'he(2, 2)', 'He(9, 9)', 'he(20, 20)', 'He(27, 27)']['a boy named Bob(22, 25)', 'him(29, 29)', 'he(31, 31)']]
+Winograd answer: A (Bob)
+A confidence: -inf
+B confidence: -2.2742888927459717
+
+Sam 's dog Fred escaped from their yard . Bob was distraught . He went out calling for he . Then he saw Fred come running up the street !
+pronoun: ['he(18, 18)'], A: ['Bob(9, 9)'], B: ['Fred(3, 3)']
+clusters: [['Bob(9, 9)', 'He(13, 13)', 'he(18, 18)', 'he(21, 21)']["Sam 's dog Fred(0, 3)", 'Fred(23, 23)']]
+Winograd answer: B (Fred)
+A confidence: 7.01041316986084
+B confidence: -inf
+
+Sam 's dog Fred escaped from their yard . Bob was distraught . He went out calling for Fred . Then he saw he come running up the street !
+pronoun: ['he(23, 23)'], A: ['Bob(9, 9)'], B: ['Fred(3, 3)']
+clusters: [['Bob(9, 9)', 'He(13, 13)', 'he(21, 21)', 'he(23, 23)']["Sam 's dog Fred(0, 3)", 'Fred(18, 18)']]
+Winograd answer: B (Fred)
+A confidence: 2.780031442642212
+B confidence: -4.401445388793945
+
+Fred yelled out that the computer was broken again . Bob walked into their shared office and looked at him , exasperated . Bob rolled his eyes . He approached he and the computer , sighing a long suffering sigh .
+pronoun: ['he(30, 30)'], A: ['Bob(10, 10)'], B: ['Fred(0, 0)']
+clusters: [['Bob(10, 10)', 'their(13, 13)', 'him(19, 19)', 'Bob(23, 23)', 'his(25, 25)', 'He(28, 28)', 'he(30, 30)']['the computer(4, 5)', 'the computer(32, 33)']]
+Winograd answer: B (Fred)
+A confidence: 3.7532477378845215
+B confidence: 0.5878647565841675
+
+Fred took Bob to a Monster Truck Rally . They sat on the front row . He watched all the different trucks . He also saw different cars get crushed .
+pronoun: ['He(16, 16)'], A: ['Bob(2, 2)'], B: ['Bob(2, 2)']
+clusters: [['Fred(0, 0)', 'He(16, 16)', 'He(23, 23)']]
+Winograd answer: A (Bob)
+A confidence: -0.38631391525268555
+B confidence: -0.38631391525268555
+
+In 2014 , Fred adopted a poodle . He named his Cookie , because he resembled an oatmeal cookie . Bob learned to protect his two daughters from harm . He went for walks with them every evening , and was allowed to swim .
+pronoun: ['his(24, 24)'], A: ['Bob(20, 20)'], B: ['Fred(3, 3)']
+clusters: [['Fred(3, 3)', 'He(8, 8)', 'his(10, 10)', 'he(14, 14)']['a poodle(5, 6)', 'his Cookie(10, 11)']['Bob(20, 20)', 'his(24, 24)', 'He(30, 30)']['his two daughters(24, 26)', 'them(35, 35)']]
+Winograd answer: B (Fred)
+A confidence: 11.216904640197754
+B confidence: 2.2156665325164795
+
+Bob always wondered if he 'd ever see Fred again . He had decided to marry someone else and they had moved far away . Now , he was divorced and would be coming to the class reunion . Bob and he spent most of the reunion talking with each other .
+pronoun: ['he(41, 41)'], A: ['Bob(0, 0)'], B: ['Fred(8, 8)']
+clusters: [['Bob(0, 0)', 'he(4, 4)', 'He(11, 11)', 'he(27, 27)', 'Bob(39, 39)', 'he(41, 41)']['the class reunion(35, 37)', 'the reunion(45, 46)']]
+Winograd answer: B (Fred)
+A confidence: 4.699344158172607
+B confidence: -1.771791696548462
+
+Fred 's cat Bob was sprayed by a skunk . Fred knew he would have to bathe he . Sure enough , Bob resisted ! But Fred managed to scrub his clean .
+pronoun: ['he(17, 17)'], A: ['Bob(3, 3)'], B: ['Fred(0, 0)']
+clusters: [["Fred 's(0, 1)", 'Fred(10, 10)', 'he(12, 12)', 'he(17, 17)', 'Fred(26, 26)', 'his(30, 30)']["Fred 's cat Bob(0, 3)", 'Bob(22, 22)']]
+Winograd answer: A (Bob)
+A confidence: -inf
+B confidence: 0.09219986200332642
+
+Fred 's cat Bob was sprayed by a skunk . Fred knew he would have to bathe Bob . Sure enough , he resisted ! But Fred managed to scrub his clean .
+pronoun: ['he(22, 22)'], A: ['Bob(3, 3)'], B: ['Fred(0, 0)']
+clusters: [["Fred 's(0, 1)", 'Fred(10, 10)', 'he(12, 12)', 'he(22, 22)', 'Fred(26, 26)', 'his(30, 30)']["Fred 's cat Bob(0, 3)", 'Bob(17, 17)']]
+Winograd answer: A (Bob)
+A confidence: 1.4257879257202148
+B confidence: 3.472998857498169
+
+Fred 's cat Bob was sprayed by a skunk . He knew he would have to bathe Bob . Sure enough , Bob resisted ! But Fred managed to scrub his clean .
+pronoun: ['He(10, 10)'], A: ['Bob(3, 3)'], B: ['Fred(0, 0)']
+clusters: [["Fred 's cat Bob(0, 3)", 'He(10, 10)', 'he(12, 12)', 'Bob(17, 17)', 'Bob(22, 22)']["Fred 's(0, 1)", 'Fred(26, 26)', 'his(30, 30)']]
+Winograd answer: B (Fred)
+A confidence: -inf
+B confidence: -inf
+
+Fred and Bob fell in love and got married . A few months later , Fred found out that he was pregnant . He was very excited and could n't wait to be a father . They found out they were having a baby boy .
+pronoun: ['He(23, 23)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(15, 15)', 'he(19, 19)', 'He(23, 23)']['Fred and Bob(0, 2)', 'They(36, 36)', 'they(39, 39)']]
+Winograd answer: A (Bob)
+A confidence: -1.9865753650665283
+B confidence: 6.356633186340332
+
+Bob and Fred went out to dinner . They sat at the table and placed their order . The waiter brought them their food . He accidentally knocked over his plate !
+pronoun: ['He(25, 25)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Bob and Fred(0, 2)', 'They(8, 8)', 'their(15, 15)', 'them(21, 21)', 'their(22, 22)']['Fred(2, 2)', 'He(25, 25)', 'his(29, 29)']]
+Winograd answer: A (Bob)
+A confidence: 0.6110286116600037
+B confidence: 1.3593454360961914
+
+Fred had to give a big speech at work . He asked his friend Bob to listen to it and give his opinion . He listened to the speech but was n't convinced it was good . Despite his own dislike for the speech , he complimented Fred .
+pronoun: ['He(24, 24)'], A: ['Bob(14, 14)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(10, 10)', 'his(12, 12)', 'his(21, 21)', 'He(24, 24)', 'his(38, 38)', 'he(45, 45)', 'Fred(47, 47)']['a big speech(4, 6)', 'it(18, 18)', 'the speech(27, 28)', 'it(33, 33)', 'the speech(42, 43)']]
+Winograd answer: A (Bob)
+A confidence: -inf
+B confidence: 5.878519535064697
+
+Fred had to give a big speech at work . He asked his friend Bob to listen to it and give his opinion . Bob listened to the speech but was n't convinced it was good . Despite his own dislike for the speech , he complimented he .
+pronoun: ['he(47, 47)'], A: ['Bob(14, 14)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(10, 10)', 'his(12, 12)', 'his(21, 21)']['a big speech(4, 6)', 'it(18, 18)', 'the speech(27, 28)', 'it(33, 33)', 'the speech(42, 43)']['his friend Bob(12, 14)', 'Bob(24, 24)', 'his(38, 38)', 'he(45, 45)', 'he(47, 47)']]
+Winograd answer: B (Fred)
+A confidence: 2.0335960388183594
+B confidence: -0.10580432415008545
+
+Fred thought he was a great guitar player . He took lessons from his friend Bob . He told him he needed to practice much more to be great . Fred was determined to practice every spare second he had .
+pronoun: ['He(17, 17)'], A: ['Bob(15, 15)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'he(2, 2)', 'He(9, 9)', 'his(13, 13)', 'He(17, 17)', 'him(19, 19)', 'he(20, 20)', 'Fred(30, 30)', 'he(38, 38)']]
+Winograd answer: A (Bob)
+A confidence: -inf
+B confidence: 1.4992070198059082
+
+Fred thought he was a great guitar player . He took lessons from his friend Bob . Bob told him he needed to practice much more to be great . He was determined to practice every spare second he had .
+pronoun: ['He(30, 30)'], A: ['Bob(15, 15)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'he(2, 2)', 'He(9, 9)', 'his(13, 13)', 'him(19, 19)']['his friend Bob(13, 15)', 'Bob(17, 17)', 'he(20, 20)', 'He(30, 30)', 'he(38, 38)']]
+Winograd answer: B (Fred)
+A confidence: 7.667297840118408
+B confidence: 0.981987476348877
+
+Fred and Bob were moving in together . He adored cats and asked when they could adopt one . Fred informed him he was badly allergic to cat fur . Bob was heartbroken and really wanted a feline companion .
+pronoun: ['He(8, 8)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(8, 8)', 'Fred(19, 19)', 'him(21, 21)', 'he(22, 22)']['Fred and Bob(0, 2)', 'they(14, 14)']['Bob(2, 2)', 'Bob(30, 30)']]
+Winograd answer: A (Bob)
+A confidence: -1.305667757987976
+B confidence: 1.762064814567566
+
+Fred and Bob were moving in together . Bob adored cats and asked when they could adopt one . He informed him he was badly allergic to cat fur . Bob was heartbroken and really wanted a feline companion .
+pronoun: ['He(19, 19)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', 'Bob(8, 8)', 'He(19, 19)', 'him(21, 21)', 'he(22, 22)', 'Bob(30, 30)']['Fred and Bob(0, 2)', 'they(14, 14)']]
+Winograd answer: B (Fred)
+A confidence: 6.93756103515625
+B confidence: -6.358678817749023
+
+Fred 's mom told him to babysit his little brother Bob . Fred was annoyed because he would rather go to the mall . He asked Fred to play a game . The two ended up having a lot of fun together .
+pronoun: ['He(24, 24)'], A: ['Bob(10, 10)'], B: ['Fred(0, 0)']
+clusters: [["Fred 's(0, 1)", 'him(4, 4)', 'his(7, 7)', 'Fred(12, 12)', 'he(16, 16)', 'He(24, 24)', 'Fred(26, 26)']]
+Winograd answer: A (Bob)
+A confidence: -inf
+B confidence: 10.407891273498535
+
+Fred 's mom told him to babysit his little brother Bob . Fred was annoyed because he would rather go to the mall . Bob asked he to play a game . The two ended up having a lot of fun together .
+pronoun: ['he(26, 26)'], A: ['Bob(10, 10)'], B: ['Fred(0, 0)']
+clusters: [["Fred 's(0, 1)", 'him(4, 4)', 'his(7, 7)', 'Fred(12, 12)', 'he(16, 16)']['his little brother Bob(7, 10)', 'Bob(24, 24)', 'he(26, 26)']]
+Winograd answer: B (Fred)
+A confidence: 5.879404544830322
+B confidence: 3.688816547393799
+
+After taking a long trip , Bob came back to town . He walked down main street and into a coffee shop . In the show he saw his friend , Fred . He was very excited to see Bob for the first time in years .
+pronoun: ['He(33, 33)'], A: ['Bob(6, 6)'], B: ['Fred(31, 31)']
+clusters: [['Bob(6, 6)', 'He(12, 12)', 'he(26, 26)', 'his(28, 28)', 'He(33, 33)', 'Bob(39, 39)']]
+Winograd answer: B (Fred)
+A confidence: 0.0427401065826416
+B confidence: -inf
+
+Bob and Fred were playing checkers . Fred suddenly pointed at the window and gestured to someone . He turned around to see who it was . While he was distracted , Fred moved some pieces closer .
+pronoun: ['He(18, 18)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Fred(2, 2)', 'Fred(7, 7)', 'He(18, 18)', 'he(28, 28)', 'Fred(32, 32)']]
+Winograd answer: A (Bob)
+A confidence: -2.8324170112609863
+B confidence: 10.272516250610352
+
+Bob and Fred were playing checkers . Fred suddenly pointed at the window and gestured to someone . Bob turned around to see who it was . While he was distracted , he moved some pieces closer .
+pronoun: ['he(32, 32)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Fred(2, 2)', 'Fred(7, 7)']['Bob(0, 0)', 'Bob(18, 18)', 'he(28, 28)', 'he(32, 32)']]
+Winograd answer: B (Fred)
+A confidence: 6.518275260925293
+B confidence: 1.0480610132217407
+
+Tonight , Bob had a tutoring job at Samantha 's house . When he arrived , Fred had his notes out and was ready to learn . Bob came prepared , and taught he the lesson . Bob also helped prepare Fred for his upcoming test .
+pronoun: ['he(33, 33)'], A: ['Bob(2, 2)'], B: ['Fred(16, 16)']
+clusters: [['Bob(2, 2)', 'he(13, 13)', 'his(18, 18)', 'Bob(27, 27)', 'he(33, 33)', 'Bob(37, 37)', 'his(43, 43)']['Fred(16, 16)', 'Fred(41, 41)']]
+Winograd answer: B (Fred)
+A confidence: 6.8516693115234375
+B confidence: 5.91486930847168
+
+Tonight , Bob had a tutoring job at Samantha 's house . When he arrived , Fred had his notes out and was ready to learn . Bob came prepared , and taught Fred the lesson . Bob also helped prepare he for his upcoming test .
+pronoun: ['he(41, 41)'], A: ['Bob(2, 2)'], B: ['Fred(16, 16)']
+clusters: [['Bob(2, 2)', 'he(13, 13)', 'his(18, 18)', 'Bob(27, 27)', 'Bob(37, 37)', 'he(41, 41)', 'his(43, 43)']['Fred(16, 16)', 'Fred(33, 33)']]
+Winograd answer: B (Fred)
+A confidence: 4.245370388031006
+B confidence: 1.5834413766860962
+
+Fred thought he played a good game of basketball . He decided to challenge his friend Bob . He agreed to play Fred . Bob practiced for a few days before the game .
+pronoun: ['He(18, 18)'], A: ['Bob(16, 16)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'he(2, 2)', 'He(10, 10)', 'his(14, 14)', 'He(18, 18)', 'Fred(22, 22)']['his friend Bob(14, 16)', 'Bob(24, 24)']['a good game of basketball(4, 8)', 'the game(31, 32)']]
+Winograd answer: A (Bob)
+A confidence: -inf
+B confidence: 4.155575275421143
+
+Fred thought he played a good game of basketball . He decided to challenge his friend Bob . Bob agreed to play he . Bob practiced for a few days before the game .
+pronoun: ['he(22, 22)'], A: ['Bob(16, 16)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'he(2, 2)', 'He(10, 10)', 'his(14, 14)']['his friend Bob(14, 16)', 'Bob(18, 18)', 'he(22, 22)', 'Bob(24, 24)']['a good game of basketball(4, 8)', 'the game(31, 32)']]
+Winograd answer: B (Fred)
+A confidence: 0.6088920831680298
+B confidence: 0.9439656138420105
+
+Fred counted while Bob hid . Fred began to search for Chad . He looked behind the shed , but he was n't there . He looked behind the fence , but Bob was n't there .
+pronoun: ['he(20, 20)'], A: ['Bob(3, 3)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(6, 6)', 'He(13, 13)', 'he(20, 20)', 'He(25, 25)']['Bob(3, 3)', 'Bob(32, 32)']]
+Winograd answer: A (Bob)
+A confidence: -6.623655796051025
+B confidence: 5.628053665161133
+
+Fred told Bob you always had to haggle with street vendors . He said it 's just the way we do things here in New York . He was from Texas and they did things differently down there . He figured he 'd try it Fred 's way , though .
+pronoun: ['He(27, 27)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', 'you(3, 3)']['Fred(0, 0)', 'He(12, 12)', 'He(27, 27)', 'He(39, 39)', 'he(41, 41)', "Fred 's(45, 46)"]]
+Winograd answer: A (Bob)
+A confidence: -0.4163917899131775
+B confidence: 1.0826313495635986
+
+Fred told Bob you always had to haggle with street vendors . He said it 's just the way we do things here in New York . Bob was from Texas and they did things differently down there . He figured he 'd try it his way , though .
+pronoun: ['his(45, 45)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', 'you(3, 3)', 'Bob(27, 27)', 'He(39, 39)', 'he(41, 41)', 'his(45, 45)']['Fred(0, 0)', 'He(12, 12)']['things(34, 34)', 'it(44, 44)']]
+Winograd answer: B (Fred)
+A confidence: -0.9883435368537903
+B confidence: -4.4973344802856445
+
+Fred was a mean bully . He went to school on a Monday . He challenged Bob to a fight . He beat up Fred in self - defense .
+pronoun: ['He(21, 21)'], A: ['Bob(16, 16)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(6, 6)', 'He(14, 14)', 'He(21, 21)', 'Fred(24, 24)']]
+Winograd answer: A (Bob)
+A confidence: 2.8018388748168945
+B confidence: -0.42940446734428406
+
+Fred was a mean bully . He went to school on a Monday . He challenged Bob to a fight . Bob beat up he in self - defense .
+pronoun: ['he(24, 24)'], A: ['Bob(16, 16)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(6, 6)', 'He(14, 14)']['Bob(16, 16)', 'Bob(21, 21)', 'he(24, 24)']]
+Winograd answer: B (Fred)
+A confidence: 4.433043003082275
+B confidence: 0.5848056674003601
+
+Fred and Bob were brothers . One day they were riding their bikes . Fred lost his balance and fell over . He helped him up .
+pronoun: ['He(22, 22)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred and Bob(0, 2)', 'they(8, 8)', 'their(11, 11)']['Fred(14, 14)', 'his(16, 16)', 'He(22, 22)', 'him(24, 24)']]
+Winograd answer: A (Bob)
+A confidence: -5.157721996307373
+B confidence: 12.272056579589844
+
+Bob cooed and gurgled in his crib . Mrs Fred stood up and walked over to the crib . He was worried so he reached out and touched he . Mrs Fred was thankful Bob felt cool to the touch .
+pronoun: ['he(28, 28)'], A: ['Bob(0, 0)'], B: ['Fred(9, 9)']
+clusters: [['Bob(0, 0)', 'his(5, 5)', 'Bob(34, 34)']['his crib(5, 6)', 'Mrs Fred(8, 9)', 'the crib(16, 17)', 'He(19, 19)', 'he(23, 23)', 'he(28, 28)', 'Fred(31, 31)']]
+Winograd answer: A (Bob)
+A confidence: 2.993027925491333
+B confidence: -inf
+
+Bob cooed and gurgled in his crib . Mrs Fred stood up and walked over to the crib . He was worried so he reached out and touched Bob . Mrs Fred was thankful he felt cool to the touch .
+pronoun: ['he(34, 34)'], A: ['Bob(0, 0)'], B: ['Fred(9, 9)']
+clusters: [['Bob(0, 0)', 'his(5, 5)', 'Bob(28, 28)']['his crib(5, 6)', 'Mrs Fred(8, 9)', 'the crib(16, 17)', 'He(19, 19)', 'he(23, 23)', 'Fred(31, 31)', 'he(34, 34)']]
+Winograd answer: A (Bob)
+A confidence: 3.725691556930542
+B confidence: 4.743232250213623
+
+Bob decided to take a pottery class for a new hobby . A man named Fred sat at the station next to his . He and Fred grew close over the course of the semester . They went to a bar together after their final exam .
+pronoun: ['He(24, 24)'], A: ['Bob(0, 0)'], B: ['Fred(15, 15)']
+clusters: [['A man named Fred(12, 15)', 'his(22, 22)', 'He(24, 24)', 'Fred(26, 26)']['He and Fred(24, 26)', 'They(36, 36)', 'their(43, 43)']]
+Winograd answer: A (Bob)
+A confidence: 0.3326496481895447
+B confidence: -inf
+
+Bob and Fred were good friends but very competitive . Bob set out to beat he at basketball . He dribbled fast but tripped at the last second . Fred snatched the ball and scored .
+pronoun: ['he(15, 15)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Bob(0, 0)', 'Bob(10, 10)', 'he(15, 15)', 'He(19, 19)']['Fred(2, 2)', 'Fred(29, 29)']]
+Winograd answer: B (Fred)
+A confidence: 3.5703213214874268
+B confidence: -7.949080467224121
+
+Bob and Fred were good friends but very competitive . Bob set out to beat Fred at basketball . He dribbled fast but tripped at the last second . He snatched the ball and scored .
+pronoun: ['He(29, 29)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Bob(0, 0)', 'Bob(10, 10)', 'He(19, 19)', 'He(29, 29)']['Fred(2, 2)', 'Fred(15, 15)']]
+Winograd answer: B (Fred)
+A confidence: 2.9643280506134033
+B confidence: -3.39908766746521
+
+Bob 's parents bought him a new car for college . He drove the car to campus . The next day Bob let his friend Fred drive the car to class . He lost control of the car and spun into a ditch .
+pronoun: ['He(32, 32)'], A: ['Bob(0, 0)'], B: ['Fred(25, 25)']
+clusters: [["Bob 's(0, 1)", 'him(4, 4)', 'He(11, 11)', 'Bob(21, 21)', 'his(23, 23)', 'He(32, 32)']['a new car(5, 7)', 'the car(13, 14)', 'the car(27, 28)', 'the car(36, 37)']]
+Winograd answer: B (Fred)
+A confidence: 8.042359352111816
+B confidence: -inf
+
+Fred and Bob were out to dinner on a date . After appetizers , Fred suddenly grabbed his stomach . He complained he was n't feeling good and left . He hoped that he had n't said something to upset him .
+pronoun: ['He(30, 30)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(14, 14)', 'his(17, 17)', 'He(20, 20)', 'he(22, 22)', 'He(30, 30)', 'he(33, 33)', 'him(40, 40)']]
+Winograd answer: A (Bob)
+A confidence: -5.713634490966797
+B confidence: 9.604141235351562
+
+Bob was excited to have his friend Fred sleepover on Friday . His mom dropped him off at Max 's house just before dinner . Bob 's mom Fred and they had fun roasting hot dogs and playing . After dinner , the boys got in their sleeping bags and watched a movie .
+pronoun: ['His(12, 12)'], A: ['Bob(0, 0)'], B: ['Fred(7, 7)']
+clusters: [['Bob(0, 0)', 'his(5, 5)', 'His(12, 12)', 'him(15, 15)', "Bob 's(25, 26)"]['dinner(23, 23)', 'dinner(40, 40)']['they(30, 30)', 'the boys(42, 43)', 'their(46, 46)']]
+Winograd answer: B (Fred)
+A confidence: 8.990235328674316
+B confidence: -inf
+
+Bob was excited to have his friend Fred sleepover on Friday . Fred 's mom dropped him off at Max 's house just before dinner . Bob 's mom he and they had fun roasting hot dogs and playing . After dinner , the boys got in their sleeping bags and watched a movie .
+pronoun: ['he(29, 29)'], A: ['Bob(0, 0)'], B: ['Fred(7, 7)']
+clusters: [['Bob(0, 0)', 'his(5, 5)', 'him(16, 16)', "Bob 's(26, 27)", 'he(29, 29)']['they(31, 31)', 'the boys(43, 44)', 'their(47, 47)']]
+Winograd answer: B (Fred)
+A confidence: 1.5563316345214844
+B confidence: -inf
+
+Bob was given a new puppy for his birthday . He named the puppy Fred . One day Bob took he for a walk through the park . Fred hurt his paw while they were playing .
+pronoun: ['he(20, 20)'], A: ['Bob(0, 0)'], B: ['Fred(14, 14)']
+clusters: [['Bob(0, 0)', 'his(7, 7)', 'He(10, 10)', 'Bob(18, 18)', 'he(20, 20)']['Fred(28, 28)', 'his(30, 30)']]
+Winograd answer: B (Fred)
+A confidence: 5.352609634399414
+B confidence: -inf
+
+Bob was given a new puppy for his birthday . He named the puppy Fred . One day Bob took Fred for a walk through the park . He hurt his paw while they were playing .
+pronoun: ['He(28, 28)'], A: ['Bob(0, 0)'], B: ['Fred(14, 14)']
+clusters: [['Bob(0, 0)', 'his(7, 7)', 'He(10, 10)', 'Bob(18, 18)', 'He(28, 28)', 'his(30, 30)']]
+Winograd answer: B (Fred)
+A confidence: 11.182848930358887
+B confidence: 2.1259512901306152
+
+Bob and Fred have been dating for 2 years . They really love each other . Bob decides he wants to marry he . He buys a diamond engagement ring .
+pronoun: ['he(22, 22)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Bob and Fred(0, 2)', 'They(10, 10)']['Bob(0, 0)', 'Bob(16, 16)', 'he(18, 18)', 'he(22, 22)', 'He(24, 24)']]
+Winograd answer: B (Fred)
+A confidence: 4.533757209777832
+B confidence: -8.19706916809082
+
+Bob had a bunch of crystals he thought were magical . He would rub them when he needed good luck . One day , his friend Fred came over to visit . He told him they were really just colorful plastic .
+pronoun: ['He(32, 32)'], A: ['Bob(0, 0)'], B: ['Fred(26, 26)']
+clusters: [['Bob(0, 0)', 'he(6, 6)', 'He(11, 11)', 'he(16, 16)', 'his(24, 24)', 'He(32, 32)', 'him(34, 34)']['a bunch of crystals he thought(2, 7)', 'them(14, 14)', 'they(35, 35)']]
+Winograd answer: B (Fred)
+A confidence: 4.087574481964111
+B confidence: -inf
+
+Fred is an avid tennis fan . Fred loved watching his favorite player , Bob . Fred was excited to learn that he was playing a match near him . Fred decided to purchase tickets to Bob 's tennis match .
+pronoun: ['he(22, 22)'], A: ['Bob(14, 14)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(7, 7)', 'his(10, 10)', 'Fred(16, 16)', 'he(22, 22)', 'him(28, 28)', 'Fred(30, 30)']['Bob(14, 14)', "Bob 's(36, 37)"]]
+Winograd answer: A (Bob)
+A confidence: -2.0072169303894043
+B confidence: 4.462574481964111
+
+Fred is an avid tennis fan . Fred loved watching his favorite player , Bob . Fred was excited to learn that Bob was playing a match near him . Fred decided to purchase tickets to his tennis match .
+pronoun: ['his(36, 36)'], A: ['Bob(14, 14)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(7, 7)', 'his(10, 10)', 'Fred(16, 16)', 'Fred(30, 30)', 'his(36, 36)']['Bob(14, 14)', 'Bob(22, 22)', 'him(28, 28)']]
+Winograd answer: A (Bob)
+A confidence: 5.731081008911133
+B confidence: 7.676656246185303
+
+Fred hated sharing his toys with his brother Bob . He would always ruin his toys . Bob tried to play with his toy car , but he snatched it away . Bob began crying , and their mother rushed to check on them .
+pronoun: ['his(22, 22)'], A: ['Bob(8, 8)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'his(3, 3)', 'his(6, 6)', 'He(10, 10)', 'his(14, 14)']['his toys(3, 4)', 'his toys(14, 15)', 'them(43, 43)']['his brother Bob(6, 8)', 'Bob(17, 17)', 'his(22, 22)', 'he(27, 27)', 'Bob(32, 32)', 'their(37, 37)']['his toy car(22, 24)', 'it(29, 29)']]
+Winograd answer: B (Fred)
+A confidence: 10.625454902648926
+B confidence: 2.303426504135132
+
+Bob and Fred were best friends . His mom had to take a job across the country . Fred begged his mom to reconsider , but he refused . The two girls were upset , afraid their friendship would end .
+pronoun: ['His(7, 7)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Bob(0, 0)', 'His(7, 7)']['Fred(2, 2)', 'Fred(18, 18)', 'his(20, 20)', 'he(26, 26)']['His mom(7, 8)', 'his mom(20, 21)']['Bob and Fred(0, 2)', 'The two girls(29, 31)', 'their(36, 36)']]
+Winograd answer: B (Fred)
+A confidence: 2.4998695850372314
+B confidence: -4.304204940795898
+
+Fred and Bob were playing a game of throw football in a field . Bob threw the ball long and he ran to catch it . His weight broke through an old cistern cover when he ran over it . The fall into the hole killed Fred when he hit the bottom .
+pronoun: ['he(20, 20)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', 'Bob(14, 14)', 'he(20, 20)', 'His(26, 26)', 'he(35, 35)', 'he(48, 48)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['an old cistern cover(30, 33)', 'the hole(43, 44)']]
+Winograd answer: B (Fred)
+A confidence: 9.249214172363281
+B confidence: -inf
+
+Fred and Bob were playing a game of throw football in a field . Bob threw the ball long and Fred ran to catch it . His weight broke through an old cistern cover when he ran over it . The fall into the hole killed he when he hit the bottom .
+pronoun: ['he(46, 46)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', 'Bob(14, 14)', 'His(26, 26)', 'he(35, 35)', 'he(46, 46)', 'he(48, 48)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['an old cistern cover when he ran over it(30, 38)', 'the hole(43, 44)']]
+Winograd answer: B (Fred)
+A confidence: 1.5470771789550781
+B confidence: -0.28921085596084595
+
+Bob wanted to surprise his husband Fred for his birthday . Bob spent weeks tracking down his old school friends . He was able to talk to many of them . Bob arranged to have all his old friends come over .
+pronoun: ['his(36, 36)'], A: ['Bob(0, 0)'], B: ['Fred(6, 6)']
+clusters: [['Bob(0, 0)', 'his(4, 4)', 'his(8, 8)', 'Bob(11, 11)', 'his(16, 16)', 'He(21, 21)', 'Bob(31, 31)', 'his(36, 36)']['his old school friends(16, 19)', 'them(29, 29)', 'all his old friends(35, 38)']]
+Winograd answer: B (Fred)
+A confidence: 5.3271379470825195
+B confidence: -inf
+
+Fred was on bended knee proposing to Bob . He was ready to accept and say yes . Suddenly , Bob got an array of phone calls from family . He answered the calls , ruining the proposal .
+pronoun: ['He(9, 9)'], A: ['Bob(7, 7)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(9, 9)']['Bob(7, 7)', 'Bob(20, 20)', 'He(30, 30)']['proposing(5, 5)', 'the proposal(36, 37)']]
+Winograd answer: A (Bob)
+A confidence: -0.06971138715744019
+B confidence: 5.583266258239746
+
+Fred and Bob had just started dating . He had acted very possessive at times , but he accepted it . Soon , he started isolating Fred from his friends and family . He had turned Fred into a full on hermit !
+pronoun: ['he(17, 17)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', 'He(8, 8)', 'he(17, 17)', 'he(23, 23)', 'his(28, 28)', 'He(33, 33)']['Fred(26, 26)', 'Fred(36, 36)']]
+Winograd answer: B (Fred)
+A confidence: 3.025550365447998
+B confidence: -inf
+
+Fred and Bob had just started dating . He had acted very possessive at times , but Fred accepted it . Soon , he started isolating he from his friends and family . He had turned Fred into a full on hermit !
+pronoun: ['he(26, 26)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', 'He(8, 8)', 'he(23, 23)', 'he(26, 26)', 'his(28, 28)', 'He(33, 33)']['Fred(17, 17)', 'Fred(36, 36)']]
+Winograd answer: B (Fred)
+A confidence: -1.318772554397583
+B confidence: 1.1774805784225464
+
+Fred and Bob had just started dating . He had acted very possessive at times , but Fred accepted it . Soon , he started isolating Fred from his friends and family . He had turned he into a full on hermit !
+pronoun: ['he(36, 36)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', 'He(8, 8)', 'he(23, 23)', 'his(28, 28)', 'He(33, 33)', 'he(36, 36)']['Fred(17, 17)', 'Fred(26, 26)']]
+Winograd answer: B (Fred)
+A confidence: -1.5255584716796875
+B confidence: 3.3744444847106934
+
+Bob heard a meow from outside of his bedroom window . Outside , he finds a kitten stuck in a tree . Bob calls his neighbor , Fred , to help get the cat . He uses his dad 's ladder to climb up and rescue the kitten .
+pronoun: ['He(35, 35)'], A: ['Bob(0, 0)'], B: ['Fred(27, 27)']
+clusters: [['Bob(0, 0)', 'his(7, 7)', 'he(13, 13)', 'Bob(22, 22)', 'his(24, 24)', 'He(35, 35)', 'his(37, 37)']['a kitten(15, 16)', 'the cat(32, 33)', 'the kitten(46, 47)']]
+Winograd answer: B (Fred)
+A confidence: 12.405916213989258
+B confidence: -inf
+
+Bob and his husband Fred got lost on their vacation . Fred insisted that he ask someone for directions . Bob refused to ask for directions . Their car eventually ran out of gas and they were stranded .
+pronoun: ['he(14, 14)'], A: ['Bob(0, 0)'], B: ['Fred(4, 4)']
+clusters: [['Bob(0, 0)', 'his(2, 2)', 'Bob(20, 20)']['Bob and his husband Fred(0, 4)', 'their(8, 8)', 'Their(27, 27)', 'they(35, 35)']['his husband Fred(2, 4)', 'Fred(11, 11)', 'he(14, 14)']]
+Winograd answer: A (Bob)
+A confidence: 3.070533514022827
+B confidence: 9.005785942077637
+
+Bob and his husband Fred got lost on their vacation . Fred insisted that Bob ask someone for directions . He refused to ask for directions . Their car eventually ran out of gas and they were stranded .
+pronoun: ['He(20, 20)'], A: ['Bob(0, 0)'], B: ['Fred(4, 4)']
+clusters: [['Bob(0, 0)', 'his(2, 2)', 'Bob(14, 14)']['Bob and his husband Fred(0, 4)', 'their(8, 8)', 'Their(27, 27)', 'they(35, 35)']['his husband Fred(2, 4)', 'Fred(11, 11)', 'He(20, 20)']]
+Winograd answer: A (Bob)
+A confidence: 8.663228034973145
+B confidence: 13.64126205444336
+
+Bob and his husband Fred got lost on their vacation . He insisted that Bob ask someone for directions . Bob refused to ask for directions . Their car eventually ran out of gas and they were stranded .
+pronoun: ['He(11, 11)'], A: ['Bob(0, 0)'], B: ['Fred(4, 4)']
+clusters: [['Bob(0, 0)', 'his(2, 2)', 'He(11, 11)', 'Bob(14, 14)', 'Bob(20, 20)']['Bob and his husband Fred(0, 4)', 'their(8, 8)', 'Their(27, 27)', 'they(35, 35)']]
+Winograd answer: B (Fred)
+A confidence: 3.538893699645996
+B confidence: -inf
+
+Bob found a stray dog on the street . He brought the dog home . He named the dog Fred . He and Bob became good friends .
+pronoun: ['He(21, 21)'], A: ['Bob(0, 0)'], B: ['Fred(19, 19)']
+clusters: [['Bob(0, 0)', 'He(9, 9)', 'He(15, 15)', 'He(21, 21)', 'Bob(23, 23)']]
+Winograd answer: B (Fred)
+A confidence: -0.9046645760536194
+B confidence: -inf
+
+Fred and Bob have been married for 20 years . Lately , Fred and he have n't been getting along . Fred tells him that it is time for them to separate . He moves into his brother 's house .
+pronoun: ['he(14, 14)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(12, 12)', 'he(14, 14)', 'Fred(21, 21)', 'him(23, 23)', 'He(33, 33)', 'his(36, 36)']]
+Winograd answer: A (Bob)
+A confidence: 0.09968888759613037
+B confidence: 2.4103646278381348
+
+Fred had a grudge against Bob . He decided he was going to slit his throat . Fred waited in the shadows by his house . When he saw his red coat he lunged out , slicing and stabbing !
+pronoun: ['his(23, 23)'], A: ['Bob(5, 5)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(7, 7)', 'he(9, 9)', 'his(14, 14)', 'Fred(17, 17)', 'his(23, 23)', 'he(27, 27)', 'his(29, 29)', 'he(32, 32)']]
+Winograd answer: A (Bob)
+A confidence: 0.05341726541519165
+B confidence: 9.505546569824219
+
+Bob and Fred went on a camping trip . They got lost somewhere deep in the woods . Bob was too scared to do anything . He used his compass and wits to help them get out of the woods .
+pronoun: ['He(26, 26)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Bob and Fred(0, 2)', 'They(9, 9)', 'them(34, 34)']['Bob(0, 0)', 'Bob(18, 18)', 'He(26, 26)', 'his(28, 28)']['the woods(15, 16)', 'the woods(38, 39)']]
+Winograd answer: B (Fred)
+A confidence: 9.264968872070312
+B confidence: -1.0371570587158203
+
+Bob had always hated winter and cold temperatures . However , since he had married Fred , he would be staying in Minnesota . He surprised Bob with a new floor heating system . It runs with a boiler and keeps the floors toasty warm .
+pronoun: ['He(24, 24)'], A: ['Bob(0, 0)'], B: ['Fred(15, 15)']
+clusters: [['Bob(0, 0)', 'he(12, 12)', 'he(17, 17)', 'He(24, 24)', 'Bob(26, 26)', 'It(34, 34)']]
+Winograd answer: B (Fred)
+A confidence: 4.156688690185547
+B confidence: -4.517158031463623
+
+Bob took his smartphone out to check out his mail . He perused through fifty emails , but none were from Fred . He sat on a bench waiting for his email . Four minutes later , his email appeared and he smiled widely .
+pronoun: ['his(37, 37)'], A: ['Bob(0, 0)'], B: ['Fred(21, 21)']
+clusters: [['Bob(0, 0)', 'his(2, 2)', 'his(8, 8)', 'He(11, 11)', 'He(23, 23)', 'his(30, 30)', 'his(37, 37)', 'he(41, 41)']['his mail(8, 9)', 'his email(30, 31)', 'his email(37, 38)']]
+Winograd answer: B (Fred)
+A confidence: 5.191083908081055
+B confidence: 1.4785503149032593
+
+Fred asked his new girlfriend , Bob , to go camping one weekend . At first , he was excited as the weekend began . Soon , however , he found he did n't like camping with Fred 's big dog . Fred broke up with Bob a few weeks later .
+pronoun: ['he(17, 17)'], A: ['Bob(6, 6)'], B: ['Bob(6, 6)']
+clusters: [['Fred(0, 0)', 'his(2, 2)', 'he(17, 17)', 'he(29, 29)', 'he(31, 31)', "Fred 's(37, 38)", 'Fred(42, 42)']['Bob(6, 6)', 'Bob(46, 46)']]
+Winograd answer: A (Bob)
+A confidence: -3.437605857849121
+B confidence: -3.437605857849121
+
+Fred asked his new girlfriend , Bob , to go camping one weekend . At first , Bob was excited as the weekend began . Soon , however , he found he did n't like camping with his big dog . Fred broke up with Bob a few weeks later .
+pronoun: ['his(37, 37)'], A: ['Bob(6, 6)'], B: ['Bob(6, 6)']
+clusters: [['Fred(0, 0)', 'his(2, 2)', 'Fred(41, 41)']['Bob(6, 6)', 'Bob(17, 17)', 'he(29, 29)', 'he(31, 31)', 'his(37, 37)', 'Bob(45, 45)']]
+Winograd answer: B (Fred)
+A confidence: 5.469244003295898
+B confidence: 5.469244003295898
+
+Fred asked his new girlfriend , Bob , to go camping one weekend . At first , Bob was excited as the weekend began . Soon , however , he found he did n't like camping with Fred 's big dog . He broke up with Bob a few weeks later .
+pronoun: ['He(42, 42)'], A: ['Bob(6, 6)'], B: ['Bob(6, 6)']
+clusters: [['Fred(0, 0)', 'his(2, 2)', "Fred 's(37, 38)"]['Bob(6, 6)', 'Bob(17, 17)', 'he(29, 29)', 'he(31, 31)', 'He(42, 42)', 'Bob(46, 46)']]
+Winograd answer: B (Fred)
+A confidence: 5.369011878967285
+B confidence: 5.369011878967285
+
+Fred met his best friend Bob while playing a game online . Fred and he had a lot in common , so they started hanging out a lot . Eventually , Fred decided he wanted to meet Bob in real life . Fred talked to Bob about it and they agreed to meet up .
+pronoun: ['he(14, 14)'], A: ['Bob(5, 5)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'his(2, 2)', 'he(14, 14)', 'Fred(31, 31)', 'he(33, 33)', 'Fred(42, 42)']['his best friend Bob(2, 5)', 'Bob(37, 37)', 'Bob(45, 45)']['they(22, 22)', 'they(49, 49)']]
+Winograd answer: A (Bob)
+A confidence: 1.0597730875015259
+B confidence: 5.198848247528076
+
+Fred met his best friend Bob while playing a game online . Fred and Bob had a lot in common , so they started hanging out a lot . Eventually , Fred decided he wanted to meet he in real life . Fred talked to Bob about it and they agreed to meet up .
+pronoun: ['he(37, 37)'], A: ['Bob(5, 5)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'his(2, 2)', 'Fred(31, 31)', 'he(33, 33)', 'he(37, 37)', 'Fred(42, 42)']['his best friend Bob(2, 5)', 'Bob(14, 14)', 'Bob(45, 45)']['Fred and Bob(12, 14)', 'they(22, 22)', 'they(49, 49)']]
+Winograd answer: A (Bob)
+A confidence: 1.853908658027649
+B confidence: 3.0010247230529785
+
+Fred met his best friend Bob while playing a game online . Fred and Bob had a lot in common , so they started hanging out a lot . Eventually , Fred decided he wanted to meet Bob in real life . Fred talked to he about it and they agreed to meet up .
+pronoun: ['he(45, 45)'], A: ['Bob(5, 5)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'his(2, 2)', 'Fred(31, 31)', 'he(33, 33)', 'Fred(42, 42)', 'he(45, 45)']['his best friend Bob(2, 5)', 'Bob(14, 14)', 'Bob(37, 37)']['Fred and Bob(12, 14)', 'they(22, 22)', 'they(49, 49)']['meet(36, 36)', 'it(47, 47)']]
+Winograd answer: A (Bob)
+A confidence: 1.3030438423156738
+B confidence: 3.722571849822998
+
+Bob wants to check the new fast food place in town . He asks his best friend Fred to tag along . Bob and he were excited to try the new burger . Bob gets to the place and orders a burger .
+pronoun: ['he(24, 24)'], A: ['Bob(0, 0)'], B: ['Fred(17, 17)']
+clusters: [['Bob(0, 0)', 'He(12, 12)', 'his(14, 14)', 'Bob(22, 22)', 'he(24, 24)', 'Bob(33, 33)']]
+Winograd answer: B (Fred)
+A confidence: 4.756739616394043
+B confidence: -inf
+
+Fred and Bob wanted to buy a dog . Fred wanted a big dog , but he wanted a small one . When they arrived at the dog pound , only small dogs were left . Fred was sad , but he noticed that Bob had already chosen a dog .
+pronoun: ['he(16, 16)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(9, 9)', 'he(16, 16)', 'Fred(36, 36)', 'he(41, 41)']['Fred and Bob(0, 2)', 'they(23, 23)']['a dog(6, 7)', 'the dog(26, 27)', 'the dog pound(26, 28)']['Bob(2, 2)', 'Bob(44, 44)']]
+Winograd answer: A (Bob)
+A confidence: 2.4458818435668945
+B confidence: 6.1046977043151855
+
+Fred and Bob wanted to buy a dog . Fred wanted a big dog , but Bob wanted a small one . When they arrived at the dog pound , only small dogs were left . Fred was sad , but he noticed that he had already chosen a dog .
+pronoun: ['he(44, 44)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(9, 9)', 'Fred(36, 36)', 'he(41, 41)', 'he(44, 44)']['Bob(2, 2)', 'Bob(16, 16)']['Fred and Bob(0, 2)', 'they(23, 23)']['a dog(6, 7)', 'the dog pound(26, 28)']]
+Winograd answer: A (Bob)
+A confidence: 0.6997553706169128
+B confidence: 4.984272480010986
+
+Bob decided to fix his truck in his friend Fred 's big garage . While there , he accidentally broke one of his expensive power tools . Fred was forgiving , but Bob still has to replace the tool . He bought Fred dinner at a restaurant because he felt so guilty .
+pronoun: ['his(22, 22)'], A: ['Bob(0, 0)'], B: ['Fred(9, 9)']
+clusters: [['Bob(0, 0)', 'his(4, 4)', 'his(7, 7)', 'he(17, 17)', 'his(22, 22)', 'Bob(32, 32)', 'He(40, 40)', 'he(48, 48)']['one of his expensive power tools(20, 25)', 'Fred(27, 27)', 'the tool(37, 38)', 'Fred(42, 42)']]
+Winograd answer: B (Fred)
+A confidence: 6.835247039794922
+B confidence: -inf
+
+Bob decided to fix his truck in his friend Fred 's big garage . While there , he accidentally broke one of Fred 's expensive power tools . He was forgiving , but Bob still has to replace the tool . He bought Fred dinner at a restaurant because he felt so guilty .
+pronoun: ['He(28, 28)'], A: ['Bob(0, 0)'], B: ['Fred(9, 9)']
+clusters: [['Bob(0, 0)', 'his(4, 4)', 'his(7, 7)', 'he(17, 17)', 'He(28, 28)', 'Bob(33, 33)', 'He(41, 41)', 'he(49, 49)']["one of Fred 's expensive power tools(20, 26)", 'the tool(38, 39)']["Fred 's(22, 23)", 'Fred(43, 43)']]
+Winograd answer: B (Fred)
+A confidence: 4.611640930175781
+B confidence: -inf
+
+Bob decided to fix his truck in his friend Fred 's big garage . While there , he accidentally broke one of Fred 's expensive power tools . Fred was forgiving , but Bob still has to replace the tool . He bought he dinner at a restaurant because he felt so guilty .
+pronoun: ['he(43, 43)'], A: ['Bob(0, 0)'], B: ['Fred(9, 9)']
+clusters: [['Bob(0, 0)', 'his(4, 4)', 'his(7, 7)', 'he(17, 17)', 'Bob(33, 33)', 'He(41, 41)', 'he(43, 43)', 'he(49, 49)']["Fred 's(22, 23)", 'Fred(28, 28)']["one of Fred 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+Winograd answer: B (Fred)
+A confidence: 3.958408832550049
+B confidence: 3.6954915523529053
+
+Fred really wanted to lose weight . He asked his friend Bob to help him with his goal . Every morning Fred and he worked out together . Bob constantly reminded Fred of his goal and helped motivate him .
+pronoun: ['he(23, 23)'], A: ['Bob(11, 11)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(7, 7)', 'his(9, 9)', 'him(14, 14)', 'his(16, 16)', 'Fred(21, 21)', 'he(23, 23)']['his friend Bob(9, 11)', 'Bob(28, 28)', 'his(33, 33)', 'him(38, 38)']['his goal(16, 17)', 'his goal(33, 34)']]
+Winograd answer: A (Bob)
+A confidence: -inf
+B confidence: 2.353065013885498
+
+Fred really wanted to lose weight . He asked his friend Bob to help him with his goal . Every morning Fred and Bob worked out together . He constantly reminded Fred of his goal and helped motivate him .
+pronoun: ['He(28, 28)'], A: ['Bob(11, 11)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'He(7, 7)', 'his(9, 9)', 'him(14, 14)', 'his(16, 16)', 'Fred(21, 21)', 'He(28, 28)', 'his(33, 33)', 'him(38, 38)']['his friend Bob(9, 11)', 'Bob(23, 23)']]
+Winograd answer: A (Bob)
+A confidence: 5.552247524261475
+B confidence: 1.2535313367843628
+
+Bob was visiting his friend Fred 's house . After playing for an hour they were bored . Fred did n't have any ideas of things they could do . He thought it would be fun to pick apples tree in Fred 's yard .
+pronoun: ['He(30, 30)'], A: ['Bob(0, 0)'], B: ['Fred(5, 5)']
+clusters: [['Bob(0, 0)', 'his(3, 3)']["his friend Fred 's(3, 6)", 'Fred(18, 18)', 'they(26, 26)', 'He(30, 30)', "Fred 's(41, 42)"]]
+Winograd answer: A (Bob)
+A confidence: 4.866556167602539
+B confidence: 7.459076881408691
+
+Bob was visiting his friend Fred 's house . After playing for an hour they were bored . He did n't have any ideas of things they could do . Bob thought it would be fun to pick apples tree in Fred 's yard .
+pronoun: ['He(18, 18)'], A: ['Bob(0, 0)'], B: ['Fred(5, 5)']
+clusters: [['Bob(0, 0)', 'his(3, 3)', 'He(18, 18)', 'Bob(30, 30)']['they(14, 14)', 'they(26, 26)']["his friend Fred 's(3, 6)", "Fred 's(41, 42)"]]
+Winograd answer: B (Fred)
+A confidence: 5.994744300842285
+B confidence: -inf
+
+Bob was visiting his friend Fred 's house . After playing for an hour they were bored . Fred did n't have any ideas of things they could do . Bob thought it would be fun to pick apples tree in his yard .
+pronoun: ['his(41, 41)'], A: ['Bob(0, 0)'], B: ['Fred(5, 5)']
+clusters: [['Bob(0, 0)', 'his(3, 3)', 'Bob(30, 30)', 'his(41, 41)']["his friend Fred 's(3, 6)", 'Fred(18, 18)', 'they(26, 26)']]
+Winograd answer: B (Fred)
+A confidence: 3.690063238143921
+B confidence: 1.333490252494812
+
+Bob had a son named Fred . He was too busy to take care of his son . He sent Fred to a boarding school . Fred did not like the boarding school .
+pronoun: ['He(7, 7)'], A: ['Bob(0, 0)'], B: ['Fred(5, 5)']
+clusters: [['a son named Fred(2, 5)', 'He(7, 7)', 'his(15, 15)', 'He(18, 18)', 'Fred(20, 20)', 'Fred(26, 26)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+Winograd answer: A (Bob)
+A confidence: 3.1049959659576416
+B confidence: -inf
+
+Bob had a son named Fred . Bob was too busy to take care of his son . He sent Fred to a boarding school . He did not like the boarding school .
+pronoun: ['He(26, 26)'], A: ['Bob(0, 0)'], B: ['Fred(5, 5)']
+clusters: [['Bob(0, 0)', 'Bob(7, 7)', 'his(15, 15)', 'He(18, 18)', 'He(26, 26)']['a son named Fred(2, 5)', 'Fred(20, 20)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+Winograd answer: B (Fred)
+A confidence: 4.771919250488281
+B confidence: -0.25944119691848755
+
+Fred was crushed that everyone but him was invited to Bob 's party . The day before the party he asked him why he had n't RSVP'd . Fred realized that he was supposed to be invited . He told Bob he had n't gotten an invitation but he could go .
+pronoun: ['he(19, 19)'], A: ['Bob(10, 10)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'him(6, 6)', 'he(19, 19)', 'him(21, 21)', 'he(23, 23)', 'Fred(28, 28)', 'he(31, 31)', 'He(38, 38)', 'he(41, 41)', 'he(48, 48)']["Bob 's party(10, 12)", 'the party(17, 18)']["Bob 's(10, 11)", 'Bob(40, 40)']]
+Winograd answer: A (Bob)
+A confidence: -inf
+B confidence: 1.3067560195922852
+
+Fred was crushed that everyone but him was invited to Bob 's party . The day before the party Bob asked him why he had n't RSVP'd . Fred realized that he was supposed to be invited . He told he he had n't gotten an invitation but he could go .
+pronoun: ['he(40, 40)'], A: ['Bob(10, 10)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'him(6, 6)', 'him(21, 21)', 'he(23, 23)', 'Fred(28, 28)', 'he(31, 31)', 'He(38, 38)', 'he(40, 40)', 'he(41, 41)', 'he(48, 48)']["Bob 's party(10, 12)", 'the party Bob(17, 19)']]
+Winograd answer: A (Bob)
+A confidence: -inf
+B confidence: 4.749304294586182
+
+Fred and Bob were married to each other . Fred was having an affair behind his back . One day , Fred was in his bedroom with his mistress . Bob came home and saw them together .
+pronoun: ['his(15, 15)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred(9, 9)', 'his(15, 15)', 'Fred(21, 21)', 'his(24, 24)', 'his(27, 27)']['Bob(2, 2)', 'Bob(30, 30)']['Fred and Bob(0, 2)', 'them(35, 35)']]
+Winograd answer: A (Bob)
+A confidence: -5.27860689163208
+B confidence: 6.7009172439575195
+
+Fred and Bob were married to each other . Fred was having an affair behind Bob 's back . One day , Fred was in his bedroom with his mistress . He came home and saw them together .
+pronoun: ['He(31, 31)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', "Bob 's(15, 16)", 'his(25, 25)', 'his(28, 28)']['Fred(9, 9)', 'Fred(22, 22)', 'He(31, 31)']['Fred and Bob(0, 2)', 'them(36, 36)']]
+Winograd answer: A (Bob)
+A confidence: -4.664320945739746
+B confidence: 7.115291595458984
+
+Bob met a boy named Fred . Fred swept he off of his feet . Several months later , Fred was arrested was selling drugs . Bob spent all of his money bailing him out of jail .
+pronoun: ['he(9, 9)'], A: ['Bob(0, 0)'], B: ['Fred(5, 5)']
+clusters: [['a boy named Fred(2, 5)', 'Fred(7, 7)', 'he(9, 9)', 'his(12, 12)', 'Fred(19, 19)', 'him(33, 33)']['Bob(0, 0)', 'Bob(26, 26)', 'his(30, 30)']]
+Winograd answer: A (Bob)
+A confidence: 3.2035253047943115
+B confidence: -2.0158867835998535
+
+Bob met a boy named Fred . Fred swept Bob off of his feet . Several months later , Fred was arrested was selling drugs . He spent all of his money bailing him out of jail .
+pronoun: ['He(26, 26)'], A: ['Bob(0, 0)'], B: ['Fred(5, 5)']
+clusters: [['a boy named Fred(2, 5)', 'Fred(7, 7)', 'Fred(19, 19)', 'He(26, 26)', 'his(30, 30)', 'him(33, 33)']['Bob(0, 0)', 'Bob(9, 9)', 'his(12, 12)']]
+Winograd answer: A (Bob)
+A confidence: 2.749688148498535
+B confidence: 9.469820976257324
+
+Bob met a boy named Fred . He swept Bob off of his feet . Several months later , Fred was arrested was selling drugs . Bob spent all of his money bailing him out of jail .
+pronoun: ['He(7, 7)'], A: ['Bob(0, 0)'], B: ['Fred(5, 5)']
+clusters: [['Bob(0, 0)', 'He(7, 7)', 'Bob(9, 9)', 'his(12, 12)', 'Bob(26, 26)', 'his(30, 30)']['a boy named Fred(2, 5)', 'Fred(19, 19)', 'him(33, 33)']]
+Winograd answer: B (Fred)
+A confidence: 5.473084926605225
+B confidence: -inf
+
+Bob met a boy named Fred . Fred swept Bob off of his feet . Several months later , he was arrested was selling drugs . Bob spent all of his money bailing him out of jail .
+pronoun: ['he(19, 19)'], A: ['Bob(0, 0)'], B: ['Fred(5, 5)']
+clusters: [['a boy named Fred(2, 5)', 'Fred(7, 7)']['Bob(0, 0)', 'Bob(9, 9)', 'his(12, 12)', 'he(19, 19)', 'Bob(26, 26)', 'his(30, 30)', 'him(33, 33)']]
+Winograd answer: B (Fred)
+A confidence: 4.153161525726318
+B confidence: 2.4278271198272705
+
+Bob loves to play football with his friends . He decided to try out for his high school football team . During tryouts , Bob ran faster than everyone on the team ! Fred was impressed with his speed and made him a wide receiver .
+pronoun: ['his(37, 37)'], A: ['Bob(0, 0)'], B: ['Fred(33, 33)']
+clusters: [['Bob(0, 0)', 'his(6, 6)', 'He(9, 9)', 'his(15, 15)', 'Bob(24, 24)']['his high school football team(15, 19)', 'the team(30, 31)']['Fred(33, 33)', 'his(37, 37)', 'him(41, 41)']]
+Winograd answer: A (Bob)
+A confidence: 4.941140174865723
+B confidence: 6.471010684967041
+
+Bob went on a blind date with Fred . Fred was the full package . He went back to his place . When he arrived he realized it was too good to be true .
+pronoun: ['He(15, 15)'], A: ['Bob(0, 0)'], B: ['Fred(7, 7)']
+clusters: [['Fred(7, 7)', 'Fred(9, 9)', 'He(15, 15)', 'his(19, 19)', 'he(23, 23)', 'he(25, 25)']]
+Winograd answer: A (Bob)
+A confidence: 4.061852931976318
+B confidence: 8.645983695983887
+
+Bob went on a blind date with Fred . He was the full package . Bob went back to his place . When he arrived he realized it was too good to be true .
+pronoun: ['He(9, 9)'], A: ['Bob(0, 0)'], B: ['Fred(7, 7)']
+clusters: [['Bob(0, 0)', 'He(9, 9)', 'Bob(15, 15)', 'his(19, 19)', 'he(23, 23)', 'he(25, 25)']]
+Winograd answer: B (Fred)
+A confidence: 3.2319252490997314
+B confidence: -2.038445234298706
+
+Fred always hated spiders . Fred 's roommate Bob knew about this fear . Bob sprinkled his entire bed with little plastic spiders . Fred screamed out in terror when he saw his bed .
+pronoun: ['his(16, 16)'], A: ['Bob(8, 8)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', "Fred 's(5, 6)", 'Fred(24, 24)', 'he(30, 30)', 'his(32, 32)']["Fred 's roommate Bob(5, 8)", 'Bob(14, 14)', 'his(16, 16)']]
+Winograd answer: B (Fred)
+A confidence: 5.672138214111328
+B confidence: -4.04323673248291
+
+Fred always hated spiders . Fred 's roommate Bob knew about this fear . Bob sprinkled Fred 's entire bed with little plastic spiders . He screamed out in terror when he saw his bed .
+pronoun: ['He(25, 25)'], A: ['Bob(8, 8)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', "Fred 's(5, 6)", "Fred 's(16, 17)"]["Fred 's roommate Bob(5, 8)", 'Bob(14, 14)', "Bob sprinkled Fred 's(14, 17)", 'He(25, 25)', 'he(31, 31)', 'his(33, 33)']]
+Winograd answer: B (Fred)
+A confidence: 3.8674914836883545
+B confidence: -3.2493066787719727
+
+
+
+
+
+thought both were the same
+Fred is an avid tennis fan . Fred loved watching his favorite player , Bob . He was excited to learn that Bob was playing a match near him . Fred decided to purchase tickets to Bob 's tennis match .
+pronoun: ['He(16, 16)'], A: ['Bob(14, 14)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'Fred(7, 7)', 'his(10, 10)', 'Bob(14, 14)', 'He(16, 16)', 'Bob(22, 22)', 'him(28, 28)', 'Fred(30, 30)', "Bob 's(36, 37)"]]
+
+Bob wanted to buy a new tie for an event . He decided to go to the store the day before the event . When Fred went to the store , he found out it was closed . He could not buy a tie for the event .
+pronoun: ['He(38, 38)'], A: ['Bob(0, 0)'], B: ['Fred(25, 25)']
+clusters: [['Bob(0, 0)', 'He(11, 11)', 'Fred(25, 25)', 'he(31, 31)', 'He(38, 38)']['an event(8, 9)', 'the event(21, 22)', 'the event(45, 46)']['the store(16, 17)', 'the store(28, 29)']['a new tie for an event(4, 9)', 'it(34, 34)']]
+
+
+
+
+
+neither a nor b selected
+Fred and his husband had a son named Bob . His husband passed away . Fred and Bob were very sad . Fred met a man and married his 5 years after his husband died .
+pronoun: ['His(10, 10)'], A: ['Bob(8, 8)'], B: ['Fred(0, 0)']
+clusters: [['his(2, 2)', 'His(10, 10)']['his husband(2, 3)', 'His husband(10, 11)', 'his husband(32, 33)']['Fred and his husband(0, 3)', 'Fred and Bob(15, 17)']['a son named Bob(5, 8)', 'Bob(17, 17)']['a man(24, 25)', 'his(28, 28)', 'his(32, 32)']]
+
+Fred and his husband had a son named Bob . Fred 's husband passed away . He and Bob were very sad . Fred met a man and married his 5 years after his husband died .
+pronoun: ['He(16, 16)'], A: ['Bob(8, 8)'], B: ['Fred(0, 0)']
+clusters: [['his husband(2, 3)', "Fred 's husband(10, 12)", 'his husband(33, 34)']['his(2, 2)', 'He(16, 16)']['a son named Bob(5, 8)', 'Bob(18, 18)']["Fred 's(10, 11)", 'Fred(23, 23)']['a man(25, 26)', 'his(29, 29)', 'his(33, 33)']]
+
+Fred and his husband had a son named Bob . Fred 's husband passed away . Fred and Bob were very sad . He met a man and married his 5 years after his husband died .
+pronoun: ['He(23, 23)'], A: ['Bob(8, 8)'], B: ['Fred(0, 0)']
+clusters: [['his husband(2, 3)', "Fred 's husband(10, 12)", 'his husband(33, 34)']['Fred and his husband(0, 3)', 'Fred and Bob(16, 18)']['a son named Bob(5, 8)', 'Bob(18, 18)']['his(2, 2)', 'He(23, 23)']['a man(25, 26)', 'his(29, 29)', 'his(33, 33)']]
+
+Fred has a habit of taking items that do n't belong to him . Last night he stole a trailer from Bob 's yard . He has a camera in his yard and caught Fred on tape . The cops were called and took Fred to jail .
+pronoun: ['He(25, 25)'], A: ['Bob(21, 21)'], B: ['Fred(0, 0)']
+clusters: [['him(12, 12)', 'he(16, 16)', 'He(25, 25)', 'his(30, 30)']["Bob 's yard(21, 23)", 'his yard(30, 31)']['Fred(34, 34)', 'Fred(44, 44)']]
+
+Fred and Bob fell in love and got married . A few months later , he found out that he was pregnant . Bob was very excited and could n't wait to be a father . They found out they were having a baby boy .
+pronoun: ['he(15, 15)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['he(15, 15)', 'he(19, 19)']['Bob(2, 2)', 'Bob(23, 23)']['Fred and Bob(0, 2)', 'They(36, 36)', 'they(39, 39)']]
+
+Fred 's husband Bob asked him to make lasagna for dinner . He went to the store to buy the ingredients . When he got home he unpacked the groceries . He realized he forgot to buy the noodles .
+pronoun: ['He(12, 12)'], A: ['Bob(3, 3)'], B: ['Fred(0, 0)']
+clusters: [["Fred 's husband Bob(0, 3)", 'him(5, 5)', 'He(12, 12)', 'he(23, 23)', 'he(26, 26)', 'He(31, 31)', 'he(33, 33)']['the ingredients(19, 20)', 'the noodles(37, 38)']]
+
+Fred and Bob had been married a few years . They would have terrible fights . His friends all told him to dump him . One night , he decided they were right .
+pronoun: ['His(16, 16)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred and Bob(0, 2)', 'They(10, 10)']['His(16, 16)', 'him(20, 20)', 'him(23, 23)', 'he(28, 28)']['His friends all(16, 18)', 'they(30, 30)']]
+
+Bob and Fred have been dating for six months . One day , he took him to the park . He led him on a walk around the lake . As they got to the gazebo , he got down on one knee .
+pronoun: ['he(13, 13)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Bob(0, 0)', 'him(15, 15)', 'him(22, 22)']['he(13, 13)', 'He(20, 20)', 'he(37, 37)']['Bob and Fred(0, 2)', 'they(31, 31)']]
+
+Bob had just moved to a new house . The neighbors came over with their son , Fred . They had bought pie and Bob showed he his room . Fred and Bob had a lot in common and played in Bob 's room .
+pronoun: ['he(26, 26)'], A: ['Bob(0, 0)'], B: ['Fred(17, 17)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['Bob(0, 0)', 'Bob(24, 24)', 'Bob(32, 32)', "Bob 's(41, 42)"]['their son , Fred(14, 17)', 'he(26, 26)', 'his(27, 27)']['pie and Bob(22, 24)', 'Fred and Bob(30, 32)']['his room(27, 28)', "Bob 's room(41, 43)"]]
+
+Bob 's dog Fred ran away one day . He printed posters and put them around the neighborhood . The next day , someone found he at the park . They called the number on the poster .
+pronoun: ['he(25, 25)'], A: ['Bob(0, 0)'], B: ['Fred(3, 3)']
+clusters: [["Bob 's dog Fred(0, 3)", 'He(9, 9)', 'he(25, 25)']['someone(23, 23)', 'They(30, 30)']]
+
+Fred and Bob were brothers . One day they were riding their bikes . He lost his balance and fell over . Bob helped him up .
+pronoun: ['He(14, 14)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred and Bob(0, 2)', 'they(8, 8)', 'their(11, 11)']['He(14, 14)', 'his(16, 16)', 'him(24, 24)']['Bob(2, 2)', 'Bob(22, 22)']]
+
+Bob cooed and gurgled in his crib . Mrs Fred stood up and walked over to the crib . He was worried so he reached out and touched Bob . Mrs he was thankful Bob felt cool to the touch .
+pronoun: ['he(31, 31)'], A: ['Bob(0, 0)'], B: ['Fred(9, 9)']
+clusters: [['Bob(0, 0)', 'his(5, 5)', 'Bob(28, 28)', 'Bob(34, 34)']['his crib(5, 6)', 'Mrs Fred(8, 9)', 'the crib(16, 17)', 'He(19, 19)', 'he(23, 23)', 'he(31, 31)']]
+
+Bob decided to take a pottery class for a new hobby . A man named Fred sat at the station next to his . Bob and he grew close over the course of the semester . They went to a bar together after their final exam .
+pronoun: ['he(26, 26)'], A: ['Bob(0, 0)'], B: ['Fred(15, 15)']
+clusters: [['A man named Fred(12, 15)', 'his(22, 22)', 'he(26, 26)']['Bob(0, 0)', 'Bob(24, 24)']['They(36, 36)', 'their(43, 43)']]
+
+Bob and Fred were good friends but very competitive . He set out to beat Fred at basketball . He dribbled fast but tripped at the last second . Fred snatched the ball and scored .
+pronoun: ['He(10, 10)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Fred(2, 2)', 'Fred(15, 15)', 'Fred(29, 29)']['He(10, 10)', 'He(19, 19)']]
+
+Bob and Fred were tossing a ball in the back yard . He threw it too hard . It flew across the yard smashing into the kitchen window . Bob thought he was going to be in big trouble .
+pronoun: ['He(12, 12)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['it(14, 14)', 'It(18, 18)']['the back yard(8, 10)', 'the yard(21, 22)']['Bob(0, 0)', 'Bob(29, 29)']['He(12, 12)', 'he(31, 31)']]
+
+Fred and Bob were out to dinner on a date . After appetizers , he suddenly grabbed his stomach . He complained he was n't feeling good and left . Bob hoped that he had n't said something to upset him .
+pronoun: ['he(14, 14)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['he(14, 14)', 'his(17, 17)', 'He(20, 20)', 'he(22, 22)', 'him(40, 40)']['Bob(2, 2)', 'Bob(30, 30)', 'he(33, 33)']]
+
+Bob and Fred have been dating for 2 years . They really love each other . He decides he wants to marry Fred . He buys a diamond engagement ring .
+pronoun: ['He(16, 16)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Bob and Fred(0, 2)', 'They(10, 10)']['He(16, 16)', 'he(18, 18)', 'He(24, 24)']['Fred(2, 2)', 'Fred(22, 22)']]
+
+Fred got a call from his friend Bob . He told him there was big party at Brad 's tonight . Fred was so excited to go with he . The two got dressed and headed to the party .
+pronoun: ['he(28, 28)'], A: ['Bob(7, 7)'], B: ['Fred(0, 0)']
+clusters: [['Fred(0, 0)', 'his(5, 5)', 'He(9, 9)', 'Fred(21, 21)']['his friend Bob(5, 7)', 'him(11, 11)', 'he(28, 28)']]
+
+Fred hated sharing his toys with his brother Bob . He would always ruin his toys . He tried to play with Fred 's toy car , but he snatched it away . Bob began crying , and their mother rushed to check on them .
+pronoun: ['He(17, 17)'], A: ['Bob(8, 8)'], B: ['Fred(0, 0)']
+clusters: [['his(3, 3)', 'his(6, 6)', 'He(10, 10)', 'his(14, 14)', 'He(17, 17)', 'he(28, 28)']['his toys(3, 4)', 'his toys(14, 15)', 'them(44, 44)']["Fred 's toy car(22, 25)", 'it(30, 30)']['his brother Bob(6, 8)', 'Bob(33, 33)']]
+
+Fred and Bob have been engaged for seven years . They have finally set a wedding date for next summer . People were starting to wonder if they would ever get married . He said he was n't getting married until he was good and ready .
+pronoun: ['He(33, 33)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred and Bob(0, 2)', 'They(10, 10)']['People(21, 21)', 'they(27, 27)']['He(33, 33)', 'he(35, 35)', 'he(41, 41)']]
+
+Fred and Bob were playing a game of throw football in a field . He threw the ball long and Fred ran to catch it . His weight broke through an old cistern cover when he ran over it . The fall into the hole killed Fred when he hit the bottom .
+pronoun: ['He(14, 14)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['He(14, 14)', 'His(26, 26)', 'he(35, 35)', 'he(48, 48)']['an old cistern cover(30, 33)', 'the hole(43, 44)']['Fred(20, 20)', 'Fred(46, 46)']]
+
+Fred 's favorite artist Bob was having a concert in the park . He knew he had to be there early to get a good spot . Fred woke up at 1 am determined to get a good spot . However , when Fred reached , he saw a massive crowd .
+pronoun: ['He(13, 13)'], A: ['Bob(4, 4)'], B: ['Fred(0, 0)']
+clusters: [["Fred 's favorite artist Bob(0, 4)", 'He(13, 13)', 'he(15, 15)']["Fred 's(0, 1)", 'Fred(27, 27)', 'Fred(43, 43)', 'he(46, 46)']['a good spot(23, 25)', 'a good spot(36, 38)']]
+
+Fred and Bob went camping at Yosemite . They decided to hike a twenty mile trail the first night . When they got back to the campsite he realized he lost his keys . He was in a pure panic not knowing how far away he dropped them .
+pronoun: ['he(27, 27)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred and Bob(0, 2)', 'They(8, 8)', 'they(21, 21)', 'them(47, 47)']['Yosemite(6, 6)', 'the campsite(25, 26)']['he(27, 27)', 'he(29, 29)', 'his(31, 31)', 'He(34, 34)', 'he(45, 45)']]
+
+Fred and Bob have been married for 20 years . Lately , he and Bob have n't been getting along . Fred tells him that it is time for them to separate . He moves into his brother 's house .
+pronoun: ['he(12, 12)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred and Bob(0, 2)', 'he and Bob(12, 14)', 'them(29, 29)']['Bob(2, 2)', 'Bob(14, 14)']['Fred(0, 0)', 'Fred(21, 21)', 'He(33, 33)', 'his(36, 36)']['he(12, 12)', 'him(23, 23)']]
+
+Fred and Bob have been married for 20 years . Lately , Fred and Bob have n't been getting along . He tells him that it is time for them to separate . He moves into his brother 's house .
+pronoun: ['He(21, 21)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred and Bob(0, 2)', 'Fred and Bob(12, 14)', 'them(29, 29)']['Bob(2, 2)', 'Bob(14, 14)']['He(21, 21)', 'He(33, 33)', 'his(36, 36)']]
+
+Bob and Fred went on a camping trip . They got lost somewhere deep in the woods . He was too scared to do anything . Fred used his compass and wits to help them get out of the woods .
+pronoun: ['He(18, 18)'], A: ['Bob(0, 0)'], B: ['Fred(2, 2)']
+clusters: [['Bob and Fred(0, 2)', 'They(9, 9)', 'He(18, 18)', 'them(34, 34)']['Fred(2, 2)', 'Fred(26, 26)', 'his(28, 28)']['the woods(15, 16)', 'the woods(38, 39)']]
+
+Fred and Bob wanted to buy a dog . He wanted a big dog , but Bob wanted a small one . When they arrived at the dog pound , only small dogs were left . Fred was sad , but he noticed that Bob had already chosen a dog .
+pronoun: ['He(9, 9)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['a dog(6, 7)', 'He(9, 9)', 'the dog(26, 27)']['Bob(2, 2)', 'Bob(16, 16)', 'Bob(44, 44)']['Fred and Bob(0, 2)', 'they(23, 23)']['a big dog(11, 13)', 'the dog pound(26, 28)']['Fred(0, 0)', 'Fred(36, 36)', 'he(41, 41)']]
+
+Fred was planning to propose to Bob . He had already bought a diamond engagement ring . Eager to propose , he showed him the ring . Surprisingly , he opposed blood diamonds .
+pronoun: ['he(29, 29)'], A: ['Bob(6, 6)'], B: ['Fred(0, 0)']
+clusters: [['He(8, 8)', 'he(21, 21)', 'him(23, 23)', 'he(29, 29)']['a diamond engagement ring(12, 15)', 'the ring(24, 25)']]
+
+Ashlynn Loved Facebook . He had many different friends he chatted with daily . His friend , Fred , made a negative comment about Donald Trump . Bob and he got into a flame war .
+pronoun: ['he(29, 29)'], A: ['Bob(27, 27)'], B: ['Fred(17, 17)']
+clusters: [['He(4, 4)', 'he(9, 9)', 'His(14, 14)', 'he(29, 29)']]
+
+Fred and Bob were married to each other . He was having an affair behind Bob 's back . One day , Fred was in his bedroom with his mistress . Bob came home and saw them together .
+pronoun: ['He(9, 9)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Bob(2, 2)', "Bob 's(15, 16)", 'his(25, 25)', 'Bob(31, 31)']['He(9, 9)', 'his(28, 28)']['Fred and Bob(0, 2)', 'them(36, 36)']]
+
+Fred and Bob were married only a month ago . They were so happy getting used to the married life . At least they were happy until his mom moved in . He treated Fred and Bob both like children .
+pronoun: ['his(27, 27)'], A: ['Bob(2, 2)'], B: ['Fred(0, 0)']
+clusters: [['Fred and Bob(0, 2)', 'They(10, 10)', 'they(23, 23)', 'Fred and Bob(34, 36)']['his(27, 27)', 'He(32, 32)']['Fred(0, 0)', 'Fred(34, 34)']['Bob(2, 2)', 'Bob(36, 36)']]
+
+There was an enormous , unsightly rock in Fred 's garden . He tried unsuccessfully to remove it himself . Begrudgingly , he called to Bob for help . Happy to oblige , he went over to help him .
+pronoun: ['he(33, 33)'], A: ['Bob(25, 25)'], B: ['Fred(8, 8)']
+clusters: [["an enormous , unsightly rock in Fred 's garden(2, 10)", 'it(17, 17)']['He(12, 12)', 'himself(18, 18)', 'he(22, 22)', 'he(33, 33)', 'him(38, 38)']]
+
+Fred always hated spiders . Fred 's roommate Bob knew about this fear . He sprinkled Fred 's entire bed with little plastic spiders . Fred screamed out in terror when he saw his bed .
+pronoun: ['He(14, 14)'], A: ['Bob(8, 8)'], B: ['Fred(0, 0)']
+clusters: [["Fred 's roommate Bob(5, 8)", 'He(14, 14)']["Fred 's(5, 6)", "Fred 's(16, 17)", 'Fred(25, 25)', 'he(31, 31)', 'his(33, 33)']["Fred 's entire bed(16, 19)", 'his bed(33, 34)']]
+
+
+
+
+
+didn't find prnoun
+4
+correct answer
+70
+incorrect answer
+108
+thought both were the same
+2
+neither a nor b selected
+33
+
+overall confidence: 3.9168542760317444, 4.626512514182737
+overall confidence for correct answer   : 3.9168542760317444, 4.794162120456344
+overall confiidence for incorrrect answer:4.2841711549819275, 4.44865314981293
+correct confidence: 7.008117961883545, 3.09032674230078
+correct other confidence: 0.23746757268905638, 4.745576241350092
+incorrect confiden: 6.157645035673071, 2.7441466412825326
+incorrect other confidence: 0.35289940741155057, 3.75686527140638
+A count: 99, B count: 79

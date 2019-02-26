@@ -1,0 +1,1394 @@
+had 0 exceptions raised
+
+didn't find prnoun
+Sarah and Emily were playing checkers . She suddenly pointed at the window and gestured to someone . Sarah turned around to see who it was . While she was distracted , Emily moved some pieces closer .
+pronoun: ['She(7, 7)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(18, 18)', 'she(28, 28)']['Emily(2, 2)', 'Emily(32, 32)']]
+
+
+
+
+
+correct answer
+Sarah thought Emily should buy a trailer and haul it with her car . She thought a truck would be better for what she needed . Sarah pointed out two vehicles were much more expensive . Emily was set in her ways with conventional thinking .
+pronoun: ['She(14, 14)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Emily(2, 2)', 'her(11, 11)', 'She(14, 14)', 'she(23, 23)', 'Emily(36, 36)', 'her(40, 40)']['Sarah(0, 0)', 'Sarah(26, 26)']]
+Winograd answer: B (Emily)
+A confidence: 6.876399040222168
+B confidence: 3.0670156478881836
+
+Sarah thought Emily should buy a trailer and haul it with her car . Emily thought a truck would be better for what she needed . Sarah pointed out two vehicles were much more expensive . She was set in her ways with conventional thinking .
+pronoun: ['She(36, 36)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Emily(2, 2)', 'her(11, 11)', 'Emily(14, 14)', 'she(23, 23)', 'She(36, 36)', 'her(40, 40)']['Sarah(0, 0)', 'Sarah(26, 26)']]
+Winograd answer: B (Emily)
+A confidence: 7.170678615570068
+B confidence: 1.8288917541503906
+
+Sarah and Emily were brainstorming ideas for a children 's show . Sarah suggested that a monster attacks the children . Emily laughed because she thought she was joking . Sarah was confused because she thought it was a great idea .
+pronoun: ['she(26, 26)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(0, 0)', 'Sarah(12, 12)', 'she(24, 24)', 'she(26, 26)', 'Sarah(30, 30)', 'she(34, 34)']["a children 's(7, 9)", 'the children(18, 19)']['Emily(2, 2)', 'Emily(21, 21)']['a monster attacks the children(15, 19)', 'it(36, 36)']]
+Winograd answer: A (Sarah)
+A confidence: 2.602630138397217
+B confidence: 3.399406909942627
+
+Emily and her wife had a daughter named Sarah . Her wife passed away . Emily and Sarah were very sad . Emily met a woman and married her 5 years after her wife died .
+pronoun: ['Her(10, 10)'], A: ['Sarah(8, 8)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(2, 2)', 'Her(10, 10)', 'Emily(22, 22)']['her wife(2, 3)', 'Her wife(10, 11)', 'her wife(32, 33)']['a daughter named Sarah(5, 8)', 'Sarah(17, 17)']['a woman(24, 25)', 'her(28, 28)', 'her(32, 32)']]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: -0.24551266431808472
+
+Emily and her wife had a daughter named Sarah . Emily 's wife passed away . Emily and Sarah were very sad . She met a woman and married her 5 years after her wife died .
+pronoun: ['She(23, 23)'], A: ['Sarah(8, 8)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(2, 2)', "Emily 's(10, 11)", 'She(23, 23)', 'her(29, 29)', 'her(33, 33)']['her wife(2, 3)', "Emily 's wife(10, 12)", 'her wife(33, 34)']['a daughter named Sarah(5, 8)', 'Sarah(18, 18)']]
+Winograd answer: B (Emily)
+A confidence: 8.426119804382324
+B confidence: -4.658276081085205
+
+Emily originally thought she wanted five kids . She and Sarah first were blessed with a daughter . Two years later , they had twin girls . Now , she is selling all her maternity and baby clothes .
+pronoun: ['she(29, 29)'], A: ['Sarah(10, 10)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'she(3, 3)', 'She(8, 8)', 'she(29, 29)', 'her(33, 33)']['She and Sarah(8, 10)', 'they(22, 22)']]
+Winograd answer: B (Emily)
+A confidence: 0.6534505486488342
+B confidence: -3.2409515380859375
+
+Sarah has a habit of taking items that do n't belong to her . Last night she stole a trailer from Emily 's yard . Emily has a camera in her yard and caught Sarah on tape . The cops were called and took she to jail .
+pronoun: ['she(44, 44)'], A: ['Sarah(0, 0)'], B: ['Emily(21, 21)']
+clusters: [['Sarah(0, 0)', 'her(12, 12)', 'she(16, 16)', 'her(30, 30)', 'Sarah(34, 34)', 'she(44, 44)']["Emily 's(21, 22)", 'Emily(25, 25)']["Emily 's yard(21, 23)", 'her yard(30, 31)']]
+Winograd answer: A (Sarah)
+A confidence: 6.0152411460876465
+B confidence: 0.005751162767410278
+
+Sarah and Emily went to the beach in December . Emily put on her bathing suit and waded into the ocean ! The water was so cold that her lips turned turned blue . Sarah pulled her from the icy water , saving Emily from frostbite .
+pronoun: ['her(28, 28)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Emily(2, 2)', 'Emily(10, 10)', 'her(13, 13)', 'her(28, 28)', 'her(36, 36)', 'Emily(43, 43)']]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: 0.619229793548584
+
+Sarah and Emily went to the beach in December . Emily put on her bathing suit and waded into the ocean ! The water was so cold that Emily 's lips turned turned blue . Sarah pulled her from the icy water , saving she from frostbite .
+pronoun: ['she(44, 44)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Emily(2, 2)', 'Emily(10, 10)', 'her(13, 13)', "Emily 's(28, 29)", 'her(37, 37)', 'she(44, 44)']]
+Winograd answer: B (Emily)
+A confidence: 2.9694154262542725
+B confidence: -0.21090008318424225
+
+Emily yelled out that the computer was broken again . Sarah walked into their shared office and looked at her , exasperated . She rolled her eyes . She approached Emily and the computer , sighing a long suffering sigh .
+pronoun: ['She(23, 23)'], A: ['Sarah(10, 10)'], B: ['Emily(0, 0)']
+clusters: [['Sarah(10, 10)', 'their(13, 13)', 'her(19, 19)', 'She(23, 23)', 'her(25, 25)', 'She(28, 28)']['Emily(0, 0)', 'Emily(30, 30)']['the computer(4, 5)', 'the computer(32, 33)']]
+Winograd answer: A (Sarah)
+A confidence: 9.73393726348877
+B confidence: 2.0129377841949463
+
+Sarah has to buy her wife Emily a gift for their anniversary . She went out all day on Friday to find a gift . She searched all over , but she could n't find the perfect gift . Eventually she decided to cook her dinner instead .
+pronoun: ['She(13, 13)'], A: ['Sarah(0, 0)'], B: ['Sarah(0, 0)']
+clusters: [['Sarah(0, 0)', 'her(4, 4)', 'She(13, 13)', 'She(25, 25)', 'she(31, 31)', 'she(40, 40)', 'her(44, 44)']['her wife Emily(4, 6)', 'their(10, 10)']['a gift(22, 23)', 'the perfect gift(35, 37)']]
+Winograd answer: A (Sarah)
+A confidence: 7.101227760314941
+B confidence: 7.101227760314941
+
+In 2014 , Emily adopted a poodle . She named her Cookie , because she resembled an oatmeal cookie . Sarah learned to protect her two daughters from harm . She went for walks with them every evening , and was allowed to swim .
+pronoun: ['her(24, 24)'], A: ['Sarah(20, 20)'], B: ['Emily(3, 3)']
+clusters: [['Emily(3, 3)', 'She(8, 8)', 'her(10, 10)', 'she(14, 14)', 'her(24, 24)', 'She(30, 30)']['a poodle(5, 6)', 'an oatmeal cookie(16, 18)']['her two daughters(24, 26)', 'them(35, 35)']]
+Winograd answer: B (Emily)
+A confidence: 3.1086409091949463
+B confidence: -4.529297828674316
+
+Emily made plans with Sarah to watch a movie on Friday . As soon as she approached the theater , she waited for her . A few hours have passed and she still did n't show up . While building up frustration , she left and visited another friend .
+pronoun: ['she(43, 43)'], A: ['Sarah(4, 4)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'she(15, 15)', 'she(20, 20)', 'her(23, 23)', 'she(31, 31)', 'she(43, 43)']['a movie(7, 8)', 'the theater(17, 18)']]
+Winograd answer: B (Emily)
+A confidence: -5.334122657775879
+B confidence: -3.5233428478240967
+
+Emily always wondered if she 'd ever see Sarah again . She had decided to marry someone else and they had moved far away . Now , she was divorced and would be coming to the class reunion . She and Sarah spent most of the reunion talking with each other .
+pronoun: ['She(39, 39)'], A: ['Sarah(8, 8)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'she(4, 4)', 'She(11, 11)', 'she(27, 27)', 'She(39, 39)']['Sarah(8, 8)', 'Sarah(41, 41)']['the class reunion(35, 37)', 'the reunion(45, 46)']]
+Winograd answer: B (Emily)
+A confidence: 1.1168054342269897
+B confidence: -1.560164451599121
+
+Sarah 's cat Emily was sprayed by a skunk . Sarah knew she would have to bathe Emily . Sure enough , Emily resisted ! But she managed to scrub her clean .
+pronoun: ['she(26, 26)'], A: ['Sarah(0, 0)'], B: ['Emily(3, 3)']
+clusters: [["Sarah 's(0, 1)", 'Sarah(10, 10)', 'she(12, 12)', 'she(26, 26)', 'her(30, 30)']["Sarah 's cat Emily(0, 3)", 'Emily(17, 17)', 'Emily(22, 22)']]
+Winograd answer: A (Sarah)
+A confidence: 4.860479354858398
+B confidence: 4.585930347442627
+
+Emily had to give a big speech at work . She asked her friend Sarah to listen to it and give her opinion . Sarah listened to the speech but was n't convinced it was good . Despite her own dislike for the speech , she complimented she .
+pronoun: ['she(47, 47)'], A: ['Sarah(14, 14)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'She(10, 10)', 'her(12, 12)', 'her(21, 21)', 'her(38, 38)', 'she(45, 45)', 'she(47, 47)']['a big speech(4, 6)', 'it(18, 18)', 'the speech(27, 28)', 'it(33, 33)', 'the speech(42, 43)']['her friend Sarah(12, 14)', 'Sarah(24, 24)']]
+Winograd answer: B (Emily)
+A confidence: 0.2604176998138428
+B confidence: -2.6915016174316406
+
+Emily thought she was a great guitar player . She took lessons from her friend Sarah . Sarah told her she needed to practice much more to be great . She was determined to practice every spare second she had .
+pronoun: ['She(30, 30)'], A: ['Sarah(15, 15)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'she(2, 2)', 'She(9, 9)', 'her(13, 13)', 'her(19, 19)', 'she(20, 20)', 'She(30, 30)', 'she(38, 38)']['her friend Sarah(13, 15)', 'Sarah(17, 17)']]
+Winograd answer: B (Emily)
+A confidence: 7.737770080566406
+B confidence: 0.7329261302947998
+
+Emily and Sarah were moving in together . She adored cats and asked when they could adopt one . Emily informed her she was badly allergic to cat fur . Sarah was heartbroken and really wanted a feline companion .
+pronoun: ['She(8, 8)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Sarah(2, 2)', 'She(8, 8)', 'her(21, 21)', 'she(22, 22)', 'Sarah(30, 30)']['Emily and Sarah(0, 2)', 'they(14, 14)']]
+Winograd answer: A (Sarah)
+A confidence: 0.4157382845878601
+B confidence: -1.3401025533676147
+
+Emily and Sarah were moving in together . Sarah adored cats and asked when they could adopt one . Emily informed her she was badly allergic to cat fur . She was heartbroken and really wanted a feline companion .
+pronoun: ['She(30, 30)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Sarah(2, 2)', 'Sarah(8, 8)', 'her(21, 21)', 'she(22, 22)', 'She(30, 30)']['Emily and Sarah(0, 2)', 'they(14, 14)']]
+Winograd answer: A (Sarah)
+A confidence: 3.846470355987549
+B confidence: 1.9842274188995361
+
+Emily wanted to learn how to play guitar to impress Sarah . Emily saved up her money so she could take lessons . When she had enough money saved , she scheduled some lessons . Emily practiced really hard and now she knows how to play guitar .
+pronoun: ['she(30, 30)'], A: ['Sarah(10, 10)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'Emily(12, 12)', 'her(15, 15)', 'she(18, 18)', 'she(24, 24)', 'she(30, 30)', 'Emily(35, 35)', 'she(41, 41)']]
+Winograd answer: B (Emily)
+A confidence: 0.31876736879348755
+B confidence: 1.2006258964538574
+
+Emily wanted to learn how to play guitar to impress Sarah . Emily saved up her money so she could take lessons . When she had enough money saved , Emily scheduled some lessons . She practiced really hard and now she knows how to play guitar .
+pronoun: ['She(35, 35)'], A: ['Sarah(10, 10)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'Emily(12, 12)', 'her(15, 15)', 'she(18, 18)', 'she(24, 24)', 'Emily(30, 30)', 'She(35, 35)', 'she(41, 41)']]
+Winograd answer: B (Emily)
+A confidence: 2.1430466175079346
+B confidence: 4.36807918548584
+
+After taking a long trip , Sarah came back to town . She walked down main street and into a coffee shop . In the show she saw her friend , Emily . Emily was very excited to see she for the first time in years .
+pronoun: ['she(39, 39)'], A: ['Sarah(6, 6)'], B: ['Emily(31, 31)']
+clusters: [['Sarah(6, 6)', 'She(12, 12)', 'she(26, 26)', 'her(28, 28)', 'she(39, 39)']]
+Winograd answer: A (Sarah)
+A confidence: 1.974217414855957
+B confidence: 2.333061456680298
+
+Emily was meeting her best friend for dinner . They had agreed on a Mexican restaurant . Emily got there first and reserved a table . Sarah called she to ask where she was .
+pronoun: ['she(28, 28)'], A: ['Sarah(26, 26)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(3, 3)', 'Emily(17, 17)', 'she(28, 28)', 'she(32, 32)']]
+Winograd answer: B (Emily)
+A confidence: -0.742982029914856
+B confidence: -0.41172361373901367
+
+Tonight , Sarah had a tutoring job at Samantha 's house . When she arrived , Emily had her notes out and was ready to learn . She came prepared , and taught Emily the lesson . Sarah also helped prepare Emily for her upcoming test .
+pronoun: ['She(27, 27)'], A: ['Sarah(2, 2)'], B: ['Emily(16, 16)']
+clusters: [['Sarah(2, 2)', 'she(13, 13)', 'her(18, 18)', 'She(27, 27)', 'Sarah(37, 37)', 'her(43, 43)']['Emily(16, 16)', 'Emily(33, 33)', 'Emily(41, 41)']]
+Winograd answer: A (Sarah)
+A confidence: 5.374492645263672
+B confidence: 7.312254428863525
+
+Tonight , Sarah had a tutoring job at Samantha 's house . When she arrived , Emily had her notes out and was ready to learn . Sarah came prepared , and taught Emily the lesson . She also helped prepare Emily for her upcoming test .
+pronoun: ['She(37, 37)'], A: ['Sarah(2, 2)'], B: ['Emily(16, 16)']
+clusters: [['Sarah(2, 2)', 'she(13, 13)', 'her(18, 18)', 'Sarah(27, 27)', 'She(37, 37)', 'her(43, 43)']['Emily(16, 16)', 'Emily(33, 33)', 'Emily(41, 41)']]
+Winograd answer: A (Sarah)
+A confidence: 8.605802536010742
+B confidence: 4.909351348876953
+
+Emily thought she played a good game of basketball . She decided to challenge her friend Sarah . Sarah agreed to play she . Sarah practiced for a few days before the game .
+pronoun: ['she(22, 22)'], A: ['Sarah(16, 16)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'she(2, 2)', 'She(10, 10)', 'her(14, 14)', 'she(22, 22)']['her friend Sarah(14, 16)', 'Sarah(18, 18)', 'Sarah(24, 24)']['a good game of basketball(4, 8)', 'the game(31, 32)']]
+Winograd answer: B (Emily)
+A confidence: -0.6135480999946594
+B confidence: 0.390710711479187
+
+Sarah had a parrot named Emily . She could repeat anything you said . She loved to sing . She taught her to say a knock knock joke .
+pronoun: ['She(19, 19)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'She(7, 7)', 'you(11, 11)', 'She(14, 14)', 'She(19, 19)', 'her(21, 21)']]
+Winograd answer: A (Sarah)
+A confidence: 6.182681560516357
+B confidence: -inf
+
+Emily counted while Sarah hid . She began to search for Chad . She looked behind the shed , but Sarah was n't there . She looked behind the fence , but Sarah was n't there .
+pronoun: ['She(6, 6)'], A: ['Sarah(3, 3)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'She(6, 6)', 'She(13, 13)', 'She(25, 25)']['Sarah(3, 3)', 'Sarah(20, 20)', 'Sarah(32, 32)']]
+Winograd answer: B (Emily)
+A confidence: 0.4810762405395508
+B confidence: 1.61855947971344
+
+Emily told Sarah you always had to haggle with street vendors . She said it 's just the way we do things here in New York . Sarah was from Texas and they did things differently down there . She figured she 'd try it her way , though .
+pronoun: ['her(45, 45)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Sarah(2, 2)', 'you(3, 3)', 'Sarah(27, 27)', 'they(32, 32)', 'she(41, 41)']['Emily(0, 0)', 'She(12, 12)', 'She(39, 39)', 'her(45, 45)']]
+Winograd answer: B (Emily)
+A confidence: 3.4940552711486816
+B confidence: -4.930704116821289
+
+Emily was a mean bully . She went to school on a Monday . She challenged Sarah to a fight . Sarah beat up she in self - defense .
+pronoun: ['she(24, 24)'], A: ['Sarah(16, 16)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'She(6, 6)', 'She(14, 14)', 'she(24, 24)']]
+Winograd answer: B (Emily)
+A confidence: 3.1006860733032227
+B confidence: 0.2135046124458313
+
+Emily cooed and gurgled in her crib . Mrs Sarah stood up and walked over to the crib . She was worried so she reached out and touched she . Mrs Sarah was thankful Emily felt cool to the touch .
+pronoun: ['she(28, 28)'], A: ['Sarah(9, 9)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(5, 5)', 'Mrs Sarah(8, 9)', 'She(19, 19)', 'she(23, 23)', 'she(28, 28)', 'Mrs Sarah(30, 31)', 'Emily(34, 34)']['her crib(5, 6)', 'the crib(16, 17)']]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: 0.9715137481689453
+
+Emily cooed and gurgled in her crib . Mrs Sarah stood up and walked over to the crib . She was worried so she reached out and touched Emily . Mrs Sarah was thankful she felt cool to the touch .
+pronoun: ['she(34, 34)'], A: ['Sarah(9, 9)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(5, 5)', 'Mrs Sarah(8, 9)', 'She(19, 19)', 'she(23, 23)', 'Emily(28, 28)', 'Mrs Sarah(30, 31)', 'she(34, 34)']['her crib(5, 6)', 'the crib(16, 17)']]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: 1.4061791896820068
+
+Sarah and Emily were tossing a ball in the back yard . Sarah threw it too hard . It flew across the yard smashing into the kitchen window . She thought she was going to be in big trouble .
+pronoun: ['She(29, 29)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(0, 0)', 'Sarah(12, 12)', 'She(29, 29)', 'she(31, 31)']['it(14, 14)', 'It(18, 18)']['the back yard(8, 10)', 'the yard(21, 22)']]
+Winograd answer: A (Sarah)
+A confidence: 1.4985404014587402
+B confidence: -6.507445812225342
+
+Sarah was given a new puppy for her birthday . She named the puppy Emily . One day she took Emily for a walk through the park . Emily hurt her paw while they were playing .
+pronoun: ['she(18, 18)'], A: ['Sarah(0, 0)'], B: ['Emily(14, 14)']
+clusters: [['Sarah(0, 0)', 'her(7, 7)', 'She(10, 10)', 'she(18, 18)', 'her(30, 30)']]
+Winograd answer: A (Sarah)
+A confidence: 2.954028606414795
+B confidence: -inf
+
+Sarah got a call from her friend Emily . She told her there was big party at Brad 's tonight . She was so excited to go with Emily . The two got dressed and headed to the party .
+pronoun: ['She(21, 21)'], A: ['Sarah(0, 0)'], B: ['Emily(7, 7)']
+clusters: [['Sarah(0, 0)', 'her(5, 5)', 'She(9, 9)', 'her(11, 11)', 'She(21, 21)']['her friend Emily(5, 7)', 'Emily(28, 28)']]
+Winograd answer: A (Sarah)
+A confidence: 5.540632724761963
+B confidence: -inf
+
+Sarah is an avid tennis fan . Sarah loved watching her favorite player , Emily . She was excited to learn that Emily was playing a match near her . Sarah decided to purchase tickets to Emily 's tennis match .
+pronoun: ['She(16, 16)'], A: ['Sarah(0, 0)'], B: ['Emily(14, 14)']
+clusters: [['Sarah(0, 0)', 'Sarah(7, 7)', 'her(10, 10)', 'She(16, 16)', 'her(28, 28)', 'Sarah(30, 30)']['Emily(22, 22)', "Emily 's(36, 37)"]]
+Winograd answer: A (Sarah)
+A confidence: 4.6003313064575195
+B confidence: -inf
+
+Sarah is an avid tennis fan . Sarah loved watching her favorite player , Emily . Sarah was excited to learn that Emily was playing a match near her . She decided to purchase tickets to Emily 's tennis match .
+pronoun: ['She(30, 30)'], A: ['Sarah(0, 0)'], B: ['Emily(14, 14)']
+clusters: [['Sarah(0, 0)', 'Sarah(7, 7)', 'her(10, 10)', 'Sarah(16, 16)', 'her(28, 28)', 'She(30, 30)']['Emily(22, 22)', "Emily 's(36, 37)"]]
+Winograd answer: A (Sarah)
+A confidence: 9.866376876831055
+B confidence: 6.653328895568848
+
+Sarah recently met a nice lady on Emily . She agreed for their first date to cook at her house . Sarah was nervous , but decided to start the cooking . Sarah put on the pot of rice , but had to use the restroom .
+pronoun: ['She(9, 9)'], A: ['Sarah(0, 0)'], B: ['Emily(7, 7)']
+clusters: [['Sarah(0, 0)', 'She(9, 9)', 'her(18, 18)', 'Sarah(21, 21)', 'Sarah(32, 32)']]
+Winograd answer: A (Sarah)
+A confidence: 7.9517130851745605
+B confidence: -8.114640235900879
+
+Sarah recently met a nice lady on Emily . Sarah agreed for their first date to cook at her house . She was nervous , but decided to start the cooking . Sarah put on the pot of rice , but had to use the restroom .
+pronoun: ['She(21, 21)'], A: ['Sarah(0, 0)'], B: ['Emily(7, 7)']
+clusters: [['Sarah(0, 0)', 'Sarah(9, 9)', 'her(18, 18)', 'She(21, 21)', 'Sarah(32, 32)']]
+Winograd answer: A (Sarah)
+A confidence: 6.385857582092285
+B confidence: -4.166245460510254
+
+Sarah recently met a nice lady on Emily . Sarah agreed for their first date to cook at her house . Sarah was nervous , but decided to start the cooking . She put on the pot of rice , but had to use the restroom .
+pronoun: ['She(32, 32)'], A: ['Sarah(0, 0)'], B: ['Emily(7, 7)']
+clusters: [['Sarah(0, 0)', 'Sarah(9, 9)', 'her(18, 18)', 'Sarah(21, 21)', 'She(32, 32)']]
+Winograd answer: A (Sarah)
+A confidence: 5.3781843185424805
+B confidence: -7.133697986602783
+
+Emily hated sharing her toys with her sister Sarah . She would always ruin her toys . Sarah tried to play with Emily 's toy car , but she snatched it away . She began crying , and their mother rushed to check on them .
+pronoun: ['She(33, 33)'], A: ['Sarah(8, 8)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(3, 3)', 'her(6, 6)', 'She(10, 10)', 'her(14, 14)', "Emily 's(22, 23)"]['her toys(3, 4)', 'her toys(14, 15)', 'them(44, 44)']['her sister Sarah(6, 8)', 'Sarah(17, 17)', 'she(28, 28)', 'She(33, 33)', 'their(38, 38)']["Emily 's toy car(22, 25)", 'it(30, 30)']]
+Winograd answer: A (Sarah)
+A confidence: 9.65752124786377
+B confidence: 2.8461122512817383
+
+Emily hated sharing her toys with her sister Sarah . She would always ruin her toys . Sarah tried to play with her toy car , but she snatched it away . Sarah began crying , and their mother rushed to check on them .
+pronoun: ['her(22, 22)'], A: ['Sarah(8, 8)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(3, 3)', 'her(6, 6)', 'She(10, 10)', 'her(14, 14)', 'her(22, 22)']['her toys(3, 4)', 'her toys(14, 15)', 'them(43, 43)']['her sister Sarah(6, 8)', 'Sarah(17, 17)', 'she(27, 27)', 'their(37, 37)']['her toy car(22, 24)', 'it(29, 29)']]
+Winograd answer: B (Emily)
+A confidence: 4.62178373336792
+B confidence: 0.35646867752075195
+
+Emily wanted to surprise her wife Sarah for her birthday . She spent weeks tracking down her old school friends . She was able to talk to many of them . Emily arranged to have all Sarah 's old friends come over .
+pronoun: ['She(11, 11)'], A: ['Sarah(6, 6)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(4, 4)', 'her(8, 8)', 'She(11, 11)', 'her(16, 16)', 'She(21, 21)', 'Emily(31, 31)']['her old school friends(16, 19)', 'them(29, 29)', "all Sarah 's old friends(35, 39)"]]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: 4.935087203979492
+
+Emily wanted to surprise her wife Sarah for her birthday . Emily spent weeks tracking down her old school friends . She was able to talk to many of them . She arranged to have all Sarah 's old friends come over .
+pronoun: ['She(31, 31)'], A: ['Sarah(6, 6)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(4, 4)', 'her(8, 8)', 'Emily(11, 11)', 'her(16, 16)', 'She(21, 21)', 'She(31, 31)']['her old school friends(16, 19)', 'them(29, 29)', "all Sarah 's old friends(35, 39)"]]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: 2.5967397689819336
+
+Emily was nervous walking up to the girls . She mustered up her courage and walked over to Sarah . She could n't believe she said yes to a dance . They headed out to the dance floor , hand in hand .
+pronoun: ['She(20, 20)'], A: ['Sarah(18, 18)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'She(9, 9)', 'her(12, 12)', 'She(20, 20)', 'she(24, 24)']['the girls(6, 7)', 'They(31, 31)']['a dance(28, 29)', 'the dance(35, 36)']]
+Winograd answer: B (Emily)
+A confidence: 2.5921316146850586
+B confidence: -0.9313342571258545
+
+Emily took a nap in her tree house . Something outside made a loud noise . Emily looked outside and saw her friend Sarah . She invited bill up to the tree house .
+pronoun: ['She(25, 25)'], A: ['Sarah(23, 23)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(5, 5)', 'Emily(16, 16)', 'her(21, 21)', 'She(25, 25)']['her tree house(5, 7)', 'the tree house(30, 32)']]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: 5.991422176361084
+
+Sarah 's favorite artist Emily was having a concert in the park . Sarah knew she had to be there early to get a good spot . She woke up at 1 am determined to get a good spot . However , when Sarah reached , she saw a massive crowd .
+pronoun: ['She(27, 27)'], A: ['Sarah(0, 0)'], B: ['Emily(4, 4)']
+clusters: [["Sarah 's(0, 1)", 'Sarah(13, 13)', 'she(15, 15)', 'She(27, 27)', 'Sarah(43, 43)', 'she(46, 46)']['a good spot(23, 25)', 'a good spot(36, 38)']]
+Winograd answer: A (Sarah)
+A confidence: 5.946312427520752
+B confidence: -inf
+
+Sarah 's favorite artist Emily was having a concert in the park . Sarah knew she had to be there early to get a good spot . Sarah woke up at 1 am determined to get a good spot . However , when she reached , she saw a massive crowd .
+pronoun: ['she(43, 43)'], A: ['Sarah(0, 0)'], B: ['Emily(4, 4)']
+clusters: [["Sarah 's(0, 1)", 'Sarah(13, 13)', 'she(15, 15)', 'Sarah(27, 27)', 'she(43, 43)', 'she(46, 46)']['a good spot(23, 25)', 'a good spot(36, 38)']]
+Winograd answer: A (Sarah)
+A confidence: 6.246557712554932
+B confidence: -inf
+
+Sarah and Emily have been married for 20 years . Lately , Sarah and Emily have n't been getting along . She tells her that it is time for them to separate . She moves into her sister 's house .
+pronoun: ['She(21, 21)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(0, 0)', 'Sarah(12, 12)', 'She(21, 21)', 'her(23, 23)', 'She(33, 33)', 'her(36, 36)']['Sarah and Emily(0, 2)', 'Sarah and Emily(12, 14)', 'them(29, 29)']['Emily(2, 2)', 'Emily(14, 14)']]
+Winograd answer: A (Sarah)
+A confidence: 1.6664848327636719
+B confidence: -6.5517144203186035
+
+Sarah had a grudge against Emily . She decided she was going to slit her throat . She waited in the shadows by Emily 's house . When she saw her red coat she lunged out , slicing and stabbing !
+pronoun: ['She(17, 17)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'She(7, 7)', 'she(9, 9)', 'her(14, 14)', 'She(17, 17)', 'she(28, 28)', 'her(30, 30)', 'she(33, 33)']['Emily(5, 5)', "Emily 's(23, 24)"]]
+Winograd answer: A (Sarah)
+A confidence: 6.835455894470215
+B confidence: -1.7356008291244507
+
+Sarah had always hated winter and cold temperatures . However , since she had married Emily , she would be staying in Minnesota . Emily surprised she with a new floor heating system . It runs with a boiler and keeps the floors toasty warm .
+pronoun: ['she(26, 26)'], A: ['Sarah(0, 0)'], B: ['Emily(15, 15)']
+clusters: [['Sarah(0, 0)', 'she(12, 12)', 'she(17, 17)', 'she(26, 26)']['Emily(15, 15)', 'Emily(24, 24)']['a new floor heating system(28, 32)', 'It(34, 34)']]
+Winograd answer: A (Sarah)
+A confidence: 1.5313749313354492
+B confidence: 0.19633376598358154
+
+Emily went to a restaurant with her friend Sarah and her family . Carl 's family said she could order anything she wanted . So Emily ordered tons of food in excitement . But she struggled to finish even half of it .
+pronoun: ['she(17, 17)'], A: ['Sarah(8, 8)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(6, 6)', 'her(10, 10)', 'she(17, 17)', 'she(21, 21)', 'Emily(25, 25)', 'she(34, 34)']['her family(10, 11)', "Carl 's family(13, 15)"]['tons of food(27, 29)', 'it(41, 41)']]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: 0.8498764634132385
+
+Emily went to a restaurant with her friend Sarah and her family . Carl 's family said Emily could order anything she wanted . So she ordered tons of food in excitement . But she struggled to finish even half of it .
+pronoun: ['she(25, 25)'], A: ['Sarah(8, 8)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(6, 6)', 'her(10, 10)', 'Emily(17, 17)', 'she(21, 21)', 'she(25, 25)', 'she(34, 34)']['her family(10, 11)', "Carl 's family(13, 15)"]['tons of food(27, 29)', 'it(41, 41)']]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: 5.529379367828369
+
+Sarah asked her new girlfriend , Emily , to go camping one weekend . At first , Emily was excited as the weekend began . Soon , however , she found she did n't like camping with her big dog . Sarah broke up with Emily a few weeks later .
+pronoun: ['her(37, 37)'], A: ['Sarah(0, 0)'], B: ['Emily(6, 6)']
+clusters: [['Sarah(0, 0)', 'her(2, 2)', 'she(29, 29)', 'she(31, 31)', 'her(37, 37)', 'Sarah(41, 41)']['Emily(17, 17)', 'Emily(45, 45)']]
+Winograd answer: A (Sarah)
+A confidence: 2.441716194152832
+B confidence: 5.088713645935059
+
+Sarah asked her new girlfriend , Emily , to go camping one weekend . At first , Emily was excited as the weekend began . Soon , however , she found she did n't like camping with Sarah 's big dog . She broke up with Emily a few weeks later .
+pronoun: ['She(42, 42)'], A: ['Sarah(0, 0)'], B: ['Emily(6, 6)']
+clusters: [['Sarah(0, 0)', 'her(2, 2)', 'she(29, 29)', 'she(31, 31)', "Sarah 's(37, 38)", 'She(42, 42)']['Emily(17, 17)', 'Emily(46, 46)']]
+Winograd answer: A (Sarah)
+A confidence: 5.593297958374023
+B confidence: 4.054038047790527
+
+Sarah was a 7 year old girl living in an orphanage . All of her life she dreamed of finding a family . One day a nice family named the Emily came to meet she . They all played together and talked over lunch .
+pronoun: ['she(34, 34)'], A: ['Sarah(0, 0)'], B: ['Emily(30, 30)']
+clusters: [['Sarah(0, 0)', 'her(14, 14)', 'she(16, 16)', 'she(34, 34)']['a nice family(25, 27)', 'They all(36, 37)', 'all(37, 37)']]
+Winograd answer: A (Sarah)
+A confidence: 2.6956140995025635
+B confidence: -inf
+
+Sarah met her best friend Emily while playing a game online . She and Emily had a lot in common , so they started hanging out a lot . Eventually , Sarah decided she wanted to meet Emily in real life . Sarah talked to Emily about it and they agreed to meet up .
+pronoun: ['She(12, 12)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'her(2, 2)', 'She(12, 12)', 'Sarah(31, 31)', 'she(33, 33)', 'Sarah(42, 42)']['her best friend Emily(2, 5)', 'Emily(14, 14)', 'Emily(37, 37)', 'Emily(45, 45)']['She and Emily(12, 14)', 'they(22, 22)', 'they(49, 49)']['meet(36, 36)', 'it(47, 47)']]
+Winograd answer: A (Sarah)
+A confidence: 5.988512992858887
+B confidence: -inf
+
+Sarah met her best friend Emily while playing a game online . Sarah and Emily had a lot in common , so they started hanging out a lot . Eventually , she decided she wanted to meet Emily in real life . Sarah talked to Emily about it and they agreed to meet up .
+pronoun: ['she(31, 31)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'her(2, 2)', 'she(31, 31)', 'she(33, 33)', 'Sarah(42, 42)']['Sarah and Emily(12, 14)', 'they(22, 22)', 'they(49, 49)']['Emily(14, 14)', 'Emily(37, 37)', 'Emily(45, 45)']['meet(36, 36)', 'it(47, 47)']]
+Winograd answer: A (Sarah)
+A confidence: 6.230647087097168
+B confidence: 0.13944083452224731
+
+Sarah met her best friend Emily while playing a game online . Sarah and Emily had a lot in common , so they started hanging out a lot . Eventually , Sarah decided she wanted to meet Emily in real life . She talked to Emily about it and they agreed to meet up .
+pronoun: ['She(42, 42)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'her(2, 2)', 'Sarah(31, 31)', 'she(33, 33)', 'She(42, 42)']['Sarah and Emily(12, 14)', 'they(22, 22)', 'they(49, 49)']['Emily(14, 14)', 'Emily(37, 37)', 'Emily(45, 45)']['meet(36, 36)', 'it(47, 47)']]
+Winograd answer: A (Sarah)
+A confidence: 11.109273910522461
+B confidence: 0.5724522471427917
+
+Emily wants to check the new fast food place in town . She asks her best friend Sarah to tag along . She and Sarah were excited to try the new burger . Emily gets to the place and orders a burger .
+pronoun: ['She(22, 22)'], A: ['Sarah(17, 17)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'She(12, 12)', 'her(14, 14)', 'She(22, 22)', 'Emily(33, 33)']['her best friend Sarah(14, 17)', 'Sarah(24, 24)']]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: -0.7720422744750977
+
+Emily wants to check the new fast food place in town . She asks her best friend Sarah to tag along . Emily and Sarah were excited to try the new burger . She gets to the place and orders a burger .
+pronoun: ['She(33, 33)'], A: ['Sarah(17, 17)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'She(12, 12)', 'her(14, 14)', 'She(33, 33)']['her best friend Sarah(14, 17)', 'Sarah(24, 24)']]
+Winograd answer: B (Emily)
+A confidence: 3.895702838897705
+B confidence: 1.2034385204315186
+
+Sarah was bored at work . She decided to go on Reddit to pass the time . On Emily , she saw an interesting link . She clicked on the link , and read a good article .
+pronoun: ['she(20, 20)'], A: ['Sarah(0, 0)'], B: ['Emily(18, 18)']
+clusters: [['Sarah(0, 0)', 'She(6, 6)', 'she(20, 20)', 'She(26, 26)']['an interesting link(22, 24)', 'the link(29, 30)']]
+Winograd answer: A (Sarah)
+A confidence: 2.581055164337158
+B confidence: -7.114866256713867
+
+Emily decided to fix her truck in her friend Sarah 's big garage . While there , she accidentally broke one of Sarah 's expensive power tools . Sarah was forgiving , but she still has to replace the tool . She bought Sarah dinner at a restaurant because she felt so guilty .
+pronoun: ['she(33, 33)'], A: ['Sarah(9, 9)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(4, 4)', 'her(7, 7)', 'she(17, 17)', 'she(33, 33)', 'She(41, 41)', 'she(49, 49)']["Sarah 's(22, 23)", 'Sarah(28, 28)', 'Sarah(43, 43)']["one of Sarah 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+Winograd answer: B (Emily)
+A confidence: 3.263322353363037
+B confidence: 2.4710183143615723
+
+Sarah really wanted to lose weight . She asked her friend Emily to help her with her goal . Every morning she and Emily worked out together . Emily constantly reminded Sarah of her goal and helped motivate her .
+pronoun: ['she(21, 21)'], A: ['Sarah(0, 0)'], B: ['Emily(11, 11)']
+clusters: [['Sarah(0, 0)', 'She(7, 7)', 'her(9, 9)', 'her(14, 14)', 'her(16, 16)', 'she(21, 21)', 'her(33, 33)', 'her(38, 38)']['her friend Emily(9, 11)', 'Emily(23, 23)', 'Emily(28, 28)']['her goal(16, 17)', 'her goal(33, 34)']]
+Winograd answer: A (Sarah)
+A confidence: 1.2117974758148193
+B confidence: -inf
+
+Sarah really wanted to lose weight . She asked her friend Emily to help her with her goal . Every morning Sarah and Emily worked out together . Emily constantly reminded she of her goal and helped motivate her .
+pronoun: ['she(31, 31)'], A: ['Sarah(0, 0)'], B: ['Emily(11, 11)']
+clusters: [['Sarah(0, 0)', 'She(7, 7)', 'her(9, 9)', 'her(14, 14)', 'her(16, 16)', 'Sarah(21, 21)', 'she(31, 31)', 'her(33, 33)', 'her(38, 38)']['her friend Emily(9, 11)', 'Emily(23, 23)']['her goal(16, 17)', 'her goal(33, 34)']]
+Winograd answer: A (Sarah)
+A confidence: 0.7353663444519043
+B confidence: -2.830843925476074
+
+Sarah was visiting her friend Emily 's house . After playing for an hour they were bored . Emily did n't have any ideas of things they could do . She thought it would be fun to pick apples tree in Emily 's yard .
+pronoun: ['She(30, 30)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'her(3, 3)', 'She(30, 30)']["her friend Emily 's(3, 6)", 'Emily(18, 18)', 'they(26, 26)', "Emily 's(41, 42)"]]
+Winograd answer: A (Sarah)
+A confidence: 4.414973258972168
+B confidence: 2.038633346557617
+
+Emily was planning to propose to Sarah . She had already bought a diamond engagement ring . Eager to propose , she showed her the ring . Surprisingly , she opposed blood diamonds .
+pronoun: ['she(29, 29)'], A: ['Sarah(6, 6)'], B: ['Emily(0, 0)']
+clusters: [['Sarah(6, 6)', 'She(8, 8)', 'she(21, 21)', 'her(23, 23)', 'she(29, 29)']['a diamond engagement ring(12, 15)', 'the ring(24, 25)']]
+Winograd answer: A (Sarah)
+A confidence: -2.762338161468506
+B confidence: -inf
+
+Emily sent out a mass invitation to her family and friends . The invitation to Sarah 's birthday party immediately got some responses . She opened the first response . She was happy to read the acceptance to the invitation .
+pronoun: ['She(24, 24)'], A: ['Sarah(15, 15)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(7, 7)', 'She(24, 24)', 'She(30, 30)']["The invitation to Sarah 's birthday party(12, 18)", 'the invitation(38, 39)']]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: 1.1141318082809448
+
+Emily was crushed that everyone but her was invited to Sarah 's party . The day before the party Sarah asked her why she had n't RSVP'd . She realized that she was supposed to be invited . She told Sarah she had n't gotten an invitation but she could go .
+pronoun: ['She(28, 28)'], A: ['Sarah(10, 10)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(6, 6)', 'her(21, 21)', 'she(23, 23)', 'She(28, 28)', 'she(31, 31)', 'She(38, 38)', 'she(41, 41)', 'she(48, 48)']["Sarah 's(10, 11)", 'Sarah(40, 40)']]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: 0.8119966983795166
+
+Emily and Sarah were married to each other . Emily was having an affair behind Sarah 's back . One day , she was in her bedroom with her mistress . Sarah came home and saw them together .
+pronoun: ['she(22, 22)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'Emily(9, 9)', 'she(22, 22)', 'her(25, 25)', 'her(28, 28)']['Sarah(2, 2)', "Sarah 's(15, 16)", 'Sarah(31, 31)']['Emily and Sarah(0, 2)', 'them(36, 36)']]
+Winograd answer: B (Emily)
+A confidence: -6.886693000793457
+B confidence: 4.404028415679932
+
+Sarah met a girl named Emily . Emily swept Sarah off of her feet . Several months later , Emily was arrested was selling drugs . She spent all of her money bailing her out of jail .
+pronoun: ['She(26, 26)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'Sarah(9, 9)', 'her(12, 12)', 'She(26, 26)', 'her(30, 30)', 'her(33, 33)']['a girl named Emily(2, 5)', 'Emily(19, 19)']]
+Winograd answer: A (Sarah)
+A confidence: 4.039679050445557
+B confidence: 7.952587604522705
+
+Emily loves to play football with her friends . She decided to try out for her high school football team . During tryouts , Emily ran faster than everyone on the team ! Sarah was impressed with her speed and made her a wide receiver .
+pronoun: ['her(37, 37)'], A: ['Sarah(33, 33)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(6, 6)', 'She(9, 9)', 'her(15, 15)', 'Emily(24, 24)', 'her(37, 37)', 'her(41, 41)']['her high school football team(15, 19)', 'the team(30, 31)']]
+Winograd answer: B (Emily)
+A confidence: 3.441387891769409
+B confidence: 3.185378313064575
+
+Sarah went on a blind date with Emily . Emily was the full package . She went back to her place . When she arrived she realized it was too good to be true .
+pronoun: ['She(15, 15)'], A: ['Sarah(0, 0)'], B: ['Emily(7, 7)']
+clusters: [['Sarah(0, 0)', 'She(15, 15)', 'her(19, 19)', 'she(23, 23)', 'she(25, 25)']]
+Winograd answer: A (Sarah)
+A confidence: 7.998287200927734
+B confidence: 0.09120357036590576
+
+
+
+
+
+incorrect answer
+Sarah thought Emily should buy a trailer and haul it with her car . Emily thought a truck would be better for what she needed . She pointed out two vehicles were much more expensive . Emily was set in her ways with conventional thinking .
+pronoun: ['She(26, 26)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['a trailer(5, 6)', 'it(9, 9)']['Emily(2, 2)', 'her(11, 11)', 'Emily(14, 14)', 'she(23, 23)', 'She(26, 26)', 'Emily(36, 36)', 'her(40, 40)']]
+Winograd answer: A (Sarah)
+A confidence: 5.225382328033447
+B confidence: 1.7011377811431885
+
+Sarah and Emily were brainstorming ideas for a children 's show . Sarah suggested that a monster attacks the children . Emily laughed because she thought Sarah was joking . She was confused because she thought it was a great idea .
+pronoun: ['She(30, 30)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(0, 0)', 'Sarah(12, 12)', 'Sarah(26, 26)']["a children 's(7, 9)", 'the children(18, 19)']['Emily(2, 2)', 'Emily(21, 21)', 'she(24, 24)', 'She(30, 30)', 'she(34, 34)']]
+Winograd answer: A (Sarah)
+A confidence: 8.08757209777832
+B confidence: 5.804198741912842
+
+Sarah and Emily were brainstorming ideas for a children 's show . Sarah suggested that a monster attacks the children . She laughed because she thought Sarah was joking . Sarah was confused because she thought it was a great idea .
+pronoun: ['She(21, 21)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(0, 0)', 'Sarah(12, 12)', 'She(21, 21)', 'she(24, 24)', 'Sarah(26, 26)', 'Sarah(30, 30)', 'she(34, 34)']["a children 's(7, 9)", 'the children(18, 19)']['a monster attacks the children(15, 19)', 'it(36, 36)']]
+Winograd answer: B (Emily)
+A confidence: 8.795392036437988
+B confidence: -7.715956687927246
+
+Sarah has a habit of taking items that do n't belong to her . Last night she stole a trailer from Emily 's yard . Emily has a camera in her yard and caught she on tape . The cops were called and took Sarah to jail .
+pronoun: ['she(34, 34)'], A: ['Sarah(0, 0)'], B: ['Emily(21, 21)']
+clusters: [['Sarah(0, 0)', 'her(12, 12)', 'she(16, 16)', 'Sarah(44, 44)']["Emily 's(21, 22)", 'Emily(25, 25)', 'her(30, 30)', 'she(34, 34)']["Emily 's yard(21, 23)", 'her yard(30, 31)']]
+Winograd answer: A (Sarah)
+A confidence: 1.320417046546936
+B confidence: 0.6897934675216675
+
+Sarah has a habit of taking items that do n't belong to her . Last night she stole a trailer from Emily 's yard . She has a camera in her yard and caught Sarah on tape . The cops were called and took Sarah to jail .
+pronoun: ['She(25, 25)'], A: ['Sarah(0, 0)'], B: ['Emily(21, 21)']
+clusters: [['Sarah(0, 0)', 'her(12, 12)', 'she(16, 16)', 'She(25, 25)', 'her(30, 30)', 'Sarah(34, 34)', 'Sarah(44, 44)']["Emily 's yard(21, 23)", 'her yard(30, 31)']]
+Winograd answer: B (Emily)
+A confidence: 4.625365734100342
+B confidence: -inf
+
+Sarah and Emily went to the beach in December . Emily put on her bathing suit and waded into the ocean ! The water was so cold that Emily 's lips turned turned blue . She pulled her from the icy water , saving Emily from frostbite .
+pronoun: ['She(35, 35)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Emily(2, 2)', 'Emily(10, 10)', 'her(13, 13)', "Emily 's(28, 29)", 'She(35, 35)', 'her(37, 37)', 'Emily(44, 44)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 2.3163607120513916
+
+Emily thought she was a very talented poet . She attended college to study creative writing . In college , she met a girl named Sarah . She told her that she was n't very good .
+pronoun: ['She(27, 27)'], A: ['Sarah(25, 25)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'she(2, 2)', 'She(9, 9)', 'she(20, 20)', 'She(27, 27)', 'her(29, 29)', 'she(31, 31)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: -1.2504146099090576
+
+Sam 's dog Sarah escaped from their yard . Emily was distraught . She went out calling for she . Then she saw Sarah come running up the street !
+pronoun: ['she(18, 18)'], A: ['Sarah(3, 3)'], B: ['Emily(9, 9)']
+clusters: [['Emily(9, 9)', 'She(13, 13)', 'she(18, 18)', 'she(21, 21)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 3.7395036220550537
+
+Sam 's dog Sarah escaped from their yard . Emily was distraught . She went out calling for Sarah . Then she saw she come running up the street !
+pronoun: ['she(23, 23)'], A: ['Sarah(3, 3)'], B: ['Emily(9, 9)']
+clusters: [['Emily(9, 9)', 'She(13, 13)', 'she(21, 21)', 'she(23, 23)']]
+Winograd answer: A (Sarah)
+A confidence: -0.5873116850852966
+B confidence: 0.8663543462753296
+
+Emily yelled out that the computer was broken again . Sarah walked into their shared office and looked at her , exasperated . Sarah rolled her eyes . She approached she and the computer , sighing a long suffering sigh .
+pronoun: ['she(30, 30)'], A: ['Sarah(10, 10)'], B: ['Emily(0, 0)']
+clusters: [['Sarah(10, 10)', 'their(13, 13)', 'her(19, 19)', 'Sarah(23, 23)', 'her(25, 25)', 'She(28, 28)', 'she(30, 30)']['the computer(4, 5)', 'the computer(32, 33)']]
+Winograd answer: B (Emily)
+A confidence: 1.9114396572113037
+B confidence: -1.206365704536438
+
+Emily always wondered if she 'd ever see Sarah again . She had decided to marry someone else and they had moved far away . Now , she was divorced and would be coming to the class reunion . Emily and she spent most of the reunion talking with each other .
+pronoun: ['she(41, 41)'], A: ['Sarah(8, 8)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'she(4, 4)', 'She(11, 11)', 'she(27, 27)', 'she(41, 41)']['the class reunion(35, 37)', 'the reunion(45, 46)']]
+Winograd answer: A (Sarah)
+A confidence: 2.1213080883026123
+B confidence: 0.5291316509246826
+
+Sarah 's cat Emily was sprayed by a skunk . She knew she would have to bathe Emily . Sure enough , Emily resisted ! But Sarah managed to scrub her clean .
+pronoun: ['She(10, 10)'], A: ['Sarah(0, 0)'], B: ['Emily(3, 3)']
+clusters: [["Sarah 's cat Emily(0, 3)", 'She(10, 10)', 'she(12, 12)', 'Emily(17, 17)', 'Emily(22, 22)', 'her(30, 30)']["Sarah 's(0, 1)", 'Sarah(26, 26)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: -inf
+
+Sarah 's cat Emily was sprayed by a skunk . Sarah knew she would have to bathe she . Sure enough , Emily resisted ! But Sarah managed to scrub her clean .
+pronoun: ['she(17, 17)'], A: ['Sarah(0, 0)'], B: ['Emily(3, 3)']
+clusters: [["Sarah 's(0, 1)", 'Sarah(10, 10)', 'she(12, 12)', 'she(17, 17)', 'Sarah(26, 26)', 'her(30, 30)']["Sarah 's cat Emily(0, 3)", 'Emily(22, 22)']]
+Winograd answer: B (Emily)
+A confidence: -0.8399218320846558
+B confidence: -inf
+
+Sarah 's cat Emily was sprayed by a skunk . Sarah knew she would have to bathe Emily . Sure enough , she resisted ! But Sarah managed to scrub her clean .
+pronoun: ['she(22, 22)'], A: ['Sarah(0, 0)'], B: ['Emily(3, 3)']
+clusters: [["Sarah 's(0, 1)", 'Sarah(10, 10)', 'she(12, 12)', 'she(22, 22)', 'Sarah(26, 26)', 'her(30, 30)']["Sarah 's cat Emily(0, 3)", 'Emily(17, 17)']]
+Winograd answer: B (Emily)
+A confidence: 3.9179635047912598
+B confidence: 2.833193778991699
+
+Sarah and Emily fell in love and got married . A few months later , Sarah found out that she was pregnant . She was very excited and could n't wait to be a father . They found out they were having a baby girl .
+pronoun: ['She(23, 23)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(0, 0)', 'Sarah(15, 15)', 'she(19, 19)', 'She(23, 23)']['Sarah and Emily(0, 2)', 'They(36, 36)', 'they(39, 39)']]
+Winograd answer: B (Emily)
+A confidence: 6.966784954071045
+B confidence: -2.4262499809265137
+
+Emily had to give a big speech at work . She asked her friend Sarah to listen to it and give her opinion . She listened to the speech but was n't convinced it was good . Despite her own dislike for the speech , she complimented Emily .
+pronoun: ['She(24, 24)'], A: ['Sarah(14, 14)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'She(10, 10)', 'her(12, 12)', 'her(21, 21)', 'She(24, 24)', 'her(38, 38)', 'she(45, 45)', 'Emily(47, 47)']['a big speech(4, 6)', 'it(18, 18)', 'the speech(27, 28)', 'it(33, 33)', 'the speech(42, 43)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 2.312174081802368
+
+Emily thought she was a great guitar player . She took lessons from her friend Sarah . She told her she needed to practice much more to be great . Emily was determined to practice every spare second she had .
+pronoun: ['She(17, 17)'], A: ['Sarah(15, 15)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'she(2, 2)', 'She(9, 9)', 'her(13, 13)', 'She(17, 17)', 'her(19, 19)', 'she(20, 20)', 'Emily(30, 30)', 'she(38, 38)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 0.9963133335113525
+
+Emily and Sarah were moving in together . Sarah adored cats and asked when they could adopt one . She informed her she was badly allergic to cat fur . Sarah was heartbroken and really wanted a feline companion .
+pronoun: ['She(19, 19)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Sarah(2, 2)', 'Sarah(8, 8)', 'She(19, 19)', 'her(21, 21)', 'she(22, 22)', 'Sarah(30, 30)']['Emily and Sarah(0, 2)', 'they(14, 14)']]
+Winograd answer: B (Emily)
+A confidence: 4.297185897827148
+B confidence: -6.472998142242432
+
+Emily wanted to learn how to play guitar to impress Sarah . She saved up her money so she could take lessons . When she had enough money saved , Emily scheduled some lessons . Emily practiced really hard and now she knows how to play guitar .
+pronoun: ['She(12, 12)'], A: ['Sarah(10, 10)'], B: ['Emily(0, 0)']
+clusters: [['Sarah(10, 10)', 'She(12, 12)', 'her(15, 15)', 'she(18, 18)', 'she(24, 24)', 'she(41, 41)']['Emily(0, 0)', 'Emily(30, 30)', 'Emily(35, 35)']]
+Winograd answer: B (Emily)
+A confidence: 7.240015029907227
+B confidence: 4.982996940612793
+
+After taking a long trip , Sarah came back to town . She walked down main street and into a coffee shop . In the show she saw her friend , Emily . She was very excited to see Sarah for the first time in years .
+pronoun: ['She(33, 33)'], A: ['Sarah(6, 6)'], B: ['Emily(31, 31)']
+clusters: [['Sarah(6, 6)', 'She(12, 12)', 'she(26, 26)', 'her(28, 28)', 'She(33, 33)', 'Sarah(39, 39)']]
+Winograd answer: B (Emily)
+A confidence: 4.149435997009277
+B confidence: -inf
+
+Sarah and Emily were playing checkers . Emily suddenly pointed at the window and gestured to someone . She turned around to see who it was . While she was distracted , Emily moved some pieces closer .
+pronoun: ['She(18, 18)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Emily(2, 2)', 'Emily(7, 7)', 'She(18, 18)', 'she(28, 28)', 'Emily(32, 32)']]
+Winograd answer: A (Sarah)
+A confidence: -2.6092307567596436
+B confidence: 3.0971314907073975
+
+Sarah and Emily were playing checkers . Emily suddenly pointed at the window and gestured to someone . Sarah turned around to see who it was . While she was distracted , she moved some pieces closer .
+pronoun: ['she(32, 32)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Emily(2, 2)', 'Emily(7, 7)']['Sarah(0, 0)', 'Sarah(18, 18)', 'she(28, 28)', 'she(32, 32)']]
+Winograd answer: B (Emily)
+A confidence: 4.587176322937012
+B confidence: -1.7403829097747803
+
+Sarah and Emily went to the ice cream parlor . She could n't decide what she wanted . She tried six different samples . Then she realized she was n't hungry anymore .
+pronoun: ['She(10, 10)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(0, 0)', 'She(10, 10)', 'she(15, 15)', 'She(18, 18)', 'she(25, 25)', 'she(27, 27)']]
+Winograd answer: B (Emily)
+A confidence: 1.6401426792144775
+B confidence: -0.48114246129989624
+
+Tonight , Sarah had a tutoring job at Samantha 's house . When she arrived , Emily had her notes out and was ready to learn . Sarah came prepared , and taught she the lesson . Sarah also helped prepare Emily for her upcoming test .
+pronoun: ['she(33, 33)'], A: ['Sarah(2, 2)'], B: ['Emily(16, 16)']
+clusters: [['Sarah(2, 2)', 'she(13, 13)', 'her(18, 18)', 'Sarah(27, 27)', 'she(33, 33)', 'Sarah(37, 37)', 'her(43, 43)']['Emily(16, 16)', 'Emily(41, 41)']]
+Winograd answer: B (Emily)
+A confidence: 5.8727946281433105
+B confidence: 4.687840461730957
+
+Tonight , Sarah had a tutoring job at Samantha 's house . When she arrived , Emily had her notes out and was ready to learn . Sarah came prepared , and taught Emily the lesson . Sarah also helped prepare she for her upcoming test .
+pronoun: ['she(41, 41)'], A: ['Sarah(2, 2)'], B: ['Emily(16, 16)']
+clusters: [['Sarah(2, 2)', 'she(13, 13)', 'her(18, 18)', 'Sarah(27, 27)', 'Sarah(37, 37)', 'she(41, 41)', 'her(43, 43)']['Emily(16, 16)', 'Emily(33, 33)']]
+Winograd answer: B (Emily)
+A confidence: 3.082855224609375
+B confidence: 1.9348926544189453
+
+Emily had just moved to a new house . The neighbors came over with their daughter , Sarah . They had bought pie and she showed Sarah her room . Sarah and Emily had a lot in common and played in Emily 's room .
+pronoun: ['she(24, 24)'], A: ['Sarah(17, 17)'], B: ['Emily(0, 0)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['their daughter , Sarah(14, 17)', 'she(24, 24)', 'Sarah(26, 26)', 'her(27, 27)', 'Sarah(30, 30)']['Emily(0, 0)', 'Emily(32, 32)', "Emily 's(41, 42)"]]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: 2.013517141342163
+
+Emily thought she played a good game of basketball . She decided to challenge her friend Sarah . She agreed to play Emily . Sarah practiced for a few days before the game .
+pronoun: ['She(18, 18)'], A: ['Sarah(16, 16)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'she(2, 2)', 'She(10, 10)', 'her(14, 14)', 'She(18, 18)', 'Emily(22, 22)']['her friend Sarah(14, 16)', 'Sarah(24, 24)']['a good game of basketball(4, 8)', 'the game(31, 32)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 1.9090099334716797
+
+Emily thought she played a good game of basketball . She decided to challenge her friend Sarah . Sarah agreed to play Emily . She practiced for a few days before the game .
+pronoun: ['She(24, 24)'], A: ['Sarah(16, 16)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'she(2, 2)', 'She(10, 10)', 'her(14, 14)', 'Emily(22, 22)', 'She(24, 24)']['her friend Sarah(14, 16)', 'Sarah(18, 18)']['a good game of basketball(4, 8)', 'the game(31, 32)']]
+Winograd answer: A (Sarah)
+A confidence: 8.086760520935059
+B confidence: 3.3644680976867676
+
+Emily told Sarah you always had to haggle with street vendors . She said it 's just the way we do things here in New York . She was from Texas and they did things differently down there . She figured she 'd try it Emily 's way , though .
+pronoun: ['She(27, 27)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Sarah(2, 2)', 'you(3, 3)']['Emily(0, 0)', 'She(12, 12)', 'She(27, 27)', 'She(39, 39)', 'she(41, 41)', "Emily 's(45, 46)"]]
+Winograd answer: A (Sarah)
+A confidence: 0.7145794630050659
+B confidence: 0.9771738648414612
+
+Emily was a mean bully . She went to school on a Monday . She challenged Sarah to a fight . She beat up Emily in self - defense .
+pronoun: ['She(21, 21)'], A: ['Sarah(16, 16)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'She(6, 6)', 'She(14, 14)', 'She(21, 21)', 'Emily(24, 24)']]
+Winograd answer: A (Sarah)
+A confidence: 3.0533785820007324
+B confidence: -2.013674259185791
+
+Emily and Sarah were sisters . One day they were riding their bikes . Emily lost her balance and fell over . She helped her up .
+pronoun: ['She(22, 22)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Emily and Sarah(0, 2)', 'they(8, 8)', 'their(11, 11)']['Emily(14, 14)', 'her(16, 16)', 'She(22, 22)', 'her(24, 24)']]
+Winograd answer: A (Sarah)
+A confidence: -3.322056770324707
+B confidence: 4.557032108306885
+
+Emily cooed and gurgled in her crib . Mrs Sarah stood up and walked over to the crib . She was worried so she reached out and touched Emily . Mrs she was thankful Emily felt cool to the touch .
+pronoun: ['she(31, 31)'], A: ['Sarah(9, 9)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(5, 5)', 'Mrs Sarah(8, 9)', 'She(19, 19)', 'she(23, 23)', 'Emily(28, 28)', 'she(31, 31)', 'Emily(34, 34)']['her crib(5, 6)', 'the crib(16, 17)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 2.2517223358154297
+
+Emily decided to take a pottery class for a new hobby . A woman named Sarah sat at the station next to her . She and Sarah grew close over the course of the semester . They went to a bar together after their final exam .
+pronoun: ['She(24, 24)'], A: ['Sarah(15, 15)'], B: ['Emily(0, 0)']
+clusters: [['A woman named Sarah(12, 15)', 'her(22, 22)', 'She(24, 24)', 'Sarah(26, 26)']['She and Sarah(24, 26)', 'They(36, 36)', 'their(43, 43)']]
+Winograd answer: B (Emily)
+A confidence: -inf
+B confidence: -4.47139835357666
+
+Sarah and Emily were good friends but very competitive . Sarah set out to beat she at basketball . She dribbled fast but tripped at the last second . Emily snatched the ball and scored .
+pronoun: ['she(15, 15)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(0, 0)', 'she(15, 15)', 'She(19, 19)']['Emily(2, 2)', 'Emily(29, 29)']]
+Winograd answer: B (Emily)
+A confidence: 1.4927961826324463
+B confidence: -6.126222133636475
+
+Emily 's parents bought her a new car for college . She drove the car to campus . The next day Emily let her friend Sarah drive the car to class . She lost control of the car and spun into a ditch .
+pronoun: ['She(32, 32)'], A: ['Sarah(25, 25)'], B: ['Emily(0, 0)']
+clusters: [["Emily 's(0, 1)", 'her(4, 4)', 'She(11, 11)', 'Emily(21, 21)', 'her(23, 23)', 'She(32, 32)']['a new car(5, 7)', 'the car(13, 14)', 'the car(27, 28)', 'the car(36, 37)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 2.6109142303466797
+
+Emily and Sarah were out to dinner on a date . After appetizers , Emily suddenly grabbed her stomach . She complained she was n't feeling good and left . She hoped that she had n't said something to upset her .
+pronoun: ['She(30, 30)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'Emily(14, 14)', 'her(17, 17)', 'She(20, 20)', 'she(22, 22)', 'She(30, 30)', 'she(33, 33)', 'her(40, 40)']]
+Winograd answer: A (Sarah)
+A confidence: -3.3783340454101562
+B confidence: 6.148571491241455
+
+Emily was excited to have her friend Sarah sleepover on Friday . Her mom dropped her off at Max 's house just before dinner . Emily 's mom Sarah and they had fun roasting hot dogs and playing . After dinner , the boys got in their sleeping bags and watched a movie .
+pronoun: ['Her(12, 12)'], A: ['Sarah(7, 7)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(5, 5)', 'Her(12, 12)', 'her(15, 15)', "Emily 's(25, 26)", 'they(30, 30)', 'the boys(42, 43)', 'their(46, 46)']]
+Winograd answer: A (Sarah)
+A confidence: -7.074899196624756
+B confidence: 2.8783316612243652
+
+Sarah was given a new puppy for her birthday . She named the puppy Emily . One day Sarah took she for a walk through the park . Emily hurt her paw while they were playing .
+pronoun: ['she(20, 20)'], A: ['Sarah(0, 0)'], B: ['Emily(14, 14)']
+clusters: [['Sarah(0, 0)', 'her(7, 7)', 'She(10, 10)', 'Sarah(18, 18)', 'she(20, 20)', 'her(30, 30)']]
+Winograd answer: B (Emily)
+A confidence: 3.530733346939087
+B confidence: -inf
+
+Sarah was given a new puppy for her birthday . She named the puppy Emily . One day Sarah took Emily for a walk through the park . She hurt her paw while they were playing .
+pronoun: ['She(28, 28)'], A: ['Sarah(0, 0)'], B: ['Emily(14, 14)']
+clusters: [['Sarah(0, 0)', 'her(7, 7)', 'She(10, 10)', 'Sarah(18, 18)', 'She(28, 28)', 'her(30, 30)']]
+Winograd answer: B (Emily)
+A confidence: 5.728240013122559
+B confidence: 0.27289342880249023
+
+Emily and Sarah have been dating for 2 years . They really love each other . Emily decides she wants to marry she . She buys a diamond engagement ring .
+pronoun: ['she(22, 22)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Emily and Sarah(0, 2)', 'They(10, 10)']['Emily(16, 16)', 'she(18, 18)', 'she(22, 22)', 'She(24, 24)']]
+Winograd answer: A (Sarah)
+A confidence: -4.476756572723389
+B confidence: -1.334102749824524
+
+Emily had a bunch of crystals she thought were magical . She would rub them when she needed good luck . One day , her friend Sarah came over to visit . She told her they were really just colorful plastic .
+pronoun: ['She(32, 32)'], A: ['Sarah(26, 26)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'she(6, 6)', 'She(11, 11)', 'she(16, 16)', 'her(24, 24)', 'She(32, 32)', 'her(34, 34)']['a bunch of crystals she thought(2, 7)', 'them(14, 14)', 'they(35, 35)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: -1.2525749206542969
+
+Sarah got a call from her friend Emily . She told her there was big party at Brad 's tonight . Sarah was so excited to go with she . The two got dressed and headed to the party .
+pronoun: ['she(28, 28)'], A: ['Sarah(0, 0)'], B: ['Emily(7, 7)']
+clusters: [['Sarah(0, 0)', 'her(5, 5)', 'She(9, 9)', 'her(11, 11)', 'Sarah(21, 21)', 'she(28, 28)']]
+Winograd answer: B (Emily)
+A confidence: 3.309359312057495
+B confidence: -inf
+
+Sarah is an avid tennis fan . Sarah loved watching her favorite player , Emily . Sarah was excited to learn that she was playing a match near her . Sarah decided to purchase tickets to Emily 's tennis match .
+pronoun: ['she(22, 22)'], A: ['Sarah(0, 0)'], B: ['Emily(14, 14)']
+clusters: [['Sarah(0, 0)', 'Sarah(7, 7)', 'her(10, 10)', 'Sarah(16, 16)', 'she(22, 22)', 'her(28, 28)', 'Sarah(30, 30)']]
+Winograd answer: B (Emily)
+A confidence: 5.551835060119629
+B confidence: -inf
+
+Sarah is an avid tennis fan . Sarah loved watching her favorite player , Emily . Sarah was excited to learn that Emily was playing a match near her . Sarah decided to purchase tickets to her tennis match .
+pronoun: ['her(36, 36)'], A: ['Sarah(0, 0)'], B: ['Emily(14, 14)']
+clusters: [['Sarah(0, 0)', 'Sarah(7, 7)', 'her(10, 10)', 'Sarah(16, 16)', 'her(28, 28)', 'Sarah(30, 30)', 'her(36, 36)']]
+Winograd answer: B (Emily)
+A confidence: 2.432593822479248
+B confidence: 4.361813068389893
+
+Emily hated sharing her toys with her sister Sarah . She would always ruin her toys . She tried to play with Emily 's toy car , but she snatched it away . Sarah began crying , and their mother rushed to check on them .
+pronoun: ['She(17, 17)'], A: ['Sarah(8, 8)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(3, 3)', 'her(6, 6)', 'She(10, 10)', 'her(14, 14)', 'She(17, 17)', "Emily 's(22, 23)", 'she(28, 28)']['her toys(3, 4)', 'her toys(14, 15)', 'them(44, 44)']["Emily 's toy car(22, 25)", 'it(30, 30)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 2.863159418106079
+
+Sarah and Emily were playing a game of throw football in a field . Emily threw the ball long and she ran to catch it . Her weight broke through an old cistern cover when she ran over it . The fall into the hole killed Sarah when she hit the bottom .
+pronoun: ['she(20, 20)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Emily(2, 2)', 'Emily(14, 14)', 'she(20, 20)', 'Her(26, 26)', 'she(35, 35)', 'she(48, 48)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['an old cistern cover(30, 33)', 'the hole(43, 44)']['Sarah(0, 0)', 'Sarah(46, 46)']]
+Winograd answer: A (Sarah)
+A confidence: -4.822988986968994
+B confidence: 5.3379106521606445
+
+Sarah and Emily were playing a game of throw football in a field . Emily threw the ball long and Sarah ran to catch it . Her weight broke through an old cistern cover when she ran over it . The fall into the hole killed she when she hit the bottom .
+pronoun: ['she(46, 46)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Emily(2, 2)', 'Emily(14, 14)', 'Her(26, 26)', 'she(35, 35)', 'she(46, 46)', 'she(48, 48)']['Sarah(0, 0)', 'Sarah(20, 20)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['an old cistern cover(30, 33)', 'the hole(43, 44)']]
+Winograd answer: A (Sarah)
+A confidence: -1.461617112159729
+B confidence: -0.6424657106399536
+
+Emily wanted to surprise her wife Sarah for her birthday . Emily spent weeks tracking down her old school friends . She was able to talk to many of them . Emily arranged to have all her old friends come over .
+pronoun: ['her(36, 36)'], A: ['Sarah(6, 6)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(4, 4)', 'her(8, 8)', 'Emily(11, 11)', 'her(16, 16)', 'She(21, 21)', 'Emily(31, 31)', 'her(36, 36)']['her old school friends(16, 19)', 'them(29, 29)', 'all her old friends(35, 38)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 0.5676326751708984
+
+Sarah was on bended knee proposing to Emily . She was ready to accept and say yes . Suddenly , Emily got an array of phone calls from family . She answered the calls , ruining the proposal .
+pronoun: ['She(9, 9)'], A: ['Sarah(0, 0)'], B: ['Sarah(0, 0)']
+clusters: [['Sarah(0, 0)', 'She(9, 9)', 'She(30, 30)']['Emily(7, 7)', 'Emily(20, 20)']['proposing(5, 5)', 'the proposal(36, 37)']]
+Winograd answer: B (Emily)
+A confidence: 7.703147888183594
+B confidence: 7.703147888183594
+
+Sarah was on bended knee proposing to Emily . Emily was ready to accept and say yes . Suddenly , she got an array of phone calls from family . She answered the calls , ruining the proposal .
+pronoun: ['she(20, 20)'], A: ['Sarah(0, 0)'], B: ['Sarah(0, 0)']
+clusters: [['Emily(7, 7)', 'Emily(9, 9)']['Sarah(0, 0)', 'she(20, 20)', 'She(30, 30)']['an array of phone calls from family(22, 28)', 'the calls(32, 33)']['proposing(5, 5)', 'the proposal(36, 37)']]
+Winograd answer: B (Emily)
+A confidence: 5.6588311195373535
+B confidence: 5.6588311195373535
+
+Emily liked Sarah very much but never talked to her . She was so shy , she hid behind the tree every time she went by . She was very curious and one day stopped to talked to her . She blushed so much , she run back to her house .
+pronoun: ['She(40, 40)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Sarah(2, 2)', 'her(9, 9)', 'She(11, 11)', 'she(16, 16)', 'she(23, 23)', 'She(27, 27)', 'her(38, 38)', 'She(40, 40)', 'she(45, 45)', 'her(49, 49)']]
+Winograd answer: B (Emily)
+A confidence: 2.407301187515259
+B confidence: 1.7733604907989502
+
+Sarah heard a meow from outside of her bedroom window . Outside , she finds a kitten stuck in a tree . Sarah calls her neighbor , Emily , to help get the cat . She uses her dad 's ladder to climb up and rescue the kitten .
+pronoun: ['She(35, 35)'], A: ['Sarah(0, 0)'], B: ['Emily(27, 27)']
+clusters: [['Sarah(0, 0)', 'her(7, 7)', 'she(13, 13)', 'Sarah(22, 22)', 'her(24, 24)', 'She(35, 35)', 'her(37, 37)']['a kitten(15, 16)', 'the cat(32, 33)', 'the kitten(46, 47)']]
+Winograd answer: B (Emily)
+A confidence: 7.202934265136719
+B confidence: -inf
+
+Emily wanted to buy a new tie for an event . She decided to go to the store the day before the event . When Sarah went to the store , she found out it was closed . She could not buy a tie for the event .
+pronoun: ['She(38, 38)'], A: ['Sarah(25, 25)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'She(11, 11)']['an event(8, 9)', 'the event(21, 22)', 'the event(45, 46)']['the store(16, 17)', 'the store(28, 29)']['Sarah(25, 25)', 'she(31, 31)', 'She(38, 38)']]
+Winograd answer: B (Emily)
+A confidence: 5.962969779968262
+B confidence: 1.7888354063034058
+
+Emily and her wife Sarah got lost on their vacation . She insisted that Emily ask someone for directions . Emily refused to ask for directions . Their car eventually ran out of gas and they were stranded .
+pronoun: ['She(11, 11)'], A: ['Sarah(4, 4)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(2, 2)', 'She(11, 11)', 'Emily(14, 14)', 'Emily(20, 20)']['their(8, 8)', 'Their(27, 27)', 'they(35, 35)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: -0.8335148096084595
+
+Emily and her wife Sarah got lost on their vacation . Sarah insisted that she ask someone for directions . Emily refused to ask for directions . Their car eventually ran out of gas and they were stranded .
+pronoun: ['she(14, 14)'], A: ['Sarah(4, 4)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(2, 2)', 'Emily(20, 20)', 'Their(27, 27)', 'they(35, 35)']['Sarah(11, 11)', 'she(14, 14)']]
+Winograd answer: B (Emily)
+A confidence: 7.233163356781006
+B confidence: -2.6655986309051514
+
+Emily and her wife Sarah got lost on their vacation . Sarah insisted that Emily ask someone for directions . She refused to ask for directions . Their car eventually ran out of gas and they were stranded .
+pronoun: ['She(20, 20)'], A: ['Sarah(4, 4)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(2, 2)', 'Emily(14, 14)']['Sarah(11, 11)', 'She(20, 20)']['their(8, 8)', 'Their(27, 27)', 'they(35, 35)']]
+Winograd answer: B (Emily)
+A confidence: 10.125319480895996
+B confidence: 7.946807384490967
+
+Sarah and Emily have been married for 20 years . Lately , Sarah and she have n't been getting along . Sarah tells her that it is time for them to separate . She moves into her sister 's house .
+pronoun: ['she(14, 14)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(0, 0)', 'Sarah(12, 12)', 'she(14, 14)', 'Sarah(21, 21)', 'her(23, 23)', 'She(33, 33)', 'her(36, 36)']['Sarah and Emily(0, 2)', 'them(29, 29)']]
+Winograd answer: B (Emily)
+A confidence: 7.60573673248291
+B confidence: -0.5899664759635925
+
+Sarah had a grudge against Emily . She decided she was going to slit her throat . Sarah waited in the shadows by her house . When she saw her red coat she lunged out , slicing and stabbing !
+pronoun: ['her(23, 23)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'She(7, 7)', 'she(9, 9)', 'her(14, 14)', 'Sarah(17, 17)', 'her(23, 23)', 'she(27, 27)', 'her(29, 29)', 'she(32, 32)']]
+Winograd answer: B (Emily)
+A confidence: 6.230593681335449
+B confidence: -3.365386724472046
+
+Emily and Sarah went on a camping trip . They got lost somewhere deep in the woods . Emily was too scared to do anything . She used her compass and wits to help them get out of the woods .
+pronoun: ['She(26, 26)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Emily and Sarah(0, 2)', 'They(9, 9)', 'them(34, 34)']['Emily(0, 0)', 'Emily(18, 18)', 'She(26, 26)', 'her(28, 28)']['the woods(15, 16)', 'the woods(38, 39)']]
+Winograd answer: A (Sarah)
+A confidence: 1.8007357120513916
+B confidence: 5.420834541320801
+
+Emily and Sarah went on a camping trip . They got lost somewhere deep in the woods . She was too scared to do anything . Sarah used her compass and wits to help them get out of the woods .
+pronoun: ['She(18, 18)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Emily and Sarah(0, 2)', 'They(9, 9)', 'them(34, 34)']['Sarah(2, 2)', 'She(18, 18)', 'Sarah(26, 26)', 'her(28, 28)']['the woods(15, 16)', 'the woods(38, 39)']]
+Winograd answer: B (Emily)
+A confidence: 3.2864322662353516
+B confidence: -5.177135944366455
+
+Sarah had always hated winter and cold temperatures . However , since she had married Emily , she would be staying in Minnesota . She surprised Sarah with a new floor heating system . It runs with a boiler and keeps the floors toasty warm .
+pronoun: ['She(24, 24)'], A: ['Sarah(0, 0)'], B: ['Emily(15, 15)']
+clusters: [['Sarah(0, 0)', 'she(12, 12)', 'she(17, 17)', 'She(24, 24)', 'Sarah(26, 26)']['a new floor heating system(28, 32)', 'It(34, 34)']]
+Winograd answer: B (Emily)
+A confidence: 6.265108108520508
+B confidence: 0.608760416507721
+
+Emily took her smartphone out to check out her mail . She perused through fifty emails , but none were from Sarah . She sat on a bench waiting for her email . Four minutes later , her email appeared and she smiled widely .
+pronoun: ['her(37, 37)'], A: ['Sarah(21, 21)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(2, 2)', 'her(8, 8)', 'She(11, 11)', 'She(23, 23)', 'her(30, 30)', 'her(37, 37)', 'she(41, 41)']['her mail(8, 9)', 'her email(30, 31)', 'her email(37, 38)']]
+Winograd answer: A (Sarah)
+A confidence: -1.7507243156433105
+B confidence: -0.4534263610839844
+
+Sarah asked her new girlfriend , Emily , to go camping one weekend . At first , she was excited as the weekend began . Soon , however , she found she did n't like camping with Sarah 's big dog . Sarah broke up with Emily a few weeks later .
+pronoun: ['she(17, 17)'], A: ['Sarah(0, 0)'], B: ['Emily(6, 6)']
+clusters: [['Sarah(0, 0)', 'her(2, 2)', 'she(17, 17)', 'she(29, 29)', 'she(31, 31)', "Sarah 's(37, 38)", 'Sarah(42, 42)']['her new girlfriend , Emily(2, 6)', 'Emily(46, 46)']]
+Winograd answer: B (Emily)
+A confidence: 4.6461944580078125
+B confidence: -inf
+
+Sarah asked her new girlfriend , Emily , to go camping one weekend . At first , Emily was excited as the weekend began . Soon , however , she found she did n't like camping with Sarah 's big dog . Sarah broke up with she a few weeks later .
+pronoun: ['she(46, 46)'], A: ['Sarah(0, 0)'], B: ['Emily(6, 6)']
+clusters: [['Sarah(0, 0)', 'her(2, 2)', 'she(29, 29)', 'she(31, 31)', "Sarah 's(37, 38)", 'Sarah(42, 42)', 'she(46, 46)']['her new girlfriend , Emily(2, 6)', 'Emily(17, 17)']]
+Winograd answer: B (Emily)
+A confidence: 4.087591648101807
+B confidence: 3.8831217288970947
+
+Sarah met her best friend Emily while playing a game online . Sarah and she had a lot in common , so they started hanging out a lot . Eventually , Sarah decided she wanted to meet Emily in real life . Sarah talked to Emily about it and they agreed to meet up .
+pronoun: ['she(14, 14)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'her(2, 2)', 'she(14, 14)', 'Sarah(31, 31)', 'she(33, 33)', 'Sarah(42, 42)']['her best friend Emily(2, 5)', 'Emily(37, 37)', 'Emily(45, 45)']['meet(36, 36)', 'it(47, 47)']['they(22, 22)', 'they(49, 49)']]
+Winograd answer: B (Emily)
+A confidence: 7.027637958526611
+B confidence: -inf
+
+Sarah met her best friend Emily while playing a game online . Sarah and Emily had a lot in common , so they started hanging out a lot . Eventually , Sarah decided she wanted to meet she in real life . Sarah talked to Emily about it and they agreed to meet up .
+pronoun: ['she(37, 37)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'her(2, 2)', 'Sarah(31, 31)', 'she(33, 33)', 'she(37, 37)', 'Sarah(42, 42)']['Sarah and Emily(12, 14)', 'they(22, 22)', 'they(49, 49)']['Emily(14, 14)', 'Emily(45, 45)']]
+Winograd answer: B (Emily)
+A confidence: 3.031069278717041
+B confidence: 0.961213231086731
+
+Sarah met her best friend Emily while playing a game online . Sarah and Emily had a lot in common , so they started hanging out a lot . Eventually , Sarah decided she wanted to meet Emily in real life . Sarah talked to she about it and they agreed to meet up .
+pronoun: ['she(45, 45)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'her(2, 2)', 'Sarah(31, 31)', 'she(33, 33)', 'Sarah(42, 42)', 'she(45, 45)']['Sarah and Emily(12, 14)', 'they(22, 22)', 'they(49, 49)']['Emily(14, 14)', 'Emily(37, 37)']['meet(36, 36)', 'it(47, 47)']]
+Winograd answer: B (Emily)
+A confidence: 0.14609968662261963
+B confidence: 1.2665071487426758
+
+Emily wants to check the new fast food place in town . She asks her best friend Sarah to tag along . Emily and she were excited to try the new burger . Emily gets to the place and orders a burger .
+pronoun: ['she(24, 24)'], A: ['Sarah(17, 17)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'She(12, 12)', 'her(14, 14)', 'she(24, 24)', 'Emily(33, 33)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 2.093445062637329
+
+Sarah and Emily wanted to buy a dog . Sarah wanted a big dog , but Emily wanted a small one . When they arrived at the dog pound , only small dogs were left . She was sad , but she noticed that Emily had already chosen a dog .
+pronoun: ['She(36, 36)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(0, 0)', 'Sarah(9, 9)']['Emily(2, 2)', 'Emily(16, 16)', 'She(36, 36)', 'she(41, 41)', 'Emily(44, 44)']['Sarah and Emily(0, 2)', 'they(23, 23)']['a dog(6, 7)', 'the dog pound(26, 28)']]
+Winograd answer: A (Sarah)
+A confidence: 2.7871897220611572
+B confidence: 4.540089130401611
+
+Sarah and Emily wanted to buy a dog . Sarah wanted a big dog , but she wanted a small one . When they arrived at the dog pound , only small dogs were left . Sarah was sad , but she noticed that Emily had already chosen a dog .
+pronoun: ['she(16, 16)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(0, 0)', 'Sarah(9, 9)', 'she(16, 16)', 'Sarah(36, 36)', 'she(41, 41)']['Sarah and Emily(0, 2)', 'they(23, 23)']['a dog(6, 7)', 'the dog(26, 27)', 'the dog pound(26, 28)']['Emily(2, 2)', 'Emily(44, 44)']]
+Winograd answer: B (Emily)
+A confidence: 4.5320048332214355
+B confidence: -1.1254841089248657
+
+Sarah and Emily wanted to buy a dog . Sarah wanted a big dog , but Emily wanted a small one . When they arrived at the dog pound , only small dogs were left . Sarah was sad , but she noticed that she had already chosen a dog .
+pronoun: ['she(44, 44)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(0, 0)', 'Sarah(9, 9)', 'Sarah(36, 36)', 'she(41, 41)', 'she(44, 44)']['Emily(2, 2)', 'Emily(16, 16)']['Sarah and Emily(0, 2)', 'they(23, 23)']['a dog(6, 7)', 'the dog pound(26, 28)']]
+Winograd answer: B (Emily)
+A confidence: 1.3386244773864746
+B confidence: 1.810929536819458
+
+Emily decided to fix her truck in her friend Sarah 's big garage . While there , she accidentally broke one of her expensive power tools . Sarah was forgiving , but Emily still has to replace the tool . She bought Sarah dinner at a restaurant because she felt so guilty .
+pronoun: ['her(22, 22)'], A: ['Sarah(9, 9)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(4, 4)', 'her(7, 7)', 'she(17, 17)', 'her(22, 22)', 'Emily(32, 32)', 'She(40, 40)', 'she(48, 48)']['one of her expensive power tools(20, 25)', 'the tool(37, 38)']['Sarah(27, 27)', 'Sarah(42, 42)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 2.6435751914978027
+
+Emily decided to fix her truck in her friend Sarah 's big garage . While there , she accidentally broke one of Sarah 's expensive power tools . She was forgiving , but Emily still has to replace the tool . She bought Sarah dinner at a restaurant because she felt so guilty .
+pronoun: ['She(28, 28)'], A: ['Sarah(9, 9)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(4, 4)', 'her(7, 7)', 'she(17, 17)', 'She(28, 28)', 'Emily(33, 33)', 'She(41, 41)', 'she(49, 49)']["one of Sarah 's expensive power tools(20, 26)", 'the tool(38, 39)']["Sarah 's(22, 23)", 'Sarah(43, 43)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 1.4642159938812256
+
+Emily decided to fix her truck in her friend Sarah 's big garage . While there , she accidentally broke one of Sarah 's expensive power tools . Sarah was forgiving , but Emily still has to replace the tool . She bought she dinner at a restaurant because she felt so guilty .
+pronoun: ['she(43, 43)'], A: ['Sarah(9, 9)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(4, 4)', 'her(7, 7)', 'she(17, 17)', 'Emily(33, 33)', 'She(41, 41)', 'she(43, 43)', 'she(49, 49)']["Sarah 's(22, 23)", 'Sarah(28, 28)']["one of Sarah 's expensive power tools(20, 26)", 'the tool(38, 39)']]
+Winograd answer: A (Sarah)
+A confidence: 0.5187375545501709
+B confidence: 2.5276999473571777
+
+Sarah really wanted to lose weight . She asked her friend Emily to help her with her goal . Every morning Sarah and she worked out together . Emily constantly reminded Sarah of her goal and helped motivate her .
+pronoun: ['she(23, 23)'], A: ['Sarah(0, 0)'], B: ['Emily(11, 11)']
+clusters: [['Sarah(0, 0)', 'She(7, 7)', 'her(9, 9)', 'her(14, 14)', 'her(16, 16)', 'Sarah(21, 21)', 'she(23, 23)', 'her(33, 33)', 'her(38, 38)']['her friend Emily(9, 11)', 'Emily(28, 28)']['her goal(16, 17)', 'her goal(33, 34)']]
+Winograd answer: B (Emily)
+A confidence: 5.118130207061768
+B confidence: -inf
+
+Sarah really wanted to lose weight . She asked her friend Emily to help her with her goal . Every morning Sarah and Emily worked out together . She constantly reminded Sarah of her goal and helped motivate her .
+pronoun: ['She(28, 28)'], A: ['Sarah(0, 0)'], B: ['Emily(11, 11)']
+clusters: [['Sarah(0, 0)', 'She(7, 7)', 'her(9, 9)', 'her(14, 14)', 'her(16, 16)', 'Sarah(21, 21)', 'She(28, 28)', 'her(33, 33)', 'her(38, 38)']['her friend Emily(9, 11)', 'Emily(23, 23)']['her goal(16, 17)', 'her goal(33, 34)']]
+Winograd answer: B (Emily)
+A confidence: 4.2836408615112305
+B confidence: 2.4771461486816406
+
+Sarah was visiting her friend Emily 's house . After playing for an hour they were bored . She did n't have any ideas of things they could do . Sarah thought it would be fun to pick apples tree in Emily 's yard .
+pronoun: ['She(18, 18)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'her(3, 3)', 'She(18, 18)', 'Sarah(30, 30)']['they(14, 14)', 'they(26, 26)']]
+Winograd answer: B (Emily)
+A confidence: 5.955003261566162
+B confidence: -inf
+
+Sarah was visiting her friend Emily 's house . After playing for an hour they were bored . Emily did n't have any ideas of things they could do . Sarah thought it would be fun to pick apples tree in her yard .
+pronoun: ['her(41, 41)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'her(3, 3)', 'Sarah(30, 30)', 'her(41, 41)']["her friend Emily 's(3, 6)", 'Emily(18, 18)', 'they(26, 26)']]
+Winograd answer: B (Emily)
+A confidence: 3.268857479095459
+B confidence: 0.2786129117012024
+
+Emily was crushed that everyone but her was invited to Sarah 's party . The day before the party she asked her why she had n't RSVP'd . Emily realized that she was supposed to be invited . She told Sarah she had n't gotten an invitation but she could go .
+pronoun: ['she(19, 19)'], A: ['Sarah(10, 10)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(6, 6)', 'she(19, 19)', 'her(21, 21)', 'she(23, 23)', 'Emily(28, 28)', 'she(31, 31)', 'She(38, 38)', 'she(41, 41)', 'she(48, 48)']["Sarah 's party(10, 12)", 'the party(17, 18)']["Sarah 's(10, 11)", 'Sarah(40, 40)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 0.9427543878555298
+
+Emily was crushed that everyone but her was invited to Sarah 's party . The day before the party Sarah asked her why she had n't RSVP'd . Emily realized that she was supposed to be invited . She told she she had n't gotten an invitation but she could go .
+pronoun: ['she(40, 40)'], A: ['Sarah(10, 10)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(6, 6)', 'her(21, 21)', 'she(23, 23)', 'Emily(28, 28)', 'she(31, 31)', 'She(38, 38)', 'she(40, 40)', 'she(41, 41)', 'she(48, 48)']]
+Winograd answer: A (Sarah)
+A confidence: -inf
+B confidence: 0.5585388541221619
+
+Emily and Sarah were married to each other . Emily was having an affair behind her back . One day , Emily was in her bedroom with her mistress . Sarah came home and saw them together .
+pronoun: ['her(15, 15)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Emily(9, 9)', 'her(15, 15)', 'Emily(21, 21)', 'her(24, 24)', 'her(27, 27)']['Sarah(2, 2)', 'Sarah(30, 30)']['Emily and Sarah(0, 2)', 'them(35, 35)']]
+Winograd answer: A (Sarah)
+A confidence: -5.545405864715576
+B confidence: 4.472983360290527
+
+Emily and Sarah were married to each other . Emily was having an affair behind Sarah 's back . One day , Emily was in her bedroom with her mistress . She came home and saw them together .
+pronoun: ['She(31, 31)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'Emily(9, 9)', 'Emily(22, 22)', 'her(25, 25)', 'her(28, 28)', 'She(31, 31)']['Sarah(2, 2)', "Sarah 's(15, 16)"]['Emily and Sarah(0, 2)', 'them(36, 36)']]
+Winograd answer: A (Sarah)
+A confidence: -2.5905234813690186
+B confidence: 4.60988187789917
+
+Sarah met a girl named Emily . Emily swept she off of her feet . Several months later , Emily was arrested was selling drugs . Sarah spent all of her money bailing her out of jail .
+pronoun: ['she(9, 9)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['a girl named Emily(2, 5)', 'Emily(7, 7)', 'she(9, 9)', 'her(12, 12)', 'Emily(19, 19)', 'her(30, 30)', 'her(33, 33)']['Sarah(0, 0)', 'Sarah(26, 26)']]
+Winograd answer: A (Sarah)
+A confidence: 4.303483963012695
+B confidence: 1.7829837799072266
+
+Sarah met a girl named Emily . She swept Sarah off of her feet . Several months later , Emily was arrested was selling drugs . Sarah spent all of her money bailing her out of jail .
+pronoun: ['She(7, 7)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'She(7, 7)', 'Sarah(9, 9)', 'her(12, 12)', 'Sarah(26, 26)', 'her(30, 30)', 'her(33, 33)']['a girl named Emily(2, 5)', 'Emily(19, 19)']]
+Winograd answer: B (Emily)
+A confidence: 8.453911781311035
+B confidence: -inf
+
+Sarah met a girl named Emily . Emily swept Sarah off of her feet . Several months later , she was arrested was selling drugs . Sarah spent all of her money bailing her out of jail .
+pronoun: ['she(19, 19)'], A: ['Sarah(0, 0)'], B: ['Emily(5, 5)']
+clusters: [['Sarah(0, 0)', 'Sarah(9, 9)', 'her(12, 12)', 'she(19, 19)', 'Sarah(26, 26)', 'her(30, 30)', 'her(33, 33)']]
+Winograd answer: B (Emily)
+A confidence: 3.8327383995056152
+B confidence: 0.3346472978591919
+
+Sarah went on a blind date with Emily . She was the full package . Sarah went back to her place . When she arrived she realized it was too good to be true .
+pronoun: ['She(9, 9)'], A: ['Sarah(0, 0)'], B: ['Emily(7, 7)']
+clusters: [['Sarah(0, 0)', 'She(9, 9)', 'Sarah(15, 15)', 'her(19, 19)', 'she(23, 23)', 'she(25, 25)']]
+Winograd answer: B (Emily)
+A confidence: 8.423648834228516
+B confidence: 2.42386794090271
+
+Sarah always hated spiders . Sarah 's roommate Emily knew about this fear . Emily sprinkled Sarah 's entire bed with little plastic spiders . She screamed out in terror when she saw her bed .
+pronoun: ['She(25, 25)'], A: ['Sarah(0, 0)'], B: ['Emily(8, 8)']
+clusters: [['Sarah(0, 0)', "Sarah 's(5, 6)", "Sarah 's(16, 17)"]["Sarah 's roommate Emily(5, 8)", 'Emily(14, 14)', 'She(25, 25)', 'she(31, 31)', 'her(33, 33)']]
+Winograd answer: A (Sarah)
+A confidence: 1.993199348449707
+B confidence: 1.543033242225647
+
+
+
+
+
+thought both were the same
+
+
+
+
+neither a nor b selected
+Sarah and Emily were brainstorming ideas for a children 's show . She suggested that a monster attacks the children . Emily laughed because she thought Sarah was joking . Sarah was confused because she thought it was a great idea .
+pronoun: ['She(12, 12)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [["a children 's(7, 9)", 'the children(18, 19)']['Emily(2, 2)', 'Emily(21, 21)']['She(12, 12)', 'she(24, 24)', 'she(34, 34)']['Sarah(0, 0)', 'Sarah(26, 26)', 'Sarah(30, 30)']]
+
+Emily and her wife had a daughter named Sarah . Emily 's wife passed away . Emily and she were very sad . Emily met a woman and married her 5 years after her wife died .
+pronoun: ['she(18, 18)'], A: ['Sarah(8, 8)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'her(2, 2)', "Emily 's(10, 11)", 'Emily(23, 23)']['her wife(2, 3)', "Emily 's wife(10, 12)", 'she(18, 18)', 'her wife(33, 34)']['a woman(25, 26)', 'her(29, 29)', 'her(33, 33)']]
+
+Emily and her wife had a daughter named Sarah . Emily 's wife passed away . She and Sarah were very sad . Emily met a woman and married her 5 years after her wife died .
+pronoun: ['She(16, 16)'], A: ['Sarah(8, 8)'], B: ['Emily(0, 0)']
+clusters: [['her wife(2, 3)', "Emily 's wife(10, 12)", 'She(16, 16)', 'her wife(33, 34)']['a daughter named Sarah(5, 8)', 'Sarah(18, 18)']["Emily 's(10, 11)", 'Emily(23, 23)']['a woman(25, 26)', 'her(29, 29)', 'her(33, 33)']]
+
+Sarah and Emily went to the beach in December . She put on her bathing suit and waded into the ocean ! The water was so cold that Emily 's lips turned turned blue . Sarah pulled her from the icy water , saving Emily from frostbite .
+pronoun: ['She(10, 10)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['the beach in December(5, 8)', 'She(10, 10)', 'her(13, 13)', 'her(37, 37)']['Emily(2, 2)', "Emily 's(28, 29)", 'Emily(44, 44)']]
+
+Emily took Sarah to a Monster Truck Rally . They sat on the front row . She watched all the different trucks . She also saw different cars get crushed .
+pronoun: ['She(16, 16)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['a Monster Truck Rally(4, 7)', 'She(16, 16)', 'She(23, 23)']]
+
+Emily was a very nervous child with a long - time fear of heights . One hot summer day , her friends invited her to a water park . Her crush , Sarah , was there and she loved slides , so she had an idea . Emily asked her to join her on a two - person toboggan , and she accepted !
+pronoun: ['she(42, 42)'], A: ['Sarah(32, 32)'], B: ['Emily(0, 0)']
+clusters: [['her(20, 20)', 'her(23, 23)', 'Her(29, 29)', 'she(37, 37)', 'she(42, 42)', 'her(49, 49)', 'her(52, 52)', 'she(61, 61)']['Emily(0, 0)', 'Emily(47, 47)']]
+
+Emily was a very nervous child with a long - time fear of heights . One hot summer day , her friends invited her to a water park . Her crush , Sarah , was there and she loved slides , so Emily had an idea . She asked her to join her on a two - person toboggan , and she accepted !
+pronoun: ['She(47, 47)'], A: ['Sarah(32, 32)'], B: ['Emily(0, 0)']
+clusters: [['her(20, 20)', 'her(23, 23)', 'Her(29, 29)', 'she(37, 37)', 'She(47, 47)', 'her(49, 49)', 'her(52, 52)', 'she(61, 61)']['Emily(0, 0)', 'Emily(42, 42)']]
+
+Sarah and Emily fell in love and got married . A few months later , she found out that she was pregnant . Emily was very excited and could n't wait to be a father . They found out they were having a baby girl .
+pronoun: ['she(15, 15)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['she(15, 15)', 'she(19, 19)']['Emily(2, 2)', 'Emily(23, 23)']['Sarah and Emily(0, 2)', 'They(36, 36)', 'they(39, 39)']]
+
+Emily and Sarah went out to dinner . They sat at the table and placed their order . The waiter brought them their food . She accidentally knocked over her plate !
+pronoun: ['She(25, 25)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['They(8, 8)', 'their(15, 15)', 'them(21, 21)', 'their(22, 22)']['She(25, 25)', 'her(29, 29)']]
+
+Emily 's mom told her to babysit her little sister Sarah . Emily was annoyed because she would rather go to the mall . She asked Emily to play a game . The two ended up having a lot of fun together .
+pronoun: ['She(24, 24)'], A: ['Sarah(10, 10)'], B: ['Emily(0, 0)']
+clusters: [["Emily 's mom(0, 2)", 'her(4, 4)', 'her(7, 7)', 'she(16, 16)', 'She(24, 24)']["Emily 's(0, 1)", 'Emily(12, 12)', 'Emily(26, 26)']]
+
+Emily 's mom told her to babysit her little sister Sarah . She was annoyed because she would rather go to the mall . Sarah asked Emily to play a game . The two ended up having a lot of fun together .
+pronoun: ['She(12, 12)'], A: ['Sarah(10, 10)'], B: ['Emily(0, 0)']
+clusters: [["Emily 's mom(0, 2)", 'her(4, 4)', 'her(7, 7)', 'She(12, 12)', 'she(16, 16)']['her little sister Sarah(7, 10)', 'Sarah(24, 24)']["Emily 's(0, 1)", 'Emily(26, 26)']]
+
+Emily 's mom told her to babysit her little sister Sarah . Emily was annoyed because she would rather go to the mall . Sarah asked she to play a game . The two ended up having a lot of fun together .
+pronoun: ['she(26, 26)'], A: ['Sarah(10, 10)'], B: ['Emily(0, 0)']
+clusters: [["Emily 's mom(0, 2)", 'her(4, 4)', 'her(7, 7)', 'she(16, 16)', 'she(26, 26)']["Emily 's(0, 1)", 'Emily(12, 12)']['her little sister Sarah(7, 10)', 'Sarah(24, 24)']]
+
+Emily and Sarah were making mud pies together . They were having fun pretending to be real life chefs . She got so carried away she forgot the pies were real . She took a big bite of one !
+pronoun: ['She(20, 20)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Emily and Sarah(0, 2)', 'They(9, 9)']['She(20, 20)', 'she(25, 25)', 'She(32, 32)']['mud pies(5, 6)', 'the pies(27, 28)']]
+
+Emily 's wife Sarah asked her to make lasagna for dinner . She went to the store to buy the ingredients . When she got home she unpacked the groceries . She realized she forgot to buy the noodles .
+pronoun: ['She(12, 12)'], A: ['Sarah(3, 3)'], B: ['Emily(0, 0)']
+clusters: [['her(5, 5)', 'She(12, 12)', 'she(23, 23)', 'she(26, 26)', 'She(31, 31)', 'she(33, 33)']['the ingredients(19, 20)', 'the noodles(37, 38)']]
+
+Sarah and Emily had been married a few years . They would have terrible fights . Her friends all told her to dump her . One night , she decided they were right .
+pronoun: ['Her(16, 16)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah and Emily(0, 2)', 'They(10, 10)']['Her(16, 16)', 'her(20, 20)', 'her(23, 23)', 'she(28, 28)']['Her friends all(16, 18)', 'they(30, 30)']]
+
+Sarah and Emily have been dating for six months . One day , she took her to the park . She led her on a walk around the lake . As they got to the gazebo , she got down on one knee .
+pronoun: ['she(13, 13)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['she(13, 13)', 'her(15, 15)', 'She(20, 20)', 'her(22, 22)', 'she(37, 37)']['Sarah and Emily(0, 2)', 'they(31, 31)']]
+
+Emily had just moved to a new house . The neighbors came over with their daughter , Sarah . They had bought pie and Emily showed she her room . Sarah and Emily had a lot in common and played in Emily 's room .
+pronoun: ['she(26, 26)'], A: ['Sarah(17, 17)'], B: ['Emily(0, 0)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['Emily(0, 0)', 'Emily(24, 24)', 'Emily(32, 32)', "Emily 's(41, 42)"]['their daughter , Sarah(14, 17)', 'she(26, 26)', 'her(27, 27)']['pie and Emily(22, 24)', 'Sarah and Emily(30, 32)']]
+
+Emily had just moved to a new house . The neighbors came over with their daughter , Sarah . They had bought pie and Emily showed Sarah her room . She and Emily had a lot in common and played in Emily 's room .
+pronoun: ['She(30, 30)'], A: ['Sarah(17, 17)'], B: ['Emily(0, 0)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['Emily(0, 0)', 'Emily(24, 24)', 'Emily(32, 32)', "Emily 's(41, 42)"]['their daughter , Sarah(14, 17)', 'her(27, 27)', 'She(30, 30)']['pie and Emily(22, 24)', 'She and Emily(30, 32)']]
+
+Emily had just moved to a new house . The neighbors came over with their daughter , Sarah . They had bought pie and Emily showed Sarah her room . Sarah and she had a lot in common and played in Emily 's room .
+pronoun: ['she(32, 32)'], A: ['Sarah(17, 17)'], B: ['Emily(0, 0)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['Emily(0, 0)', 'Emily(24, 24)', "Emily 's(41, 42)"]['their daughter , Sarah(14, 17)', 'her(27, 27)', 'she(32, 32)']]
+
+Emily had just moved to a new house . The neighbors came over with their daughter , Sarah . They had bought pie and Emily showed Sarah her room . Sarah and Emily had a lot in common and played in her room .
+pronoun: ['her(41, 41)'], A: ['Sarah(17, 17)'], B: ['Emily(0, 0)']
+clusters: [['The neighbors(9, 10)', 'their(14, 14)', 'They(19, 19)']['Emily(0, 0)', 'Emily(24, 24)', 'Emily(32, 32)']['their daughter , Sarah(14, 17)', 'her(27, 27)', 'her(41, 41)']['pie and Emily(22, 24)', 'Sarah and Emily(30, 32)']['her room(27, 28)', 'her room(41, 42)']]
+
+Sarah 's dog Emily ran away one day . She printed posters and put them around the neighborhood . The next day , someone found she at the park . They called the number on the poster .
+pronoun: ['she(25, 25)'], A: ['Sarah(0, 0)'], B: ['Emily(3, 3)']
+clusters: [["Sarah 's dog Emily(0, 3)", 'She(9, 9)', 'she(25, 25)']['someone(23, 23)', 'They(30, 30)']]
+
+Emily counted while Sarah hid . Emily began to search for Chad . She looked behind the shed , but she was n't there . She looked behind the fence , but Sarah was n't there .
+pronoun: ['she(20, 20)'], A: ['Sarah(3, 3)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'Emily(6, 6)']['Chad(11, 11)', 'She(13, 13)', 'she(20, 20)', 'She(25, 25)']['Sarah(3, 3)', 'Sarah(32, 32)']]
+
+Emily counted while Sarah hid . Emily began to search for Chad . She looked behind the shed , but Sarah was n't there . She looked behind the fence , but she was n't there .
+pronoun: ['she(32, 32)'], A: ['Sarah(3, 3)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'Emily(6, 6)']['Chad(11, 11)', 'She(13, 13)', 'She(25, 25)', 'she(32, 32)']['Sarah(3, 3)', 'Sarah(20, 20)']]
+
+Emily and Sarah were sisters . One day they were riding their bikes . She lost her balance and fell over . Sarah helped her up .
+pronoun: ['She(14, 14)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Emily and Sarah(0, 2)', 'they(8, 8)', 'their(11, 11)']['She(14, 14)', 'her(16, 16)', 'her(24, 24)']['Sarah(2, 2)', 'Sarah(22, 22)']]
+
+Emily decided to take a pottery class for a new hobby . A woman named Sarah sat at the station next to her . Emily and she grew close over the course of the semester . They went to a bar together after their final exam .
+pronoun: ['she(26, 26)'], A: ['Sarah(15, 15)'], B: ['Emily(0, 0)']
+clusters: [['A woman named Sarah(12, 15)', 'her(22, 22)', 'she(26, 26)']['They(36, 36)', 'their(43, 43)']]
+
+Sarah and Emily were good friends but very competitive . She set out to beat Emily at basketball . She dribbled fast but tripped at the last second . Emily snatched the ball and scored .
+pronoun: ['She(10, 10)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Emily(2, 2)', 'Emily(15, 15)', 'Emily(29, 29)']['She(10, 10)', 'She(19, 19)']]
+
+Sarah and Emily were good friends but very competitive . Sarah set out to beat Emily at basketball . She dribbled fast but tripped at the last second . She snatched the ball and scored .
+pronoun: ['She(29, 29)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Emily(2, 2)', 'Emily(15, 15)']['Emily at basketball(15, 17)', 'She(19, 19)', 'She(29, 29)']]
+
+Sarah and Emily were tossing a ball in the back yard . She threw it too hard . It flew across the yard smashing into the kitchen window . Sarah thought she was going to be in big trouble .
+pronoun: ['She(12, 12)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['it(14, 14)', 'It(18, 18)']['the back yard(8, 10)', 'the yard(21, 22)']['She(12, 12)', 'she(31, 31)']]
+
+Emily and Sarah were out to dinner on a date . After appetizers , she suddenly grabbed her stomach . She complained she was n't feeling good and left . Sarah hoped that she had n't said something to upset her .
+pronoun: ['she(14, 14)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['she(14, 14)', 'her(17, 17)', 'She(20, 20)', 'she(22, 22)', 'she(33, 33)', 'her(40, 40)']['Sarah(2, 2)', 'Sarah(30, 30)']]
+
+Emily was excited to have her friend Sarah sleepover on Friday . Sarah 's mom dropped her off at Max 's house just before dinner . Emily 's mom she and they had fun roasting hot dogs and playing . After dinner , the boys got in their sleeping bags and watched a movie .
+pronoun: ['she(29, 29)'], A: ['Sarah(7, 7)'], B: ['Emily(0, 0)']
+clusters: [['Sarah(7, 7)', "Sarah 's(12, 13)"]['her(5, 5)', 'her(16, 16)']["Sarah 's mom(12, 14)", 'she(29, 29)']['they(31, 31)', 'the boys(43, 44)', 'their(47, 47)']]
+
+Emily was excited to have her friend Sarah sleepover on Friday . Sarah 's mom dropped her off at Max 's house just before dinner . Her mom Sarah and they had fun roasting hot dogs and playing . After dinner , the boys got in their sleeping bags and watched a movie .
+pronoun: ['Her(26, 26)'], A: ['Sarah(7, 7)'], B: ['Emily(0, 0)']
+clusters: [['Sarah(7, 7)', "Sarah 's(12, 13)"]['her(5, 5)', 'her(16, 16)', 'Her(26, 26)']["Sarah 's mom(12, 14)", 'they(30, 30)', 'the boys(42, 43)', 'their(46, 46)']]
+
+Emily and Sarah have been dating for 2 years . They really love each other . She decides she wants to marry Sarah . She buys a diamond engagement ring .
+pronoun: ['She(16, 16)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Emily and Sarah(0, 2)', 'They(10, 10)']['She(16, 16)', 'she(18, 18)', 'She(24, 24)']['Sarah(2, 2)', 'Sarah(22, 22)']]
+
+Sarah and Emily were best friends . Her mom had to take a job across the country . Emily begged her mom to reconsider , but she refused . The two girls were upset , afraid their friendship would end .
+pronoun: ['Her(7, 7)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Emily(2, 2)', 'Emily(18, 18)']['Her(7, 7)', 'her(20, 20)', 'she(26, 26)']['Her mom(7, 8)', 'her mom(20, 21)']['Sarah and Emily(0, 2)', 'The two girls(29, 31)', 'their(36, 36)']]
+
+Sarah and Emily were best friends . Emily 's mom had to take a job across the country . She begged her mom to reconsider , but she refused . The two girls were upset , afraid their friendship would end .
+pronoun: ['She(19, 19)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Emily(2, 2)', "Emily 's(7, 8)"]["Emily 's mom(7, 9)", 'She(19, 19)', 'her(21, 21)', 'her mom(21, 22)', 'she(27, 27)']['Sarah and Emily(0, 2)', 'The two girls(30, 32)', 'their(37, 37)']]
+
+Emily and Sarah have been engaged for seven years . They have finally set a wedding date for next summer . People were starting to wonder if they would ever get married . She said she was n't getting married until she was good and ready .
+pronoun: ['She(33, 33)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Emily and Sarah(0, 2)', 'They(10, 10)']['People(21, 21)', 'they(27, 27)']['She(33, 33)', 'she(35, 35)', 'she(41, 41)']]
+
+Sarah and Emily were playing a game of throw football in a field . She threw the ball long and Sarah ran to catch it . Her weight broke through an old cistern cover when she ran over it . The fall into the hole killed Sarah when she hit the bottom .
+pronoun: ['She(14, 14)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah(0, 0)', 'Sarah(20, 20)', 'Sarah(46, 46)']['the ball(16, 17)', 'it(24, 24)', 'it(38, 38)']['She(14, 14)', 'Her(26, 26)', 'she(35, 35)', 'she(48, 48)']['an old cistern cover(30, 33)', 'the hole(43, 44)']]
+
+Sarah and Emily had just started dating . She had acted very possessive at times , but she accepted it . Soon , she started isolating Sarah from her friends and family . She had turned Sarah into a full on hermit !
+pronoun: ['she(17, 17)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah and Emily(0, 2)', 'She(8, 8)', 'she(17, 17)', 'she(23, 23)', 'her(28, 28)', 'She(33, 33)']['Sarah(26, 26)', 'Sarah(36, 36)']]
+
+Sarah and Emily had just started dating . She had acted very possessive at times , but Sarah accepted it . Soon , she started isolating she from her friends and family . She had turned Sarah into a full on hermit !
+pronoun: ['she(26, 26)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah and Emily(0, 2)', 'She(8, 8)', 'she(23, 23)', 'she(26, 26)', 'her(28, 28)', 'She(33, 33)']['Sarah(0, 0)', 'Sarah(17, 17)', 'Sarah(36, 36)']]
+
+Sarah and Emily had just started dating . She had acted very possessive at times , but Sarah accepted it . Soon , she started isolating Sarah from her friends and family . She had turned she into a full on hermit !
+pronoun: ['she(36, 36)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah and Emily(0, 2)', 'She(8, 8)', 'she(23, 23)', 'her(28, 28)', 'She(33, 33)', 'she(36, 36)']['Sarah(17, 17)', 'Sarah(26, 26)']]
+
+Emily found a stray dog on the street . She brought the dog home . She named the dog Sarah . She and Emily became good friends .
+pronoun: ['She(21, 21)'], A: ['Sarah(19, 19)'], B: ['Emily(0, 0)']
+clusters: [['a stray dog on the street(2, 7)', 'She(9, 9)', 'She(15, 15)', 'She(21, 21)']['Emily(0, 0)', 'Emily(23, 23)']]
+
+Emily found a stray dog on the street . She brought the dog home . She named the dog Sarah . Sarah and she became good friends .
+pronoun: ['she(23, 23)'], A: ['Sarah(19, 19)'], B: ['Emily(0, 0)']
+clusters: [['a stray dog on the street(2, 7)', 'She(9, 9)', 'She(15, 15)', 'she(23, 23)']]
+
+Sarah 's favorite artist Emily was having a concert in the park . She knew she had to be there early to get a good spot . Sarah woke up at 1 am determined to get a good spot . However , when Sarah reached , she saw a massive crowd .
+pronoun: ['She(13, 13)'], A: ['Sarah(0, 0)'], B: ['Emily(4, 4)']
+clusters: [["Sarah 's favorite artist Emily(0, 4)", 'She(13, 13)', 'she(15, 15)', 'she(46, 46)']["Sarah 's(0, 1)", 'Sarah(27, 27)', 'Sarah(43, 43)']['a good spot(23, 25)', 'a good spot(36, 38)']]
+
+Sarah and Emily went camping at Yosemite . They decided to hike a twenty mile trail the first night . When they got back to the campsite she realized she lost her keys . She was in a pure panic not knowing how far away she dropped them .
+pronoun: ['she(27, 27)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah and Emily(0, 2)', 'They(8, 8)', 'they(21, 21)', 'them(47, 47)']['she(27, 27)', 'she(29, 29)', 'her(31, 31)', 'She(34, 34)', 'she(45, 45)']]
+
+Sarah and Emily have been married for 20 years . Lately , she and Emily have n't been getting along . Sarah tells her that it is time for them to separate . She moves into her sister 's house .
+pronoun: ['she(12, 12)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['Sarah and Emily(0, 2)', 'she and Emily(12, 14)', 'them(29, 29)']['Emily(2, 2)', 'Emily(14, 14)']['Sarah(0, 0)', 'Sarah(21, 21)']['she(12, 12)', 'her(23, 23)', 'She(33, 33)', 'her(36, 36)']]
+
+Sarah and Emily wanted to buy a dog . She wanted a big dog , but Emily wanted a small one . When they arrived at the dog pound , only small dogs were left . Sarah was sad , but she noticed that Emily had already chosen a dog .
+pronoun: ['She(9, 9)'], A: ['Sarah(0, 0)'], B: ['Emily(2, 2)']
+clusters: [['a dog(6, 7)', 'She(9, 9)', 'the dog(26, 27)', 'the dog pound(26, 28)', 'she(41, 41)']['Emily(2, 2)', 'Emily(16, 16)', 'Emily(44, 44)']['Sarah and Emily(0, 2)', 'they(23, 23)']['Sarah(0, 0)', 'Sarah(36, 36)']]
+
+Ashlynn Loved Facebook . She had many different friends she chatted with daily . Her friend , Emily , made a negative comment about Donald Trump . Sarah and she got into a flame war .
+pronoun: ['she(29, 29)'], A: ['Sarah(27, 27)'], B: ['Emily(17, 17)']
+clusters: [['She(4, 4)', 'she(9, 9)', 'Her(14, 14)', 'she(29, 29)']]
+
+Emily had a daughter named Sarah . Emily was too busy to take care of her daughter . She sent she to a boarding school . Sarah did not like the boarding school .
+pronoun: ['she(20, 20)'], A: ['Sarah(5, 5)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'Emily(7, 7)']['a daughter named Sarah(2, 5)', 'her(15, 15)']['her daughter(15, 16)', 'She(18, 18)', 'she(20, 20)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+
+Emily had a daughter named Sarah . Emily was too busy to take care of her daughter . She sent Sarah to a boarding school . She did not like the boarding school .
+pronoun: ['She(26, 26)'], A: ['Sarah(5, 5)'], B: ['Emily(0, 0)']
+clusters: [['Emily(0, 0)', 'Emily(7, 7)']['a daughter named Sarah(2, 5)', 'her(15, 15)', 'She(18, 18)', 'She(26, 26)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+
+Emily had a daughter named Sarah . She was too busy to take care of her daughter . She sent Sarah to a boarding school . Sarah did not like the boarding school .
+pronoun: ['She(7, 7)'], A: ['Sarah(5, 5)'], B: ['Emily(0, 0)']
+clusters: [['a daughter named Sarah(2, 5)', 'She(7, 7)', 'her(15, 15)', 'She(18, 18)']['Sarah(20, 20)', 'Sarah(26, 26)']['a boarding school(22, 24)', 'the boarding school(30, 32)']]
+
+Emily and Sarah were married to each other . She was having an affair behind Sarah 's back . One day , Emily was in her bedroom with her mistress . Sarah came home and saw them together .
+pronoun: ['She(9, 9)'], A: ['Sarah(2, 2)'], B: ['Emily(0, 0)']
+clusters: [['Sarah(2, 2)', "Sarah 's(15, 16)", 'Sarah(31, 31)']['She(9, 9)', 'her(25, 25)', 'her(28, 28)']['Emily and Sarah(0, 2)', 'them(36, 36)']]
+
+Sarah and Emily were married only a month ago . They were so happy getting used to the married life . At least they were happy until her mom moved in . She treated Sarah and Emily both like children .
+pronoun: ['her(27, 27)'], A: ['Sarah(0, 0)'], B: ['Sarah(0, 0)']
+clusters: [['Sarah and Emily(0, 2)', 'They(10, 10)', 'they(23, 23)', 'Sarah and Emily(34, 36)']['the married life(17, 19)', 'her(27, 27)', 'She(32, 32)']['Sarah(0, 0)', 'Sarah(34, 34)']['Emily(2, 2)', 'Emily(36, 36)']]
+
+Sarah and Emily were married only a month ago . They were so happy getting used to the married life . At least they were happy until Sarah 's mom moved in . She treated she and Emily both like children .
+pronoun: ['she(35, 35)'], A: ['Sarah(0, 0)'], B: ['Sarah(0, 0)']
+clusters: [['Sarah and Emily(0, 2)', 'They(10, 10)', 'they(23, 23)']['Sarah(0, 0)', "Sarah 's(27, 28)"]["Sarah 's mom(27, 29)", 'She(33, 33)', 'she(35, 35)']['Emily(2, 2)', 'Emily(37, 37)']]
+
+Sarah and Emily were married only a month ago . They were so happy getting used to the married life . At least they were happy until Sarah 's mom moved in . She treated Sarah and she both like children .
+pronoun: ['she(37, 37)'], A: ['Sarah(0, 0)'], B: ['Sarah(0, 0)']
+clusters: [['Sarah and Emily(0, 2)', 'They(10, 10)', 'they(23, 23)']['Sarah(0, 0)', "Sarah 's(27, 28)", 'Sarah(35, 35)']["Sarah 's mom(27, 29)", 'She(33, 33)', 'she(37, 37)']]
+
+There was an enormous , unsightly rock in Emily 's garden . She tried unsuccessfully to remove it himself . Begrudgingly , she called to Sarah for help . Happy to oblige , she went over to help her .
+pronoun: ['she(33, 33)'], A: ['Sarah(25, 25)'], B: ['Emily(8, 8)']
+clusters: [["an enormous , unsightly rock in Emily 's garden(2, 10)", 'it(17, 17)']['She(12, 12)', 'she(22, 22)', 'she(33, 33)', 'her(38, 38)']]
+
+Sarah always hated spiders . Sarah 's roommate Emily knew about this fear . Emily sprinkled her entire bed with little plastic spiders . Sarah screamed out in terror when she saw her bed .
+pronoun: ['her(16, 16)'], A: ['Sarah(0, 0)'], B: ['Emily(8, 8)']
+clusters: [['Sarah(0, 0)', "Sarah 's(5, 6)", 'Sarah(24, 24)']["Sarah 's roommate Emily(5, 8)", 'her(16, 16)', 'she(30, 30)', 'her(32, 32)']]
+
+Sarah always hated spiders . Sarah 's roommate Emily knew about this fear . She sprinkled Sarah 's entire bed with little plastic spiders . Sarah screamed out in terror when she saw her bed .
+pronoun: ['She(14, 14)'], A: ['Sarah(0, 0)'], B: ['Emily(8, 8)']
+clusters: [['Sarah(0, 0)', "Sarah 's(5, 6)", "Sarah 's(16, 17)", 'Sarah(25, 25)']["Sarah 's roommate Emily(5, 8)", 'She(14, 14)', 'she(31, 31)', 'her(33, 33)']]
+
+
+
+
+
+didn't find prnoun
+1
+correct answer
+73
+incorrect answer
+87
+thought both were the same
+0
+neither a nor b selected
+56
+
+overall confidence: 2.7476966627386967, 3.6234798408205093
+overall confidence for correct answer   : 2.7476966627386967, 3.7037362186561094
+overall confiidence for incorrrect answer:3.0535098031379175, 3.5323533347084353
+correct confidence: 4.057079579119813, 2.541949138262405
+correct other confidence: 1.3701205317880594, 4.342081538505166
+incorrect confiden: 4.040324203584386, 2.499981497355014
+incorrect other confidence: 0.3303779562314351, 3.9184030367367058
+A count: 95, B count: 65
