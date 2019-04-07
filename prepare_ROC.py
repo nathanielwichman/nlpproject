@@ -9,6 +9,9 @@ ROC_FILE = "ROCwi17.csv"  # file with rocstories
 PARSE_FILE_WRITE = "junk.txt"
 PARSE_FILE_READ = "ROC_parses2.txt"
 
+# ALLENNLP coref:
+# anaconda3/lib/python3.6/site-packages/allennlp/models/coreference_resolution
+
 # basic data structure for storing information about a sentence
 # for winograd parsing
 class struct:
@@ -348,7 +351,7 @@ def removegender(sentence):
       prodict = fmdict
       nameslist = malenames
       gender = "M"
-  elif True or random.randint(0,1) == 1:  # female name
+  elif False and random.randint(0,1) == 1:  # female name
       prodict = mfdict
       nameslist = femalenames
       gender = "F"
@@ -530,7 +533,7 @@ def removegender(sentence):
 def addambiguity(data):
   returndata = list()
   for d in data:
-      callresult = removepronouns(d)#removegender(d)
+      callresult = removegender(d) #removepronouns(d)
       #for c in callresult:
       #    print(c.sentence, end='')
       #print("")
@@ -594,8 +597,30 @@ def write(n):
   tagged = nertag(data)
   save(PARSE_FILE_WRITE, tagged)
 
-def test():
-   data = load(PARSE_FILE_READ,10000)
+# converts a list of structs to list in the format used by BERT_coref
+def convert(data, train=False):
+    returndata = list()
+    for d in data:
+        converted = list()
+        converted.append(d.sentence)
+        converted.append(d.a)
+        converted.append(d.b)
+        converted.append(d.pronoun)
+
+        if d.answer == "A":
+           converted.append(0)
+        elif d.answer == "B":
+           converted.append(1)
+        else:
+            converted.append(None)
+            print("unexpected answer field: " + str(d.answer))
+        returndata.append(converted)
+    return returndata
+
+
+# change removeGender if/else to switch male/female/they
+def prepareBERT(trainsize, testsize):
+   data = load(PARSE_FILE_READ, 5000)
    pruneddata = prune(data)
    POStags(pruneddata)
 
@@ -603,16 +628,29 @@ def test():
 
    readylist = prepare(replaced)
 
+   index = 0
+   for i in range(len(readylist)):
+       d = readylist[index]
+       if (d.a[1] == d.b[1]):
+           #print(d.a)
+           #print(d.b)
+           #print(i)
+           del(readylist[index])
+           index -= 1;
+       index += 1;
+
    """
-   for i in range(20):
+   for i in range(50):
       print(readylist[i].sentence)
       print(readylist[i].pronoun)
       print(readylist[i].a)
       print(readylist[i].b)
       print("")
+   exit()
    """
 
-   Check_Wino(readylist)
+   #Check_Wino(readylist)
+   return (convert(readylist[0:trainsize], True), convert(readylist[trainsize:trainsize + testsize], False))
 
    """
    data = getROC(ROC_FILE, 50)
@@ -620,7 +658,7 @@ def test():
    #save(PARSE_FILE_WRITE, parseddata)
    """
 
-test()
+
 
 """
 l = list()

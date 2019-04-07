@@ -3,7 +3,7 @@ import torch.optim as optim
 import numpy as np
 
 from allennlp.data import Instance
-from allennlp.data.fields import TextField, SequenceLabelField
+from allennlp.data.fields import TextField, LabelField, SequenceLabelField
 
 from allennlp.data.dataset_readers import DatasetReader
 
@@ -12,7 +12,6 @@ from allennlp.common.file_utils import cached_path
 from allennlp.data.token_indexers import TokenIndexer
 from allennlp.data.tokenizers import Token
 from allennlp.data.token_indexers import PretrainedBertIndexer
-from allennlp.data.fields import SpanField
 
 from allennlp.data.vocabulary import Vocabulary
 
@@ -27,8 +26,14 @@ from allennlp.training.metrics import CategoricalAccuracy
 from allennlp.data.iterators import BucketIterator
 from allennlp.training.trainer import Trainer
 
+from prepare_ROC import prepareBERT
 
 torch.manual_seed(1)
+
+A_VAL = 1
+B_VAL = 2
+PRO_VAL = 3
+OTHER = 4
 
 class ROCReader(DatasetReader):
     def __init__(self):
@@ -40,30 +45,48 @@ class ROCReader(DatasetReader):
         )}
 
     def text_to_instance(self, sentence, A, B, pronoun, answer = None):
-        tokens = [Token(word) for word in self.token_indexers["tokens"].wordpiece_tokenizer(sentence)]
+        tokens = [Token(word) for word in sentence]
         sentence_field = TextField(tokens, self.token_indexers)
         fields = {"sentence": sentence_field}
         labels = list()
-        # set up labels for each inded
+        # set up labels
+        index = 0  # to deal with tokens being split
+        # note, depending on initial indexing may need to change for
+        # multi word tokens
         for i in range(len(tokens)):
-
-            if (i >= A[1] and i <= A[2]):
-                labels.append(0) #A
-            elif (i >= B[1] and i <= B[2]):
-                labels.append(1) #B
-            elif (i >= pronoun[1] and i <= pronoun[2]):
-                labels.append(2) #pronoun
+            if sentence[i][0] == '#':
+                index -= 1
+            if (index >= A[1] and index <= A[2]):
+                labels.append(A_VAL) #A
+            elif (index >= B[1] and index <= B[2]):
+                labels.append(B_VAL) #B
+            elif (index >= pronoun[1] and index <= pronoun[2]):
+                labels.append(PRO_VAL) #pronoun
             else:
-                labels.append(3) # Nothing
+                labels.append(OTHER) # Nothing
+            index += 1
+        """
+        try:
+            labels.index(1)
+            labels.index(2)
+            labels.index(3)
+        except ValueError:
+            print (sentence)
+            print(labels)
+            print(A)
+            print(B)
+            print(pronoun)
+            print(answer)
+        """
 
         fields["labels"] = SequenceLabelField(labels, sentence_field)
-        if answer:
+        if answer is not None:
             fields["answer"] = LabelField(answer, skip_indexing=True)
         return Instance(fields)
 
     def _read(self, data):
         for d in data:
-            yield self.text_to_instance(d[0], d[1], d[2], d[3])
+            yield self.text_to_instance([word for word in self.token_indexers["tokens"].wordpiece_tokenizer(d[0])], d[1], d[2], d[3], d[4])
 
 # dimentions:
 # get output >> choose rep tokens >> cross product >> classify
@@ -72,44 +95,113 @@ class ROCReader(DatasetReader):
 class BERTWino(Model):
     def __init__(self, word_embeddings, vocab):
         super().__init__(vocab)
-        self.hiddendim = 200
+        self.hiddendim = 50
         self.word_embeddings = word_embeddings
         dims = word_embeddings.get_output_dim()  #768
         # [cross product A : 0 padding : cross product B]
         self.chooser = torch.nn.Sequential(
-            torch.nn.Linear(dims * dims * 2, self.hiddendim),
+            torch.nn.Linear(dims * 3 * 2, self.hiddendim),
             torch.nn.Linear(self.hiddendim, self.hiddendim),
             torch.nn.Linear(self.hiddendim, 2))
 
         self._accuracy = CategoricalAccuracy()
         self._loss = torch.nn.CrossEntropyLoss()
 
+    # batch size, seqence length, dimension
+    # ipdb (debugger)
     def forward(self, sentence, labels, answer=None):
-        embeddings = self.word_embeddings(sentence)
+
+        # what to do with mask?
 
 
-        print(self.word_embeddings.get_output_dim())
-        print(sentence)
-        #print(sentence["tokens-offsets"].size())
-        #print(labels.size())
 
-        exit()
-        # grab word indexes
+        mask = get_text_field_mask(sentence)
+        embeddings = self.word_embeddings(sentence)[:, 1:-1, :]
+
+        # compute cross product of objects with the pronoun in question
+        # gather function! maybe not
+        #print(sentence)
+
+        labels2 = torch.cat([labels[:,:,None]]*embeddings.size()[2], 2)
+        mask_tensor = torch.zeros(embeddings.size())
+        #print(torch.cat([torch.tensor([0])]*embeddings.size()[2]))
+
+        #test = torch.ones(labels2.shape) * 3
+
+
+        Amask = torch.where(labels2 == (torch.ones(labels2.shape).long() * A_VAL), embeddings, mask_tensor)
+        Aavg = Amask.sum(1) / (labels==A_VAL).sum(1).view(labels.shape[0], 1).float()
+
+        Bmask = torch.where(labels2 == (torch.ones(labels2.shape).long() * B_VAL), embeddings, mask_tensor)
+        Bavg = Bmask.sum(1) / (labels == B_VAL).sum(1).view(labels.shape[0], 1).float()
+
+        Promask = torch.where(labels2 == (torch.ones(labels2.shape).long() * PRO_VAL), embeddings, mask_tensor)
+        Proavg = Promask.sum(1) / (labels == PRO_VAL).sum(1).view(labels.shape[0], 1).float()
+
+        Ainput = torch.cat([Aavg, Proavg, Aavg * Proavg], 1)
+        Binput = torch.cat([Bavg, Proavg, Bavg * Proavg], 1)
+        #print(labels)
+        #torch.set_printoptions(profile="default")
+
+
+        #Amatrix = torch.cat(torch.mul(AEmbed, ProEmbed))
+        #Bmatrix = torch.mul(BEmbed, ProEmbed)
+        #Bmatrix = torch.matmul(embeddings[0][labels.index(1)].unsqueeze(0).transpose(0, 1),
+        #                      embeddings[0][labels.index(2)].unsqueeze(0))
+        # check
+
+        state = self.chooser(torch.cat([Ainput, Binput], 1))
+
+        output = {"tag_logits": state}
+        #output = {}
+        #print (answer)
+        if answer is not None:
+            result = answer.tolist()[0]
+            if result == 0:
+                answer2 = torch.tensor([1, 0])
+            else:
+                answer2 = torch.tensor([0, 1])
+
+            self._accuracy(state, answer)
+
+            #print(state)
+            #print(answer)
+            #print("")
+            output["loss"] = self._loss(state, answer)
+
+        return output
+
+    def get_metrics(self, reset):
+        return {"accuracy": self._accuracy.get_metric(reset)}
+
+def getexamples(model, sentences):
+  print("examples")
+  counter = 0
+  for i in sentences:
+      counter += 1;
+      if counter > 6:
+          break
+      else:
+          output = model.forward_on_instance(i)
+          print(i)
+          print(output)
+          print("")
 
 
 
 LR = 0.00005
-BATCH = 32
-EPOCHS = 3
+BATCH = 5 #16, 32
+EPOCHS = 3 #3, 4
 
-data1 = [["Bob 's cat went to the store with Joe . He had to be bribed to come after all",
-        ("Bob", 0, 0), ("Joe", 7, 7), ("He", 8, 8)]]
-data2 = [["Sally went to the store with Mei . She had to be bribed to come",
-        ("Sally", 0, 0), ("Mei", 6, 6), ("She", 8, 8)]]
+data1, data2  = prepareBERT(350, 150)
+print("train size:" + str(len(data1)))
+print("test size:" + str(len(data2)))
+
 reader = ROCReader()
 
-train_dataset = reader.read(data1)
-validation_dataset = reader.read(data2)
+train_dataset = reader._read(data1)
+#print(train_dataset[0])
+validation_dataset = reader._read(data2)
 
 vocab = Vocabulary()#Vocabulary.from_instances(train_dataset + validation_dataset)
 
@@ -135,12 +227,12 @@ trainer = Trainer(model=mymodel,
                   train_dataset=train_dataset,
                   validation_dataset=validation_dataset,
                   num_epochs=EPOCHS)
-
-trainer.train()
-
 indexer = PretrainedBertIndexer(
             pretrained_model = "bert-base-cased",
             do_lowercase = False
             #max_pieces=config.max_seq_length
         )
-print(indexer.wordpiece_tokenizer(data1[0][0]))
+
+trainer.train()
+
+getexamples(mymodel, reader._read(data2))
