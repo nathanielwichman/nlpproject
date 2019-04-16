@@ -35,6 +35,7 @@ B_VAL = 2
 PRO_VAL = 3
 OTHER = 4
 
+
 class ROCReader(DatasetReader):
     def __init__(self):
         super().__init__(lazy=False)
@@ -93,9 +94,10 @@ class ROCReader(DatasetReader):
 # bert token size >> bert token size >> 2 * bert^2 + bert >> 2
 
 class BERTWino(Model):
-    def __init__(self, word_embeddings, vocab):
+    def __init__(self, word_embeddings, vocab, device):
         super().__init__(vocab)
         self.hiddendim = 50
+        self.device = device
         self.word_embeddings = word_embeddings
         dims = word_embeddings.get_output_dim()  #768
         # [cross product A : 0 padding : cross product B]
@@ -110,7 +112,6 @@ class BERTWino(Model):
     # batch size, seqence length, dimension
     # ipdb (debugger)
     def forward(self, sentence, labels, answer=None):
-
         # what to do with mask?
 
 
@@ -123,19 +124,19 @@ class BERTWino(Model):
         #print(sentence)
 
         labels2 = torch.cat([labels[:,:,None]]*embeddings.size()[2], 2)
-        mask_tensor = torch.zeros(embeddings.size())
+        mask_tensor = torch.zeros(embeddings.size()).to(self.device)
         #print(torch.cat([torch.tensor([0])]*embeddings.size()[2]))
 
         #test = torch.ones(labels2.shape) * 3
 
 
-        Amask = torch.where(labels2 == (torch.ones(labels2.shape).long() * A_VAL), embeddings, mask_tensor)
+        Amask = torch.where(labels2 == (torch.ones(labels2.shape).long().to(self.device) * A_VAL), embeddings, mask_tensor)
         Aavg = Amask.sum(1) / (labels==A_VAL).sum(1).view(labels.shape[0], 1).float()
 
-        Bmask = torch.where(labels2 == (torch.ones(labels2.shape).long() * B_VAL), embeddings, mask_tensor)
+        Bmask = torch.where(labels2 == (torch.ones(labels2.shape).long().to(self.device) * B_VAL), embeddings, mask_tensor)
         Bavg = Bmask.sum(1) / (labels == B_VAL).sum(1).view(labels.shape[0], 1).float()
 
-        Promask = torch.where(labels2 == (torch.ones(labels2.shape).long() * PRO_VAL), embeddings, mask_tensor)
+        Promask = torch.where(labels2 == (torch.ones(labels2.shape).long().to(self.device) * PRO_VAL), embeddings, mask_tensor)
         Proavg = Promask.sum(1) / (labels == PRO_VAL).sum(1).view(labels.shape[0], 1).float()
 
         Ainput = torch.cat([Aavg, Proavg, Aavg * Proavg], 1)
@@ -156,12 +157,6 @@ class BERTWino(Model):
         #output = {}
         #print (answer)
         if answer is not None:
-            result = answer.tolist()[0]
-            if result == 0:
-                answer2 = torch.tensor([1, 0])
-            else:
-                answer2 = torch.tensor([0, 1])
-
             self._accuracy(state, answer)
 
             #print(state)
@@ -175,33 +170,38 @@ class BERTWino(Model):
         return {"accuracy": self._accuracy.get_metric(reset)}
 
 def getexamples(model, sentences):
-  print("examples")
-  counter = 0
-  for i in sentences:
-      counter += 1;
-      if counter > 6:
-          break
-      else:
-          output = model.forward_on_instance(i)
-          print(i)
-          print(output)
-          print("")
+  with open(OUTFILE, "w") as f:
+
+      counter = 0
+      for i in sentences:
+          counter += 1;
+          if counter > 6:
+              break
+          else:
+              output = model.forward_on_instance(i)
+              f.write(str(i) + "\n")
+              f.write(str(output) + "\n\n")
 
 
+# where to mask?
+# check code
+# how to save output
 
 LR = 0.00005
-BATCH = 5 #16, 32
+BATCH = 16 #16, 32
 EPOCHS = 3 #3, 4
+OUTFILE = "testresults1.txt"
 
-data1, data2  = prepareBERT(350, 150)
+data1, data2  = prepareBERT(1800, 200)
+
 print("train size:" + str(len(data1)))
 print("test size:" + str(len(data2)))
 
 reader = ROCReader()
 
-train_dataset = reader._read(data1)
+train_dataset = reader.read(data1)
 #print(train_dataset[0])
-validation_dataset = reader._read(data2)
+validation_dataset = reader.read(data2)
 
 vocab = Vocabulary()#Vocabulary.from_instances(train_dataset + validation_dataset)
 
@@ -213,20 +213,29 @@ bert_embedder = PretrainedBertEmbedder(
 
 word_embeddings = BasicTextFieldEmbedder({"tokens": bert_embedder},
                                         allow_unmatched_keys = True)
+if torch.cuda.is_available():
+    cuda_device = 0
+else:
+    cuda_device = -1
 
-mymodel = BERTWino(word_embeddings, vocab)
+print(cuda_device)
+mymodel = BERTWino(word_embeddings, vocab, cuda_device)
+if cuda_device >= 0:
+    mymodel = mymodel.cuda(cuda_device)
 
 optimizer = optim.Adam(mymodel.parameters(), lr=LR)
 
 iterator = BucketIterator(batch_size=BATCH, sorting_keys=[("sentence", "num_tokens")])
 iterator.index_with(vocab)
 
+
 trainer = Trainer(model=mymodel,
                   optimizer=optimizer,
                   iterator=iterator,
                   train_dataset=train_dataset,
                   validation_dataset=validation_dataset,
-                  num_epochs=EPOCHS)
+                  num_epochs=EPOCHS,
+                  cuda_device=cuda_device)
 indexer = PretrainedBertIndexer(
             pretrained_model = "bert-base-cased",
             do_lowercase = False
@@ -236,3 +245,6 @@ indexer = PretrainedBertIndexer(
 trainer.train()
 
 getexamples(mymodel, reader._read(data2))
+
+#with open("modeltest1.th", 'wb') as f:
+#    torch.save(model.state_dict(), f)

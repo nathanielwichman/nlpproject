@@ -6,8 +6,14 @@ from parses import name_rec, POStags
 from process import Check_Wino
 
 ROC_FILE = "ROCwi17.csv"  # file with rocstories
-PARSE_FILE_WRITE = "junk.txt"
-PARSE_FILE_READ = "ROC_parses2.txt"
+PARSE_FILE_WRITE = "ROC_parses_large.txt" #"junk.txt
+PARSE_FILE_READ = "ROC_parses.txt"
+
+MALE = 0
+FEMALE = 1
+THEY = 2
+POS = 3
+SAME = 4
 
 # ALLENNLP coref:
 # anaconda3/lib/python3.6/site-packages/allennlp/models/coreference_resolution
@@ -259,13 +265,101 @@ def removepronouns(sentence):
                 results.append(rs)
     return results
 
+# Removes one name and replaces it with a pronoun, keeping
+# everything else the same
+def addAnswer(sentence, gender):
+    results = list()
+    for name in (sentence.names[0][0], sentence.names[0][1]): # wait this doesn't work, since we assume only 2 names later
+        if len(sentence.names[1][name]) > 1:
+            for nameindex in sentence.names[1][name][1:]:
+                # confirm both names occur before chosen name
+                other = sentence.names[0][0]  # get other name
+                if other == name:
+                    other = sentence.names[0][1]
+
+                otherindex = sentence.names[1][other][0]
+                # if other index is after last name (which will be replaced), continue
+                # if otherindex > sentence.names[1][name][-1]:
+                # print(sentence.sentence)
+                # print(name)
+                # print(otherindex)
+                # print(nameindex)
+
+                if otherindex > nameindex:
+                    # print("skipping")
+                    # print("")
+                    continue
+                # print("")
+
+                # result struct
+                rs = nerstruct()
+                rs.sentence = sentence.sentence
+                rs.parse = list(sentence.parse)
+                rs.pronouns = sentence.pronouns  # assumes this is never changed
+                rs.names = (list(sentence.names[0]), dict(sentence.names[1]))
+                rs.pos = sentence.pos
+
+                temp = sentence
+                sentence = rs
+                removes = False  # if 's is after name, we want to replace at the end
+                if gender == MALE:
+                    replace = "he"
+                    replace2 = "he"
+                elif gender == FEMALE:
+                    replace = "she"
+                    replace2 = "She"
+                elif gender == THEY:
+                    replace = "they"
+                    replace2 = "They"
+                elif gender == POS:
+                    replace = "T"
+                    replace2 = "T"
+                else:
+                    print("unknown gender arg passed in prepare_ROC.py:addAnswer")
+                    exit()
+
+                sentence.parse[nameindex] = replace
+                if nameindex > 0 and \
+                        sentence.parse[nameindex - 1] == ".":
+                    sentence.parse[nameindex] = replace2
+                if nameindex < len(sentence.parse) - 1 and \
+                        sentence.parse[nameindex + 1] == "'s":
+                        removes = True
+
+                sentence.replaced = True
+                sentence.pronounindex = nameindex
+
+                if sentence.names[0].index(name) == 0:
+                    sentence.answer = "A"
+                else:
+                    sentence.answer = "B"
 
 
+                # delete "'s"
+                if removes:
+                    del sentence.parse[nameindex + 1]
+
+                    for prn in sentence.pronouns[0]:
+                        for i in range(len(sentence.pronouns[1][prn])):
+                            if sentence.pronouns[1][prn][i] > nameindex:
+                                sentence.pronouns[1][prn][i] = sentence.pronouns[1][prn][i] - 1
+
+                    for nm in sentence.names[0]:
+                        for i in range(len(sentence.names[1][nm])):
+                            if sentence.names[1][nm][i] > nameindex:
+                                sentence.names[1][nm][i] = sentence.names[1][nm][i] - 1
+
+                sentence.sentence = " ".join(sentence.parse)
+
+
+                results.append(sentence)
+                sentence = temp
+    return results
 
 
 # Removes names and replaces with generic same gendered pronouns.
 # Returns true if usable, false otherwise (data will still be edited)
-def removegender(sentence):
+def removegender(sentence, gendersetting):
   # problem pronouns:
   # her -> him vs his
   #   e.g. "it was her food" vs "i went looking for her"
@@ -346,16 +440,16 @@ def removegender(sentence):
   # choose gender
   nameslist = None
   prodict = None
-  genderChoice = random.randint(0,1);
-  if False and random.randint(0,1) == 0: # male names
+
+  if gendersetting == MALE:
       prodict = fmdict
       nameslist = malenames
       gender = "M"
-  elif False and random.randint(0,1) == 1:  # female name
+  elif gendersetting == FEMALE:  # female name
       prodict = mfdict
       nameslist = femalenames
       gender = "F"
-  else: # gender neutral
+  elif gendersetting == THEY: # gender neutral
       prodict = removegenderdict
       nameslist = genderlessnames
       gender = "N"
@@ -381,7 +475,7 @@ def removegender(sentence):
   # making multple results now
   results = list()
 
-  for name in sentence.names[0]:
+  for name in (sentence.names[0][0], senten.names[1][1]):
 
 
       # has at least two names referenced
@@ -530,10 +624,15 @@ def removegender(sentence):
 
 # given a list of pruned nerstructs, finds appropriate examples
 # and replaces a name with a pronoun
-def addambiguity(data):
+def addambiguity(data, gender):
   returndata = list()
   for d in data:
-      callresult = removegender(d) #removepronouns(d)
+      if gender == POS:
+          callresult = removepronouns(d)
+      elif gender == SAME:
+          callresult = addAnswer(d, THEY)
+      else:
+          callresult = removegender(d, gender)
       #for c in callresult:
       #    print(c.sentence, end='')
       #print("")
@@ -620,11 +719,19 @@ def convert(data, train=False):
 
 # change removeGender if/else to switch male/female/they
 def prepareBERT(trainsize, testsize):
-   data = load(PARSE_FILE_READ, 5000)
+
+   ###    CHANGE HERE   ###
+
+   gender = SAME
+
+   ###   ^^^     ^^^   ###
+
+
+   data = load(PARSE_FILE_READ, 50000)
    pruneddata = prune(data)
    POStags(pruneddata)
 
-   replaced = addambiguity(pruneddata)
+   replaced = addambiguity(pruneddata, gender)
 
    readylist = prepare(replaced)
 
@@ -633,14 +740,15 @@ def prepareBERT(trainsize, testsize):
        d = readylist[index]
        if (d.a[1] == d.b[1]):
            #print(d.a)
-           #print(d.b)
+           #print
            #print(i)
            del(readylist[index])
+           print("del")
            index -= 1;
        index += 1;
 
    """
-   for i in range(50):
+   for i in range(10):
       print(readylist[i].sentence)
       print(readylist[i].pronoun)
       print(readylist[i].a)
@@ -657,8 +765,9 @@ def prepareBERT(trainsize, testsize):
    parseddata = nertag(data)
    #save(PARSE_FILE_WRITE, parseddata)
    """
-
-
+numwrite = 100000
+print("writing: ")
+write(numwrite)
 
 """
 l = list()
