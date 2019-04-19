@@ -173,6 +173,7 @@ def getSentence(filenum):
         if strippedline == "<TEXT>":
             next = True
 
+
 trainFiles = list()
 fp = open('WinoCoref/WinoCoref/train.txt', 'r')
 for line in fp:
@@ -241,15 +242,20 @@ def Switch_Words():
         print(str(item[0]) + ": " + str(item[1]))
     exit()
 
+def BERT_Wino():
+    sentenceData = corefresolution(getwino())
+    return sentenceData
 
 # Checks list of stucts with allennlp coref and outputs answer and stats
 def Check_Wino(inputdata):
     #Switch_Words()
     #parse(sentenceData)
     sentenceData = corefresolution(inputdata)
+
     #examine("test_stats22", sentenceData)
     #output("test_coref", sentenceData)
     labels, cases = outputcoref(sentenceData)
+
 
     """
     for correct, incorrect in zip(cases[1][:12], cases[2][:12]):
@@ -442,4 +448,4 @@ def Check_Wino(inputdata):
     print("A count: " + str(A_count) + ", B count: " + str(B_count))
 
 # By default, run on the wino set
-#Check_Wino(get_wino())
+#Check_Wino(getwino())

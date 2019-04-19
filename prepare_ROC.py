@@ -3,11 +3,11 @@ import csv
 import random
 
 from parses import name_rec, POStags
-from process import Check_Wino
+from process import Check_Wino, BERT_Wino
 
 ROC_FILE = "ROCwi17.csv"  # file with rocstories
-PARSE_FILE_WRITE = "ROC_parses_large.txt" #"junk.txt
-PARSE_FILE_READ = "ROC_parses.txt"
+PARSE_FILE_WRITE = "junk.txt"#"ROC_parses_large.txt" #"junk.txt
+PARSE_FILE_READ = "ROC_parses_large.txt"
 
 MALE = 0
 FEMALE = 1
@@ -225,7 +225,7 @@ def prune(data):
 # names to create an ambigous wino example
 def removepronouns(sentence):
     results = list()
-    for name in sentence.names[0]:
+    for name in (sentence.names[0][0], sentence.names[0][1]):
         # has at least two names referenced
         if len(sentence.names[1][name]) > 1:
             for nameindex in sentence.names[1][name][1:]:
@@ -251,17 +251,29 @@ def removepronouns(sentence):
                 rs.names = (list(sentence.names[0]), dict(sentence.names[1]))
                 rs.pos = sentence.pos
 
+                rs.replaced = True
+                if name == sentence.names[0][0]:
+                    rs.answer = "A"
+                elif name == sentence.names[0][1]:
+                    rs.answer = "B"
+                else:
+                    print("illegal answer encountered in removepronouns")
+                    exit(0)
+
                 # replace all pronouns with their POS tag
                 for pronoun in rs.pronouns[0]:
                     for pn in rs.pronouns[1][pronoun]:
                         rs.parse[pn] = rs.pos[pn].tag_
 
+
                 # replace target name with POS tag
                 rs.parse[nameindex] = rs.pos[nameindex].tag_
+                rs.pronounindex = nameindex
                 if nameindex < (len(rs.parse) - 1) and rs.parse[nameindex + 1] == "'s":
                     del rs.parse[nameindex + 1]
 
                 rs.sentence = " ".join(rs.parse)
+
                 results.append(rs)
     return results
 
@@ -475,7 +487,7 @@ def removegender(sentence, gendersetting):
   # making multple results now
   results = list()
 
-  for name in (sentence.names[0][0], senten.names[1][1]):
+  for name in (sentence.names[0][0], sentence.names[0][1]):
 
 
       # has at least two names referenced
@@ -567,6 +579,7 @@ def removegender(sentence, gendersetting):
                   if word in prodict:
                       if gender != "M" or word != "her":
                            sentence.parse[j] = prodict[word]  # replace with new gendered form
+
 
               # replace 'her'
               if gender == "M":
@@ -716,18 +729,26 @@ def convert(data, train=False):
         returndata.append(converted)
     return returndata
 
+def get_wino():
+    data = BERT_Wino()
+    rd = convert(data)
+    return rd
 
 # change removeGender if/else to switch male/female/they
 def prepareBERT(trainsize, testsize):
 
    ###    CHANGE HERE   ###
 
-   gender = SAME
+   gender = POS
 
    ###   ^^^     ^^^   ###
 
 
-   data = load(PARSE_FILE_READ, 50000)
+   data = load(PARSE_FILE_READ, (trainsize + testsize) * 15)
+
+
+   #data = nertag(data)
+
    pruneddata = prune(data)
    POStags(pruneddata)
 
@@ -748,11 +769,12 @@ def prepareBERT(trainsize, testsize):
        index += 1;
 
    """
-   for i in range(10):
+   for i in range(12):
       print(readylist[i].sentence)
       print(readylist[i].pronoun)
       print(readylist[i].a)
       print(readylist[i].b)
+      print(readylist[i].answer)
       print("")
    exit()
    """
@@ -760,14 +782,8 @@ def prepareBERT(trainsize, testsize):
    #Check_Wino(readylist)
    return (convert(readylist[0:trainsize], True), convert(readylist[trainsize:trainsize + testsize], False))
 
-   """
-   data = getROC(ROC_FILE, 50)
-   parseddata = nertag(data)
-   #save(PARSE_FILE_WRITE, parseddata)
-   """
-numwrite = 100000
-print("writing: ")
-write(numwrite)
+get_wino()
+
 
 """
 l = list()

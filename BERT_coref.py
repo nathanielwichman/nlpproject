@@ -26,7 +26,8 @@ from allennlp.training.metrics import CategoricalAccuracy
 from allennlp.data.iterators import BucketIterator
 from allennlp.training.trainer import Trainer
 
-from prepare_ROC import prepareBERT
+from prepare_ROC import prepareBERT, get_wino
+import math
 
 torch.manual_seed(1)
 
@@ -169,6 +170,59 @@ class BERTWino(Model):
     def get_metrics(self, reset):
         return {"accuracy": self._accuracy.get_metric(reset)}
 
+def check_wino(model):
+    r = ROCReader()
+
+    wino = r._read(get_wino())
+    #print(wino)
+    printout = 5
+
+    losses = list()
+    totallost = 0
+
+    model.get_metrics(True)
+
+    c = 0
+    for w in wino:
+        output = model.forward_on_instance(w)
+        losses.append(output["loss"])
+        if not math.isnan(output["loss"]):
+            totallost += output["loss"]
+
+        if c < printout:
+            print(str(w) + "\n")
+            print(str(output) + "\n\n")
+        c += 1
+
+    print(losses)
+    print(totallost)
+    print(len(losses))
+    print("avg loss : " + str(totallost / len(losses)))
+    print("accurassy: " + str(model.get_metrics(False)))
+
+def lambdawrapper(l):
+    return l[1]["loss"]
+
+def sortexamples(model, sentences):
+    maxcount = 100
+    c = 0
+    l = list()
+
+    with open(OUTFILE2, "w") as f:
+        for s in sentences:
+            if c > maxcount:
+                break
+            c += 1
+            output = model.forward_on_instance(s)
+            l.append((s, output))
+
+        l.sort(key=lambdawrapper)
+        for line in l:
+            f.write(str(line[0]) + "\n")
+            f.write(str(line[1]) + "\n\n")
+
+
+
 def getexamples(model, sentences):
   with open(OUTFILE, "w") as f:
 
@@ -189,10 +243,11 @@ def getexamples(model, sentences):
 
 LR = 0.00005
 BATCH = 16 #16, 32
-EPOCHS = 3 #3, 4
-OUTFILE = "testresults1.txt"
+EPOCHS = 4 #3, 4
+OUTFILE = "testresultsf.txt"
+OUTFILE2 = "sortedresults.txt"
 
-data1, data2  = prepareBERT(1800, 200)
+data1, data2  = prepareBERT(3700, 300)
 
 print("train size:" + str(len(data1)))
 print("test size:" + str(len(data2)))
@@ -244,7 +299,9 @@ indexer = PretrainedBertIndexer(
 
 trainer.train()
 
-getexamples(mymodel, reader._read(data2))
+sortexamples(mymodel, reader._read(data2))
+check_wino(mymodel)
+#getexamples(mymodel, reader._read(data2))
 
 #with open("modeltest1.th", 'wb') as f:
 #    torch.save(model.state_dict(), f)
