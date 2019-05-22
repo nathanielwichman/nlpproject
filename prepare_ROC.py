@@ -5,15 +5,20 @@ import random
 from parses import name_rec, POStags
 from process import Check_Wino, BERT_Wino
 
-ROC_FILE = "ROCwi17.csv"  # file with rocstories
-PARSE_FILE_WRITE = "junk.txt"#"ROC_parses_large.txt" #"junk.txt
-PARSE_FILE_READ = "ROC_parses_large.txt"
+ROC_FILE = "ROCsp16.csv"#"ROCwi17.csv"  # file with rocstories
+PARSE_FILE_WRITE = "ROC_parses_large2.txt" #"ROC_parses_large.txt"
+
+PARSE_FILE_READ = "ROC_parses_large2.txt"
+READ2 = "ROC_parses_large.txt"
 
 MALE = 0
 FEMALE = 1
 THEY = 2
 POS = 3
 SAME = 4
+
+
+
 
 # ALLENNLP coref:
 # anaconda3/lib/python3.6/site-packages/allennlp/models/coreference_resolution
@@ -207,7 +212,7 @@ def criteria(s):
 
 # Prunes a given list of NER parsed sentences to find ones
 # that may fulfill Winograd standards
-def prune(data):
+def prune(data, remove=True):
   pruneddata = list()
   for sentence in data:
       # get names and pronouns
@@ -217,14 +222,92 @@ def prune(data):
       sentence.names = (names, name_dict)
       sentence.pronouns = (pronouns, pro_dict)
 
-      if criteria(sentence):
+      if not remove or criteria(sentence):
           pruneddata.append(sentence)
   return pruneddata
+
+token_mapper = dict()
+new_token_index = 0
+token_list = ["Z", "Y", "X", "W", "V", "U", "T", "S", "R", "Q", "L", "M", "N", "O", "P"] 
+
+def change_pos(pos):
+    global token_mapper
+    global new_token_index
+    global token_list
+    if pos in token_mapper:
+        return token_mapper[pos]
+    else:
+        if new_token_index >= len(token_list):
+            print (token_mapper)
+        s = token_list[new_token_index]
+        new_token_index += 1
+        token_mapper[pos] = s
+        return s
+
+def removepropouns_ALL(data):
+    t_mapper = dict()
+    t_counter = dict()
+    token_index = 0
+    t_list = ["D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y"]
+    returndata = list()
+    # get counts
+    for sentence in data:
+        for p in sentence.pronouns[0]:
+            for ps in sentence.pronouns[1][p]:
+
+                pos = sentence.pos[ps].tag_
+
+                if pos in t_mapper:
+                    t_counter[pos] += 1
+                else:
+                    t_mapper[pos] = t_list[token_index]
+                    t_counter[pos] = 1
+                    token_index += 1
+
+
+        for n in sentence.names[0]:
+            for ns in sentence.names[1][n]:
+                pos = sentence.pos[ns].tag_
+                # print(pos)
+
+                if pos in t_mapper:
+                    t_counter[pos] += 1
+                else:
+                    t_mapper[pos] = t_list[token_index]
+                    t_counter[pos] = 1
+                    token_index += 1
+    t_counter["Z"] = 0
+    for d in t_mapper:
+        print(d)
+        if t_counter[d] < len(data) / 100:
+            t_mapper[d] = 'Z'
+            t_counter['Z'] += t_counter[d]
+
+
+
+    # replace pronouns
+    for sentence in data:
+        for p in sentence.pronouns[0]:
+            for ps in sentence.pronouns[1][p]:
+                pos = sentence.pos[ps].tag_
+                sentence.parse[ps] = t_mapper[pos]
+                 #if t_mapper[pos] == "Z":
+                 #t_counter["Z"] += 1
+
+        returndata.append(" ".join(sentence.parse))
+
+    return returndata, t_mapper, t_counter
+
 
 # replaces all pronouns with their POS tags, including one of the
 # names to create an ambigous wino example
 def removepronouns(sentence):
     results = list()
+
+    #token_mapper = dict()
+    #new_token_index = 0
+   # token_list = ["Z", "Y", "X", "W", "V", "U", "T", "S", "R", "Q"]
+    
     for name in (sentence.names[0][0], sentence.names[0][1]):
         # has at least two names referenced
         if len(sentence.names[1][name]) > 1:
@@ -263,11 +346,22 @@ def removepronouns(sentence):
                 # replace all pronouns with their POS tag
                 for pronoun in rs.pronouns[0]:
                     for pn in rs.pronouns[1][pronoun]:
-                        rs.parse[pn] = rs.pos[pn].tag_
+                        pass
+                        # get single token for each tag
+                        #pos_tag = rs.pos[pn].tag_
+                        #replace = ""
+                        #if pos_tag in token_mapper:
+                        #     replace = token_mapper[pos_tag]
+                        #else:
+                        #    replace = token_list[new_token_index]
+                        #    new_token_index += 1
+                        #    token_mapper[pos_tag] = replace
+                        #rs.parse[pn] = change_pos(pos_tag)
 
 
                 # replace target name with POS tag
-                rs.parse[nameindex] = rs.pos[nameindex].tag_
+                pos_tag = 'X' #change_pos(rs.pos[nameindex].tag_)
+                rs.parse[nameindex] = pos_tag
                 rs.pronounindex = nameindex
                 if nameindex < (len(rs.parse) - 1) and rs.parse[nameindex + 1] == "'s":
                     del rs.parse[nameindex + 1]
@@ -734,6 +828,14 @@ def get_wino():
     rd = convert(data)
     return rd
 
+def get_all_pos(size):
+    data = load(PARSE_FILE_READ, size / 2)
+    data2 = load(READ2, size / 2)
+    data += data2
+    prunedata = prune(data, remove=False)
+    POStags(prunedata)
+    return removepropouns_ALL(prunedata)
+
 # change removeGender if/else to switch male/female/they
 def prepareBERT(trainsize, testsize):
 
@@ -744,8 +846,9 @@ def prepareBERT(trainsize, testsize):
    ###   ^^^     ^^^   ###
 
 
-   data = load(PARSE_FILE_READ, (trainsize + testsize) * 15)
-
+   data = load(PARSE_FILE_READ, (trainsize + testsize) * 8)
+   data2 = load(READ2, (trainsize + testsize) * 8)
+   data += data2
 
    #data = nertag(data)
 
@@ -777,12 +880,12 @@ def prepareBERT(trainsize, testsize):
       print(readylist[i].answer)
       print("")
    exit()
-   """
+    """
 
    #Check_Wino(readylist)
    return (convert(readylist[0:trainsize], True), convert(readylist[trainsize:trainsize + testsize], False))
 
-get_wino()
+
 
 
 """

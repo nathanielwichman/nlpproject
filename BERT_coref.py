@@ -28,6 +28,7 @@ from allennlp.training.trainer import Trainer
 
 from prepare_ROC import prepareBERT, get_wino
 import math
+import statistics
 
 torch.manual_seed(1)
 
@@ -204,6 +205,9 @@ def lambdawrapper(l):
     return l[1]["loss"]
 
 def sortexamples(model, sentences):
+    loss_list = []
+    nan_loss = 0
+
     maxcount = 100
     c = 0
     l = list()
@@ -214,9 +218,18 @@ def sortexamples(model, sentences):
                 break
             c += 1
             output = model.forward_on_instance(s)
+            if math.isnan(output["loss"]):
+                nan_loss += 1
+            else:
+                loss_list.append(output["loss"])
             l.append((s, output))
+            
 
         l.sort(key=lambdawrapper)
+        f.write("mean: " + str(statistics.mean(loss_list)) + "\n")
+        f.write("std dev: " + str(statistics.stdev(loss_list)) + "\n" )
+        f.write("\n")
+        
         for line in l:
             f.write(str(line[0]) + "\n")
             f.write(str(line[1]) + "\n\n")
@@ -245,9 +258,9 @@ LR = 0.00005
 BATCH = 16 #16, 32
 EPOCHS = 4 #3, 4
 OUTFILE = "testresultsf.txt"
-OUTFILE2 = "sortedresults.txt"
+OUTFILE2 = "sortedresultsP2.txt"
 
-data1, data2  = prepareBERT(3700, 300)
+data1, data2  = prepareBERT(820, 80)
 
 print("train size:" + str(len(data1)))
 print("test size:" + str(len(data2)))
